@@ -1,0 +1,37 @@
+.privacy{
+    padding: 11vh 6vw;
+}
+.privacy a,
+.privacy>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    color: #000000;
+}
+.privacy a{
+    text-decoration: underline;
+}
+@media (min-width: 2200px){
+    .privacy{
+        padding: 110px 120px;
+    }
+}
+
+@media (max-width: 1024px){
+    .privacy{
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 700px){
+    .privacy{
+        padding: 20px 30px;
+    }
+    .privacy a,
+    .privacy>p{
+        font-size: 15px;
+    }
+}

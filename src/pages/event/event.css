@@ -1,0 +1,597 @@
+.eventNew{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    z-index: 20;
+}
+.eventTop{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    /* background: url(./img/bg.png) no-repeat 50% 21%; */
+    background: url(./img/bg.png) no-repeat fixed;
+    background-size: cover;
+    padding: 4.3vw 10vw 0vw 6vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.eventTop h1{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.headfixed{
+    position: fixed!important;
+    padding-right: 10vw;
+    max-width: 1920px;
+
+}
+.eventTop p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height:normal;
+    color: #FFFFFF;
+}
+.eventTop .eventBodyHead{
+    padding: 0px;
+    align-self: flex-end;
+    padding-bottom: 30px;
+}
+.eventTop .eventBodyHead h3,
+.eventTop .eventBodyHead p{
+    color:#FFFFFF;
+}
+/* event body */
+.eventBody{
+    width: 100%;
+    height: auto;
+}
+
+.eventBodyHead{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:5.5vh 5.8vw;
+}
+.eventBody .eventBodyHead{
+    display: none;
+}
+.eventBodyHead h3{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5vw;
+    line-height: normal;
+    color: #000000;
+    margin-bottom:2vh;
+}
+.eventBodyHead p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    color: #222222;
+    /* opacity: 0.7; */
+    width: 31vw;
+    max-width: 620px;
+}
+.eventBodyMiddle{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5.5vh 5.8vw;
+    padding-bottom: 0px;
+}
+.eventBodyMiddle h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4vw;
+    line-height: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    margin-bottom:7.3vh;
+}
+.eventBodyMiddle>div{
+    width:28vw;
+    max-width:536px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: start;
+    position: relative;
+    background: rgba(218, 218, 218, 0.2);
+    margin-bottom: 5.5vh;
+}
+.eventBodyMiddle:nth-child(2)>div{
+    margin-left: 2vw;
+}
+.eventBodyMiddle>div .cover{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: #FFFFFF;
+    opacity: .4;
+    z-index: 5;
+}
+.eventBodyMiddle>div>div{
+    width:28vw;
+    max-width:536px;
+    height: 20vw;
+    max-height:383px; 
+    background: #FFFFFF; 
+}
+.eventBodyMiddle>div>div img{
+    max-width:100%;
+    max-height: 100%;
+    transition: all .4s ease;
+}
+.eventBodyMiddle>div>div img:hover{
+    filter: brightness(0.6);
+}
+.eventBodyMiddle>div>h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top:3vh;
+    margin-bottom:2vh;
+}
+
+.eventBodyMiddle>div>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom:3vh;
+}
+.eventBodyMiddle>div>p>a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    color: #000000;
+}
+.eventBodyMiddle>div>a,
+.eventBodyMiddle>div>button{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border: 1.5px solid #2F80ED;
+    border-radius:8px;
+    padding: 1.5vh 3vw;
+    transition: all .4s ease;
+    margin-bottom: 3vh;
+}
+.eventBodyMiddle>div>a:hover,
+.eventBodyMiddle>div>button:hover{
+    background: #FFFFFF;
+    color:#2F80ED;
+}
+.eventBodyMiddle.past{
+    background: rgba(227, 227, 227, 0.3);
+    justify-content: space-between;
+}
+.eventBodyMiddle.past>div{
+    background: #FFFFFF;
+}
+.eventBodyMiddle.past>div>div{
+    background: rgba(227, 227, 227, 0.3);
+}
+
+/* Sugest Form */
+
+.eventBodyMiddle>div .form{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    padding:1.2vw;
+    justify-content: space-between;
+    animation:openForm 0.2s alternate ease-in;
+}
+/* .eventBodyMiddle>div .form.open{
+    display: flex;
+} */
+.eventBodyMiddle>div .formP{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.95;
+    /* min-height: 148px; */
+    /* margin-bottom: 0; */
+}
+.eventBodyMiddle>div .formP2{
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 148px;
+    margin-bottom: 0px;
+    animation:openForm 0.2s alternate ease-in;  
+}
+.eventBodyMiddle>div .form input{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    text-align: center;
+    color: #596273;
+    border:1px solid #596273;
+    border-radius:5px;
+    padding: 12px;
+    width:calc(50% - 6px);
+    outline: none;
+}
+.eventBodyMiddle>div .form input:nth-child(3),
+.eventBodyMiddle>div .form input:nth-child(4){
+    margin-top: 15px;
+}
+
+.eventBodyMiddle>div .form select{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #596273;
+    border:1px solid #596273;
+    border-radius:5px;
+    padding: 12px;
+    width:calc(50% - 6px);
+    text-align-last:center;
+    outline: none;
+}
+.eventBodyMiddle>div .form select option{
+    width:calc(50% - 6px);
+    width:100%;
+}
+/* event body end */
+
+.eventGraphic{
+    width: 100%;
+    padding:7.6vh 0px;
+}
+
+.eventJoin{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding:15vh 33vw;
+}
+.eventBodyMiddle>div .hoverBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 100%;
+    max-height: unset;
+    background: transparent;
+}
+
+.eventBodyMiddle>div .hoverBl{
+    background: rgba(0, 0, 0, 0.7);
+    width: 28vw;
+    max-width: 536px;
+    height: 20vw;
+    max-height: 383px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.hoverBl>div{
+    width: 2.5vw;
+    height: 2.5vw;
+    max-width: 54px;
+    max-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoverBl>div>img{
+    max-width: 100%;
+}
+.hoverBl>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding:0px 4.8vw;
+}
+.cartCover>div>a>img{
+    filter: grayscale(1);
+}
+.cartCover>div>a>img:hover{
+    filter: grayscale(1);
+}
+.eventBodyMiddle>div .hoverWi{
+    background: #FFFFFF;
+    opacity: 0.7;
+    background: #FFFFFF;
+    opacity: 0.7;
+    width: 100%;
+    height: calc(100% - 20vw);
+    /* max-height: calc(100% - 383px); */
+}
+
+@media (min-width: 2000px){
+    .eventTop{
+        padding: 48px 200px 0px 120px;
+    }
+    .eventTop h1{
+        font-size: 70px;
+    }
+    .eventTop p{
+        font-size:36px;
+    }
+
+    /* event body */
+    .eventBodyHead{
+        padding:60px 110px;
+    }
+    .eventBodyHead h3{
+        font-size: 48px;
+        margin-bottom:18px;
+    }
+    .eventBodyHead p{
+        font-size: 23px;
+    }
+    .headfixed{
+        padding-right: 200px;
+    }
+    .eventBodyMiddle{
+        padding:60px 110px;
+        padding-bottom: 0px;
+    }
+    .eventBodyMiddle h3{
+        font-size: 48px;
+        margin-bottom:80px;
+    }
+    .eventBodyMiddle>div{
+        margin-bottom: 60px;
+    }
+    .eventBodyMiddle:nth-child(2)>div{
+        margin-left: 50px;
+    }
+    .eventBodyMiddle>div>h3{
+        font-size: 25px;
+        margin-top:31px;
+        margin-bottom:23px;
+    }
+    .eventBodyMiddle>div>p{
+        font-size: 22px;
+        margin-bottom:30px;
+    }
+    .eventBodyMiddle>div>a,
+    .eventBodyMiddle>div>button{
+        margin-bottom: 30px;
+    }
+
+    /* event body end */
+    .eventGraphic{
+        padding:86px 0px;
+    }
+    .eventJoin{
+        padding:15px 33px;
+    }
+    .hoverBl>p{
+        padding: 0px 84px;
+        font-size: 24px;
+    }
+    .eventBodyMiddle>div .hoverWi{
+        height: calc(100% - 383px);
+    }
+}
+@media (max-width: 1024px){
+    .eventTop{
+        background: url(./img/bg.png) no-repeat 0% 97%;
+        background-size: 100%;
+        min-height: 285px;
+        height: auto;
+    }
+    .eventTop h1{
+        font-size: 4vw;
+    }
+    .eventTop p{
+        font-size:3vw;
+    }
+    .eventTop .eventBodyHead{
+        display: none;
+    }
+    /* event body */
+    .eventBodyHead{
+        padding:40px 30px;
+    }
+    .eventBodyHead h3{
+        font-size: 4.5vw;
+        margin-bottom:15px;
+    }
+    .eventBodyHead p{
+        width: 100%;
+        font-size: 3vw;
+    }
+    .eventBody .eventBodyHead{
+        display: flex;
+    }
+    .eventBodyMiddle{
+        padding:40px 30px;
+        padding-bottom: 0px;
+        justify-content: space-around;
+    }
+    .eventBodyMiddle h3{
+        font-size: 4.5vw;
+        margin-bottom:30px;
+    }
+    .eventBodyMiddle>div{
+        width: 100%;
+        max-width: 328px;
+        margin-bottom: 30px;
+        align-items: center;
+        align-content: space-between;
+    }
+    .eventBodyMiddle:nth-child(2)>div{
+        margin-left: 0vw;
+    }
+    .eventBodyMiddle>div>div{
+        width: 100%;
+        height: 223px;
+    }
+
+    .eventBodyMiddle>div>h3{
+        font-size: 3vw;
+        margin-top:13px;
+        margin-bottom:13px;
+    }
+    .eventBodyMiddle>div>p{
+        font-size: 2.5vw;
+        margin-bottom:13px;
+    }
+    .eventBodyMiddle>div>button,
+    .eventBodyMiddle>div>a{
+        font-size: 30px;
+        margin-bottom:15px;
+        padding: 11px 40px;
+    }
+
+    /* event body end */
+    .eventGraphic{
+        display: none;
+        padding:30px 30px;
+    }
+    .eventJoin{
+        padding:30px 33px;
+    }
+    .eventBodyMiddle>div .hoverBl{
+        width: 100%;
+        height: 223px;
+    }
+    .eventBodyMiddle>div .hoverWi{
+        width: 100%;
+        height: calc(100% - 223px);
+        max-height: unset;
+    }
+    .hoverBl>div{
+        width: 30px;
+        height: 30px;
+    }
+    .hoverBl>p{
+        font-size: 18px;
+        padding: 0px 20px;
+    }
+}
+@media (max-width: 599px){
+    .eventTop{
+        padding: 30px 30px 0px 30px;
+        background: url(./img/bg.png) no-repeat 0% 0%;
+        background-size: 150%;
+        min-height: 266px;
+        height: auto;
+    }
+    .eventTop h1{
+        font-size: 29px;
+    }
+    .eventTop p{
+        font-size:22px;
+    }
+
+    /* event body */
+    .eventBodyHead h3{
+        font-size: 25px;
+    }
+    .eventBodyHead p{
+        font-size: 18px;
+    }
+
+    .eventBodyMiddle h3{
+        font-size: 25px;
+    }
+    .eventBodyMiddle>div>h3{
+        font-size: 17px;
+    }
+    .eventBodyMiddle>div>p{
+        font-size: 16px;
+    }
+    .eventBodyMiddle>div>button,
+    .eventBodyMiddle>div>a{
+        font-size: 15px;
+    }
+    .eventBodyMiddle>div .form{
+        padding: 20px 6px;
+    }
+}
+
+
+
+@keyframes openForm{
+    0% {
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+@-webkit-keyframes openForm{
+    0% {
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,178 @@
+@media (max-width:1170px)
+{
+    .headerTitle p:nth-child(2){
+            font-size: 62px;
+    }
+}
+@media (min-width:1390px)
+{
+    .partShowTime{
+        width: 80%;
+      }
+}
+
+@media (max-width:900px)
+{
+    .part2{
+        justify-content: center;
+    }    
+    .part2Text{
+        width: 80%;
+    }
+    .part2Img{
+        width: 90%;
+    }
+    .part2Img div div div{
+        font-size: 13px;
+    }
+    .part3>div>div{
+        width:50%;
+    }
+    .boosterImg{
+            order: 2;
+    }
+    .organizersLogo div{
+        width: 50%;
+    }
+    .bigSponsor{
+        width: 50%!important;
+      }
+      .smallSponsor{
+        width: 50%!important;
+    }
+}
+
+
+@media (max-width:700px)
+{
+    .personalHeader{
+        justify-content: center;
+    }
+    .speakerPersonInfoDiv {
+        width: 98%;
+    }
+    .personalX{
+        display:block;
+    }
+    .part2Img{
+        margin-bottom: 50px!important;
+    }
+    .headerTitle p:nth-child(2){
+        font-size: 50px;
+    }
+    /* #cover{
+        background-attachment: scroll!important;
+    } */
+    .moreInfo{
+        width: 100%;
+    }
+}
+
+@media (max-width:510px)
+{
+    .headerTitle p:nth-child(2){
+        font-size: 40px;
+        padding: 0px 30px;
+    }
+    .part3>div>div{
+        width:90%;
+    }
+    #shortInfo {
+        padding-top:0px;
+    }
+    #dayVideo{
+        width: 311px;
+        height: 200px;
+    }
+    .organizersTitle h1{
+        font-size:26px;
+    }    
+    .organizersLogo{
+        font-size:26px;
+        padding:0px 0px;
+    }
+    #promoVideo iframe{
+        width:311px;
+        height:200px;
+    }
+    /* #cover{
+        background-attachment: scroll!important;
+    } */
+    .partShowTime{
+        width: 100%;
+    }
+}
+@media (min-height:1040px)
+{
+   /* #cover{
+    height: 1040px;
+   }  */
+}
+
+@media (min-width:600px) and (max-width:990px){
+    /* #cover{
+        min-height:120%!important;
+    } */
+}
+
+@media (max-width:500px)
+{
+    .person {
+        flex-basis: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-right: 0;
+        margin-bottom: 35px;
+        margin-left: 0;
+        padding: 0px 35px;
+    }
+    .imgMOre{
+        min-width: 120px;
+        min-height: 120px;
+        width: 120px;
+        height: 120px;
+    }
+    .personMore{
+        min-width: 120px;
+        min-height: 120px;
+        width: 120px;
+        height: 120px;
+    }
+    .person img {
+        width: 100%;
+        height: 100%;;
+    }
+    .personName{
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 27px;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .moreInfo>div>div:first-child{
+        width: 130px;
+        height: 130px;
+    }
+    .moreInfo div img{
+        width: 100%;
+        height: 100%;
+        min-width: 130px;
+        min-height: 130px;
+    }
+    .speakerLeftName{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .speakerLeftPosition{
+        font-size: 19px;
+    }
+    .moreInfo>p{
+        margin: 20px;
+        text-align: left;
+    }
+    .personPosition{
+        display: none;
+    }
+}

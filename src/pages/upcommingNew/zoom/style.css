@@ -1,0 +1,92 @@
+.formBaner{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+}
+.formBaner>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.textAreaBox.aftercovid19{
+    width: 27vw;
+    height: 24vh;
+    max-width: 518px;
+    max-height: 231px;
+    margin-top: 20px;
+}
+.textAreaBox.aftercovid19>textarea{
+    width: 27vw;
+    max-width: 27vw;
+    min-width: 27vw;
+    height: 20vh;
+    max-height: 20vh;
+    min-height: 20vh;
+}
+.textAreaBox.aftercovid19>div{
+    width: 27vw;
+    max-width: 518px;
+}
+.textAreaBox.aftercovid19>div>h6{
+    font-size: 1.1vw;
+    background: rgba(255, 255, 255, 0.2);
+    width: 95%;
+}
+
+.successErr{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    color: #2b69bd;
+    font-weight: 400;
+}
+
+@media (min-width: 2200px){
+    .textAreaBox.aftercovid19>textarea{
+        width: 518px;
+        max-width: 518px;
+        min-width: 518px;
+        height:  182px;
+        max-height:  182px;
+        min-height:  182px;
+    }
+    .textAreaBox.aftercovid19>div>h6{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .textAreaBox.aftercovid19{
+        width: 100%;
+        max-width: unset;
+        height:  225px;
+        max-height:  225px;
+    }
+    .textAreaBox.aftercovid19>div{
+        width: 100%;
+        max-width: unset;
+    }
+    .textAreaBox.aftercovid19>div>h6{
+        font-size: 25px;
+    }
+    .textAreaBox.aftercovid19>textarea{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height:  182px;
+        max-height:  182px;
+        min-height:  182px;
+    }
+}
+
+
+@media (max-width: 599px){
+    .textAreaBox.aftercovid19>div>h6{
+        font-size: 16px;
+        width: 100%;
+    }
+    .textAreaBox.aftercovid19>textarea{
+        font-size: 16px;
+    }
+}

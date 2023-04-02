@@ -1,0 +1,207 @@
+.sectionSeven{
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+    min-height: 600px;
+    background:#FFFFFF;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/firecodeBg.jpg) no-repeat 50% 40%;
+    background-size: cover;
+    position: absolute;
+    max-width: 1920px;
+    padding-top: 100px;
+    z-index: 14;
+    display: flex;
+}
+.sectionSevenMiddle{
+    padding-left: 11.7vw;
+    padding-top: 4.5vw;
+    width: 100%;
+    display: flex;
+}
+.middleLeft7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 27vw;
+}
+.firecodeLogo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.firecodeLogo img{
+    width: 100%;
+    height: 60%;
+}
+.firecodeLogo h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5.5vw;
+    line-height: 5.7vw;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 100%;
+}
+.firecodeLogo h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.75vw;
+    line-height: 2vw;
+    letter-spacing: 0.05em;
+} 
+.btnContaner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.middleRigth7{
+    width: 34.15vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.1vw;
+    margin-left: 15.5vw;
+}
+.middleRigth7 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 1.75vw;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.middleRigth7 h2{
+    width: 100%;
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75vw;
+    line-height: 5.7vw;
+    letter-spacing: -0.08em;
+    color: #FFFFFF;
+}
+.middleRigth7 .btnContaner{
+    display: none;
+}
+
+/* ///...MEDIA.../// */
+@media (min-width: 2200px) {
+    .sectionSevenMiddle{
+        padding-left:230px;
+        padding-top: 90px;
+    }
+    .middleLeft7{
+        width: 550px;
+    }
+    .firecodeLogo h1{
+        font-size: 110px;
+        line-height:normal 
+    }
+    .firecodeLogo h2{
+        font-size: 55px;
+        line-height:normal 
+    }
+    .middleRigth7{
+        width: 750px;
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    .middleRigth7 p{
+        font-size: 32px;
+        line-height:normal;
+    }
+    .middleRigth7 h2{
+        font-size: 55px;
+        line-height:normal;
+    }
+
+}
+
+
+@media (max-width: 850px) {
+    .sectionSeven {
+        position: relative;
+        min-height: 100vh;
+        height: auto!important;
+    }
+    .sectionSevenMiddle{
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    .middleLeft7{
+        width: 330px;
+    }
+    .firecodeLogo h1{
+        font-size: 40px;
+        line-height:normal 
+    }
+    .firecodeLogo h2{
+        font-size: 19px;
+        line-height:normal 
+    }
+    .firecodeLogo img {
+        width: 70%;
+        height: 45%;
+        
+    }
+    .middleRigth7{
+        width: 367px;
+        padding-left: 0px;
+        margin-left:0px;
+    }
+    .middleRigth7 p{
+        font-size: 15px;
+        line-height: 152.38%;
+        margin-bottom: 50px;
+        padding-left: 30px;
+    }
+    
+    .middleRigth7 h2{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
+        font-size:20px;
+        line-height:normal;
+
+    }
+    .middleRigth7 h2::before{
+        content: "";
+        background: #FFA009;
+        height: 13px;
+        width:200px;
+        display: inline-flex;
+        margin-right: 20px;
+
+    }
+    .btnContaner{
+        justify-content: flex-start;
+    }
+
+    .middleLeft7{
+        padding-left: 30px;
+    }
+    .middleLeft7 .btnContaner{
+        display: none;
+    }
+    .middleRigth7 .btnContaner{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media (max-width: 500px) {
+    .sectionSeven{
+        background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/mobile/6.jpg) no-repeat 50% 40%;
+        background-size: cover;
+    }
+    .firecodeLogo img {
+        width: 70%;
+        height: 53%;
+    }
+}
+/* ///...KEYFREMS.../// */

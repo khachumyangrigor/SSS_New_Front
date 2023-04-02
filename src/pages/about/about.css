@@ -1,0 +1,1055 @@
+.aboutNew{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    z-index: 20;
+}
+.aboutTop{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    /* background: url(./img/bg.jpg) no-repeat 50% 21%; */
+    background: url(./img/bg.jpg) no-repeat fixed;
+    background-position: bottom;
+    background-size: cover;
+    padding: 5.3vw 10vw 0vw 6vw;
+}
+.aboutTop h1{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.aboutTop h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4vw;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.aboutTop p{
+    width: fit-content;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height:normal;
+    color: #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+}
+
+/* Part 3 */
+.aboutInfo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8vh 5.5vw;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.aboutInfo_left{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    padding-right: 8.3vw;
+}
+.aboutInfo_left h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3vw;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.aboutInfo_left p{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.35vw;
+    line-height: 1.5;
+    color: #000000;
+    padding-bottom: 1vw;
+}
+.aboutInfo_left a{
+    height: fit-content;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background:#2F80ED ;
+    border: 1.5px solid #2F80ED;
+    border-radius:8px;
+    padding: 1.5vh 4vw;
+    transition: all .4s ease;
+}
+.aboutInfo_left a:hover{
+    color: #2F80ED;
+    background: #FFFFFF;
+}
+
+.aboutInfo_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.aboutInfo_right iframe{
+    width:47vw;
+    height:48vh;
+    max-width: 899px;
+    max-height: 532px;
+}
+/* Part 4 */
+.aboutStatus{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:4.9vh 7.5vw;
+    background: #f7f7f7;
+}
+.aboutStatus>h3{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4vw;
+    line-height: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 6.3vh;
+}
+.aboutStatus>.status{
+    width: 20%;
+    display: grid;
+    align-items: center;
+    justify-items: flex-start;
+    align-self: flex-start;
+    transition: all .1s ease;
+}
+.aboutStatus>.status:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.aboutStatus>.status>h3{
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.8vw;
+    line-height: normal;
+    color: #49C6EE;
+}
+.aboutStatus>.status>{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4vw;
+    line-height: normal;
+    color: #222222;
+}
+.status:nth-child(3)>h3{
+    color:#1BA7E0;
+}
+.status:nth-child(4)>h3{
+    color:#B62B50;
+}
+.status:nth-child(5)>h3{
+    color:#F68B37;
+}
+.aboutStatus>.buutonBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.3vh;
+
+}
+.aboutStatus>.buutonBox a{
+    height: fit-content;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background:#2F80ED ;
+    border: 1.5px solid #2F80ED;
+    border-radius:8px;
+    padding: 1.5vh 4vw;
+    transition: all .4s ease;
+}
+.aboutStatus>.buutonBox a:hover{
+    color: #2F80ED;
+    background: #FFFFFF;
+}
+/* Part 5 */
+.teamBox{
+    width:100%;
+    height: auto;
+}
+.teamBox .subTeam{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:4.9vh 7.5vw;
+}
+.teamBox .subTeam>h3{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4vw;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 1vh;
+}
+.teamBox .subTeam>h4{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.teamImgBox{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+.teamImgBox>div{
+    width:13.5vw;
+    max-width:270px;
+    display: grid;
+    justify-content:center;
+    justify-items: center;
+    align-content:space-between;
+}
+.teamImgBox>div>div{
+    width:13.5vw;
+    height: 13.5vw;
+    max-width:270px;
+    max-height: 270px;
+}
+.subTeam:first-child .teamImgBox>div{
+    width:17.5vw;
+    max-width:350px;
+    display: grid;
+    justify-content:center;
+    justify-items: center;
+    align-content:space-between;
+}
+.subTeam:last-child .teamImgBox{
+    justify-content: center;
+}
+.subTeam:last-child .teamImgBox>div{
+    margin-right: 40px;
+}
+.subTeam:first-child .teamImgBox>div>div{
+    width:17.5vw;
+    height: 17.5vw;
+    max-width:350px;
+    max-height: 350px;
+}
+.subTeam:nth-child(2){
+    background: #f7f7f7;
+}
+.teamImgBox>div>div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.teamImgBox>div>h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .9vw;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.teamImgBox>div>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: .7vw;
+    line-height: 1.5;
+    text-align: center;
+    color: #858585;
+}
+
+
+.teamImgBox>div>a::before{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    content: "\f0e1";
+    width: 16px;
+    height: 16px;
+    color: rgb(112, 112, 112);
+}
+.teamImgBox>div:first-child>a::before{
+    content: "\f266";
+}
+/* Part 6 */
+.vihacle_about .vihacleOpenIN p {
+    font-size: 1.3vw;
+    line-height: 2;
+    margin-top: 0vh;
+    overflow: hidden;
+
+}
+.vihacle_about .vihacleBox>button{
+    width: 98%;
+    padding: 1.5vh 1vw;
+    justify-content: center;
+}
+.vihacle_about .vihacleOpenIN{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.vihacle_about .infoIconBoxKnow {
+    width: 54%;
+}
+.vihacle_about .infoIconBoxKnow:hover>div{
+    background:  #0D63D7;
+}
+.vihacle_about .infoIconBoxKnow:hover>div>img{
+    filter: brightness(0) invert(1);
+}
+
+.vihacle_about .infoIconBoxKnow>div {
+    max-width:140px;
+    max-height:140px;
+    min-width: 7vw;
+    min-height: 7vw;
+    width: 7vw;
+    height: 7vw;
+    padding: 8px;
+    transition: all .4s;
+}   
+.vihacle_about .infoIconBoxKnow>div img{
+    transition: all .4s;
+}
+
+.vihacle_about .infoIconBoxKnow>span{
+    font-size: 1.2vw;
+    margin-left: 1.2vw;
+    transition: all .4s;
+    text-shadow: 0 1px black;
+}
+.vihacle_about section{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: flex-end;
+    justify-content: flex-end;
+}
+.vihacle_about section p{
+    text-align: right;
+    margin-bottom: 8px;
+}
+.vihacle_about section a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border: 1.5px solid #2F80ED;
+    border-radius: 8px;
+    padding: 1.5vh 3vw;
+}
+.aboutNew .vihacle:last-child{
+    justify-content: center!important;
+}
+/* Part 7 */
+.aboutGallery{
+    width: 100%;
+    padding:7.7vh 4.5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Gallery OPNE */
+.galleryOpen{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 61;
+    background: rgba(0, 0, 0, .9);
+    display: none;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    max-width: initial;
+    max-height: initial;
+    user-select:none;
+}
+.imgClose{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    height: 25px!important;
+    width: 25px!important;
+    border-radius: 100%;
+    color:#FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: .4;
+    transition: all .4s ease;
+}
+.imgClose:hover{
+    opacity: 1;
+}
+.imgClose span{
+    width: 25px;
+    height: 4px;
+    background: #FFFFFF;
+    position: absolute;
+    top: auto;
+    left: auto;
+    border-radius: 4px;
+}
+.imgClose span:first-child{
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.imgClose span:last-child{
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.galleryOpen>div{
+    width: 60%;
+    height: auto;
+    max-height:70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.GalleryOpenPrev,
+.GalleryOpenNext{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    user-select: none;
+    opacity: .2;
+    transition: all .4s ease;
+}
+.GalleryOpenPrev:hover,
+.GalleryOpenNext:hover{
+    opacity: 1;
+}
+.GalleryOpenPrev i::before,
+.GalleryOpenNext i::before{
+    content: "\f105";       
+    font-family: FontAwesome;
+    font-weight: 200;
+    display: flex;   
+    color: #FFFFFF; 
+    font-style: initial;
+    font-size: 80px;
+    cursor: pointer;
+}
+.GalleryOpenPrev i:first-child::before{
+    content: "\f104";  
+}
+.GalleryOpenBox{
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.19);
+
+}
+.GalleryOpenBox img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* End Gallery OPNE */
+.galleryHead{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galleryHead>h3{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4vw;
+    line-height: normal;
+    color: #000000;
+}
+.galleryHead>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:7vh;
+}
+.galleryHead>div>h4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.4vw;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.galleryHead>div>div{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+.galleryHead>div>div>span::before{
+    font-family: FontAwesome;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "\f105";
+    width: 2.5vw;
+    height: 2.5vw;
+    max-width: 50px;
+    max-height: 50px;
+    background: #858585;
+    color: #FFFFFF;
+    padding: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.galleryHead>div>div>span:hover::before{
+    box-shadow: 0px 0px 6px 1px #858585;
+}
+.galleryHead>div>div>span:first-child::before{
+    content: "\f104";
+    margin-right: 20px;    
+}
+.galleryBody{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:flex-start;
+    cursor: pointer;
+    user-select: none;
+}
+.galleryBody>div{
+    width:26.3vw;
+    height: 16vw;
+    max-width:526px;
+    max-height: 320px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:4.5vh;
+    transition: all .4s ease;
+}
+.galleryBody>div:hover{
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    background: #FFFFFF;
+}
+.galleryBody>div>iframe{
+    width: 100%;
+    height: 100%;
+}
+.galleryBody>div>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.galleryFootter{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .8vw;
+    line-height: 1.4;
+    color: rgba(34, 34, 34, .7);
+}
+.vacanciasListBox{
+    display: flex;
+}
+.vacanciasListBox>a{
+    display: flex;
+    justify-content: center;
+}
+/********** MEDIA ************/
+@media (min-width: 2200px){
+    .aboutTop{
+        padding: 100px 200px 0px 120px;
+    }
+    .aboutTop h1{
+        font-size: 70px;
+    }
+    .aboutTop h3{
+        font-size: 48px;
+    }
+    .aboutTop p{
+        font-size:40px;
+    }
+    /* Part 3 */
+    .aboutInfo{
+        padding: 90px 108px;
+    }
+    .aboutInfo_left{
+        padding-right: 150px;
+    }
+    .aboutInfo_left h2{
+        font-size: 48px;
+    }
+    .aboutInfo_left p{
+        font-size: 25px;
+    }
+    .aboutInfo_left a{
+        font-size: 15px;
+        padding: 11px 30px;
+    }
+    /* Part 4 */
+    .aboutStatus{
+        padding:35px 150px;
+    }
+    .aboutStatus>h3{
+        font-size: 48px;
+        margin-bottom: 70px;
+    }
+    .aboutStatus>.status>h3{
+        font-size: 64px;
+    }
+    .aboutStatus>.status>p{
+        font-size: 28px;
+        line-height: normal;
+    }
+    .aboutStatus>.buutonBox{
+        margin-top: 60px;
+    }
+    .aboutStatus>.buutonBox a{
+        padding: 11px 30px;
+    }
+    /* Part 5 */
+    .teamBox .subTeam{
+        padding:50px 150px;
+    }
+    .teamBox .subTeam>h3{
+        font-size: 48px;
+        padding-bottom: 11px;
+    }
+    .teamBox .subTeam>h4{
+        font-size: 25px;
+    }
+    .teamImgBox{
+        margin-top: 50px;
+    }
+
+    .teamImgBox>div>h3{
+        font-size: 18px;
+    }
+    .teamImgBox>div>p{
+        font-size: 13px;
+    }
+
+    /* Part 6 */
+    .vihacle_about .vihacleOpenIN p {
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    .vihacle_about .vihacleBox>button{
+        padding: 11px 30px;
+    }
+    .vihacle_about .infoIconBoxKnow>div {
+        width: 95px;
+        height: 95px;
+        min-width: 95px;
+        min-height: 95px;
+        padding: 10px;
+    }
+    .vihacle_about .infoIconBoxKnow>span{
+        font-size: 24px;
+        margin-left: 24px;
+    }
+    .vihacle_about section a{
+        padding: 11px 30px;
+    }
+    /* Part 7 */
+    .aboutGallery{
+        padding:82px 95px;
+    }
+    .galleryHead>h3{
+        font-size: 48px;
+    }
+    .galleryHead>div{
+        margin-bottom:60px;
+    }
+    .galleryHead>div>h4{
+        font-size: 24px;
+    }
+
+    .galleryBody>div{
+        margin-bottom:48px;
+    }
+    .galleryFootter{
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .aboutTop{
+        padding: 80px 30px 0px 30px;
+        background: url(./img/bg.jpg) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+    .aboutTop h1{
+        font-size: 4vw;
+    }
+    .aboutTop h3{
+        font-size: 3.5vw;
+    }
+    .aboutTop p{
+        font-size:3vw;
+    }
+    .firstPageHeaderLeft a:first-child {
+        width: 42px;
+        height: 32px;
+    }
+    /* Part 3 */
+    .aboutInfo{
+        padding: 45px 30px;
+    }
+    
+    .aboutInfo_left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .aboutInfo_left h2{
+        font-size: 4vw;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .aboutInfo_left p{
+        font-size: 3vw;
+    }
+    .aboutInfo_left a{
+        font-size: 30px;
+        padding: 11px 30px;
+        margin-top: 15px;
+    }
+    .aboutInfo_right {
+        width: 100%;
+    }
+    .aboutInfo_right iframe{
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+    }
+    /* Part 4 */
+    .aboutStatus{
+        padding:40px 30px;
+    }
+    .aboutStatus>h3{
+        font-size:4vw;
+        margin-bottom: 20px;
+    }
+    .aboutStatus>.status{
+        width: 50%;
+        justify-items:center;
+        margin-top: 20px;
+    }
+    .aboutStatus>.status>h3{
+        font-size: 5vw;
+    }
+    .aboutStatus>.status>p{
+        font-size: 2vw;
+        line-height: normal;
+        text-align: center;
+    }
+    .aboutStatus>.buutonBox{
+        margin-top: 40px;
+    }
+    .aboutStatus>.buutonBox a{
+        font-size: 30px;
+        padding: 11px 30px;
+    }
+    /* Part 5 */
+    .teamBox .subTeam{
+        padding:40px 30px;
+    }
+    .teamBox .subTeam>h3{
+        font-size: 4.5vw;
+        padding-bottom: 11px;
+
+    }
+    .teamBox .subTeam>h4{
+        font-size: 4vw;
+    }
+    .teamImgBox{
+        margin-top: 50px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .subTeam:first-child .teamImgBox>div{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .subTeam:first-child .teamImgBox>div>div{
+        width: 80%;
+        height: 100%;
+    }
+    .teamImgBox>div>div{
+        width: 90%;
+        height: 100%;
+    }
+    .teamImgBox>div>div img{
+        width: 100%;
+        height: 100%;
+        max-width:initial;
+        max-height:initial;
+    }
+    .teamImgBox>div{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .teamImgBox>div>h3{
+        font-size: 3vw;
+        line-height: normal;
+        padding: 10px 0px;
+    }
+    .teamImgBox>div>p{
+        font-size: 2.5vw;
+    }
+    .subTeam:last-child .teamImgBox>div{
+        margin-right: 0px;
+    }
+    /* Part 6 */
+    .upcommingReach.vihacle_about{
+        padding:40px 30px 20px 30px;   
+    }
+    .vihacle_about .vihacleOpenIN p {
+        font-size: 3vw;
+        line-height: normal;
+        margin-top: 0px;
+    }
+    .vihacle_about .vihacleBox>button{
+        font-size: 30px;
+        padding: 11px 5px;
+        margin-top: 15px;
+    }
+    .vihacle_about .infoIconBoxKnow>div {
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+        min-height: 70px;
+        padding: 12px;
+    }
+    .vihacle_about section{
+        justify-items: center;
+    }
+    .vihacle_about section>p{
+        text-align: center;
+    }
+    .vihacle_about .infoIconBoxKnow>span{
+        font-size: 11px;
+    }
+    .vihacle_about section a{
+        padding: 11px 30px;
+        margin-top: 15px;
+    }
+
+    /* Part 7 */
+    .aboutGallery{
+        padding:40px 30px;
+    }
+    .galleryHead>h3{
+        font-size: 4vw;
+    }
+    .galleryHead>div{
+        margin-bottom:40px;
+    }
+    .galleryHead>div>h4{
+        font-size: 3.5vw;
+    }
+    .galleryHead>div>div>span::before {
+        width: 20px;
+        height: 20px;
+    }
+    .galleryBody>div{
+        margin-bottom:40px;
+        width: 48%;
+        height: auto;
+        max-width: initial;
+        max-height: initial;
+        order: 2;
+    }
+    .galleryBody>div>iframe{
+        height: 250px;
+    }
+    .galleryBody>div:nth-child(3){
+        order: 1;
+        width: 100%;
+    }
+    .galleryFootter{
+        display: none;
+    }
+}
+
+@media (max-width: 599px){
+    .aboutTop{
+        padding: 30px 30px 0px 30px;
+        background: url(./img/bg.jpg) no-repeat 0% 0%;
+        background-size: 150%;
+        min-height: 266px;
+        height: auto;
+    }
+    .aboutTop h1{
+        font-size: 29px;
+    }
+    .aboutTop h3{
+        font-size: 25px;
+    }
+    .aboutTop p{
+        font-size:22px;
+    }
+
+    /* Part 3 */
+    .aboutInfo_left h2{
+        font-size: 25px;
+    }
+    .aboutInfo_left p{
+        font-size: 20px;
+    }
+    .aboutInfo_left a{
+        font-size: 15px;
+    }
+    .aboutInfo_right iframe{
+        height:200px;
+    }
+    /* Part 4 */
+    .aboutStatus>h3{
+        font-size: 25px;
+    }
+    .aboutStatus>.status>h3{
+        font-size: 28px;
+    }
+    .aboutStatus>.status>p{
+        font-size: 15px;
+    }
+    .aboutStatus>.buutonBox a {
+        font-size: 15px;
+    }
+    /* Part 5 */
+    .teamBox .subTeam>h3{
+        font-size: 28px;
+    }
+    .teamBox .subTeam>h4{
+        font-size: 20px;
+    }
+
+    .teamImgBox>div>h3{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .teamImgBox>div>p{
+        font-size: 13px;
+    }
+
+    /* Part 6 */
+    .vihacle_about .vihacleOpenIN p {
+        font-size: 22px;
+        line-height: normal;
+    }
+    .vihacle_about .infoIconBoxKnow>span{
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    .vihacle_about .vihacleBox>button {
+        font-size: 15px;
+    }
+    /* Part 7 */
+    .galleryHead>h3{
+        font-size: 25px;
+    }
+    .galleryHead>div>h4{
+        font-size: 20px;
+    }
+
+    .vacanciasListBox>a{
+        justify-content: flex-start;
+        margin-right: 9px;  
+    }
+    .vacanciasListBox>a>.infoIconBoxKnow>div{
+        width:42px;
+        height:42px;
+        min-width:42px;
+        min-height:42px;
+    }
+}
+@media (max-width: 450px){
+    .galleryOpen>div{
+        width: 100%;
+    }
+}

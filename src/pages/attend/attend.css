@@ -1,0 +1,307 @@
+.attendSection{
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+    max-height: 1080px;
+    min-height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url('./attendBg.png') no-repeat 50% 43%;
+    background-size: cover;
+    position: absolute;
+    z-index: 20;
+    background-color: #FFFFFF;
+}
+.popUpMassage{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+    user-select: none;
+    /* display: none; */
+}
+.popUpMassage p{
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom:4.15vw;
+}
+.mailSender{
+    display: flex;
+    background:#FFFFFF; 
+    border-radius: 5px;
+}
+.mailSender>div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    width: 30vw;
+    max-width: 600px;
+}
+.mailSender>div span{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .6vw;
+    line-height: .75vw;
+    color: #253F8E;
+}
+.mailSender>div input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .75vw;
+    line-height: 1vw;
+    color: #000000;
+    padding: 6px 0px;
+}
+.mailSender button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 1vw 2vw;
+    background: #FFC21D;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.attendSection .sectionFooter .socialicons{
+    background:#F4B619; 
+}
+
+.attendMiddleContaner{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    padding-top: 8vh;
+}
+.attendMiddleContaner .middleMain{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    padding-left: 163px;
+}
+.textPart h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.75vw;
+    line-height: 5vw;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.textPart p{
+    width: 41.6vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.45vw;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.buttonpart button{
+    display: flex;
+    text-decoration:none;
+    margin-top: 25px;
+}
+.buttonpart button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.45vw;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.buttonpart{
+    display: flex;
+}
+.buttonpart button:first-child {
+    padding: 29px 3.35vw;
+    background: linear-gradient(163.52deg, #19AAE2 11.86%, #253F8E 240.95%);
+}
+.buttonpart button:nth-child(2){
+    padding: 29px 1.85vw;
+    background: linear-gradient(163.52deg, #B62A4E 11.86%, #9B2B46 240.95%);
+    margin-left: 1.5vw;
+}
+.attendMiddleContaner button:hover{
+    opacity: 0.7;
+}
+.attendMiddleContaner .middleRigth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.attendMiddleContaner .middleRigth p{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9vw;
+    line-height: 1.45vw;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+} 
+
+.attendMiddleContaner .middleRigth button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.2vw;
+    line-height: 1.45vw;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+    padding: 29px 2.5vw;
+}
+/* COLORS BUTTON A TO BUTTON */
+.attendMiddleContaner .middleRigth button:nth-child(2) {
+    background: linear-gradient(151.2deg, rgba(13, 143, 238, 0.5) 11.86%, rgba(37, 63, 142, 0.5) 240.95%);
+}
+.attendMiddleContaner .middleRigth button:nth-child(3){
+    background: linear-gradient(154.29deg, rgba(11, 45, 133, 0.48) 11.86%, rgba(37, 63, 142, 0.48) 240.95%);
+}
+.attendMiddleContaner .middleRigth button:nth-child(4){
+    background: linear-gradient(151.2deg, rgba(228, 4, 98, 0.48) 11.86%, rgba(37, 63, 142, 0.48) 240.95%);
+}
+.attendMiddleContaner .middleRigth button:nth-child(5){
+    background: linear-gradient(154.29deg, rgba(255, 160, 9, 0.48) 11.86%, rgba(37, 63, 142, 0.48) 240.95%);
+}
+
+@media (min-width: 2100px) {
+    .textPart p {
+        width: 25.6vw;
+    }
+    .textPart h2{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .textPart p{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .middleMain button{
+        font-size: 24px;
+        line-height: normal;
+        padding: 22px 46px!important;
+    }
+    .attendMiddleContaner .middleRigth p{
+        font-size: 20px;
+
+    }
+    .attendMiddleContaner .middleRigth button{
+        padding: 20px 40px!important;
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 850px) {
+    .attendMiddleContaner{
+        padding: 0px 25px;
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+    .attendMiddleContaner .middleMain{
+        padding-left: 0px;
+    }
+    .attendMiddleContaner .middleRigth{
+        flex-direction: inherit;
+        flex-wrap:wrap;
+        align-items:flex-start;
+        justify-content: center;
+        padding-left: 0px;
+        width: 400px;
+    }
+    .middleMain h2{
+        font-size: 25px;
+        line-height: normal;
+    }
+    .middleMain p{
+        width: 430px;
+        font-size: 10px;
+        line-height: normal; 
+    }
+    .buttonpart{
+        flex-wrap: wrap
+    }
+    .buttonpart button{
+        width: 100%;
+        padding: 15px 20px!important;
+        font-size: 15px;
+        line-height: normal;
+    }
+    .buttonpart button{
+        width: 100%;
+        margin-top:21px;
+        justify-content: center;
+    }
+    .buttonpart button:nth-child(2){
+        margin-left: 0px;
+    }
+    .attendMiddleContaner .middleRigth button{
+        padding: 17px 0px;
+        font-size: 15px;
+        width: 155px;
+        margin-right: 7px;
+    }
+    .attendMiddleContaner .middleRigth p{
+        text-align: center;
+        font-size: 15px;
+        line-height: normal;
+        padding: 21px 0px;
+    }
+
+    .mailSender>div {
+        width: 250px;
+    }
+    .mailSender>div span{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .mailSender>div input{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .mailSender button {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .popUpMassage p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .attendSection{
+        background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url('./mobileBg.png') no-repeat 50% 43%;
+        background-size: cover;
+    }
+    .middleMain p{
+            width: 320px;
+    }
+}

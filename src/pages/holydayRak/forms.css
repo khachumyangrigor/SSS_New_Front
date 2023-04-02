@@ -1,0 +1,162 @@
+.min_holiday_form{
+    width: 100%;
+    padding-bottom: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F6F6F6;
+}
+
+.min_holiday_form>div{
+    max-width: 1050px;
+    /* width: 52vw; */
+    position: relative;
+}
+
+.min_holiday_form>div>h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4vw;
+    color: #878787;
+    margin-bottom: 4vh;
+}
+
+.min_holiday_form>div>div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.min_holiday_form>div>div>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.min_holiday_form>div>div>div>img{
+    max-width: 234px;
+    width: 100%;
+    min-width: 200px;
+    margin-left: 20px;
+}
+
+.min_holiday_form>div>div>div>div{
+    display: grid;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.min_holiday_form>div>div>div>div:first-child{
+    margin-right:1.5vw;
+}
+
+.min_holiday_form select,
+.min_holiday_form input{
+    width: 318px;
+    padding: 16px 21px;
+    border: 2.02703px solid #596273;
+    border-radius: 13.5135px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #596273;
+    margin-bottom: 20px;
+    outline: none;
+}
+.min_holiday_form input::placeholder{
+    font-style: italic;
+    font-weight: normal;
+    color: #596273;
+}
+
+.min_holiday_form button{
+    background: #2F80ED;
+    border-radius: 14.9451px;
+    width: 318px;
+    padding: 16px 21px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26.9011px;
+    line-height: 92.58%;
+    color: #FFFFFF;
+}
+
+.min_holiday_form>div>div>div>div>small{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    margin-top: 7px;
+    color: #2F80ED;
+    text-align: center;
+}
+.min_holiday_form .partner_form_success{
+    justify-content: center;
+    background: #f6f6f6;
+}
+.min_holiday_form .partner_form_success.open{
+    display: grid!important;
+}
+.min_holiday_form .partner_form_success .cloaseLine{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.min_holiday_form .partner_form_success .cloaseLine>span{
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #9faea9;
+}
+
+
+@media (min-width: 2200px){
+    .min_holiday_form{
+        padding-bottom: 200px;
+    }
+    .min_holiday_form>div>h3{
+        font-size: 48px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .min_holiday_form{
+        padding: 30px;
+    }
+    .min_holiday_form>div{
+        width: 100%;
+    }
+    .min_holiday_form>div>h3{
+        font-size: 32px;
+    }
+    .min_holiday_form>div>div>div>img{
+        display: none;
+    }
+}
+
+@media (max-width: 727px){
+    .min_holiday_form>div>div{
+        display: grid;
+        justify-content: center;
+    }
+    .min_holiday_form>div>div>div{
+       display: grid;
+    }
+    
+    .min_holiday_form>div>h3 {
+        font-size: 27px;
+    }
+    .min_holiday_form select,
+    .min_holiday_form input{
+        padding: 12px 12px;
+    }
+    .min_holiday_form button{
+        font-size: 17px;
+    }
+}

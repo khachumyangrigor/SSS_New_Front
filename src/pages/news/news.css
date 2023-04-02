@@ -1,0 +1,320 @@
+.newsBox{
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    background: rgba(183, 183, 183, 0.09);
+    /*background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.9)),url(../img/speaker.jpg) no-repeat 50% 0%;
+    background-size: cover; */
+    position: relative;
+    max-width: 1920px;
+    z-index: 16;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.newsBox .underMenu{
+    position: fixed;
+    top:0;
+    background: #f9f9f9;
+    max-width: 1920px;
+    z-index: 5;
+}
+.newsBox .underMenuItem{
+    background: #B72B4E;
+}
+.newsHeader{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+}
+.newsHeader h2{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1vw;
+    line-height: 1.95vw;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 1.4vw;
+}
+.newsHeader span{
+    font-weight: 800;
+}
+.preTitle{
+    width: 9.25vw;
+    height: 3.9vw;
+    background: #FFA009;
+}
+.newsMiddle a{
+    text-decoration: none;
+    display: flex;
+}
+.newsMiddle>div{
+    width: 100%;
+}
+.newsMiddle>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+.newsMiddle{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding:2.25vw 8.65vw 0px 8.65vw;
+}
+.newsItem{
+    width: 21.5vw;
+    height: 20.8vw;
+    max-width: 430px;
+    max-height: 276px;
+    min-width: 350px;
+    min-height: 263px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    margin-bottom: 50px;
+}
+.newsItem .image{
+    width: 100%;
+    display: flex;
+    width: 21.5vw;
+    height: 15.8vw;
+    max-width: 431px;
+    max-height: 232px;
+    min-width: 350px;
+    min-height: 210px;
+}
+.newsItem .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.newsItem .newsItemFooter{
+    width: 100%;
+    padding:5px 0px 21px 19px;
+}
+.newsItem .title{
+    height: 36px;
+    display: flex;
+    overflow: hidden;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.newsItem .title i{
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    transition: all .5s ease;
+}
+.newsItem .title i>div{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    top: -4px;
+    padding: 6px 29px 5px 0px;
+    background: #FFFFFF;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.newsItem .title i:hover >div{
+    /* display: flex; */
+    opacity: 1;
+    padding-left: 220px;
+}
+.newsItem .title i>div>div{
+    outline: none;
+}
+.newsItem .date{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    color: #979797;
+}
+
+
+/*...///OPEN STYLE///...*/
+
+.newsOneHeader{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFA009;
+    padding:1.5vw 5.4vw 1.5vw 7.4vw;
+}
+.newsOneHeader h1{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 39.4vw;
+    margin-bottom: 0px;
+}
+.newsOneHeader span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.newsOneHeader .social{
+    display: flex;
+}
+.newsOneHeader .social>div{
+    outline: none;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.newsOneMiddle{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.1vw 14vw;
+}
+.newsOneLeft{
+    width: 50%;
+    height: auto;
+    margin-right:2.4vw;
+    float: left; 
+}
+.newsOneLeft img{
+    width: 100%;
+    height: auto;
+}
+.newsOneLeft span{
+    display: flex;
+    justify-content: flex-end;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+    padding-top:5px;
+}
+.newsOneRigth{
+    width: 100%;
+    height: auto;
+    padding-right:4.6vw; 
+    padding-left:2vw; 
+    padding-bottom:20px; 
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: justify;
+}
+.newsOneRigth div,p,a,span,h1,h2,h3,h4,h5,h6,ul,li{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+}
+/*...///Media///...*/
+@media (min-width: 2200px) {
+    .preTitle{
+        width: 185px;
+        height: 80px;
+    }
+    .newsHeader h2 {
+        font-size: 44px;
+        line-height: 38px;
+    }
+    .newsMiddle{
+        padding: 45px 170px 0px 170px;
+    }
+    .newsOneHeader{
+        padding: 30px 110px 30px 140px;
+    }
+    .newsOneHeader h1 {
+        font-size: 38px;
+        line-height: normal;
+    }
+    .newsOneHeader span {
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 850px) {
+    .newsHeader{
+        padding-top:80px;
+    }
+    .newsOneHeader{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 550px) {
+    .newsHeader{
+        padding-top:80px;
+    }
+    .newsHeader h2{
+        font-size: 26px;
+        line-height: 35px;
+        color: #253F8E;
+        padding-left: 10px;
+    }
+    .preTitle{
+        display: none;
+    }
+    .newsMiddle{
+        padding: 0px 10px 0px 10px;
+    }
+    .newsMiddle>div>div{
+        justify-content: center;
+    }
+    .newsOneHeader{
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+    .newsOneHeader h1{
+        width: 100%;
+        font-size: 25px;
+        line-height: normal;
+    }
+    .newsOneHeader span{
+        display: none;
+    }
+    .newsOneHeader .social{
+        margin-top: 10px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .newsOneMiddle{
+        padding: 25px 25px;
+    }
+    .newsOneLeft{
+        width: 100%;
+        margin-right:0px;
+        margin-bottom: 20px;
+    }
+    .newsOneRigth{
+        width: 100%;
+        padding-right:0px;    
+        padding-left:0px;    
+    }
+    
+}

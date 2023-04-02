@@ -1,0 +1,982 @@
+
+/*  */
+.firstPageNew{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    z-index: 20;
+}
+.firstPageTop{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    /* background: url(./img/bg2.png) no-repeat 50% 21%; */
+    background: url(./img/bg2.png) no-repeat fixed;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+.firstPageTop>div{
+    background: linear-gradient(to top, rgba(0, 99, 249, .5) 60.94%, rgba(0, 56, 255, 0) 100%);
+    padding: 2.5vw 10vw 2.5vw 6vw;
+    width: 100%;
+}
+.firstPageTop h1{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.firstPageTop h1 p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height:normal;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.firstPageStausBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 13vw 11vh 13vw;
+}
+.firstPageStausBox .status{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.2vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    height: 75px;
+    width: 100%;
+    transition: all .5s ease;
+    opacity: 1;
+}
+.firstPageStausBox p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 3.8vh;
+}
+.firstPageStatistic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgba(227, 227, 227, 0.3);
+    padding:8.2vh 5.5vw 7vh 5.5vw
+}
+.statisticTitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.4;
+}
+.statisticItemBox{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 9.5vh 0px 9vh 0px;
+    cursor: pointer;
+}
+
+.statisticItem{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: normal;
+    color: #000000;
+    /* border-right: 1px solid  #898989;  */
+}
+
+.borderNum{
+    display: flex;
+    width: 1px;
+    height: 3.55vw;
+    background: #898989;
+}
+
+.statisticItem span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    /* text-transform: uppercase; */
+    color: #000000;
+    opacity: 0.5;
+    width: 100%;
+    justify-content: center;
+}
+.statisticItem>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statisticItem>div>span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: normal;
+    color: #000000; 
+    opacity: 1;
+    margin-right: 5px;
+}
+
+.statisticItem:last-child{
+    border-right: 0px solid red;
+}
+
+.statisticFootter a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2F80ED;
+    border: 1.5px solid #2F80ED;
+    border-radius:8px;
+    padding: 1.5vh 1.5vw;
+    transition: all .4s ease;
+}
+.statisticFootter a:hover{
+    color: #FFFFFF;
+    background:#2F80ED;
+}
+.firstPageGraphic{
+    width: 100%;
+    padding:7.6vh 0px;
+}
+.graphicImgBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:5.4vh 0px;
+}
+.graphicImgBox img{
+    width: 57%;
+}
+.graphicTitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.4;
+}
+.graphicImgText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.graphicImgText span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .8vw;
+    line-height: normal;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.graphicImgText span:first-child::before{
+    content: "";
+    min-width:1.2vw;
+    min-height:1.2vw;
+    max-width:23px;
+    max-height:23px;
+    background:#0063D4;
+    margin-right:7px;
+    display: flex;
+}
+.graphicImgText span:last-child::before{
+    content: "";
+    min-width:1.2vw;
+    min-height:1.2vw;
+    max-width:23px;
+    max-height:23px;
+    background:#FFB600;
+    margin-right:7px;
+    display: flex;
+}
+.graphicFootter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graphicFootter a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2F80ED;
+    border: 1.5px solid #2F80ED;
+    border-radius:8px;
+    padding: 1.5vh 1.5vw;
+    transition: all .4s ease;
+}
+.graphicFootter a:hover{
+    color: #FFFFFF;
+    background:#2F80ED;
+}
+
+.firstPagePartners{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:11vh 5vw;
+    background: #F7F7F7;
+}
+.partnersTitle{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4vw;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #222222;
+}
+.partnersMiddlle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.5vh;
+}
+.partnersMiddlleLeft{
+    width: 27%;
+    display: grid;
+    align-items: center;
+}
+.partnersMiddlleLeftTitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.15vw;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 22px;
+}
+.partnersMiddlleLeftText{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.15vw;
+    line-height: 1.4;
+    color: #222222;
+    opacity: 0.7;
+    padding: 3.5vh 0px 8vh 0px;
+}
+
+.partnersMiddlleLeftBtn{
+    display: flex;
+}
+.partnersMiddlleLeftBtn a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background:#2F80ED ;
+    border: 1.5px solid #2F80ED;
+    border-radius:8px;
+    padding: 1.5vh 1.5vw;
+    transition: all .4s ease;
+}
+.partnersMiddlleLeftBtn a:hover{
+    color: #2F80ED;
+    background: #FFFFFF;
+}
+
+.partnersMiddlleright{
+    width: 60vw;
+    max-width: 1130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.partnersMiddlleright section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.partnersMiddlleright div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 118px;
+    margin-top: 22px;
+    padding: 15px 15px;
+}
+.partnersMiddlleright div:hover a{
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+.partnersMiddlleright div a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: all .3s ease;
+}
+.partnersMiddlleright div a img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.morepartnerBox{
+    display: none;
+}
+
+.firstPageJoin{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding:15vh 33vw;
+}
+.joinTitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.8vw;
+    line-height: normal;
+    text-align: center;
+    color: #000000;
+}
+.joinText{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 70%;
+}
+.joinInputBox{
+    width: 75%;
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
+    padding-left: 6px;
+    border: 0.95px  solid #2F80ED;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 6px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+.joinInputBox .form{
+    display: flex;
+    width: 100%;
+}
+.joinInputBox .form>div{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    padding: 6px 0px;
+}
+.joinInputBox label{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .6vw;
+    line-height: normal;
+    color: #2F80ED;
+}
+.joinInputBox input{
+    outline: none;
+    border:none;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size:.8vw;
+    padding: 4px 0px;
+}
+.joinInputBox button{
+    background: #2F80ED;
+    border-radius: 0px 4px 4px 0px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 2.5vw;
+    background-size: 300% 100%;
+    background-position: 100% 0;
+    transition: all .8s ease;
+}
+.joinInputBox button:hover{
+    background-image: linear-gradient(200deg, #3f86ed, #25aae1, #04befe, #3f86ed);
+}
+
+/* upcoming window */
+.firstPageNew .eventBodyMiddle{
+    display: none;
+}
+
+.passiveBtn.noupcomming:before{
+    content: "No upcoming events now";
+}
+
+@media (min-width: 2200px){
+    .firstPageTop>div{
+        padding: 50px 200px 50px 120px;
+    }
+    .firstPageTop h1{
+        font-size: 70px;
+    }
+    .firstPageTop h1 p{
+        font-size:36px;
+    }
+    /* .firstPageHeader{
+        padding:40px 110px;
+    }
+    .firstPageHeaderLeft{
+        font-size: 24px;
+    }
+    .firstPageHeaderMiddle ul li{
+        font-size: 22px;
+    }
+    .firstPageHeaderMiddle ul li a{
+        font-size: 22px;
+    }
+
+    .firstPageHeaderRight a{
+        font-size: 13px;
+        padding: 12px 30px;
+    }
+    .firstPageHeaderRight a:first-child{
+        margin-right:30px;
+    }
+    .firstPageHeaderRight a:nth-child(2){
+        margin-right:30px;
+    } */
+    .firstPageStausBox{
+        padding: 160px 290px 224px 290px;
+    }
+    .firstPageStausBox .status{
+        font-size: 43px;
+    }
+    .firstPageStausBox p{
+        font-size: 22px;
+        margin-top: 42px;
+    }
+    .firstPageStatistic{
+        padding:91px 110px 78px 110px;
+    }
+    .statisticTitle{
+        font-size: 25px;
+    }
+    .statisticItemBox{
+        padding: 90px 0px 77px 0px;
+    }
+    .statisticItem{
+        font-size: 70px;
+    }
+    .borderNum{
+        width: 3px;
+        height: 80px;
+    }
+    .statisticItem>div>span{
+        font-size: 70px;
+    }
+    .statisticItem span{
+        font-size: 22px;
+    }
+    .statisticFootter a{
+        font-size: 15px;
+        line-height: normal;
+        padding: 12px 30px;
+    }
+    .firstPageGraphic{
+        padding:86px 0px;
+    }
+    .graphicImgBox{
+        padding:53px 0px;
+    }
+    .graphicTitle{
+        font-size: 25px;
+    }
+    .graphicImgText span{
+        font-size: 16px;
+    }
+
+    .graphicFootter a{
+        font-size: 15px;
+        line-height: normal;
+        padding: 12px 30px;
+    }
+
+    .firstPagePartners{
+        padding:11px 5px;
+    }
+    .partnersTitle{
+        font-size: 48px;
+    }
+    .partnersMiddlle{
+        margin-top: 44px;
+    }
+
+    .partnersMiddlleLeftTitle{
+        font-size: 23px;
+    }
+    .partnersMiddlleLeftText{
+        font-size: 23px;
+        padding: 30px 0px 84px 0px;
+    }
+    
+    .partnersMiddlleLeftBtn a{
+        font-size: 15px;
+        line-height: normal;
+        padding: 12px 30px;
+    }
+    .firstPageJoin{
+        padding:15px 33px;
+    }
+    .joinTitle{
+        font-size: 60px;
+    }
+    .joinText{
+        font-size: 21px;
+    }
+    .joinInputBox label{
+        font-size: 12px;
+    }
+    .joinInputBox input{
+        font-size:16px;
+    }
+    .joinInputBox button{
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+    
+
+}
+@media (max-width: 1024px){
+    .firstPageTop{
+        background: url(./img/bg2.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 300px;
+        height: auto;
+    }   
+    .firstPageTop>div{
+        padding: 30px 30px 30px 30px;
+    }
+    .firstPageTop h1{
+        font-size: 4vw;
+    }
+    
+    .firstPageTop h1 p{
+        font-size:3vw;
+    }
+    /* .firstPageHeader{
+        min-height: 71px;
+        align-items: center;
+        padding:10px 30px;
+    }
+    .firstPageHeaderMiddle,
+    .firstPageHeaderRight{
+        display: none;
+    }
+    .minmenuBoxOpen{
+        display: flex;
+        background: #F7F7F7;
+        top: 71px;
+    }
+
+    .firstPageHeaderMiddle ul li{
+        font-size: 3vw;
+        width: 100%;
+    }
+    .firstPageHeaderMiddle ul li a{
+        font-size: 3vw;
+        width: 100%;
+    }
+    .minmenuIcon{
+        display: flex;
+    } */
+    .firstPageStausBox{
+        padding: 25px 30px 25px 30px;
+    }
+    .firstPageStausBox .status{
+        font-size: 3.5vw;
+        line-height: 1.5;
+        height: 140px;
+    }
+    .firstPageStausBox p{
+        font-size: 2vw;
+        margin-top: 20px;
+    }
+    .firstPageStatistic{
+        padding:30px 30px 30px 30px;
+    }
+    .statisticTitle{
+        font-size: 3.5vw;
+    }
+    .statisticItemBox{
+        padding: 15px 0px 15px 0px;
+        flex-wrap: wrap;
+    }
+    .statisticItem{
+        width: 100%;
+        font-size: 6vw;
+        border-right: 0px solid #898989!important;
+        border-bottom: 1px solid #898989!important;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .borderNum{
+        display: none;
+    }
+    .statisticItem span{
+        font-size: 3.5vw;
+    }
+    .statisticItem>div>span{
+        font-size: 6vw;
+    }
+    .statisticFootter a{
+        font-size: 30px;
+        line-height: normal;
+        padding: 12px 30px;
+    }
+    .firstPageGraphic{
+        padding:30px 30px;
+    }
+    .graphicImgBox{
+        padding: 25px 0px;
+    }
+    .graphicImgBox img {
+        width: 100%;
+    }
+    .graphicImgText {
+        margin-top: 6px;
+    }
+    .graphicImgText span::before {
+        min-width: 14px!important;
+        min-height: 14px!important;
+    }
+    .graphicTitle{
+        font-size: 3.5vw;
+    }
+    .graphicImgText span{
+        font-size: 2vw;
+    }
+
+    .graphicFootter a{
+        font-size: 30px;
+        line-height: normal;
+        padding: 12px 30px;
+    }
+
+    .firstPagePartners{
+        padding:20px 30px;
+    }
+    .partnersTitle{
+        font-size: 4.5vw;
+    }
+    .partnersMiddlle{
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .partnersMiddlleLeft{
+        width: 100%;
+    }
+    .partnersMiddlleLeftTitle{
+        font-size: 3.5vw;
+    }
+    .partnersMiddlleLeftText{
+        font-size: 3vw;
+        padding: 18px 0px 30px 0px;
+    }
+    .partnersMiddlleright {
+        width: 100%;
+    }
+    .partnersMiddlleright div{
+        width: 50%;
+        padding: 15px 15px;
+    }
+    .partnersMiddlleLeftBtn{
+        justify-content: center;
+    }
+    .partnersMiddlleLeftBtn a{
+        font-size: 30px;
+        line-height: normal;
+        padding: 12px 30px;
+    }
+    .firstPageJoin{
+        padding:30px 33px;
+    }
+    .joinTitle{
+        font-size: 4.5vw;
+    }
+    .joinText{
+        font-size: 2.8vw;
+        width: 92%;
+    }
+    .joinInputBox {
+        width: 100%;
+    }
+    .joinInputBox label{
+        font-size: 25px;
+    }
+    .joinInputBox input{
+        font-size:25px;
+        padding: 1px 0px;
+    }
+    .joinInputBox button{
+        font-size: 25px;
+        padding: 0px 12px;
+    }
+}
+
+@media (max-width: 599px){
+    .firstPageTop{
+        background: url(./img/bg2.png) no-repeat 0% 0%;
+        background-size: 158%;
+        background-position: center;
+        min-height: 266px;
+        height: auto;
+    }
+    .firstPageTop>div{
+        padding: 30px 30px 30px 30px;
+    }
+    .firstPageTop h1{
+        font-size: 29px;
+    }
+    .firstPageTop h1 p{
+        font-size:22px;
+        font-weight: 300;
+    }
+    /* .firstPageHeaderLeft{
+        font-size: 18px;
+    }
+
+    .firstPageHeaderMiddle ul li{
+        font-size: 17px;
+    }
+    .firstPageHeaderMiddle ul li a{
+        font-size: 17px;
+    } */
+    .firstPageStatistic{
+        display: none;
+    }
+    .firstPageGraphic{
+        display: none;
+    }
+    .firstPageStausBox .status{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .firstPageStausBox p{
+        font-size: 15px;
+    }
+    .statisticTitle{
+        font-size: 22px;
+    }
+    .statisticItemBox{
+        flex-wrap: wrap;
+    }
+    .statisticItem{
+        font-size: 30px;
+    }
+    .statisticItem span{
+        font-size: 15px;
+    }
+    .statisticItem>div>span{
+        font-size: 30px;
+    }
+    .statisticFootter a{
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .graphicTitle{
+        font-size: 22px;
+    }
+    .graphicImgText span{
+        font-size: 12px;
+    }
+    .graphicFootter a{
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    .partnersTitle{
+        font-size: 28px;
+        text-align: center;
+    }
+    .partnersMiddlle{
+        flex-wrap: wrap;
+    }
+    .partnersMiddlleLeftTitle{
+        font-size: 18px;
+    }
+    .partnersMiddlleLeftText{
+        font-size: 16px;
+    }
+    .partnersMiddlleright {
+        width: 100%;
+        transition: all 1s ease;
+    }
+    .partnersMiddlleright section{
+        flex-wrap: wrap;
+    }
+    .partnersMiddlleright section div{
+        visibility: hidden;
+        height: 0px;
+        padding: 0px 15px;
+        margin-top:0px;
+        transition: all .5s ease;
+    }
+    .partnersMiddlleright section:nth-child(1) div{
+        visibility: unset;
+        height: 100px;
+        padding: 15px 15px;
+        margin-top:22px;
+    }
+
+    .partnersMiddlleright.open div{
+        visibility: unset;
+        height: 100px;
+        padding: 15px 15px;
+        margin-top:22px;
+    }
+
+    .morepartnerBox{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding:8px 0px;
+    }
+    .morepartnerBox>button{
+        font-size: 15px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 10px 40px;
+        color: #808080;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .morepartnerBox>button::after{
+        content: "\f078";
+        font-family: FontAwesome;
+        font-size: 15px;
+        margin-left: 5px;
+        display: flex;
+        align-content: center;
+    }
+    
+    .morepartnerBox.open>button::after{
+        content: "\f077";
+    }
+    .partnersMiddlleLeftBtn a{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .joinTitle{
+        font-size: 28px;
+    }
+    .joinText{
+        font-size: 16px;
+    }
+    .joinInputBox label{
+        font-size: 12px;
+    }
+    .joinInputBox input{
+        font-size:16px;
+    }
+    .joinInputBox button{
+        font-size: 16px;
+    }
+    /* upcoming window */
+    .firstPageNew .eventBodyMiddle{
+        display:flex;
+    }
+}
+
+@media (max-width: 320px){
+    .firstPageTop{
+        background: url(./img/bg2.png) no-repeat 0% 0%;
+        background-size: cover;
+        background-position: center;
+        min-height: 266px;
+        height: auto;
+    }
+    h1 {
+        font-size: 21px!important;
+    }
+}

@@ -1,0 +1,251 @@
+.sectionLast{
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+    min-height: 600px;
+    background:#FFFFFF;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(../img/fotterbg.png) no-repeat 50% 40%;
+    background-size: cover;
+    position: absolute;
+    max-width: 1920px;
+    padding-top: 100px;
+    z-index: 14;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sectionLastMiddle{
+    padding-left: 12.7vw;
+    padding-top: 4.05vw;
+    width: 100%;
+    display: flex;
+}
+.sectionLastMiddle>.socialicons{
+    display: none;
+}
+.middleLeftLast{
+    display: flex;
+    flex-wrap: wrap;
+    width: 32vw;
+    align-content: flex-start;
+    padding-top: 5.9vw;
+}
+.middleLeftLast h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.middleLeftLast>div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.sectionLast .socialicons ul{
+    padding-left: 0px;
+}
+.sectionLast .socialicons ul li:first-child{
+    margin-left: 0px;
+}
+.sectionLast .socialicons ul li{
+    margin-left: 25px;
+}
+.sectionLast .socialicons ul li a{
+    font-size: 0.9vw;
+    color:rgba(255,255,255,0.4);
+}
+.middleRigthLast{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.5vw;
+}
+
+.middleRigthLast iframe{
+    width: 33.35vw;
+    max-width: 667px;
+    height: 21vw;
+    max-height: 500px;
+    opacity: 0.8;
+}
+.middleRigthLast h2{
+    width: 100%;
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75vw;
+    line-height: normal;
+    letter-spacing: -0.08em;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 3.5vw;
+}
+.middleRigthLast p{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.15vw;
+    line-height: normal;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.middleRigthLast p span{
+    background: url(../img/icon/location.png) no-repeat;
+    background-size: cover;
+    width: 2.1vw;
+    height: 2.5vw;
+    max-width: 42px;
+    max-height: 50px;
+    padding: 6px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.socialLastFooter{
+    width: 100%;
+    max-height: 97px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    font-family: Montserrat;
+    font-size: 14px;
+    background:rgba(37, 63, 142, 0.5);
+    color: #FFFFFF;
+    padding: 1.3vw 0px;
+    
+}
+/* ///...MEDIA.../// */
+@media (min-width: 2200px) {
+    .sectionLastMiddle{
+        padding-left:230px;
+        padding-top: 90px;
+    }
+    .middleLeftLast{
+        width:680px;
+    }
+    .middleRigthLast{
+        width: 750px;
+        margin-top: 120px;
+        margin-left: 200px;
+    }
+    .middleLeftLast h1 {
+        font-size: 29px;
+        line-height: normal;
+    }
+
+    .middleLeftLast>div {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .sectionLast .socialicons ul li{
+        margin-left: 10px;
+    }
+    .sectionLast .socialicons ul li a {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .middleRigthLast p{
+        font-size: 20px;
+    }
+    .middleRigthLast h2{
+        margin-top: 40px;
+        font-size: 55px;
+        line-height: normal;
+    }
+    .socialLastFooter{
+        padding: 30px 0px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .sectionLast {
+        position: relative;
+        min-height: 100vh;
+        height: auto!important;
+    }
+    .sectionLastMiddle{
+        flex-wrap: wrap;
+    }
+    .middleLeftLast{
+        width: 330px;
+        margin-bottom: 30px;
+    }
+
+    .middleLeftLast>div {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .sectionLast .socialicons{
+        width: 100%;
+    }
+    .sectionLast .socialicons ul{
+        justify-content: center;
+    }
+    .sectionLast .socialicons ul li{
+        width: 50px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+    }
+    .sectionLast .socialicons ul li a {
+        font-size: 16px;
+        line-height: normal;
+        color:rgba(255,255,255);
+        font-size: 21px;
+    }
+    .middleLeftLast>.socialicons{
+        display: none;
+    }
+    .sectionLastMiddle>.socialicons{
+        display: flex;
+    }
+    .middleRigthLast{
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .middleRigthLast p{
+        font-size: 17px;
+        line-height: normal;
+    }
+    .middleRigthLast iframe{
+        width: 100%;
+        height: auto;
+    }
+    .middleRigthLast h2{
+        font-size: 29px;
+        line-height: 114px;
+    }
+
+    .middleLeftLast h1 {
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+    }
+    .middleLeftLast h1 span{
+        font-weight: 800;
+    }
+
+}
+@media (max-width: 500px) {
+    .sectionLast{
+        background:#FFFFFF;
+        background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(../img/mobile/8.png) no-repeat 50% 57%;
+    }
+}
+/* ///...KEYFREMS.../// */

@@ -1,0 +1,472 @@
+.startupsNew{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    z-index: 20;
+}
+
+.startupsBaner{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    background: url(./img/bg.png) no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.startupsBanerTop,
+.startupsBanerBottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.startupsBanerTop{
+    padding: 6vh 5.7vw 0vw 0vw;
+}
+.startupsBanerTop h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height:normal;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.startupsBanerBottom{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4.5vh 5.7vw 4.5vh 0vw;
+    align-self:flex-end;
+}
+.startupsBanerBottom h3,
+.startupsBanerBottom h4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+}
+.startupsBanerBottom h4{
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.7vw;
+    border-top: none;
+}
+/* // */
+.startupsNew .subtitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: normal;
+    color: #000000;
+}
+
+.startupsParticipate {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.startupsParticipate>h3{
+    width: 100%;
+    padding: 3vh 0px 0px 5.5vw;
+}
+.startupsParticipate>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:3vh 11vw;
+}
+.startupsParticipate>div .card{
+    margin-bottom: 3vh;
+}
+.startupsParticipate>div .front>div {
+    width: 8.5vw;
+    height: 8.5vw;
+    max-width: 175px;
+    max-height: 175px;
+}
+.startupsParticipate>div .front>div>img {
+    max-height: 100%;
+}
+.startupsParticipate>div .front>h4 {
+    margin-top: 8vh;
+}
+
+/* // */
+.boosterfund{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boosterfund>h3{
+    width: 100%;
+    padding: 3vh 0px 0px 5.5vw;
+}
+.boosterfund>div{
+    width: 100%;
+    padding: 8vh 5.5vw 8vh 5.5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fundItem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+    width:28.5vw;
+    max-width: 565px;
+}
+.fundItem>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fundItem>div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 3vh;
+    padding-left: 2.1vw;
+}
+.fundItem>div:first-child>div{
+    width: 6.5vw;
+    height: 6.5vw;
+    max-width: 130px;
+    max-height: 130px;
+    display: flex;
+}
+.fundItem>div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.fundItem>div>h4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.2vw;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #878787;
+    margin-left: 10px;
+}
+
+.fundItem>div:last-child{
+    height:28vh;
+    max-height:280px;
+    padding:2vw 4vh;
+    background: rgb(196, 196, 196, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.fundItem:nth-child(2)>div:last-child{
+    background: rgba(196, 196, 196, 0.2);
+
+}
+.fundItem>div>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 3vh;
+}
+.fundItem>div>p>i{
+    width: 10px;
+    height: 10px;
+    background:#2F80ED;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: inline-flex;
+}
+
+/* // */
+
+.startupsNew .upcommingInvestorNew{
+    background: #f7f7f7;
+}
+.startupsNew .upcommingInvestorNewPrev,
+.startupsNew .upcommingInvestorNewNext{
+    background: #f7f7f7!important;
+}
+.startupsNew .meetVideo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+.startupsNew .meetVideo iframe{
+    width: 45vw;
+    height:48vh;
+    max-width:900px;
+    max-height:532px;
+}
+
+@media (min-width: 2200px){
+    
+    .startupsBanerTop{
+        padding: 65px 114px 0vw 0vw;
+    }
+    .startupsBanerTop h2{
+        font-size: 60px;
+    }
+    .startupsBanerBottom{
+        padding: 50px 114px 50px 0vw;
+    }
+    .startupsBanerBottom h3,
+    .startupsBanerBottom h4{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .startupsBanerBottom h4{
+        font-size: 36px;
+    }
+    /* // */
+    .startupsNew .subtitle{
+        font-size:48px;
+    }
+    .startupsParticipate>h3{
+        padding: 34px 0px 0px 110px;
+    }
+    .startupsParticipate>div{
+        padding:34px 220px;
+    }
+    .startupsParticipate>div .card{
+        margin-bottom: 34px;
+    }
+
+    .startupsParticipate>div .front>h4 {
+        margin-top: 80px;
+    }
+    
+    /* // */
+    .boosterfund>h3{
+        padding: 34px 0px 0px 110px;
+    }
+    .boosterfund>div{
+        padding: 80px 110px 80px 110px;
+    }
+    
+    .fundItem>div:first-child{
+        margin-bottom: 34px;
+        padding-left: 45px;
+    }
+    .fundItem>div>h4{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    
+    .fundItem>div:last-child{
+        padding:45px 45px;
+    }
+    .fundItem>div>p{
+        font-size: 25px;
+        line-height: 1.5;
+        margin-bottom: 34px;
+    }
+    .fundItem>div>p>i{
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+
+    .startupsNew .meetVideo{
+        margin-bottom: 77px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .startupsBaner{
+        background: url(./img/bg.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 290px;
+        height: auto;
+    }
+    .startupsBanerTop{
+        padding: 20px 40px 0vw 0vw;
+    }
+    
+    .startupsBanerTop h2{
+        font-size: 35px;
+    }
+    .startupsBanerBottom{
+        padding: 30px 40px 30px 0vw;
+    }
+    .startupsBanerBottom h3,
+    .startupsBanerBottom h4{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .startupsBanerBottom h4{
+        font-size: 25px;
+    }
+    /* // */
+    .startupsNew .subtitle{
+        font-size:34px;
+    }
+    .startupsParticipate>h3{
+        padding: 20px 0px 0px 50px;
+    }
+    .startupsParticipate>div{
+        padding:20px 50px;
+    }
+    .startupsParticipate>div .card{
+        margin-bottom: 20px;
+    }
+
+    .startupsParticipate>div .front>h4 {
+        margin-top: 50px;
+    }
+    
+    /* // */
+    .boosterfund>h3{
+        padding: 20px 0px 0px 50px;
+    }
+    .boosterfund>div{
+        padding: 40px 50px 30px 50px;
+        justify-content: space-around;
+    }
+    .fundItem{
+        width: 45%;
+        margin-bottom: 25px;
+    }
+    .fundItem:nth-child(2){
+        margin-left: 25px;
+    }
+    .fundItem>div:first-child{
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+    .fundItem>div:first-child>div{
+        width: 55px;
+        height: 55px;
+    }
+    .fundItem>div>h4{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    
+    .fundItem>div:last-child{
+        padding:15px 15px;
+        height: 230px;
+    }
+    .fundItem>div>p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .startupsNew .meetVideo{
+        margin-bottom: 40px;
+    }
+    .startupsNew .meetVideo iframe{
+        width: 100%;
+        max-width: 600px;
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 599px){
+    .startupsBaner{
+        /* padding: 50px 20px 0px 0px; */
+        background: url(./img/bg.png) no-repeat 97% 0%;
+        background-size: 121%;
+        min-height: fit-content;
+        height: auto;
+    }
+    .startupsBanerTop{
+        padding: 0px 25px 0vw 0vw;
+    }
+    
+    .startupsBanerTop h2{
+        font-size: 25px;
+    }
+    .startupsBanerBottom{
+        padding: 20px 25px 20px 0vw;
+    }
+    .startupsBanerBottom h3,
+    .startupsBanerBottom h4{
+        font-size: 20px;
+        line-height: normal;
+    }
+    .startupsBanerBottom h4{
+        font-size: 18px;
+    }
+    /* // */
+    .startupsNew .subtitle{
+        font-size:23px;
+    }
+    .startupsParticipate>h3{
+        padding: 20px 0px 0px 40px;
+    }
+    .startupsParticipate>div{
+        padding:20px 40px;
+    }
+    .startupsParticipate>div .card{
+        margin-bottom: 20px;
+    }
+    .startupsParticipate>div .front>div {
+        width: 120px;
+        height: 120px;
+    }
+    .startupsParticipate>div .front>h4 {
+        margin-top: 20px;
+    }
+    
+    /* // */
+    
+    /* // */
+    .boosterfund>h3{
+        padding: 20px 0px 0px 30px;
+    }
+    .boosterfund>div{
+        padding: 30px 30px 30px 30px;
+    }
+    .fundItem{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .fundItem:nth-child(2){
+        margin-left: 0px;
+    }
+    .fundItem>div:first-child{
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+    .fundItem>div:first-child>div{
+        width: 70px;
+        height: 70px;
+    }
+    .fundItem>div>h4{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    
+    .fundItem>div:last-child{
+        padding:15px 15px;
+        height: 230px;
+    }
+
+}

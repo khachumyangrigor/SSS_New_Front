@@ -1,0 +1,426 @@
+.aboutTop.job.one{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    background: url(./img/bgJob1.png) no-repeat fixed;
+    background-position: top;
+    background-size: cover;
+    padding: 4.3vw 10vw 0vw 6vw;
+}
+.aboutTop.job.tow{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    background: url(./img/bgJob2.png) no-repeat fixed;
+    background-position: bottom;
+    background-size: cover;
+    padding:0vw 10vw 4.3vw 6vw;
+    display: flex;
+    align-items: flex-end;
+}
+.aboutTop.job.tree{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    background: url(./img/bgJob3.png) no-repeat fixed;
+    background-position: bottom;
+    background-size: cover;
+    padding: 4.3vw 10vw 0vw 6vw;
+}
+.aboutTop.job.one>.titleCover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: radial-gradient(86.85% 86.85% at 50% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+.aboutTop.job.one>div:nth-child(2){
+    position: relative;
+    z-index: 10;
+}
+
+.jobBody{
+    width: 100%;
+}
+.aboutTop.job>div>h1{
+    color: #000000;
+}
+.aboutTop.job>div>p{
+    color: #000000;
+    border-top: 3px solid #000000;
+}
+.jobBody .aboutInfo{
+    padding: 8vh 11vw;
+}
+.jobBody .aboutInfo_left{
+    width: 65%;
+}
+.jobBody .aboutInfo_right{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobBody .aboutInfo_right img{
+    max-width: 100%;
+    height: auto;
+}
+.jobBody .responsibilities,
+.jobBody .requirements{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:8vh 11vw;  
+    background-color: #FFFFFF;
+}
+.jobBody .responsibilities{
+    background-color: #F7F7F7;
+}
+.jobBody .responsibilities h3,
+.jobBody .requirements h3{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6vw;
+    line-height: 1.3;
+    color: #3C4858;
+    margin-bottom: 20px;
+}
+
+.jobBody .responsibilities p,
+.jobBody .requirements p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    color: #676767;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.jobBody .responsibilities p::before,
+.jobBody .requirements p::before{
+    content: "";
+    display: flex;
+    width: 1.4vw;
+    height: 1.4vw;
+    max-width: 27px;
+    max-height: 27px;
+    min-width: 18px;
+    min-height: 18px;
+    background-color:#0D63D7;
+    border-radius: 1px;
+    margin-right: 1vw;
+}
+.jobBody .requirements p::before{
+    background-color:#F1A61E;
+}
+
+.jobBody .jobMessage{
+    width: 100%;
+    background-color: #FFB600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:6vh 0px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6vw;
+    line-height: 1.3;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.jobBody .mainInfo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:8vh 16vw;  
+    background-color: #FFFFFF;
+}
+
+.jobBody .mainInfo>div{
+    display: flex;
+    align-items: center;
+}
+.jobBody .mainInfo>div>div.imageBox{
+    width: 10vw;
+    height: 10vw;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 53px;
+    min-height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobBody .mainInfo>div>div.imageBox>img{
+    max-width: 100%;
+}
+.jobBody .mainInfo>div>div.textBox{
+    width: 100%;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 3vw;
+}
+.jobBody .mainInfo>div>div.textBox h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3vw;
+    color: #596273;
+    margin-bottom: 8px;
+}
+
+.jobBody .mainInfo>div>div.textBox p,
+.jobBody .mainInfo>div>div.textBox p a{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4vw;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.job_alart{
+    width: 100%;
+    max-width: 1920px;
+    min-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    padding: 2vh 4.5vw;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+.job_alart a,
+.job_alart button{
+    padding:14px 1vw;
+    background: #AA1A34;
+    border-radius: 10px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.job_alart small{
+    margin-left: 2vw;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+/********** MEDIA ************/
+@media (min-width: 2200px){
+    .aboutTop.job{
+        padding: 48px 200px 0px 120px;
+    }
+    .jobBody .aboutInfo{
+        padding: 90px 220px;
+    }
+
+    .jobBody .responsibilities,
+    .jobBody .requirements{
+        padding: 90px 220px;
+    }
+    .jobBody .responsibilities h3,
+    .jobBody .requirements h3{
+        font-size: 35px;
+    }
+    .jobBody .responsibilities p,
+    .jobBody .requirements p{
+        font-size: 25px;
+    }
+    .jobBody .responsibilities p::before,
+    .jobBody .requirements p::before{
+        margin-right: 20px;
+    }
+    .jobBody .jobMessage{
+       padding: 66px 0px;
+       font-size: 35px;
+    }
+    .jobBody .mainInfo{
+        padding:90px 320px;
+    }
+
+    .jobBody .mainInfo>div>div.textBox{
+        margin-left: 70px;
+    }
+    .jobBody .mainInfo>div>div.textBox h2{
+        font-size: 48px;
+    }
+    .jobBody .mainInfo>div>div.textBox p,
+    .jobBody .mainInfo>div>div.textBox p a{
+        font-size: 36px;
+    }
+    .job_alart{
+        padding:20px 90px;
+    }
+    .job_alart a,
+    .job_alart button{
+        padding: 14px 20px;
+        font-size: 25px;
+    }
+    .job_alart small{
+        font-size: 22px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1024px){
+    .aboutTop.job.one{
+        padding: 30px 30px 0px 30px;
+        background: url(./img/bgJob1.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+    .aboutTop.job.tow{
+        padding: 0px 30px 30px 30px;
+        background: url(./img/bgJob2.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+    .aboutTop.job.tree{
+        padding: 30px 30px 0px 30px;
+        background: url(./img/bgJob3.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+    .jobBody .aboutInfo_left{
+        width:100%;
+    }
+    .jobBody .aboutInfo_right{
+        display: none
+    }
+    .jobBody .aboutInfo_left p{
+        font-size: 16px;
+    }
+    .jobBody .aboutInfo{
+        padding: 40px 40px;
+    }
+
+    .jobBody .responsibilities,
+    .jobBody .requirements{
+        padding: 40px 40px;
+    }
+    .jobBody .responsibilities h3,
+    .jobBody .requirements h3{
+        font-size: 25px;
+    }
+    .jobBody .responsibilities p,
+    .jobBody .requirements p{
+        font-size: 16px;
+    }
+    .jobBody .responsibilities p::before,
+    .jobBody .requirements p::before{
+        margin-right: 10px;
+    }
+    .jobBody .jobMessage{
+        padding:40px 0px;
+        font-size: 25px;
+     }
+    .jobBody .mainInfo{
+        padding:40px 80px;
+    }
+    .jobBody .mainInfo>div>div.textBox{
+        margin-left: 30px;
+    }
+    .jobBody .mainInfo>div>div.textBox h2{
+        font-size: 30px;
+    }
+    .jobBody .mainInfo>div>div.textBox p,
+    .jobBody .mainInfo>div>div.textBox p a{
+        font-size: 16px;
+    }
+    .job_alart{
+        padding:13px 4.5vw;
+    }
+    .job_alart a,
+    .job_alart button{
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+    .job_alart small{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 599px){
+    .aboutTop.job.one{
+        padding: 30px 30px 0px 30px;
+        background: url(./img/bgJob1.png) no-repeat 0% 0%;
+        background-size: 150%;
+        min-height: 266px;
+        height: auto;
+    }
+    .aboutTop.job.tow{
+        padding: 0px 30px 30px 30px;
+        background: url(./img/bgJob2.png) no-repeat 0% 0%;
+        background-size: 150%;
+        min-height: 266px;
+        height: auto;
+    }
+    .aboutTop.job.tree{
+        padding: 30px 30px 0px 30px;
+        background: url(./img/bgJob3.png) no-repeat 0% 0%;
+        background-size: 150%;
+        min-height: 266px;
+        height: auto;
+    }
+    .jobBody .responsibilities p,
+    .jobBody .requirements p{
+        margin-bottom: 7px;
+        align-items: flex-start;
+    }
+    .jobBody .responsibilities p::before,
+    .jobBody .requirements p::before{
+        margin-top: 5px;
+    }
+    .jobBody .jobMessage{
+        padding: 10px 25px;
+        font-size: 20px;
+     }
+    .jobBody .mainInfo{
+        padding:30px 40px;
+    }
+    .jobBody .mainInfo>div>div.textBox{
+        margin-left: 14px;
+    }
+    .jobBody .mainInfo>div>div.textBox h2{
+        font-size: 25px;
+    }
+    .jobBody .mainInfo>div>div.textBox p,
+    .jobBody .mainInfo>div>div.textBox p a{
+        font-size: 14px;
+    }
+    .job_alart{
+        display: none;
+    }
+}

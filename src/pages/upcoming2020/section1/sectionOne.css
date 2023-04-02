@@ -1,0 +1,522 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(/fonts/Gotham-Bold.woff) format('woff');
+}
+
+.sectionOne2020{
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+    min-height: 600px;
+    background:rgb(250, 250, 250);
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../img/home2020.jpg) no-repeat 50% 43%;
+    background-size: cover;
+    position: absolute;
+    max-width: 1920px;
+    z-index: 20;
+    background-color: rgb(117, 117, 117);
+}
+
+.underMenu{
+    width: 100%;
+    display: flex;
+}
+.underMenuItem{
+    width: 325px;
+    height: 132px;
+    background: #0E2043;
+    opacity: .9;
+}
+.sectionOne2020 .sectionMiddleContaner{
+    width: 100%;
+    display: flex;
+}
+.sectionOne2020 .sectionMiddle{
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 8vw;
+}
+
+.sectionOne2020 .middleLeft{
+    display: flex;
+    -webkit-flex-direction:column;
+    flex-direction: column;
+}
+
+.sectionOne2020 .middleLeft h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.1vw;
+    line-height: 4.3vw;
+    letter-spacing: 13px;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+.sectionOne2020 .middleLeft h2{
+    font-family: Gotham-Bold;
+    font-size: 2.5vw;
+    line-height: 4.5vw;
+    letter-spacing: 10px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.sectionOne2020 .middleLeft h2 span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8vw;
+    line-height: 2.15vw;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.sectionOne2020 .middleRigth{
+    width: 28vw;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+.sectionOne2020 .middleRigth p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-top: 0.35vw;
+}
+.sectionOne2020 .middleRigth p span{
+    font-weight: 600;
+    font-size: 2.25vw;
+    line-height: 2vw;
+}
+.sectionOne2020 .middleRigth .buttons{
+    display: flex;
+    width: 100%;
+    margin-top:1.6vw;
+}
+.middleRigth .buttons .attend{
+    padding: 1vw 2.5vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: linear-gradient(157.21deg, #19AAE2 11.86%, #253F8E 240.95%);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition:all .4s cubic-bezier(0.57, 0.67, 1, 1.01);
+    margin-left: 2.5vw;
+    height: 100%;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+} 
+
+.middleRigth .buttons .watchPromo{
+    padding: 1vw 2vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 29px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+    border: 2px solid #FFF;
+    transition:all .3s cubic-bezier(0.57, 0.67, 1, 1.01);
+} 
+.middleRigth .buttons .watchPromo span{
+    display: flex;
+    align-items: center;
+}
+.middleRigth .buttons .watchPromo span::after {
+    content: "";
+    display: inline-flex;
+    width: 16px;
+    height: 20px;
+    color: #FFF;
+    background-image: url(../../firstPage/img/icon/arrow.png);
+    margin-left: 18px;
+}
+.middleRigth .buttons .watchPromo:hover {
+    background: rgba(0,0,0,.4);
+}
+.middleRigth .buttons .attend:hover{
+    background: linear-gradient(157.21deg, #1485B2 11.86%, #176B9E 240.95%);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.sectionFooter{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+}
+.sectionFooter .socialicons{
+    width: 55%;
+    background: #FFFFFF;
+    opacity: 0.8;
+}
+.socialicons ul{
+    width: 100%;
+    display: flex;
+    padding: 15px 0px 15px 5vw;
+}
+.socialicons ul li{
+    margin-left: 2vw;
+}
+.socialicons ul li a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    color: #000000;
+    opacity: 0.5;
+    transition: all .4s ease;
+}
+.socialicons ul li a:hover{
+    opacity: 1;
+}
+.socialicons ul li span{
+    display: none;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+.socialicons ul li span a::after{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.fb::after{
+    content: "\f082";
+}
+.inst::after{
+    content: "\f16d";
+}
+.twit::after{
+    content: "\f081";
+}
+.ln::after{
+    content: "\f08c";
+}
+.yout::after{
+    content: "\f166";
+}
+.sectionFooter a{
+    display: flex;
+}
+.partnersButton{
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    cursor: default;
+    background: #0E2043;
+    color: #FFFFFF;
+    opacity: 0.9;
+    transition: all .4s ease;
+}
+.partnersButton:hover{
+    background:#FFC21D;
+    opacity: 0.9;
+}
+
+.newsButton{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #8F8E8E;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    opacity: 0.8;
+    padding:0px 3.4vw;
+    transition: all .4s ease;
+}
+.newsButton:hover{
+    background: #FFC21D;
+    text-decoration: none;
+    color: #121E3E;
+}
+.promobg{
+    background: rgba(0, 0, 0, 0.55)!important;
+}
+.agendaMsg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+}
+.agendaMsg.hiddenMsg{
+    display: none;
+}
+.agendaMsg p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+}
+.agendaMsg>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.agendaMsg>div>a{
+    width: 140px;
+    height: 39px;
+}
+.agendaMsg>div>a>img{
+    width: 100%;
+}
+/* ///...MEDIA.../// */
+@media (min-width: 1922px) {
+    .sectionOne2020 .middleLeft h1{
+        font-size: 80px;
+        line-height:80px;
+    }
+    .sectionOne2020 .middleLeft h2{
+        font-size: 40px;
+        line-height:80px;
+    }
+    .sectionOne2020 .middleLeft h2 span{
+        font-size: 50px;
+        line-height:50px;
+    }
+    .sectionOne2020 .middleRigth p {
+        font-size: 30px;
+        line-height:30px;
+    }
+    .sectionOne2020 .middleRigth p span{
+        font-size: 50px;
+        line-height:50px;
+    }
+    .sectionOne2020 .middleRigth{
+        width: 500px;
+    }
+    .sectionOne2020 .sectionMiddle{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .middleRigth .buttons .attend {
+        padding: 20px 100px;
+        font-size: 30px;
+    }
+    .middleRigth .buttons .watchPromo{
+        padding: 9px 100px;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+}
+@media (max-width: 1000px) {
+    .sectionOne2020 .sectionMiddleContaner{
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+    .socialicons ul {
+        padding-left: 0px;
+    }
+}
+@media (min-width:800px) and (max-width:1600px){
+    .sectionOne2020{
+        background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../img/home2020.jpg) no-repeat 50% 100%;
+        background-size: cover;
+    }
+}
+@media (max-width: 950px) {
+    .sectionOne2020 .sectionMiddle{
+        flex-wrap: wrap;
+    }
+
+    .sectionOne2020 .middleRigth {
+        margin-left: 0px;
+    }
+    .middleRigth .buttons .attend {
+        padding: 5px 0px;
+    }
+    .middleRigth .buttons .watchPromo {
+        padding: 5px 17px;
+    }
+    .socialicons ul {
+        padding:0px;
+    }
+    .socialicons ul li{
+        margin: 0px;
+        width: 58px;
+    }
+    .sectionFooter .partnersButton {
+        padding: 11px 11px;
+    }
+    .socialicons ul li>a{
+        display: none;
+    }
+    .socialicons ul li span {
+        display: flex;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .underMenuItem {
+        width: 100%!important;
+        height: 64px!important;
+        opacity: 0;
+    }
+    .fixedMenu{
+        display: none;
+    }
+    .matherSection{
+        animation-name: none;
+    }
+    .matherPrevSection{
+        animation-name: none;
+    }
+    .sectionOne2020{
+        position: relative;
+    }
+
+    .sectionOne2020 .middleRigth {
+        width: 295px;
+    }
+    .sectionOne2020 .middleLeft {
+        width: 295px;
+    }
+    .sectionOne2020 .middleLeft h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .sectionOne2020 .middleLeft h2 {
+        font-size: 25px;
+        line-height: normal;
+    }
+    .sectionOne2020 .middleLeft h2 span{
+        display: flex;
+        font-size: 27px;
+        line-height: normal;
+        padding-top:10px;
+    }
+    .sectionOne2020 .middleRigth p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .sectionOne2020 .middleRigth p span{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .middleRigth .buttons .attend {
+        padding: 6px 28px;
+        font-size: 18px;
+    }
+    .middleRigth .buttons .watchPromo {
+        padding: 6px 12px;
+        font-size: 18px;
+    }
+    .sectionOne2020 .sectionMiddle {
+        margin-left: 0px;
+    }
+    .newsButton{
+        display: none;
+    }
+    
+}
+/* ///...Keyfrems.../// */
+
+/* up */
+.matherSectionUp{
+    z-index: 22!important;
+    animation-name: matherSectionAnimateUp; 
+    -webkit-animation-name: matherSectionAnimateUp; 
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+.matherPrevSectionUp{
+    z-index: 21!important;
+    animation-name: matherPrevSectionAnimateUp; 
+    -webkit-animation-name: matherPrevSectionAnimateUp; 
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+/* down */
+.matherSection{
+    z-index: 22!important;
+    animation-name: matherSectionAnimate; 
+    -webkit-animation-name: matherSectionAnimate; 
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+.matherPrevSection{
+    z-index: 21!important;
+    animation-name: matherPrevSectionAnimate; 
+    -webkit-animation-name: matherPrevSectionAnimate; 
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+/* down scroll */
+@-webkit-keyframes matherSectionAnimate {
+    from  {opacity:0.2;}
+    to { opacity:1;}
+}
+@keyframes  matherSectionAnimate{
+    from  {opacity:0.2;}
+    to { opacity:1;}
+}
+
+
+@-webkit-keyframes matherPrevSectionAnimate{
+    from  {opacity:1;}
+    to { opacity:0.4;}
+}
+
+@keyframes  matherPrevSectionAnimate{
+    from  {opacity:1;}
+    to { opacity:0.4;}
+}
+
+/* up scroll */
+@-webkit-keyframes matherSectionAnimateUp{
+    from  {opacity:0.2;}
+    to { opacity:1;}
+}
+@keyframes  matherSectionAnimateUp{
+    from  {opacity:0.2;}
+    to { opacity:1;}
+}
+@-webkit-keyframes matherPrevSectionAnimateUp {
+    from  {opacity:1;}
+    to { opacity:0.4;}
+}
+@keyframes  matherPrevSectionAnimateUp{
+    from  {opacity:1;}
+    to { opacity:0.4;}
+}

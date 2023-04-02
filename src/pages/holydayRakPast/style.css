@@ -1,0 +1,2196 @@
+.rakHoliday2021{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    z-index: 20;
+}
+
+
+.rakHoliday2021 .subtitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: normal;
+    color: #000000;
+}
+
+.rakHoliday2021Banner{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    background: url(./bg.png) no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-position: bottom;
+    position: relative;
+}
+
+.rakHoliday2021Banner>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 3.5vw 0px 3.5vw 5.6vw;
+    position: absolute;
+    bottom:0vw;
+    left: auto;
+    background: linear-gradient(360deg, rgba(12, 21, 25, 0.5) 60.94%, rgba(12, 21, 25, 0.13) 100%);
+    mix-blend-mode: normal;
+}
+.rakHoliday2021Banner>div>h1{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vw;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.rakHoliday2021Banner>div>h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8vw;
+    color: #FFFFFF;
+    margin-bottom:0px;
+}
+.rakHoliday2021Banner>div>h2>a{
+    color: #2F80ED;
+}
+.rakHoliday2021Banner>div>button {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1.1vh 3vw;
+    background: #F1A61E;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+.formBaner{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+}
+.formBaner>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.textAreaBox.aftercovid19{
+    width: 27vw;
+    height: 24vh;
+    max-width: 518px;
+    max-height: 231px;
+    margin-top: 20px;
+}
+.textAreaBox.aftercovid19>textarea{
+    width: 27vw;
+    max-width: 27vw;
+    min-width: 27vw;
+    height: 20vh;
+    max-height: 20vh;
+    min-height: 20vh;
+}
+.textAreaBox.aftercovid19>div{
+    width: 27vw;
+    max-width: 518px;
+}
+.textAreaBox.aftercovid19>div>h6{
+    font-size: 1vw;
+    background: rgba(255, 255, 255, 0.2);
+    width: 95%;
+}
+
+.successErr{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    color: #2b69bd;
+    font-weight: 400;
+}
+.part1Egypt{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10vh 0px 7vh 10vw;
+    background: #F7F7F7;
+}
+.part1Egypt>div{
+    width: 44vw;
+    max-width: 887px;
+    min-width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.part1Egypt>div>h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size:2.4vw;
+    line-height: normal;
+    color: #000000;
+}
+.part1Egypt>div>p{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 1.3;
+    color: #000000;
+}
+.part1Egypt>div>small{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 1.5;
+    color: #000000;
+    margin-top: 20px;
+}
+.jarmaDiv{
+    margin-left: 7vw;
+}
+
+/* // */
+
+.event_part1{
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14vh 4.8vw 9.2vh 8vw;
+}
+.event_part1>.left{
+    width: 33vw;
+    max-width: 676px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.5vh 5vw 3.5vh 0px;
+}
+
+.event_part1>.left>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.4;
+    color: #000000;
+}
+.rakHoliday2021 .aboutInfo{
+    align-items: flex-start;
+}
+.rakHoliday2021 .aboutInfo_left{
+    align-items: flex-start;
+    padding-right: 4.8vw;
+}
+.rakHoliday2021 .aboutInfo_left p{
+    font-size: 1.4vw;
+}
+.rakHoliday2021 .aboutInfo_left:nth-child(2){
+    padding-right: 0px;
+}
+.rakHoliday2021 .aboutInfo_right>img{
+    margin-top: 0.5vw;
+    max-width: 100%;
+}
+
+.rakHoliday2021 .aboutInfo_left>img{
+    width: 100%;
+    margin-top: 4.5vw;
+}
+
+.rakHoliday2021 .aboutInfo_left>p{
+    margin-top: 14px;
+}
+.rakHoliday2021 .aboutInfo_left>p>b{
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+
+.event_part1>.left>div{
+    display: flex;
+    margin-top:6.3vh;
+}
+.event_part1>.left>div>a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #2f80ed;
+    border: 1.5px solid #2f80ed;
+    border-radius: 8px;
+    padding: 1.5vh 2vw;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.event_part1>.left>div>a:hover{
+    color: #2f80ed;
+    background: #fff;
+}
+.event_part1>.left>div>a:nth-child(2){
+    margin-left: 1.5vw;
+}
+.event_part1>.right{
+    width: 44vw;
+    max-width: 888px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event_part1>.right img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*  */
+.event_status>div:nth-child(4),
+.event_status>div:nth-child(5){
+    justify-content: center;    
+}
+.event_status .opartunnitisItem{
+    background: #F7F7F7;
+}
+.event_status .opartunnitisItem:hover{
+    transform: scale(1);
+}
+.event_status .opartunnitisItem{
+    width: 20vw;
+    max-width: 363px;
+}
+.event_status .opartunnitisItem:hover p{
+    color: #878787;
+}
+.event_status .opartunnitisItem small{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8vw;
+    padding: 1.5vh 2.8vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.event_status h5{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.6vw;
+    text-align: center;
+    color: #000000;
+    margin-top: 8.7vh;
+}
+
+.event_status>.footer{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.event_status>.footer>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.event_status>.footer>div>img{
+    width: 7.35vw;
+    height: 5.35vw;
+}
+.event_status>.footer>p{
+    max-width:900px;
+    width: 45vw;
+    margin-top: 4.5vh;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.3;
+    text-align: center;
+    color: #000000;
+}
+/* */
+.event_cond.valunteersOppartunitis{
+    background: #FFFFFF;
+}
+.event_cond.valunteersOppartunitis>p{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    color: #000000;
+}
+.event_cond.valunteersOppartunitis>small{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    margin-top: 2.3vh;
+    line-height: 1.2;
+    color: #000000;
+}
+.event_cond.valunteersOppartunitis>small:nth-child(3){
+    margin-top: 6vh;
+}
+/*  */
+.event_violet{
+    background: #2C2975;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10vh 0px;
+}
+.event_violet>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.event_violet p{
+    font-family: Source Sans Pro;
+    width: 43.8vw;
+    max-width: 873px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 1.3;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.event_violet h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3.7vh;
+}
+
+.event_apply{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 5.1vh 0px 15vh 0px;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.event_apply>h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5.8vh;
+}
+.event_apply>a{
+    width: fit-content;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #2f80ed;
+    border: 1.5px solid #2f80ed;
+    border-radius: 8px;
+    padding: 1.5vh 3vw;
+    margin-top: 5vh;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    justify-self: center;
+}
+.event_apply>a:hover{
+    background: #fff;
+    color: #2f80ed;
+}
+/*  */
+
+.event_partner_p1{
+    width: 100%;
+    background:#F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7vh 0px 15vh 0px;
+}
+.event_partner_p1 h3{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 7vh;
+}
+
+.event_partner_p1>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.event_partner_p1>div>div:last-child{
+    margin-left: 15vw;
+}
+
+.event_partner_p1>div>div{
+    display: flex;
+    width:18.6vw;
+    height: 12.1vw;
+    max-width: 374.47px;
+    max-height: 245.97px;
+}
+
+.event_partner_p1>div>div>a{
+    display: flex;
+}
+.event_partner_p1>div>div>a>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*  */
+.event_partner_p1.v2{
+    background: #FFFFFF;
+}
+.event_partner_p1.v2>div{
+    padding: 0px 10vw;
+    justify-content: space-around;
+}
+.event_partner_p1.v2>div>div:last-child{
+    margin-left: 0vw;
+}
+.event_partner_p1.v2>div>div{
+    display: flex;
+    width:15.2vw;
+    height: 10vw;
+    max-width: 306px;
+    max-height: 201px;
+}
+
+
+.rakHoliday2021 .valunteersOppartunitis{
+    background-color: #FFFFFF;
+}
+.rakHoliday2021 .event_status .opartunnitisItem{
+    background-color: #FFFFFF;
+    height: 26vh;
+}
+
+.rakHoliday2021 .teamleadTypeItem .card{
+    width: 27.45vw;
+    max-width: 549px;
+    margin-bottom: 6vh;
+    height: 42vw;
+    max-height: 825px;
+}
+.rakHoliday2021 .teamleadTypeItem .back{
+    padding: 3vh 2vw 0px 3vw;
+    align-content: center;
+    padding-bottom: 14px;
+    justify-items: center;
+}
+
+.rakHoliday2021 .teamleadTypeItem .front>button{
+    margin-top: 13vh!important;
+}
+.rakHoliday2021 .teamleadTypeItem .front>button,
+.rakHoliday2021 .teamleadTypeItem .back>button{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1vh 3.2vw;
+    border: 1.5px solid #2F80ED;
+    background: #2F80ED;
+    border-radius: 8px;
+    transition: all .4s ease;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.rakHoliday2021 .teamleadTypeItem .back>h4,
+.rakHoliday2021 .teamleadTypeItem .front>h4{
+    color: #2F80ED;
+    font-size: 1.6vw;
+}
+.rakHoliday2021 .teamleadTypeItem .back>div,
+.rakHoliday2021 .teamleadTypeItem .front>div{
+    width: 10vw;
+    height: 10vw;
+    max-width: 200px;
+    max-height: 200px;
+}
+.rakHoliday2021 .teamleadTypeItem .back>p{
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+.textOpening{
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: flex-end;
+    color: #2F80ED;
+    padding: 3px 14px;
+    margin: 5px 0px;
+    border: 2px solid #0D63D7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: none;
+}
+.placeIcon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.35vw;
+    line-height: 36px;
+    color: #222222;
+    cursor: pointer;
+}
+.placeIcon>img{
+    width: 2.5vw;
+    height: 2.5vw;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 35px;
+    min-height: 35px;
+    margin-right: 12px;
+}
+
+.placeIcon:first-of-type{
+    display: none;
+}
+
+/* PARTNERS */
+.rakHoliday2021 .partners{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:5.4vh 5.65vw 0 5.65vw;
+}
+.rakHoliday2021 .partners.organizers{
+    background: rgba(227, 227, 227, 0.3);
+}
+
+.rakHoliday2021 .partners h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+    text-align: center;
+    color: #596273;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 9.3vh;
+}
+.rakHoliday2021 .partners a{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #2F80ED;
+}
+
+
+.rakHoliday2021 .partners .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 11vh;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+.rakHoliday2021 .partners .row.r50{
+    justify-content: center;
+}
+.rakHoliday2021 .partners .row.r33{
+    justify-content: space-between;
+}
+
+.rakHoliday2021 .partners .row>div{
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+}
+.rakHoliday2021 .partners .row.r33>div{
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 3.5vw;
+}
+.rakHoliday2021 .partners .row.r50>div{
+    width: 50%;
+    padding: 0px 5vw;
+}
+.rakHoliday2021 .partners .row.r25>div{
+    width:17%;
+    margin-bottom:10vh;
+    padding: 0px 2vw;
+}
+
+.rakHoliday2021 .partners .row>div>a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rakHoliday2021 .partners .row.r25>div>a{
+    height: 94px;
+}
+
+.rakHoliday2021 .partners .row.r33>div>a{
+    height: 240px;
+}
+
+.rakHoliday2021 .partners .row.r60>div>a{
+    height: 70px;
+}
+
+
+.rakHoliday2021 .partners .row>div>a>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rakHoliday2021 .partners .row>div>span{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    text-align: center;
+    color: #9C9C9C;
+    margin-top: 2vh;
+}
+/* END PARTNERS */
+
+/* InfoGraphic */
+.rakHoliday2021 .statisticItem{
+    width: 25%;
+}
+/* END InfoGraphic */
+
+/* Startups */
+.rakHoliday2021 .startups{
+    width: 100%;
+    padding: 10vh 5vw;
+    background-color: #F7F7F7;
+}
+
+.rakHoliday2021 .startups .first_floor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.rakHoliday2021 .startups>h2{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3vw;
+    color: #596273;
+    width: 100%;
+}
+.rakHoliday2021 .startups .first_floor .left{
+    width: 61%;
+    padding-right: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.rakHoliday2021 .startups .first_floor .left p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.5;
+    font-size: 1.5vw;
+}
+.rakHoliday2021 .startups .first_floor .left p b{
+    font-size: 1.6vw;
+}
+
+.rakHoliday2021 .startups .first_floor .left .imageList{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5vh;
+}
+.rakHoliday2021 .startups .first_floor .left .imageList>img{
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    transition: border .1s;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+.rakHoliday2021 .startups .first_floor .left .imageList>img.active{
+    box-sizing: border-box;
+    border: 3px solid #2F80ED;
+    opacity: 1;
+}
+
+
+.rakHoliday2021 .startups .first_floor .right{
+    width: 38%;
+}
+.rakHoliday2021 .startups .first_floor .right img{
+    max-width: 100%;
+}
+.rakHoliday2021 .startups .second_floor{
+    width: 100%;
+    padding: 0px 1vw;
+    margin-top: 10vh;
+}
+.rakHoliday2021 .startups .second_floor>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9C9C9C;
+    padding:6vh 0px;
+}
+.rakHoliday2021 .startups .second_floor .investor{
+    width: 16.5vw!important;
+    max-width: 330px;
+    display: flex!important;
+    justify-items: center;
+    /* padding-right: 4vw; */
+    align-items: flex-start;
+    align-content: flex-start;
+    cursor: pointer;
+    margin: 0px 40px;
+}
+.rakHoliday2021 .startups .second_floor .investor .imgBox{
+    width: 15vw;
+    height: 11vw;
+    max-width: 320px;
+    max-height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    /* padding: 30px 1px; */
+}
+
+.rakHoliday2021 .startups .second_floor .investor .imgBox img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: all .2s;
+}
+
+.rakHoliday2021 .startups .second_floor .investor:hover .imgBox img{
+    /* border: 3.16px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 11px; */
+    -moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+}
+.rakHoliday2021 .startups .second_floor .investor.active .imgBox img{
+    /* border: 3.16px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 11px; */
+    -moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+}
+
+.rakHoliday2021 .startups .second_floor .investor .name{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    width: 15vw;
+    max-width: 320px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000;
+}
+.rakHoliday2021 .startups .second_floor .investor .info{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8vw;
+    line-height: normal;
+    color: #222;
+    opacity: .7;
+}
+
+.rakHoliday2021 .startups .second_floor .slick-next::before,
+.rakHoliday2021 .startups .second_floor .slick-prev::before{
+    content: "\F104";
+    font-family: FontAwesome;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5vw;
+    height: 5.1vh;
+    max-width: 34px;
+    max-height: 56px;
+    opacity: .7;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: all .3s ease;
+    color:#9C9C9C;
+}
+.rakHoliday2021 .startups .second_floor .slick-next::before{
+    content: "\F105";
+    width: 0vw;
+}
+
+.rakHoliday2021  .slick-slider .slick-list,
+.rakHoliday2021  .slick-slider .slick-track{
+    border-radius: 0px;
+}
+
+/* End Startups */
+
+/* Mentors */
+.rakHoliday2021 .mentors{
+    width: 100%;
+    padding: 10vh 5vw;
+    background-color: #ffffff;
+}
+.rakHoliday2021 .mentors div{
+    outline: none;
+}
+
+
+.rakHoliday2021 .mentors>h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #596273;
+    width: 100%;
+    text-align: center;
+}
+.rakHoliday2021 .mentors>h4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1vw;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #9C9C9C;
+    margin-bottom: 9.3vh;
+}
+
+.rakHoliday2021 .mentors .second_floor{
+    width: 100%;
+    padding: 0px 1vw;
+}
+
+.rakHoliday2021 .mentors .second_floor .mentor{
+    width: 12.5vw!important;
+    max-width: 240px;
+    display: grid!important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: space-between;
+    /* box-sizing: content-box; */
+    cursor: pointer;
+    margin: 0px 40px;
+}
+.rakHoliday2021 .mentors .second_floor .mentor .imgBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+}
+.rakHoliday2021 .mentors .second_floor .mentor .imgBox img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.rakHoliday2021 .mentors .second_floor .mentor .name{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8vw;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000;
+    margin-top: 17px;
+}
+
+.rakHoliday2021 .mentors .second_floor .mentor .position{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #858585;
+    margin-top: 6px;
+    height: 36px;
+}
+
+.rakHoliday2021 .mentors .second_floor .mentor a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #bdbdbd;
+    margin-top: 10px;
+}
+.rakHoliday2021 .mentors .second_floor .mentor a::before{
+    content: "\f0e1";
+    display: flex;
+    font-family: FontAwesome;
+    font-weight: 200;
+    width: 16px;
+    height: 16px;
+}
+
+.rakHoliday2021 .mentors .second_floor .slick-next,
+.rakHoliday2021 .mentors .second_floor .slick-prev{
+    top: 9vw!important;
+}
+
+.rakHoliday2021 .mentors .second_floor .slick-next::before,
+.rakHoliday2021 .mentors .second_floor .slick-prev::before{
+    content: "\F104";
+    font-family: FontAwesome;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5vw;
+    height: 5.1vh;
+    max-width: 34px;
+    max-height: 56px;
+    opacity: .7;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: all .3s ease;
+    color:#9C9C9C;
+}
+.rakHoliday2021 .mentors .second_floor .slick-next::before{
+    content: "\F105";
+    width: 0px;
+}
+
+.rakHoliday2021  .slick-slider .slick-list,
+.rakHoliday2021  .slick-slider .slick-track{
+    border-radius: 0px;
+}
+/* End Mentors */
+
+/* Diaries */
+.rakHoliday2021 .diaries{
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 5.5vh 6vw;
+}
+.rakHoliday2021 .diaries h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.3vw;
+    line-height: normal;
+    text-align: center;
+    color: #596273;
+}
+.rakHoliday2021 .diaries .body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+.rakHoliday2021 .diaries .body .left{
+    display: flex;
+    width: 57%;
+    max-width: 943px;
+}
+.rakHoliday2021 .diaries .body .left iframe{
+    width: 100%;
+    height: 27.2vw;
+    max-height: 532px;
+}
+
+.rakHoliday2021 .diaries .body .right{
+    display: grid;
+    align-content: flex-start;
+    /* align-items: flex-start; */
+    width: 42%;
+    max-width: 696px;
+}
+.rakHoliday2021 .diaries .body .right>div{
+    width: 100%;
+    height: 6.5vw;
+    max-height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 0.9vh;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+.rakHoliday2021 .diaries .body .right>div:hover {
+    border: 4px solid #2F80ED;
+}
+.rakHoliday2021 .diaries .body .right>div.active{
+    border: 4px solid #2F80ED;
+}
+.rakHoliday2021 .diaries .body .right>div>div{
+    width: 5.8vw;
+    height: 5.8vw;
+    max-width: 112px;
+    max-height: 112px;
+}
+.rakHoliday2021 .diaries .body .right>div>div>img{
+    max-width: 100%;
+}
+
+.rakHoliday2021 .diaries .body .right>div>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    color: #596273;
+    margin-left: 2vw;
+    display: grid;
+    cursor: pointer;
+}
+.rakHoliday2021 .diaries .body .right>div>p>span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+/* End Diaries */
+
+/* Infographic */
+.rakHoliday2021 .firstPageStatistic h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.3vw;
+    line-height: normal;
+    text-align: center;
+    color: #596273;
+}
+.rakHoliday2021 .firstPageStatistic .statisticItem>div>span{
+    color: #596273;
+}
+/* End Infographic */
+
+
+@media (min-width: 2200px){
+    .rakHoliday2021 .teamleadTypeItem .front>button{
+        margin-top: 113px!important;
+    }
+    .textAreaBox.aftercovid19>textarea{
+        width: 518px;
+        max-width: 518px;
+        min-width: 518px;
+        height:  182px;
+        max-height:  182px;
+        min-height:  182px;
+    }
+    .jarmaDiv{
+        margin-left: 150px;
+    }
+    .textAreaBox.aftercovid19>div>h6{
+        font-size: 25px;
+    }
+    .part1Egypt{
+        padding: 50px 0px 88px 220px;
+    }
+    .part1Egypt>div>h2{
+        font-size: 48px;
+    }
+    .part1Egypt>div>p{
+        font-size: 25px;
+
+    }
+    .part1Egypt>div>small{
+        font-size: 20px;
+    }
+    .rakHoliday2021 .subtitle{
+        font-size: 48px;
+    }
+    /*  */
+    .rakHoliday2021Banner>div>h1{
+        font-size: 70px;
+    }
+    .rakHoliday2021Banner>div>h2{
+        font-size: 36px;
+    }
+    .event_part1{
+        padding: 150px 97px 102px 150px;
+    }
+    .event_part1>.left{
+        padding: 40px 100px 40px 0px;
+    }
+    .rakHoliday2021Banner>div{
+        padding: 70px 0px 70px 113px;
+    }
+    .event_part1>.left>p{
+        font-size: 25px;
+        line-height: normal;
+        color: #000000;
+    }
+    .rakHoliday2021 .aboutInfo_left{
+        padding-right: 80px;
+    }     
+    .rakHoliday2021 .aboutInfo_left>p{
+        font-size: 25px;
+    }
+    .rakHoliday2021 .aboutInfo_left>img{
+        margin-top:90px ;
+    }
+    
+    .rakHoliday2021 .aboutInfo_right>img{
+        margin-top:20px;
+    }
+
+
+    .rakHoliday2021 .aboutInfo_left>p>b{
+        font-size: 34px;
+    }
+    
+    .event_part1>.left>div{
+        margin-top:68px;
+    }
+    .event_part1>.left>div>a{
+        padding: 16px 40px;
+    }
+    .event_part1>.left>div>a:nth-child(2){
+        margin-left: 30px;
+    }
+
+    /*  */
+    .event_violet{
+        padding: 98px 0px;
+    }
+    .event_violet p{
+        font-size: 25px;
+    }
+    .event_violet h2{
+        font-size: 72px;
+        margin-top: 40px;
+    }
+    /*  */
+    .event_apply{
+        padding: 57px 0px 167px 0px;
+    }
+    .event_apply>h3{
+        font-size: 48px;
+        margin-bottom: 62px;
+    }
+    .event_apply>a{
+        padding: 19px 50px;
+        margin-top:50px;
+    }
+    /*  */
+    .event_partner_p1{
+        padding: 83px 0px 173px 0px;
+    }
+    .event_partner_p1 h3{
+        font-size: 42px;
+        margin-bottom: 83px;
+    }
+    .event_partner_p1>div>div:last-child{
+        margin-left: 300px;
+    }
+    .event_partner_p1.v2>div{
+        padding: 0px 100px;
+    }
+
+    .rakHoliday2021 .teamleadTypeItem .card{
+        margin-bottom: 60px;
+    }
+
+    .rakHoliday2021 .teamleadTypeItem .back>h4,
+    .rakHoliday2021 .teamleadTypeItem .front>h4{
+        margin-top:60px;
+        font-size: 35px;
+    }
+
+    .rakHoliday2021 .teamleadTypeItem .back>p{
+        font-size: 26px;
+    }
+    .rakHoliday2021 .teamleadTypeItem .back{
+        padding:33px 28px 0px 28px;
+    }
+
+    .placeIcon{
+        font-size: 25px;    
+    }
+
+    /* PARTNERS */
+    .rakHoliday2021 .partners{
+        padding:90px 113px 0 113px;
+    }
+
+    .rakHoliday2021 .partners h3{
+        font-size: 38px;
+        margin-bottom: 90px;
+    }
+
+    .rakHoliday2021 .partners .row{
+        margin-bottom: 113px;
+    }
+
+    .rakHoliday2021 .partners .row.r25>div{
+        margin-bottom: 100px;
+        padding: 0px 40px;
+    }
+    .rakHoliday2021 .partners .row.r33>div{
+        padding: 0px 60px;
+    }
+    .rakHoliday2021 .partners .row.r50>div{
+        padding: 0px 80px;
+    }
+    .rakHoliday2021 .partners .row.r60>div>a{
+        height: 120px;
+    }
+
+    .rakHoliday2021 .partners .row>div>span{
+        font-size: 21px;
+        margin-top: 30px;
+    }
+    /* END PARTNERS */
+
+    /* Spartups */
+    .rakHoliday2021 .startups{
+        padding: 100px 110px;
+    }
+
+    .rakHoliday2021 .startups>h2{
+        font-size: 48px;
+    }
+    .rakHoliday2021 .startups .first_floor .left{
+        padding-right: 60px;
+    }
+    .rakHoliday2021 .startups .first_floor .left p{
+        font-size: 25px;
+    }
+    .rakHoliday2021 .startups .first_floor .left p b{
+        font-size: 34px;
+    }
+    .rakHoliday2021 .startups .first_floor .left .imageList{
+        margin-top: 60px;
+    }
+
+    .rakHoliday2021 .startups .second_floor{
+        padding: 0px 20px;
+        margin-top: 100px;
+    }
+    .rakHoliday2021 .startups .second_floor>p{
+        font-size: 23px;
+        padding:60px 0px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .name{
+        font-size: 23px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .info{
+        font-size: 19px;
+    }
+
+    .rakHoliday2021 .startups .second_floor .slick-next::before,
+    .rakHoliday2021 .startups .second_floor .slick-prev::before{
+        font-size: 60px;
+    }
+
+    .rakHoliday2021  .slick-slider .slick-list,
+    .rakHoliday2021  .slick-slider .slick-track{
+        border-radius: 0px;
+    }
+    /* End Spartups */
+    
+    /* Mentors */
+    .rakHoliday2021 .mentors{
+        padding: 100px 110px;
+    }
+    .rakHoliday2021 .mentors>h3{
+        font-size: 48px;
+    }
+    .rakHoliday2021 .mentors>h4{
+        font-size: 23px;
+        margin-bottom: 90px;
+    }
+
+    .rakHoliday2021 .mentors .second_floor{
+        padding: 0px 20px;
+    }
+    .rakHoliday2021 .mentors .second_floor>p{
+        font-size: 23px;
+        padding:60px 0px;
+    }
+    .rakHoliday2021 .mentors .second_floor .mentor .name{
+        font-size: 17px;
+    }
+
+    .rakHoliday2021 .mentors .second_floor .mentor .position{
+        font-size: 11px;
+    }
+
+    .rakHoliday2021 .mentors .second_floor .slick-next::before,
+    .rakHoliday2021 .mentors .second_floor .slick-prev::before{
+        font-size: 60px;
+    }
+
+    /* End Mentors */
+
+    /* Diaries */
+    .rakHoliday2021 .diaries{
+        padding: 60px 115px;
+    }
+    .rakHoliday2021 .diaries h2{
+        font-size: 48px;
+    }
+    .rakHoliday2021 .diaries .body{
+        margin-top: 45px;
+    }
+    .rakHoliday2021 .diaries .body .right>div{
+        margin-bottom: 9px;
+    }
+    .rakHoliday2021 .diaries .body .right>div>p{
+        font-size: 32px;
+        margin-left: 45px;
+    }
+    .rakHoliday2021 .diaries .body .right>div>p>span{
+        font-size: 23px;
+    }
+    /* End Diaries */
+
+    /* Infographic */
+    .rakHoliday2021 .firstPageStatistic h2{
+        font-size: 48px;
+    }
+    /* End Infographic */
+}
+@media (max-width: 1300px){
+    .rakHoliday2021Banner{
+        background: url('./bg.png') no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 488px;
+        height: auto;
+        background-position: bottom;
+    }   
+    .rakHoliday2021 .startups .second_floor>p{
+        padding: 40px 0px;
+    }
+}
+
+@media (max-width: 1024px){
+    .jarmaDiv{
+        margin-left: 30px;
+    }
+    .textAreaBox.aftercovid19{
+        width: 100%;
+        max-width: unset;
+        height:  225px;
+        max-height:  225px;
+    }
+    
+    .textAreaBox.aftercovid19>div{
+        width: 100%;
+        max-width: unset;
+    }
+    .textAreaBox.aftercovid19>div>h6{
+        font-size: 25px;
+    }
+    .textAreaBox.aftercovid19>textarea{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height:  182px;
+        max-height:  182px;
+        min-height:  182px;
+    }
+    .rakHoliday2021Banner{
+        background: url(./bg.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 290px;
+        height: auto;
+    }
+    .rakHoliday2021Banner>div{
+        padding: 40px 0px 40px 40px;
+    }
+    .rakHoliday2021Banner>div>h1{
+        font-size: 35px;
+    }
+    .rakHoliday2021Banner>div>h2{
+        font-size: 20px;
+    }
+    .rakHoliday2021 .subtitle{
+        font-size: 35px;
+    }
+    /*  */
+
+    .event_part1{
+        padding: 40px 30px 40px 60px;
+    }
+    .event_part1>.left{
+        padding: 30px 20px 30px 0px;
+    }
+    .event_part1>.left>div>a{
+        padding: 16px 15px;
+    }
+    .event_part1>.left>div>a:nth-child(2){
+        margin-left: 10px;
+    }
+    /*  */
+    .event_violet{
+        padding: 30px 0px;
+    }
+    .event_violet p{
+        width: 70%;
+        font-size: 22px;
+    }
+    .event_violet h2{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+    /*  */
+    .event_apply{
+        padding: 40px 0px 60px 0px;
+    }
+    
+    .event_apply>h3{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .event_apply>a{
+        padding: 19px 50px;
+        margin-top:20px;
+    }
+    /*  */
+    .event_partner_p1{
+        padding: 40px 0px 60px 0px;
+    }
+    .event_partner_p1 h3{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .rakHoliday2021 .aboutInfo_left>p>b{
+        font-size: 27px;
+    }
+    .rakHoliday2021 .aboutInfo_left p{
+        font-size: 25px;
+    }
+    .placeIcon{
+        font-size: 3vw;    
+    }
+    /* PARTNERS */
+    .rakHoliday2021 .partners{
+        padding:35px 50px 0 50px;
+    }
+
+    .rakHoliday2021 .partners h3{
+        font-size: 35px;
+        margin-bottom: 90px;
+    }
+
+    .rakHoliday2021 .partners .row{
+        margin-bottom: 50px;
+    }
+    
+    .rakHoliday2021 .partners .row.r25>div{
+        margin-bottom: 40px;
+    }
+    .rakHoliday2021 .partners .row.r50>div{
+        align-items: center;
+    }
+    .rakHoliday2021 .partners .row.r33>div{
+        align-items: baseline;
+    }
+
+    .rakHoliday2021 .partners .row>div>a>img{
+        max-width: 110px;
+        max-height: 67px;
+    }
+
+    .rakHoliday2021 .partners .row>div>span{
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    /* END PARTNERS */
+    
+    /* InfoGraphic */
+    .rakHoliday2021 .statisticItem{
+        width: 100%;
+    }
+    /* End InfoGraphic */
+    
+
+}
+
+
+@media (max-width: 770px){
+    .opartunnitisItem>p{
+        font-size: 10px;
+    }
+    .event_status .opartunnitisItem small{
+        font-size: 10px;
+    }
+
+    .event_status h5{
+        margin-top: 47px;
+    }
+
+    .rakHoliday2021 .partners .row>div>a>img{
+        max-width: 120px;
+        max-height: 48px;
+    }
+
+    .rakHoliday2021 .partners .row>div>span{
+        font-size: 15px;
+        margin-top: 13px;
+    }
+        /* Startup */
+    .rakHoliday2021 .startups>h2{
+        font-size: 4vw;
+        width: 100%;
+        text-align: center;
+    }
+    .rakHoliday2021 .startups .first_floor .left{
+        width: 100%;
+    }
+    .rakHoliday2021 .startups .first_floor .left p{
+        font-size: 25px;
+    }
+    .rakHoliday2021 .startups .first_floor .left p b{
+        font-size: 27px;
+    }
+
+    .rakHoliday2021 .startups .first_floor .right{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .rakHoliday2021 .startups{
+        padding: 40px 40px;
+    }
+    .rakHoliday2021 .startups .second_floor{
+        margin-top: 30px;
+    }
+    .rakHoliday2021 .startups .second_floor>p{
+        padding: 25px 0px;
+        font-size: 25px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .name{
+        font-size: 18px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .info{
+        font-size: 14px;
+    }
+    /* End Startup */
+    /* Startup */
+    .rakHoliday2021 .startups>h2{
+        font-size: 4vw;
+        width: 100%;
+        text-align: center;
+    }
+    .rakHoliday2021 .startups .first_floor .left{
+        width: 100%;
+        margin-top: 34px;
+    }
+    .rakHoliday2021 .startups .first_floor .left p{
+        font-size: 25px;
+    }
+    .rakHoliday2021 .startups .first_floor .left p b{
+        font-size: 27px;
+    }
+
+    .rakHoliday2021 .startups .first_floor .right{
+        width: 100%;
+    }
+
+    .rakHoliday2021 .startups{
+        padding: 40px 40px;
+    }
+    .rakHoliday2021 .startups .second_floor>p{
+        padding: 25px 0px;
+        font-size: 25px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .name{
+        font-size: 18px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .info{
+        font-size: 14px;
+    }
+    .rakHoliday2021 .startups .second_floor .slick-next,
+    .rakHoliday2021 .startups .second_floor .slick-prev{
+        display: none;
+    }
+    .rakHoliday2021 .startups .second_floor .investor {
+        width: 26vw!important;
+        max-width: 200px;
+        margin: 0px 0px;
+    }
+    /* End Startup */
+
+    /* Mentors */
+    /* .rakHoliday2021 .mentor{
+        margin-bottom: 20px;
+    } */
+    .rakHoliday2021 .mentors .second_floor{
+        padding: 15px 1vw;
+    }
+    .rakHoliday2021 .mentor .second_floor>p{
+        padding: 25px 0px;
+        font-size: 25px;
+    }
+    .rakHoliday2021 .mentor .second_floor .mentor .name{
+        font-size: 15px;
+    }
+    .rakHoliday2021 .mentor .second_floor .mentor .position{
+        font-size: 13px;
+    }
+    .rakHoliday2021 .mentor .second_floor .slick-next,
+    .rakHoliday2021 .mentor .second_floor .slick-prev{
+        display: none;
+    }
+    .rakHoliday2021 .mentor .second_floor .mentor {
+        width: 26vw!important;
+        max-width: 200px;
+        margin: 0px 0px;
+    }
+    /* End Mentors */
+
+}
+@media (max-width: 599px){
+    .jarmaDiv{
+        margin-left: 0px;
+    }
+    .textAreaBox.aftercovid19>div>h6{
+        font-size: 16px;
+        width: 100%;
+    }
+    .textAreaBox.aftercovid19>textarea{
+        font-size: 16px;
+    }
+    .rakHoliday2021Banner{
+        background: url(./bg.png) no-repeat 15% 0%;
+        background-size: 100%;
+        min-height: 184px;
+        height: auto;
+    }
+    .rakHoliday2021Banner>div{
+        padding: 50px 0px 6px 11px;
+        height: 100%;
+    }
+    .rakHoliday2021Banner>div>h1{
+        font-size: 25px;
+    }
+    .rakHoliday2021Banner>div>h2{
+        font-size: 18px;
+    }
+    .rakHoliday2021Banner>div>h2>a{
+        color: #F7F7F7;
+    }
+    .rakHoliday2021Banner>div>button{
+        margin-top: 0px;
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    .rakHoliday2021 .subtitle{
+        font-size: 20px;
+    }
+
+    .part1Egypt{
+        padding: 30px 20px 30px 30px;
+    }
+    .part1Egypt>div{
+        min-width: 100%;
+    }
+    .part1Egypt>div>h2{
+        font-size: 20px;
+    }
+    .part1Egypt>div>p{
+        font-size: 16px;
+    }
+    .part1Egypt>div>small{
+        font-size: 15px;
+    }
+
+    /*  */
+    .rakHoliday2021Banner>div{
+        bottom: unset;
+    }
+    .event_part1{
+        flex-wrap: wrap;
+        padding: 30px 30px 30px 30px;
+    }
+    .event_part1>.left{
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        max-width: unset;
+    }
+    
+    .event_part1>.left>p{
+        font-size: 17px;
+    }
+    
+    .rakHoliday2021 .aboutInfo_left h2{
+        text-align: left;
+        margin-bottom: 0px;
+        font-size: 31px;
+    }
+    .rakHoliday2021 .aboutInfo_left p{
+        font-size: 20px;
+    }
+    .rakHoliday2021 .aboutInfo_left>p>b{
+        font-size: 22px;
+    }
+    .rakHoliday2021 .aboutInfo:nth-child(4) .aboutInfo_left:nth-child(1){
+        order: 1;
+    }
+    .event_part1>.left>div{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top:30px;
+        justify-content: center;
+    }
+    .event_part1>.left>div>a{
+        width: 100%;
+        padding: 16px 10px;
+        justify-content: center;
+    }
+    .event_part1>.left>div>a:nth-child(2){
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .event_part1>.right{
+        display: none;
+    }
+    /*  */
+    .event_status .opartunnitisItem{
+        width: 90%;
+        height: 231px;
+    }
+    .event_status .opartunnitisItem small{
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    .event_status h5{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .event_status>div:nth-child(4) .opartunnitisItem{
+        height: 180px;
+    }
+    .event_status>.footer>div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .event_status>.footer>p{
+        margin-top: 15px;
+        font-size: 15px;
+        width: 100%;
+        max-width: unset;
+    }
+
+    /*  */
+    .event_violet{
+        padding: 25px 20px;
+    }
+    .event_violet p{
+        font-size: 17px;
+        width: 100%;
+
+    }
+    .event_violet h2{
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    /*  */
+    .event_apply{
+        padding: 30px 0px 30px 0px;
+    }
+    
+    .event_apply>h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .event_apply>a{
+        padding: 16px 50px;
+        margin-top:20px;
+    }
+
+    /*  */
+    .event_partner_p1{
+        padding: 30px 20px 30px 20px;
+    }
+    .event_partner_p1 h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .event_partner_p1>div>div{
+        width: 90%;
+        height: auto;
+        justify-content: space-around;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    .event_partner_p1>div>div>a {
+        justify-content: center;
+        align-items: center;
+    }
+    .event_partner_p1>div>div:last-child{
+        margin-left: 0px;
+    }
+    .event_partner_p1.v2>div{
+        padding: 0px 0px;
+    }
+    .event_partner_p1.v2>div>div{
+        width: 50%;
+        height: auto;
+        justify-content: space-around;
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
+
+
+    .rakHoliday2021 .teamleadTypeItem .card{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 460px;
+    }
+    .rakHoliday2021 .teamleadTypeItem .back{
+        padding:2px 15px 7px 15px;
+    }
+    .rakHoliday2021 .teamleadTypeItem .back>h4,
+    .rakHoliday2021 .teamleadTypeItem .front>h4{
+        margin-top:15px;
+        font-size: 20px;
+    }
+
+    .rakHoliday2021 .teamleadTypeItem .back>p{
+        font-size: 15px;
+    }
+
+    .rakHoliday2021 .teamleadTypeItem .back>div, 
+    .rakHoliday2021 .teamleadTypeItem .front>div{
+        width: 120px;
+        height: 120px;
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .event_violet div{
+        width: 100px;
+    }
+    .event_violet div img{
+        width: 100%;
+    }
+
+    .rakHoliday2021 .aboutInfo{
+        padding:20px 30px;
+    }
+
+    .textOpening{
+        display: block;
+    }
+
+    .textOpeningWhatIs.More{
+        display: -webkit-box;
+       -webkit-line-clamp: 6;
+       -webkit-box-orient: vertical;
+       overflow: hidden;
+       height: 180px;
+     }
+    .textOpeningWhatIs.Less{
+        display: block;
+       -webkit-line-clamp: 3;
+       -webkit-box-orient: unset;  
+       overflow: unset;
+     }
+    
+    .placeIcon{
+        display: none;
+        font-size: 17px;
+        line-height: 1;   
+    }
+
+    .placeIcon:first-of-type{
+        margin-top: 12px;
+        display: flex!important;
+    }
+    /* PARTNERS */
+    .rakHoliday2021 .partners{
+        padding:30px 30px 0 30px;
+    }
+
+    .rakHoliday2021 .partners h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rakHoliday2021 .partners .row{
+        margin-bottom: 0px;
+    }
+
+    .rakHoliday2021 .partners .row.r33>div{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .rakHoliday2021 .partners .row.r50>div,
+    .rakHoliday2021 .partners .row.r25>div{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .rakHoliday2021 .partners .row.r25>div>a{
+        height: auto;
+    }
+    
+    .rakHoliday2021 .partners .row.r33>div>a{
+        height: auto;
+    }
+    
+    .rakHoliday2021 .partners .row.r60>div>a{
+        height: auto;
+    }
+    .rakHoliday2021 .partners .row>div>a>img{
+        max-width: 80px;
+        max-height: 38px;
+    }
+    .rakHoliday2021 .partners .row.r50>div>a>img{
+        max-width: 120px;
+        max-height: 67px;  
+    }
+    .rakHoliday2021 .partners .row.r33>div>a>img{
+        max-width: 90px;
+        max-height: 70px;  
+    }
+
+    .rakHoliday2021 .partners .row>div>span{
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    /* END PARTNERS */
+
+    /* Startup */
+    .rakHoliday2021 .startups>h2{
+        font-size: 31px;
+        order: 0;
+    }
+    .rakHoliday2021 .startups .first_floor{
+     order: 2;    
+    }
+
+    .rakHoliday2021 .startups .first_floor .left p{
+        font-size: 20px;
+    }
+    .rakHoliday2021 .startups .first_floor .left p b{
+        font-size: 22px;
+    }
+
+    .rakHoliday2021 .startups{
+        padding: 20px 30px 35px 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .rakHoliday2021 .startups .second_floor{
+        order: 1;
+    }
+    .rakHoliday2021 .startups .second_floor>p{
+        font-size: 20px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor {
+        width: 36vw!important;
+        max-width: 240px;
+        margin-bottom: 25px;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .imgBox{
+        width: 40vw;
+        height: 22vw;
+    }
+
+    .rakHoliday2021 .startups .second_floor .investor.active .imgBox img{
+        /* border: 3.16px solid #2F80ED;
+        box-sizing: border-box;
+        border-radius: 11px; */
+        -moz-transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -o-transform: scale(.9);
+        -ms-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+    .rakHoliday2021 .startups .second_floor .investor .name{
+        font-size: 14px;
+        width: 40vw;
+    }
+    .rakHoliday2021 .startups .second_floor .investor .info{
+        font-size: 9px;
+    }
+    .rakHoliday2021 .startups .second_floor .slick-next,
+    .rakHoliday2021 .startups .second_floor .slick-prev{
+        display: none;
+    }
+    /* End Startup */
+    
+    /* Mentor */
+    .rakHoliday2021 .mentors>h3{
+        font-size: 20px;
+    }
+
+    .rakHoliday2021 .mentors>h4{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .rakHoliday2021 .mentors{
+        padding: 20px 30px;
+    }
+    .rakHoliday2021 .mentors .second_floor>p{
+        font-size: 20px;
+    }
+    .rakHoliday2021 .mentors .second_floor .mentor {
+        width: 36vw!important;
+        max-width: 240px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .rakHoliday2021 .mentors .second_floor .mentor .imgBox{
+        width: 40vw;
+        height: 34vw;
+    }
+    .rakHoliday2021 .mentors .second_floor .mentor .name{
+        font-size: 14px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+    }
+    .rakHoliday2021 .mentors .second_floor .mentor .position{
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+        margin-top:1px
+    }
+    .rakHoliday2021 .mentors .second_floor .slick-next,
+    .rakHoliday2021 .mentors .second_floor .slick-prev{
+        display: none;
+    }
+
+    /* End Mentor */
+
+    /* Diaries */
+    .rakHoliday2021 .diaries{
+        padding: 25px 30px;
+    }
+    .rakHoliday2021 .diaries h2{
+        font-size: 31px;
+    }
+    .rakHoliday2021 .diaries .body .left{
+        width: 100%;
+    }
+    .rakHoliday2021 .diaries .body .left iframe{
+        height: 220px;
+    }
+    .rakHoliday2021 .diaries .body .right{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .rakHoliday2021 .diaries .body .right>div{
+        width: 100%;
+        padding: 5px;
+        height: 80px;
+    }
+
+    .rakHoliday2021 .diaries .body .right>div>div{
+        width: 70px;
+        height: 70px;
+    }
+    .rakHoliday2021 .diaries .body .right>div>p{
+        font-size: 18px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .rakHoliday2021 .diaries .body .right>div>p>span{
+        font-size: 12px;    
+    }
+
+    /* End Diaries */
+
+    /* Infographic */
+    .rakHoliday2021 .firstPageStatistic h2{
+        font-size: 31px;
+    }
+    /* End Infographic */
+}

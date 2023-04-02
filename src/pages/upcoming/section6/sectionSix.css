@@ -1,0 +1,183 @@
+.sectionSix{
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+    min-height: 600px;
+    background:#FFFFFF;
+    background: linear-gradient(rgba(14, 32, 67, .85),rgba(14, 32, 67, .85)),url(../img/investor.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    position: absolute;
+    max-width: 1920px;
+    padding-top: 100px;
+    z-index: 15;
+    display: flex;
+}
+.invesormiddle{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 5.65vw;
+}
+.investorTextPart{
+    padding-left: 9.5vw;
+}
+.investorTextPart h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.75vw;
+    line-height: 2.2vw;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.investorTextPart h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5.5vw;
+    line-height: 6vw;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-align: left;
+}
+.carusel{
+    width: 100%;
+    height: 157px;
+    display: flex;
+    position: relative;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.caruselLeft,
+.caruselrigth{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    font-size: 21px;
+    display: flex;
+    font-size: 21px;
+    color: #FFFFFF;
+    transition: all .3s ease;
+    cursor: pointer;
+    z-index: 10;
+}
+.caruselLeft:hover,
+.caruselrigth:hover{
+    color: #2c343c;
+    user-select: none;
+}
+.caruselLeft{
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+.caruselrigth{
+    right: 0;
+    background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
+    justify-content: flex-end;
+}
+.caruselAnimate{
+    -webkit-animation: carusel 20s linear infinite;
+    animation: carusel 20s linear infinite;
+}
+.caruselMiddle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+.caruselMiddle>div{
+    display: flex;
+    width: 20%;
+    min-width: 20%;
+    height: 110px;
+    padding: 0px 40px;
+}
+.caruselMiddle>div>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.caruselMiddle>div>div>img{
+    max-height: 100%;
+    max-width: 100%;
+}
+/* ///...MEDIA.../// */
+@media (min-width: 2200px) {
+    .invesormiddle{
+        padding-top: 100px;
+    }
+    .investorTextPart{
+        padding-left: 163px;
+    }
+    .investorTextPart h3{
+        font-size: 50px;
+        line-height: normal;
+    }
+    .investorTextPart h2{
+        font-size: 90px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 850px) {
+    .sectionSix {
+        position: relative;
+        min-height: 100vh;
+        height: auto!important;
+    }
+    .investorTextPart{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .investorTextPart h3{
+        font-weight: 300;
+        font-size: 26px;
+        line-height: normal;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+    }
+    .investorTextPart h2{
+        font-weight: 800;
+        font-size: 26px;
+        line-height: normal;
+        letter-spacing: 0.01em;
+        margin-left: 10px;
+    }
+    .caruselMiddle>div{
+        min-width: 45%;
+        width: 45%;
+    }
+}
+@media (max-width: 500px) {
+    .sectionSix {
+        position: relative;
+        min-height: 70vh;
+        height: auto;
+        padding-top: 0px;
+    }
+    .invesormiddle{
+        align-items: flex-end;
+    }
+}
+/* ///...KEYFREMS.../// */
+
+@keyframes carusel {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(20% * -7))}
+}
+@-webkit-keyframes carusel {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(20% * -7))}
+}

@@ -1,0 +1,64 @@
+.fixedMenu{
+    position: fixed;
+    z-index: 1000;
+    right: 2em;
+    top: 30vh;
+    min-height: 300px;
+}
+
+.fixedMenu ul li{
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.fixedMenu ul li a{
+    display: flex;
+    justify-content: space-between;
+}
+.fixedMenu ul li a .span1{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8vw;
+    line-height: 1.5vw;
+    text-transform: uppercase;
+    opacity: 0.2;
+    transition: all .4s ease;
+    text-align: right;
+    padding-right: 10px;
+    width: 8.5vw;
+    letter-spacing: 3px;
+}
+
+.fixedMenueWhite ul li a .span1{
+    color: #858585!important;
+}
+.fixedMenueWhite ul li a .span2{
+    background: #858585!important;
+}
+.fixedMenu ul li a .span2{
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    transition: all .4s ease;
+    margin-top: .35vw;
+}
+
+.fixedMenu ul li a:hover .span1{
+    opacity: 0.5;
+}
+.fixedMenu ul li a:hover .span2{
+    opacity: 0.5;
+}
+
+.fixedMenu .active .span1{
+    color:#FFFFFF;
+    opacity: 1;
+}
+.fixedMenu .active .span2{
+    opacity: 1;
+    color:#FFFFFF;
+}

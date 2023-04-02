@@ -1,0 +1,340 @@
+@media (min-height:1084px) and (max-width:990px)
+{
+#shortInfo{
+margin-top:30%;
+} 
+}
+@media screen and (min-width:990px)
+{
+#rakMenue2{
+  display:none!important;  
+}
+}
+
+@media screen and (max-height:600px)
+{
+/* #cover{
+    height:700px;
+} */
+
+.valanthurZone1 {
+    width: 90%;
+}
+.valanthurZone2 {
+    width: 90%;
+}
+}
+@media screen and (max-width:1350px)
+{
+    #titlePart2{
+        font-size:46px;
+    }
+    #summitRAKtitlePart2{
+        font-size:46px;
+    }
+    .FanIconFoot1 div{
+        font-size: 269%;
+    }
+    .FanIconFoot2 div{
+        font-size: 269%;
+    }
+    .FanIconFoot3 div{
+        font-size: 269%;
+    }
+    .FanIconFoot4 div{
+        font-size: 269%;
+    }
+
+    #RakApply div a {
+        font-size: 24px;
+    }
+}
+
+
+/*----------------------------MEDDIUM---------------*/
+@media only screen and (max-width:990px)
+{
+
+video{
+    width: 100%;
+    height: auto;
+}
+.dayDiv{
+    width: 93%;
+}    
+#dayInfoDiv{
+    width: 92%;
+    padding: 10px;
+}
+
+#video {
+    width: auto;
+    height: 95%;   
+}
+#txt1{
+    font-size: 20px;
+}
+#txt2{
+font-size: 65px;
+}
+#txt3{
+font-size: 65px;
+}
+#txt4{
+font-size: 65px;
+margin-top:-15px;
+}
+#txt5{
+	font-size: 55px;
+	margin-top:55px;
+}
+#txt6{
+font-size: 65px;
+}
+#txt7{
+	font-size: 20px;
+	margin-top: 1px;
+}
+/*////////*/
+.sipikerPerson{
+    width: 42%;
+    margin-left: 3%;
+    height: 48vw;
+
+} 
+.campFirePerson{
+    width: 42%;
+    margin-left: 3%;
+    height: 48vw;
+
+} 
+#timer{
+    width:100%;
+    margin-top:10px;
+} 
+#summitEventImg{
+    width:70%;
+}
+#summitEventinfo{
+    width:94%;
+    padding-right:2%;
+}
+.but{
+    width: 96%;
+}
+#summitRAKImg{
+    width:70%;
+    padding-left:0px;
+}
+.none{
+        display: block!important;
+}
+.none2{
+        display: none!important;
+}
+#summitRAKinfo{
+    width:auto;
+}
+.FunIconDiv{
+    width:45%;
+       margin-bottom: 11%;
+       float: initial;
+   
+}
+#FanIcon{
+    margin-bottom: 16px;
+}
+.rakInvestorImg{
+    padding-top:40px;
+    width:40%;
+    /* height: 358px; */
+}
+#RakApply div{
+    width:90%;
+    margin-top:3px;
+}
+#titlePart2{
+    width:auto;
+}
+#titlePart1{
+    font-size: 37px;
+}
+#summitRAKtitlePart2{
+    width:auto;
+    font-size: 35px;
+}
+#titleSpiker {
+    font-size: 47px;
+}
+#win{
+    
+    margin-left: 3%;
+}
+.galery{
+    width:30%;
+}
+}
+/*-------------------MINI----------------------*/
+@media only screen and (max-width:600px)
+{
+.ongoingTitle{
+    font-size:6vw;
+}    
+#OngoingDays{
+    width:100%;
+} 
+.parnerMinTitleRight{
+        margin-left: 14%;
+}
+#contactInfo{
+        padding: 9px;
+}
+#contactInfo div{
+    font-size: 70%;
+}
+#txt2{
+font-size: 45px;
+}
+#txt3{
+font-size: 45px;
+}
+#txt4{
+font-size: 45px;
+}
+#txt5{
+	 margin-top: 39px;
+	 width:70%;
+}
+#txt6{
+font-size: 45px;
+}
+#titleSpiker{
+    font-size:20px;
+}
+.spikername {
+    font-size: 94%;
+}
+.FanIconFoot1 div {
+    font-size: 142%;
+}.FanIconFoot2 div {
+    font-size: 142%;
+}.FanIconFoot3 div {
+    font-size: 142%;
+}.FanIconFoot4 div {
+    font-size: 142%;
+}
+.FunIconDiv{
+    width:45%;
+    height: 173px;
+}
+#FanIcon{
+    margin-bottom: 16px;
+}
+.campFirePerson {
+    width: 46%;
+    height: 60vw;
+}
+.sipikerPerson{
+    width: 46%;
+    height: 60vw;
+}
+.spikerInfo{height: 136px;}
+.campFireInfo{height: 136px;}
+#timer{
+    width:100%;
+    margin-top:25px;
+} 
+#day1{
+    width:70px;
+    height:70px;
+    margin-left:5px;
+}
+#hour1{
+    width:70px;
+    height:70px;
+     margin-left:5px;
+}
+#minit1{
+    width:70px;
+    height:70px;
+     margin-left:5px;
+}
+#timer div div{
+  margin-top: 18px;
+  font-size:20px;
+}
+
+#aftermove{width:90%;}
+#applayVisitor{width:90%;}
+#contactBut{width:90%;}
+#hourGAL{width:90%;}
+#titlePart1 {
+    line-height: 44px;
+    height:43px;
+    font-size: 14px;
+}#titlePart2 {
+    line-height: 44px;
+    height:43px;
+    font-size: 15px;
+}
+#summitRAKtitlePart1 {
+    line-height: 44px;
+    height:43px;
+    font-size: 15px;
+}#summitRAKtitlePart2 {
+    line-height: 44px;
+    height:43px;
+    font-size: 13px;
+}
+#titleStartup {
+    font-size: 16px;
+}
+#RakApply div a{
+font-size:17px;
+}
+#titleInvestor{
+    font-size:20px;
+}
+.conectItemText {
+    width: 100%;
+    font-size: 14px;
+    margin-left:0px;
+}
+#orgnizersTitleText {
+    line-height: 40px;
+    height: 40px;
+    font-size: 23px;
+}
+#orgnizersTitleText2 {
+    letter-spacing: 1px;
+}
+.FunIconDiv {
+    height: auto;
+}
+.FunIconDiv img {
+    display: none;
+}
+#startupLogo{
+    height: 99px;
+    width: 65%;
+}
+#startupLogo2{
+   height: 120px;
+   width: 48%;
+   padding: 3px;
+}
+}
+
+@media only screen and (max-width:300px)
+{
+video{
+    height: 180px!important;
+    width: 232px!important;
+}
+.campFirePosirion{
+        font-size: 65%;
+}
+.spikerPosirion{
+        font-size: 65%;
+}
+}
