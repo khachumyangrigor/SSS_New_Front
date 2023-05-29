@@ -273,6 +273,7 @@ class Events extends React.Component {
                                         alt="eventImg"
                                     />
                                 </Link>
+                                nnnnn
                             </div>
                             <h3>— Sevan startup summit 2023 —</h3>
                             <p>
