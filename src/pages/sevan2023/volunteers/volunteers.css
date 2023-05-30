@@ -1,0 +1,781 @@
+.upcommingNew_volunteers{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    position: relative;
+    z-index: 20;
+}
+
+.upcommingNew_volunteers .subtitle{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: normal;
+    color: #000000;
+}
+
+.volunteersBanner{
+    width: 100%;
+    height: 89vh;
+    max-height: 909px;
+    background: url(./img/bg.png) no-repeat fixed;
+    background-size: 100%;
+    background-position: top;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.volunteersBannerTop{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.volunteersBannerTop{
+    padding: 6vh 5.7vw 0vw 0vw;
+}
+.volunteersBannerTop h2{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height:normal;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.volunteersBannerBottom{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self:flex-start;
+    justify-self:flex-end;
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 4.5vh 5.7vw 4.5vh 5.7vw;
+}
+.volunteersBannerBottom h3,
+.volunteersBannerBottom h4{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000000;
+    border-top: 2px solid #000000;
+}
+.volunteersBannerBottom h4{
+    font-weight: 600;
+    font-size: 1.7vw;
+    border-top: none;
+}
+
+/*  */
+.valunteersOppartunitis{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #f7f7f7;
+    padding:11vh 5.5vw;
+}
+.valunteersOppartunitis>div{
+    margin-top: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.opartunnitisItem{
+    width: 16vw;
+    height: 36vh;
+    min-height: fit-content;
+    max-width: 320px;
+    max-height: 400px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background: #FFFFFF;
+    transition: all .4s ease;
+}
+.opartunnitisItem:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.opartunnitisItem:hover p{
+    color: #000000;
+}
+.opartunnitisItem>div{
+    width:6.75vw;
+    height: 6.75vw;
+    max-width: 135px;
+    max-height: 135px;
+}
+.opartunnitisItem>div>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.opartunnitisItem>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1vw;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #878787;
+    transition: all .4s ease;
+    margin-top: 4.5vh;
+    padding:0px 10px;
+}
+/*  */
+.volunteersType{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:11vh 5.5vw;
+}
+
+.volunteersTypeItem{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4.5vh;
+}
+.volunteersTypeItem .card{
+    margin-bottom: 4.5vh;
+}
+
+/*  */
+.volunreersGuid{
+    background: #f7f7f7;
+    padding:11vh 5.5vw;
+}
+
+.volunreersGuid .guidItems>div {
+    width: 20vw;
+    max-width:400px;
+}
+
+/*  */
+
+.volunteersPeople{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:7vh 9vw 8vh 12vw;
+}
+.volunteersPeople>div{
+    width: 100%;
+    margin-top:7.5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.volunteersPeople>div>div:first-child{
+    display: grid;
+    width: calc(100% - 21vw);
+
+}
+.volunteersPeople>div>div>p{
+    font-family: Source Sans Pro;
+    height: 23.4vh;
+    max-height: 213px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    color: #222222;
+    overflow: hidden;
+}
+
+.volunteersPeople>div>div>button{
+    display: none;
+}
+
+.volunteersPeople>div>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    height: fit-content;
+}
+.volunteersPeople>div>div>div>a{
+    width: 2.5vw;
+    height: 2.5vw;
+    max-width: 50px;
+    max-height: 50px;
+    background: #4267b2;
+}
+.volunteersPeople>div>div>div>a>img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: all .3s ease;
+}
+.volunteersPeople>div>div>div>a:hover img{
+    opacity: 0.4;
+}
+
+.volunteersPeople>div>div>div>div{
+    display: grid;
+    width: fit-content;
+    margin-left: 0.7vw;
+}
+.volunteersPeople>div>div>div>div>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    color: #222222;
+}
+.volunteersPeople>div>div>div>div>span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9vw;
+    line-height: 1.5;
+    color: rgba(34, 34, 34, 0.7);
+}
+
+.volunteersPeople>div>div>div:last-child{
+    align-items: flex-end;
+    align-self: flex-end;
+}
+.volunteersPeople>div>div>div>i:hover::after{
+    box-shadow: 0px 0px 6px 1px #5a5a5a;
+}
+.volunteersPeople>div>div>div>i::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    content: "<";
+    color: #FFFFFF;
+    width: 2.5vw;
+    height: 2.5vw;
+    max-width: 50px;
+    max-height: 50px;
+    background:#c4c4c4;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.volunteersPeople>div>div>div>i:last-child::after{
+    content: ">";
+    /* margin-left: 1.3vw; */
+}
+
+.volunteersPeople>div>div>div>span{
+    padding: 0px 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    color: #919191;
+}
+.volunteersPeople>div>div:last-child{
+    width:19vw;
+    height: 47vh;
+    max-width:376px;
+    max-height: 527px;
+    margin-left: 2vw;
+    user-select: none;
+}
+.volunteersPeople>div>div:last-child>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Form */
+
+.volunteersForm_title{
+    width: 100%;
+    height:12.7vh;
+    max-height: 140px;
+    background: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.volunteersForm_title_body{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding:7vh 0px;
+}
+
+.volunteersForm_title_body>h3{
+    text-align: center;
+}
+
+.volunteersForm_title_body>p{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* End Form */
+ /* Vo form */
+ .upcommingNew_volunteers .form_body_flex{
+    margin-top: 4vh;
+ }
+
+
+ @media (min-width: 2200px){
+    
+    .upcommingNew_volunteers .subtitle{
+        font-size: 48px;
+    }
+    
+    
+    .volunteersBannerTop{
+        padding: 60px 110px 0vw 0vw;
+    }
+    .volunteersBannerTop h2{
+        font-size: 60px;
+        margin-bottom: 0px;
+    }
+    .volunteersBannerBottom{
+        padding: 50px 110px 50px 110px;
+    }
+    .volunteersBannerBottom h3,
+    .volunteersBannerBottom h4{
+        font-size: 45px;
+        line-height: 1.3;
+    }
+    .volunteersBannerBottom h4{
+        font-weight: 600;
+        font-size: 38px;
+        border-top: none;
+    }
+    
+    /*  */
+    .valunteersOppartunitis{
+        padding:110px 110px;
+    }
+    .valunteersOppartunitis>div{
+        margin-top: 60px;
+    }
+    
+    .opartunnitisItem>p{
+        font-size: 22px;
+        line-height: normal;
+        margin-top: 50px;
+        padding:0px 10px;
+    }
+    /*  */
+    .volunteersType{
+        padding:110px 110px;
+    }
+    
+    .volunteersTypeItem{
+        margin-top: 50px;
+    }
+    .volunteersTypeItem .card{
+        margin-bottom: 50px;
+    }
+    
+    /*  */
+    .volunreersGuid{
+        padding:110px 110px;
+    }
+    
+    /*  */
+    
+    .volunteersPeople{
+        padding:70px 180px 80px 240px;
+    }
+    .volunteersPeople>div{
+        margin-top:80px;
+    }
+    .volunteersPeople>div>div:first-child{
+        width: calc(100% - 420px);
+    }
+    .volunteersPeople>div>div>p{
+        font-size: 30px;
+        line-height: normal;
+    }
+        
+    .volunteersPeople>div>div>div>div{
+        margin-left: 15px;
+    }
+    .volunteersPeople>div>div>div>div>p{
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .volunteersPeople>div>div>div>div>span{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .volunteersPeople>div>div>div>i:last-child::after{
+        margin-left: 25px;
+    }
+    
+    .volunteersPeople>div>div:last-child{
+        margin-left: 40px;
+    }
+    .volunteersPeople>div>div>div>span{
+        font-size: 20px;
+    }
+    /* Form */
+    
+    .volunteersForm_title_body{
+        padding:110px 0px;
+    }
+    
+    .volunteersForm_title_body>p{
+        font-size: 30px;
+    }
+    /* End Form */
+     /* Vo form */
+     .upcommingNew_volunteers .form_body_flex{
+        margin-top: 45px;
+     }
+ }
+
+
+@media (max-width: 1024px){
+    
+    .upcommingNew_volunteers .subtitle{
+        font-size: 35px;
+    }
+    .volunteersForm_title .subtitle{
+        text-align: center;
+    }
+    .volunteersBanner{
+        background: url(./img/bg.png) no-repeat 0% 100%;
+        background-size: 100%;
+        min-height: 290px;
+        height: auto;
+    }
+    .volunteersBannerTop{
+        padding: 30px 40px 0vw 0vw;
+    }
+    .volunteersBannerTop h2{
+        font-size: 35px;
+    }
+    .volunteersBannerBottom{
+        padding: 20px 40px 20px 40px;
+    }
+    .volunteersBannerBottom h3,
+    .volunteersBannerBottom h4{
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .volunteersBannerBottom h4{
+        font-weight: 600;
+        font-size: 28px;
+        border-top: none;
+    }
+    
+    /*  */
+    .valunteersOppartunitis{
+        padding:50px 50px;
+    }
+    .valunteersOppartunitis>div{
+        margin-top: 60px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .opartunnitisItem{
+        width: 47%;
+        margin-top: 20px;
+        height: 265px;
+    }
+    .opartunnitisItem>div {
+        width: 80px;
+        height: 80px;
+    }
+    .opartunnitisItem>p{
+        font-size: 20px;
+    }
+    /*  */
+    .volunteersType{
+        padding:50px 50px;
+    }
+    
+    .volunteersTypeItem{
+        margin-top: 50px;
+    }
+    .volunteersTypeItem .card{
+        margin-bottom: 50px;
+    }
+    
+    /*  */
+    .volunreersGuid{
+        padding:50px 50px;
+    }
+    .volunreersGuid .guidItems>div {
+        width: 100%;
+        max-width: unset;
+    }
+    /*  */
+    
+    .volunteersPeople{
+        padding:50px 50px 50px 50px;
+    }
+    .volunteersPeople>div{
+        margin-top:30px;
+    }
+    .volunteersPeople>div>div:first-child{
+        order: 2;
+        width: 100%;
+    }
+    .volunteersPeople>div>div>p{
+        font-size: 25px;
+        height: 280px;
+        max-height:unset;
+        line-height: normal;
+    }
+    .volunteersPeople>div>div>div {
+        margin-top: 30px;
+    }
+    .volunteersPeople>div>div>div>a {
+        width: 50px;
+        height: 50px;
+    }    
+    .volunteersPeople>div>div>div>div{
+        margin-left: 15px;
+    }
+    .volunteersPeople>div>div>div>div>p{
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    
+    .volunteersPeople>div>div>div>div>span{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .volunteersPeople>div>div>div>i::after{
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+    }
+
+    .volunteersPeople>div>div>div>i:first-child::after{
+        margin-left: 0px;
+    }
+
+    .volunteersPeople>div>div>div:last-child{
+        margin-top: 30PX;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .volunteersPeople>div>div:last-child{
+        width: 100%;
+        margin-left: 0px;
+        margin: 20px auto;
+    }
+    .volunteersPeople>div>div>div>span{
+        font-size: 22px;
+    }
+    /* Form */
+    .volunteersForm_title {
+        height: 80PX;
+    }
+    .volunteersForm_title_body{
+        padding:50px 0px;
+    }
+    
+    .volunteersForm_title_body>p{
+        font-size: 25px;
+        padding:0px 30px;
+    }
+    /* End Form */
+
+     /* Vo form */
+     .upcommingNew_volunteers .form_body_flex{
+        margin-top: 40px;
+     }
+ }
+
+@media (max-width: 599px){
+    
+    .upcommingNew_volunteers .subtitle{
+        font-size: 20px;
+    }
+    .volunteersBanner{
+        background: url(./img/bg.png) no-repeat 15% 0%;
+        background-size: cover;
+        min-height: 221px;
+        height: auto;
+    }
+    .volunteersBannerTop{
+        padding: 15px 20px 0vw 0vw;
+    }
+    .volunteersBannerTop h2{
+        font-size: 23px;
+    }
+    .volunteersBannerBottom{
+        padding: 15px 20px 15px 20px;
+    }
+    .volunteersBannerBottom h3,
+    .volunteersBannerBottom h4{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .volunteersBannerBottom h4{
+        font-weight: 600;
+        font-size: 20px;
+        border-top: none;
+    }
+    
+    /*  */
+    .valunteersOppartunitis{
+        padding:45px 30px;
+    }
+    .valunteersOppartunitis>div{
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .opartunnitisItem{
+        width: 90%;
+        margin-top: 20px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        padding: 0px 9px;
+    }
+    .opartunnitisItem>div {
+        width: 60px;
+        height: 60px;
+    }    
+    .opartunnitisItem>p{
+        margin-top: 0;
+        text-align: left;
+        font-size: 17px;
+    }
+    /*  */
+    .volunteersType{
+        padding:45px 30px;
+    }
+    
+    .volunteersTypeItem{
+        margin-top: 30px;
+    }
+    .volunteersTypeItem .card{
+        margin-bottom: 30px;
+    }
+    
+    /*  */
+    .volunreersGuid{
+        padding:45px 30px;
+    }
+    .volunreersGuid .guidItems>div {
+        width: 100%;
+        max-width: unset;
+    }
+    /*  */
+    
+    .volunteersPeople{
+        padding:45px 30px 45px 30px;
+    }
+
+    .volunteersPeople>div{
+        margin-top:30px;
+    }
+    .volunteersPeople>div>div:first-child{
+        order: 2;
+        width: 100%;
+    }
+    .volunteersPeople>div>div>p{
+        font-size: 16px;
+        height: 44px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .volunteersPeople>div>div>p.Less{
+        height: 180px;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: unset;
+        overflow: unset;
+    }
+    .volunteersPeople>div>div>button{
+        width: fit-content;
+        margin-top: 10px;
+        display: block;
+    }
+    .volunteersPeople>div>div>div {
+        margin-top: 20px;
+    }
+    .volunteersPeople>div>div>div>a {
+        width: 35px;
+        height: 35px;
+    }    
+    .volunteersPeople>div>div>div>div{
+        margin-left: 15px;
+    }
+    .volunteersPeople>div>div>div>div>p{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    
+    .volunteersPeople>div>div>div>div>span{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    .volunteersPeople>div>div>div>i::after{
+        width: 35px;
+        height: 35px;
+        margin-left: 25px;
+    }
+
+    .volunteersPeople>div>div>div>i:first-child::after{
+        margin-left: 0px;
+    }
+
+    .volunteersPeople>div>div>div:last-child{
+        margin-top: 30PX;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .volunteersPeople>div>div:last-child{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .volunteersPeople>div>div>div>span{
+        font-size: 15px;
+    }
+    /* Form */
+    .volunteersForm_title {
+        height: 50px;
+    }
+    .volunteersForm_title_body{
+        padding:45px 0px;
+    }
+    
+    .volunteersForm_title_body>p{
+        font-size: 20px;
+        padding:0px 30px;
+    }
+
+ }

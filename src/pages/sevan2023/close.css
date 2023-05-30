@@ -1,0 +1,48 @@
+.coverbg2020Bl{
+    width: 100%;
+    height:calc(100% - 11vh);
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    z-index: 10;
+}
+.coverbg2020Bl>div{
+    width:8vw;
+    height:8vw;
+    max-width:160px;
+    max-height:160px;
+}
+.coverbg2020Bl>div>img{
+    max-width: 100%;
+}       
+.coverbg2020Bl>p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.3vw;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 51vw;
+    max-width: 1021px;
+}
+
+@media (min-width: 2200px){
+    .coverbg2020Bl>p{
+        font-size: 70px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .coverbg2020Bl{
+        height: calc(100% - 71px);
+    }
+    .coverbg2020Bl>p{
+        font-size: 20px;
+    }
+}

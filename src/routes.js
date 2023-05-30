@@ -2,6 +2,7 @@ import loadData from './assets/plugins/loadData';
 ///PAGES 
 import Home_Page_Newedition from './pages/firstPageNew/firstPageNew.jsx';
 import UpcommingNew from './pages/upcommingNew/upcommingNew.jsx';
+import Sevan2023 from './pages/sevan2023/upcommingNew.jsx';
 import UpcommingNewOld from './pages/upcommingNew/upcommingNewOld.jsx';
 import News from './pages/news/news.jsx';
 import News_One from './pages/news/newsOpen.jsx';
@@ -35,7 +36,17 @@ export default [
         path: '/privacy-policy',
         component: Privacy
     },
+    {
+        exact: true,
+        path: '/upcoming-events/sevan-2023/',
+        component: Sevan2023
+    },
 
+    {
+        exact: true,
+        path: '/upcoming-events/sevan-2023/:subpage',
+        component: Sevan2023
+    },
     {
         exact: true,
         path: '/upcoming-events/:event/',

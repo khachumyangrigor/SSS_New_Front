@@ -267,13 +267,12 @@ class Events extends React.Component {
                         {/*</div>*/}
                         <div ref="event">
                             <div>
-                                <Link to="/upcoming-events/sevan-2022" >
+                                <Link to="/upcoming-events/sevan-2023" >
                                     <img
-                                        src={require('./img/eventCover/2022.png')}
+                                        src={require('./img/eventCover/sevan2023.png')}
                                         alt="eventImg"
                                     />
                                 </Link>
-                                nnnnn
                             </div>
                             <h3>— Sevan startup summit 2023 —</h3>
                             <p>
@@ -285,8 +284,8 @@ class Events extends React.Component {
                                     Lake Sevan, Armenia
                                 </a>
                             </p>
-                            <p>July 25 - July 31, 2023</p>
-                            <Link to="/upcoming-events/sevan-2022">See More</Link>
+                            <p>July 23 - 29, 2023</p>
+                            <Link to="/upcoming-events/sevan-2023">See More</Link>
                         </div>
                         <div>
                             <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg" /></div>
