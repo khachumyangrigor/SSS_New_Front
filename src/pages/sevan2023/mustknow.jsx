@@ -55,7 +55,7 @@ class Programs extends React.Component {
                             <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>
                                 <ul ref="menue">
-                                    <li ref="li1" onClick={() => this.programOpen("li1",this.refs.Amenities, this.refs.Amenities2)}>Amenities at the venue</li>
+                                    <li ref="li1" onClick={() => this.programOpen("li1",this.refs.Amenities, this.refs.Amenities2)} style={{color:"rgb(117,117,117)"}}>Amenities at the venue</li>
                                     {/* <div ref="Amenities2" className="ulDiv ulDivOpen"> <Amenities /></div> */}
                                     <li ref="li2" onClick={() => this.programOpen("li2",this.refs.Weather, this.refs.Weather2)}>Weather conditions</li>
                                     {/* <div ref="Weather2" className="ulDiv"> <Weather /></div> */}

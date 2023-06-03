@@ -35,7 +35,7 @@ class FootterNew extends React.Component {
                 </div>
                 <div className="footterLine" />
                 <div className="footterBottom">
-                    <div className="bottomLeft">© 2016-2022, Seaside Startup Summit</div>
+                    <div className="bottomLeft">© 2016-2023, Seaside Startup Summit</div>
                     <div className="bottomRight">
                         <a href="https://www.instagram.com/seasidestartupsummit/" target="_blank" rel="noopener noreferrer">
                             <img src={inst} alt="instagram" />

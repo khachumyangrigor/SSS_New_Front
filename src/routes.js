@@ -38,13 +38,13 @@ export default [
     },
     {
         exact: true,
-        path: '/upcoming-events/sevan-2023/',
+        path: '/upcoming-events/:event/',
         component: Sevan2023
     },
 
     {
         exact: true,
-        path: '/upcoming-events/sevan-2023/:subpage',
+        path: '/upcoming-events/event/:subpage',
         component: Sevan2023
     },
     {

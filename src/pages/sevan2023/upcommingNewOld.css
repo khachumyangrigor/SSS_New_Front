@@ -20,6 +20,7 @@
 }
 /* Part 1 */
 .upcommingNewTop{
+    filter: none;
     width: 100%;
     height: 89vh;
     max-height: 909px;
@@ -29,36 +30,40 @@
     background-position: bottom;
     /* padding: 4.3vw 10vw 0vw 0vw; */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     /* align-content: flex-end; */
 
     position: relative;
+    text-transform: uppercase;
 }
-.upcommingNewTopFootter,
-.upcommingNewTopHead{
+.upcommingNewTop .wb-topTitle{
+    font-size: 28px;
+    color:#fff;
+    padding: 3.1vw 0vw 0vw 6vw;
+}
+.upcommingNewTop .wb-footerTitle{
+    font-size: 40px;
+    color:#fff;
+    padding: 2.8vw 0vw 2.8vw 6vw;
+}
+.wb-footerTitle,
+.wb-topTitle{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.upcommingNewTopHead{
-    align-content: flex-start;
+.wb-topTitle{
     padding: 3.1vw 0vw 0vw 6vw;
     /* mix-blend-mode: normal; */
 }
-.upcommingNewTopFootter{
+.wb-footerTitle{
     padding: 2.8vw 0vw 2.8vw 6vw;
-    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%); */
-    background: linear-gradient(180deg, rgba(197, 178, 135, 0) 71.88%, rgba(190, 163, 103, 0.5) 100%);
-    /* mix-blend-mode: normal; */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 4;
-    /* opacity: 0.5; */
-    /* transform: rotate(-180deg); */
+    font-weight: 600;
 }
-.upcommingNewTopHead h1{
+.wb-topTitle h1{
     width: 100%;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -67,20 +72,18 @@
     line-height: 1.1;
     /* text-align: right; */
     text-transform: uppercase;
-    color: #272352;
 }
-.upcommingNewTopHead h2{
+.wb-topTitle h2{
     width: 100%;
     font-family: Source Sans Pro;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 2.2vw;
     line-height: normal;
     /* text-align: right; */
     text-transform: uppercase;
-    color: #272352;
 }
-.upcommingNewTopFootter h3{
+.wb-footerTitle h3{
     width: auto;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -89,19 +92,16 @@
     line-height: 1.1;
     /* text-align: right; */
     text-transform: uppercase;
-    color: #272352;
-    border-top: 3px solid #272352;
 }
-.upcommingNewTopFootter h4{
+.wb-footerTitle h4{
     width: 100%;
     font-family: Source Sans Pro;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 2vw;
     line-height: 1.1;
     /* text-align: right; */
     text-transform: uppercase;
-    color: #272352;
 }
 /* Part 2 */
 .minmenuLastIcon{
@@ -1919,22 +1919,22 @@
     } */
     /* Part 1 */
 
-    .upcommingNewTopHead{
+    .wb-topTitle{
         padding: 85px 0px 0px 120px;
     }
-    .upcommingNewTopHead h1{
+    .wb-topTitle h1{
         font-size: 70px;
     }
-    .upcommingNewTopHead h2{
+    .wb-topTitle h2{
         font-size: 50px;
     }
-    .upcommingNewTopFootter{
+    .wb-footerTitle{
         padding: 63px 0px 63px 120px;
     }
-    .upcommingNewTopFootter h3{
+    .wb-footerTitle h3{
         font-size: 42px;
     }
-    .upcommingNewTopFootter h4{
+    .wb-footerTitle h4{
         font-size: 42px;
     }
     /* Part 2 */
@@ -2333,17 +2333,17 @@
         height: auto;
         align-content: space-between;
     }
-    .upcommingNewTopHead h1{
+    .wb-topTitle h1{
         font-size: 3.5vw;
     }
-    .upcommingNewTopHead h2{
+    .wb-topTitle h2{
         width: 50%;
         font-size: 2.5vw;
     }
-    .upcommingNewTopFootter h3{
+    .wb-footerTitle h3{
         font-size: 2.3vw;
     }
-    .upcommingNewTopFootter h4{
+    .wb-footerTitle h4{
         font-size: 2.3vw;
     }
     /* Part 2 */
@@ -2999,24 +2999,24 @@
         min-height: 255px;
         height: auto;
     }
-    .upcommingNewTopHead{
+    .wb-topTitle{
         padding: 30px 20px 0px 20px;
     }
 
-    .upcommingNewTopHead h1{
+    .wb-topTitle h1{
         font-size: 20px;
     }
-    .upcommingNewTopHead h2{
+    .wb-topTitle h2{
         width: 100%;
         font-size: 16px;
     }
-    .upcommingNewTopFootter{
+    .wb-footerTitle{
         padding: 20px 20px 30px 20px;
     }
-    .upcommingNewTopFootter h3{
+    .wb-footerTitle h3{
         font-size: 15px;
     }
-    .upcommingNewTopFootter h4{
+    .wb-footerTitle h4{
         font-size: 15px;
     }
     /* Part 2 */
@@ -3612,3 +3612,9 @@
     }
 
   }
+
+.firstPageHeaderRight a, .firstPageHeaderRight.Mobi a{
+    background-color: #001A34;
+    padding: 14px 21px 14px 21px;
+    border-color: #001A34;
+}

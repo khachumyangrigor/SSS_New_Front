@@ -277,7 +277,8 @@ class Events extends React.Component {
                             <h3>— Sevan startup summit 2023 —</h3>
                             <p>
                                 <a
-                                    href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"
+                                    href="https://www.google.com/maps/place/40%C2%B020'40.1%22N+45%C2%B034'43.2%22E/@40.3278435,45.5387228,13.25z/data=!4m4!3m3!8m2!3d40.3444672!4d45.5786688?hl=en-GB&entry=ttu"
+                                    // href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

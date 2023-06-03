@@ -13,6 +13,11 @@ import MustKnow from './mustknow.jsx';
 import Credo from './credo.jsx';
 import Platform from './platform.jsx';
 import Citizen from './citizen.jsx';
+import Participate from "./Participate/Participate.jsx"
+import Valounteering from "./Volunteering/Volunteering.jsx"
+import Apply from "./Apply/Apply.jsx"
+import Organizers from "./Organizers/Organizers.jsx"
+import Partners from "./Partners/Partners.jsx"
 import {
     FireCode,
     Part4Part5,
@@ -27,7 +32,6 @@ import  CoachesPage from './coaches/coaches.jsx';
 
 //css
 import './upcommingNew.css';
-
 //Media
 
 
@@ -200,8 +204,8 @@ class UpcommingNew extends React.Component {
 
     render = () => {
         const {subepage,event}=this.state;
-        if(event!=="" && event=='sevan2020')if(IS_CLIENT)return <Redirect  to={`./sevan-2022`} />;
-        if(event!=="" && event!=='sevan-2022')if(IS_CLIENT)return <Redirect  to={`./`} />;
+        if(event!=="" && event=='sevan2020')if(IS_CLIENT)return <Redirect  to={`./sevan-2023`} />;
+        if(event!=="" && event!=='sevan-2023')if(IS_CLIENT)return <Redirect  to={`./`} />;
         if(subepage==='speakers')return (<SpeakersPage/>);
         else if(subepage==='volunteers')return (<ValunteersPage/>);
         else if(subepage==='team-leads')return (<TeamleadPage/>);
@@ -221,13 +225,13 @@ class UpcommingNew extends React.Component {
                     <div className="upcommingNew" >
                         {/* Part 1 */}
                         <div className="upcommingNewTop" ref="firstPageTop">
-                            <div className="upcommingNewTopHead">
+                            <div className="wb-topTitle">
                                 <h1>a harbor of discoveries</h1>
                                 <h2>From <b>start</b> through <b>struggle</b> to <b>success</b></h2>
                             </div>
-                            <div  className="upcommingNewTopFootter">
+                            <div  className="wb-footerTitle">
                                 <h3>Sevan Startup Summit 2022</h3>
-                                <h4>july 24-30</h4>
+                                <h4>july 23 - 29</h4>
                             </div>
                         </div>
                         {/* Part 2 */}
@@ -239,7 +243,7 @@ class UpcommingNew extends React.Component {
                                 <ul>
                                     <li><Link to="/events">Events</Link></li>
                                     <li><Link to="/about-us">About us</Link></li>
-                                    <li><Link to="/about-us">Partners</Link></li>
+                                    <li><Link to="/partners">Partners</Link></li>
                                      {/*<li><Link to="/startups">Startups</Link></li>*/}
                                     {/*<li><Link to="/partners">Partners</Link></li>*/}
                                     <li><Link  to="/merch">Merch</Link></li>
@@ -250,13 +254,13 @@ class UpcommingNew extends React.Component {
                             <div className="firstPageHeaderRight">
 
                                 {/* <Link className="agendaIcon" to="/agenda"><img src={require('./img/agenda.png')} alt="Agenda" title="Coming Soon" /></Link> */}
-                                <a href="https://www.f6s.com/sevan-startup-summit-2022/apply" target="_blank" rel="noopener noreferrer">Apply as Startup</a>
-                                <a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Become a Volunteer</a>
+                                <a href="https://www.f6s.com/sevan-startup-summit-2023/apply" target="_blank" rel="noopener noreferrer">Apply as Startup</a>
+                                <a href="https://forms.gle/VSG5oNLhg2nr8zhr9" target="_blank" rel="noopener noreferrer" >Become a Volunteer</a>
                                 <div className="minmenuLastIcon" ref="submenuIcon" onClick={(e)=>this.submenuOpen()}> <span /> <span /> <span /></div>
                             </div>
                             <div className="firstPageHeaderRight Mobi">
-                                <a href="https://www.f6s.com/sevan-startup-summit-2022/apply" target="_blank" rel="noopener noreferrer">Apply as Startup</a>
-                                <a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy <i/></a>
+                                <a href="https://www.f6s.com/sevan-startup-summit-2023/apply" target="_blank" rel="noopener noreferrer">Apply as Startup</a>
+                                <a href="https://forms.gle/VSG5oNLhg2nr8zhr9" target="_blank" rel="noopener noreferrer" >Become a Volunteer <i/></a>
                             </div>
                             <div className="minmenuIcon" ref="menuIcon" onClick={this.menuOpen}> <span /> <span /> <span /></div>
                             <div className="minmenuBox" ref="menuBox" onClick={this.menueClose}>
@@ -285,16 +289,19 @@ class UpcommingNew extends React.Component {
                         <GetAccess />
                         <Part4Part5 ref="uniqprogram" />
                         <Credo ref="credo"/>
+                        <Participate />
                         {/* Todo closed */}
                         {/* <Platform ref="platform"/>*/}
                         {/* Todo closed */}
-                        <span ref="citizen"></span>
+                        <span ref="citizen"></span> {/*TODO Why not commented?*/}
                         {/*<Citizen />*/}
                         <div className="upcommingSuggest">
                             <h2>We suggest a unique  program tailored to your needs</h2>
                             <p>All the applied startup teams pass a screening process and the accepted teams are distributed into either Starter (idea stage) or Booster (early stage) programmes based on their levels of development and fields of operation*.</p>
                         </div>
                         <Programs ref="program" />
+                        <Valounteering />
+                        <Apply />
                         {/* Todo closed start */}
                         {/* <FireCode ref="firecode" />*/}
                         {/* <Speakers ref="speaker" />*/}
@@ -303,6 +310,8 @@ class UpcommingNew extends React.Component {
                         {/* Todo closed end */}
                         <Shuttle ref="shuttle" />
                         <MustKnow ref="mustKnow" />
+                        <Organizers />
+                        <Partners />
                         <FootterNew ref="footter" />
                     </div >
                 </Fragment>
