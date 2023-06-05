@@ -63,3 +63,56 @@
     width: 80%;
     margin: 0 auto;
 }
+@media screen and (max-width: 1200px) {
+    .wb-imageBlock{
+        max-width: 210px;
+        max-height: 160px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .wb-applyBlock{
+        margin-top: 25px !important;
+    }
+    .wb-applyTitle h2{
+        font-size: 25px !important;
+        margin-bottom: 25px !important;
+    }
+    .wb-applyItemsBlock{
+        gap: 22px 0;
+    }
+    .wb-itemWithArrowBlock{
+        flex-basis: 100% !important;
+    }
+    .wb-arrowBlock{
+        display: none;
+    }
+    .wb-imageBlock{
+        width: auto !important;
+        max-height: 50px !important;
+    }
+    .wb-imageBlock img{
+        max-height: inherit;
+    }
+    .wb-itemBlock{
+        display: flex;
+        width: 100%;
+    }
+    .wb-contentBlock{
+        width: 100%;
+    }
+    .wb-titleBlock{
+        margin-top: 0 !important;
+
+    }
+    .wb-titleBlock h3{
+        font-size: 15px !important;
+    }
+    .wb-description p{
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+    .wb-applyButtonBlock a button{
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+}

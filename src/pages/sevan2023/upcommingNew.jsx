@@ -276,7 +276,7 @@ class UpcommingNew extends React.Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="subMnue" ref="subMenu" onClick={this.menuCloase}>
+                            <div className="wb-subMnue" ref="subMenu" onClick={this.menuCloase}>
                                 <ul>
                                     <li><Link to={`/upcoming-events/${event}/our-credo`}>Our Credo</Link></li>
                                     <li><Link to={`/upcoming-events/${event}/citizen`}>types of participation</Link></li>
@@ -311,7 +311,7 @@ class UpcommingNew extends React.Component {
                         <Shuttle ref="shuttle" />
                         <MustKnow ref="mustKnow" />
                         <Organizers />
-                        <Partners />
+                        {/*<Partners />*/}
                         <FootterNew ref="footter" />
                     </div >
                 </Fragment>

@@ -44,12 +44,15 @@ function Apply() {
                                 <div className="wb-imageBlock">
                                     <img src={block.img} alt="Icon" />
                                 </div>
-                                <div className="wb-titleBlock">
-                                    <h3>{block.title}</h3>
+                                <div className="wb-contentBlock">
+                                    <div className="wb-titleBlock">
+                                        <h3>{block.title}</h3>
+                                    </div>
+                                    <div className="wb-description">
+                                        <p>{block.description}</p>
+                                    </div>
                                 </div>
-                                <div className="wb-description">
-                                    <p>{block.description}</p>
-                                </div>
+
                             </div>
                             {i !== data.length - 1 && <div className="wb-arrowBlock"><img src={arrow} alt="" /></div>}
                         </div>

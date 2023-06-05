@@ -159,7 +159,7 @@
     right: 0;
     top: 11vh;
     background: rgba(151, 151, 151, 0.92);
-    
+
 }
 
 .subMnue ul{
@@ -289,7 +289,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 6.3vh 20vw; 
+    padding: 6.3vh 20vw;
     background: rgba(227, 227, 227, 0.3);
 }
 .upcommingSuggest h2{
@@ -600,7 +600,7 @@
 .mobi_meue_trp_right{
     right: 0;
     background: linear-gradient(to right, rgba(253, 253, 253, 0.7) 30%, rgba(192, 210, 235, 0.6) 100%);
-    
+
 }
 .mobi_meue_trp_left{
     left: 0;
@@ -681,7 +681,7 @@
     width: 50%;
     display: flex;
     position: relative;
-   
+
 }
 .upcommingPrograms_right h3{
     font-family: Source Sans Pro;
@@ -783,17 +783,17 @@
     width: 29vw;
     max-width: 580px;
     color: #000000;
-}   
+}
 .masterclassIcon{
     width: 9vw;
     height: 11vw;
     max-width: 170px;
     max-height: 215px;
-}   
+}
 .masterclassIcon:hover{
     animation: shake 0.82s cubic-bezier(.50,.07,.19,.97) both;
     transform: translate3d(30, 30, 30);
-}      
+}
 .membership_1_1Icon{
     width: 7.5vw;
     height: 7.5vw;
@@ -859,7 +859,7 @@
   display: none;
 }
 .programPartnerImg{
-    scrollbar-width: none;  
+    scrollbar-width: none;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .programPartnerImg section{
@@ -1109,7 +1109,7 @@
     text-transform: uppercase;
     color: #000000;
     opacity: 0.5;
-    
+
 }
 /* Part 8 */
 .upcommingSpeakerNew{
@@ -1221,7 +1221,7 @@
     display: none;
 }
 .upcommingSpeakerNewImg{
-    scrollbar-width: none;   
+    scrollbar-width: none;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .upcommingSpeakerNew_middle{
@@ -1278,8 +1278,8 @@
     color: #858585;
 }
 .upcommingSpeakerNew .left>div a{
-    text-align: center;    
-    color:#BDBDBD;  
+    text-align: center;
+    color:#BDBDBD;
 }
 .upcommingSpeakerNew .left>div a::before{
     content:"\f05a";
@@ -1343,7 +1343,7 @@
     text-align: center;
     color: #000000;
     margin-bottom:2vh;
-    
+
 }
 .upcommingInvestorNew>p{
     width: 100%;
@@ -1406,7 +1406,7 @@
 }
 .upcommingInvestorNewImg{
     scrollbar-width: none;
-    -ms-overflow-style: -ms-autohiding-scrollbar;  
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .upcommingInvestorNew .left>div .investor{
@@ -1572,7 +1572,7 @@
     text-align: center;
     color: #000000;
     margin-bottom:2vh;
-    
+
 }
 .upcommingReach>p{
     width: 100%;
@@ -1653,7 +1653,7 @@
     max-height: 371px;
     overflow: hidden;
     display: flex;
-    
+
 }
 .vihacle:first-child .vihacleOpen{
     border-right: 0px solid #000000;
@@ -1689,7 +1689,7 @@
     color: #000000;
     display: flex;
     align-items: center;
-    
+
 }
 .vihacleOpenIN p:last-child{
     margin-top: 10px;
@@ -1809,7 +1809,7 @@
     height: 8.5vw;
     max-width: 150px;
     max-height: 165px;
-}     
+}
 .venueWeater{
     width: 100%!important;
     flex-wrap: nowrap!important;
@@ -1886,7 +1886,7 @@
 }
 .coverbg2020Bl>div>img{
     max-width: 100%;
-}       
+}
 .coverbg2020Bl>p{
     font-family: Source Sans Pro;
     font-style: normal;
@@ -1957,12 +1957,12 @@
     .subMnue ul li a{
         font-size: 32px;
     }
-    
+
     /* Part 3 */
     .upcommingGetAcces{
         padding: 90px 108px;
     }
-    
+
     .upcommingGetAcces_left{
         padding-right: 150px;
     }
@@ -1984,10 +1984,10 @@
     .upcommingPageStatistic{
         padding:81px 180px 135px 180px;
     }
-    
+
     /* Part 5 */
     .upcommingSuggest{
-        padding: 70px 345px; 
+        padding: 70px 345px;
     }
     .upcommingSuggest h2{
         font-size: 48px;
@@ -2023,7 +2023,7 @@
         line-height: 1.5;
         margin-bottom: 45px;
     }
-  
+
     .platImgBox{
         margin-top: 45px;
     }
@@ -2048,7 +2048,7 @@
     }
     /* Part 6 */
     /* Part 6.1 */
-    
+
     .upcommingPrograms{
         padding: 82px 121px;
     }
@@ -2059,12 +2059,12 @@
     .upcommingPrograms_left .textBox{
         width: calc(100% - 121px);
     }
-    
+
     .upcommingPrograms .textBox h3{
         font-size: 25px;
         margin-bottom:50px;
     }
-    
+
     .upcommingPrograms .textBox p{
         font-size: 18px;
         margin-bottom:40px;
@@ -2085,7 +2085,7 @@
         font-size: 15px;
         padding: 11px 30px;
     }
-    
+
     .upcommingPrograms_right h3{
         font-size: 24px;
         margin-bottom: 49px;
@@ -2095,27 +2095,27 @@
 
     .infoIconBox{
         margin-bottom: 25px;
-        
+
     }
 
     .infoIconBox>span{
         font-size: 16px;
     }
-    
+
     .programSub div{
         margin-left: 30px;
     }
-    
+
     .programSub h4{
         font-size: 18px;
     }
-    
+
     .programSub p{
         font-size: 18px;
-    }   
+    }
 
     /* Part 6.2 */
-    
+
     .upcommingPrograms>div:nth-child(3),
     .upcommingPrograms>div:nth-child(4){
         margin-top:140px;
@@ -2140,19 +2140,19 @@
     .upcommingProgramsFootter p{
         font-size: 18px;
     }
-    
+
     /* Part 7 */
-    
+
     .upcommingFierCode{
         padding:63px 130px 59px 270px;
     }
 
-    
+
     .upcommingFierCode_left h3{
         font-size: 25px;
         margin-bottom:46px;
     }
-    
+
     .upcommingFierCode_left a{
         font-size: 15px;
         padding: 11px 30px;
@@ -2184,7 +2184,7 @@
         font-size: 23px;
         margin-bottom:82px;
     }
-    
+
     .upcommingSpeakerNewPrev b::before,
     .upcommingSpeakerNewNext b::before{
         font-size: 70px;
@@ -2261,7 +2261,7 @@
     }
     .upcommingReach>h2{
         font-size: 48px;
-        margin-bottom:40px; 
+        margin-bottom:40px;
     }
     .upcommingReach>p{
         font-size: 23px;
@@ -2295,7 +2295,7 @@
     .infoIconBoxKnow{
         margin-bottom: 50px;
     }
-    
+
     .infoIconBoxKnow>div{
         padding: 20px;
     }
@@ -2364,12 +2364,12 @@
     .subMnue ul li a{
         font-size: 32px;
     }
-    
+
     /* Part 3 */
     .upcommingGetAcces{
         padding: 45px 30px;
     }
-    
+
     .upcommingGetAcces_left{
         width: 100%;
         padding-right: 0px;
@@ -2401,10 +2401,10 @@
     .upcommingPageStatistic{
         padding:45px 30px 45px 30px;
     }
-    
+
     /* Part 5 */
     .upcommingSuggest{
-        padding: 45px 30px; 
+        padding: 45px 30px;
     }
     .upcommingSuggest h2{
         font-size: 4vw;
@@ -2490,7 +2490,7 @@
     }
     /* Part 6 */
     /* Part 6.1 */
-    
+
     .upcommingPrograms{
         padding: 45px 30px;
     }
@@ -2515,7 +2515,7 @@
         margin-top:8px;
         margin-bottom:20px;
     }
-    
+
     .upcommingPrograms .textBox p{
         font-size: 2.8vw;
     }
@@ -2528,7 +2528,7 @@
         text-align: justify;
         padding-right: 25px;
     }
-    
+
     .carusel_menue{
         position: absolute;
         bottom: -55px;
@@ -2544,7 +2544,7 @@
         border-top: 1px solid #2f80ed;
         border-bottom: 1px solid #2f80ed;
         padding-top: 8px;
-        margin-right: 30px;        
+        margin-right: 30px;
 
     }
     .mobi_meue_trp_left,
@@ -2566,12 +2566,12 @@
         color: rgb(47, 128, 237)!important;
     }
     .upcommingPrograms .textBox ul li:first-child{
-        margin-left: 30px;   
-        border-bottom: 2px solid rgb(47, 128, 237);  
+        margin-left: 30px;
+        border-bottom: 2px solid rgb(47, 128, 237);
         color: rgb(47, 128, 237)!important;
     }
     .upcommingPrograms .textBox ul li:last-child{
-        padding-right: 30px;        
+        padding-right: 30px;
     }
     .upcommingPrograms .textBox ul li::after{
         font-size: 2vw;
@@ -2629,14 +2629,14 @@
     .programSub h4{
         font-size: 3.2vw;
     }
-    
+
     .programSub p{
         font-size: 2.9vw;
         width: 100%;
-    }   
+    }
 
     /* Part 6.2 */
-    
+
     .upcommingPrograms>div:nth-child(3),
     .upcommingPrograms>div:nth-child(4){
         margin-top:0px;
@@ -2685,7 +2685,7 @@
     }
 
     /* Part 7 */
-    
+
     .upcommingFierCode{
         padding:45px 30px 45px 30px;
         flex-wrap: wrap;
@@ -2746,7 +2746,7 @@
     .upcommingSpeakerNew .left{
         width: 100%;
     }
-    
+
     .upcommingSpeakerNewPrev b::before,
     .upcommingSpeakerNewNext b::before{
         font-size: 70px;
@@ -2865,7 +2865,7 @@
     }
     .upcommingReach>h2{
         font-size: 4vw;
-        margin-bottom:20px; 
+        margin-bottom:20px;
     }
     .upcommingReach>p{
         font-size: 2.8vw;
@@ -2880,7 +2880,7 @@
         min-width: 100%;
         align-content: center;
     }
-    
+
     .vihacleBox>div {
         width: 150px;
         height: 150px;
@@ -2936,7 +2936,7 @@
         width: 100%;
         height: 215px;
     }
-    
+
     /* .vihacleFullClose .vihacleBox>div{
         display: none;
     } */
@@ -2949,7 +2949,7 @@
         width: 50%;
         margin-bottom: 30px;
     }
-    
+
     .infoIconBoxKnow>div{
         padding: 10px;
         min-width: 80px;
@@ -3038,12 +3038,12 @@
     .subMnue ul li a{
         font-size: 32px;
     }
-    
+
     /* Part 3 */
     .upcommingGetAcces{
         padding: 45px 30px;
     }
-    
+
     .upcommingGetAcces_left{
         width: 100%;
         padding-right: 0px;
@@ -3076,10 +3076,10 @@
     .upcommingPageStatistic{
         padding:45px 30px 45px 30px;
     }
-    
+
     /* Part 5 */
     .upcommingSuggest{
-        padding: 45px 30px; 
+        padding: 45px 30px;
     }
     .upcommingSuggest h2{
         font-size: 25px;
@@ -3103,7 +3103,7 @@
     .credoItem{
         padding-top: 0px;
     }
-   
+
     /* Part 5/6/6 */
     .platform{
         padding:40px 50px;
@@ -3126,7 +3126,7 @@
     }
     /* Part 6 */
     /* Part 6.1 */
-    
+
     .upcommingPrograms{
         padding: 45px 30px;
     }
@@ -3150,7 +3150,7 @@
         margin-top:8px;
         margin-bottom:20px;
     }
-    
+
     .upcommingPrograms .textBox p{
         font-size: 15px;
     }
@@ -3167,7 +3167,7 @@
     .upcommingPrograms .textBox ul{
         margin-bottom:0px;
     }
-    
+
     .upcommingPrograms .textBox ul li{
         font-size: 16px;
         /* margin-bottom: 20px; */
@@ -3231,14 +3231,14 @@
     .programSub h4{
         font-size: 16px;
     }
-    
+
     .programSub p{
         font-size: 16px;
         width: 100%;
-    }   
+    }
 
     /* Part 6.2 */
-    
+
     .upcommingPrograms>div:nth-child(3),
     .upcommingPrograms>div:nth-child(4){
         margin-top:0px;
@@ -3277,7 +3277,7 @@
     }
 
     /* Part 7 */
-    
+
     .upcommingFierCode{
         padding:45px 30px 45px 30px;
         flex-wrap: wrap;
@@ -3338,7 +3338,7 @@
     .upcommingSpeakerNew .left{
         width: 100%;
     }
-    
+
     .upcommingSpeakerNewPrev b::before,
     .upcommingSpeakerNewNext b::before{
         font-size: 70px;
@@ -3456,7 +3456,7 @@
     }
     .upcommingReach>h2{
         font-size: 25px;
-        margin-bottom:20px; 
+        margin-bottom:20px;
     }
     .upcommingReach>p{
         font-size: 19px;
@@ -3471,7 +3471,7 @@
         min-width: 100%;
         align-content: center;
     }
-    
+
     .vihacleBox>div {
         width: 96px;
         height: 96px;
@@ -3479,7 +3479,7 @@
     .vihacleBox>button{
         font-size: 14px;
         padding: 11px 20px;
-        
+
     }
 
     .vihacleOpenIN{
@@ -3528,7 +3528,7 @@
         width: 100%;
         height: 150px;
     }
-    
+
     /* .vihacleFullClose .vihacleBox>div{
         display: none;
     } */
@@ -3541,7 +3541,7 @@
         width: 50%;
         margin-bottom: 30px;
     }
-    
+
     .infoIconBoxKnow>div{
         padding: 10px;
         min-width: 50px;
@@ -3602,7 +3602,7 @@
         -ms-transform: scale(.5);
         transform: scale(.5);
     }
-    
+
     10% {
         -moz-transform: scale(1);
         -webkit-transform: scale(1);
@@ -3617,4 +3617,369 @@
     background-color: #001A34;
     padding: 14px 21px 14px 21px;
     border-color: #001A34;
+}
+
+.wb-knowMobileButtons {
+    display: none;
+}
+
+.wb-subMnue{
+    width: 236px !important;
+    max-width:430px;
+    max-height: 909px;
+    position: absolute;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    right: 63px;
+    bottom: 75px !important;
+    z-index: 20;
+    background: #FFF !important;
+    padding: 0 !important;
+    transition: all .4s ease-out;
+}
+.subMnueFix{
+    background: #FFF !important;
+    top: 260px !important;
+    right: 63px;
+    z-index: 9999!important;
+}
+.subMnueFix ul{
+    background: #fff !important;
+    z-index: 9999!important;
+}
+
+.wb-subMnue ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 9999!important;
+}
+
+.wb-subMnue ul li{
+    margin-bottom: 3.1vh;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+.wb-subMnue ul li a:hover,.subMnueFix ul li a:hover{
+    background: #001A34;
+    color: #fff;
+}
+
+.wb-subMnue ul li a,.subMnueFix ul li a{
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #161616;
+    cursor: pointer;
+}
+.wb-mobilePartners{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .wb-front p {
+        font-size: 25px !important;
+    }
+    .firstPageHeaderRight.Mobi a{
+        font-size: 8px;
+        padding:7px 10px 7px 10px !important;
+        border-radius: 3.4px;
+    }
+    .firstPageHeaderRight.Mobi a i{
+        display: none;
+    }
+
+    .vihacle {
+        width: 100% !important;
+    }
+
+    .credoItem {
+        display: none;
+    }
+
+    .wb-mobileVersion-credo-block {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .wb-knowMobileButtons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wb-mobile-info-button {
+        display: block !important;
+    }
+
+    .wb-knowMobileButtons-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wb-knowMobileButtons{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    .wb-knowMobileButtons-card{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .wb-knowMobileButton {
+        padding: 9.7px 15px;
+        border:1px solid #2F80ED;
+        color: #2F80ED;
+        border-radius: 4px;
+        flex-basis: 48%;
+        font-size: 13px;
+    }
+    .wb-knowMobileButtons-card a{
+        display: inline-block;
+        padding: 10px 15px !important;
+        border:1px solid #001A34 !important;
+        color: #001A34 !important;
+        border-radius: 4px !important;
+        flex-basis: 48% !important;
+        font-size: 13px !important;
+    }
+    .upcommingPrograms_right_open h3{
+        display: block !important;
+        text-align: left;
+    }
+    .upcommingPrograms_right_open .infoIconBoxKnow{
+        display: flex;
+        flex-direction: column;
+        width: 33% !important;
+    }
+    .upcommingPrograms .textBox p {
+        font-size: 14px !important;
+    }
+    .upcommingProgramsBlock h2{
+        display: none;
+    }
+    .upcommingPrograms {
+        padding: 21px 29px !important;
+    }
+    .upcommingPrograms_right{
+        max-height: 500px !important;
+    }
+    .infoIconBoxKnow span{
+        font-size: 10px !important;
+        margin-top: 3px !important;
+        font-weight: bold !important;
+    }
+
+    .carusel_menue {
+        display: none !important;
+    }
+
+/*    Navbar*/
+    .minmenuBoxOpen{
+        background: linear-gradient(180deg, rgba(247, 247, 247, 1) 76%, rgba(247, 247, 247, 1) 100%);
+    }
+
+/*    STarter Program*/
+    .upcommingPrograms_left{
+        flex-flow: row;
+        gap: 15px;
+    }
+    .imgBox{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .upcommingPrograms_right{
+        margin-top: 0 !important;
+
+    }
+    .infoIconBox span{
+        font-size: 6px !important;
+    }
+    .upcommingPrograms_right_open .infoIconBox{
+        width: 20% !important;
+    }
+    .trackText{
+        display: none !important;
+    }
+    .upcommingPrograms .upcommingPrograms_left a{
+        margin-top: 15px;
+        display: block !important;
+    }
+    .upcommingPrograms_right_open .infoIconBox{
+        display: flex !important;
+        width: 17% !important;
+    }
+    .upcommingPrograms_right.one>div.upcommingPrograms_right_open{
+        flex-wrap: wrap !important;
+        height: 400px !important;
+        max-height: 500px !important;
+    }
+    .upcommingPrograms_right .mobi{
+        display: none !important;
+    }
+     .programPartnerImg {
+        display: none;
+    }
+     .wb-mobilePartners{
+         display: flex;
+         flex-flow: row wrap;
+         align-items: center;
+         margin: 0 auto;
+         flex-grow: 0;
+     }
+    .wb-mobilePartners div{
+        flex-basis: 20%;
+    }
+    .wb-mobilePartners div img{
+        width: 60%;
+        max-height: 100%;
+
+    }
+
+    .upcommingPrograms_right {
+
+    }
+    .programPartnerImg section{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+
+     .programPartner h3{
+         text-align: left !important;
+         margin: 15px 0 0 0  !important;
+     }
+     .wb-volunteeringTitle h2{
+         font-size: 25px;
+         margin-bottom: 20px;
+     }
+     .wb-volunteeringBlock{
+         padding: 28px 45px;
+     }
+     .wb-desktopButtons{
+         display: none !important;
+     }
+
+/*     Text sizes*/
+    .wb-topTitle h1, .wb-topTitle h2{
+        font-size: 14px !important;
+    }
+    .wb-footerTitle h3, .wb-footerTitle h4{
+        font-size: 11px !important;
+    }
+    .upcommingGetAcces_left h2{
+        text-align: left !important;
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+    .upcommingGetAcces_left .More{
+        font-size: 11px;
+    }
+    .upcommingPageStatistic .statisticTitle{
+        font-size: 11px !important;
+    }
+    .statisticItem{
+        width: 50% !important;
+    }
+    .credo p{
+        font-size: 12px !important;
+        margin-bottom: 28px !important;
+    }
+    .statisticItem span{
+        font-size: 11px;
+    }
+    .wb-participateTitle h2{
+        font-size: 25px !important;
+        margin-bottom: 28px !important;
+    }
+    .wb-mobileVersion-credo-block .wb-front p{
+        font-size: 25px !important;
+        margin-bottom: 0 !important;
+    }
+    .wb-front p{
+        font-size: 16px !important;
+    }
+    .wb-back h3{
+        font-size: 21px !important;
+        line-height: 24px;
+    }
+    .upcommingSuggest h2{
+        font-size: 20px !important;
+    }
+    .upcommingSuggest p{
+        font-size: 10px !important;
+    }
+    .upcommingPrograms .textBox p{
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
+    }
+    .upcommingPrograms .upcommingPrograms_left a{
+        padding: 1vh 1vw !important;
+    }
+    .textBox a{
+        font-size: 6.5px !important;
+    }
+    .programPartner p{
+        font-size: 10px !important;
+        margin-top: 5px !important;
+    }
+    .upcommingReach p{
+        font-size: 15px !important;
+    }
+    .wb-knowMobileButtons-card a{
+        font-size: 10px !important;
+        margin-top: 0 !important;
+    }
+    .wb-organizersBlock{
+        padding: 37px 30px !important;
+    }
+    .wb-organizersTitle h2{
+        font-size: 25px !important;
+    }
+    .wb-organizersContent{
+        gap: 30px;
+    }
+    .wb-organizersImageBlock img{
+        max-width: 163px;
+    }
+    .vihacleBox button{
+        font-size: 11px !important;
+        width: 100% !important;
+        max-width: 152px !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .wb-knowMobileButtons{
+        margin-top: 15px !important;
+    }
+    .wb-knowMobileButton{
+        padding:8px 13px !important;
+        font-size: 10px !important;
+    }
+    .upcommingPrograms_right.one>div.upcommingPrograms_right_open{
+        height: 100% !important;
+    }
+    .wb-mobileVersion-credo-block .wb-mobileVersion{
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width: 1400px){
+    .vihacleBox>button{
+       padding: 1.5vh 1.5vw !important;
+    }
 }

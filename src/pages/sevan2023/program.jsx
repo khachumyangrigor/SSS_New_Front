@@ -169,6 +169,25 @@ class Programs extends React.Component {
                                     <div><a href="https://epic.aua.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/17.png')} alt="partner" /></a></div>
                                 </section>
                             </div>
+                            <div className="wb-mobilePartners">
+                                <div><a href="https://theacceleratornetwork.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/1.png')} alt="partner" /></a></div>
+                                <div><a href="https://www.startupbootcamp.org/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/2.png')} alt="partner" /></a></div>
+                                <div><a href="https://zeroth.ai/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/3.png')} alt="partner" /></a></div>
+                                <div><a href="https://en.generation-startup.ru/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/4.png')} alt="partner" /></a></div>
+                                <div><a href="https://www.startupacademy.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/5.png')} alt="partner" /></a></div>
+                                <div><a href="https://balticsandbox.eu/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/6.png')} alt="partner" /></a></div>
+                                <div><a href="https://www.granatusventures.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/7.png')} alt="partner" /></a></div>
+                                <div><a href="http://www.uite.org/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/8.png')} alt="partner" /></a></div>
+                                <div><a href="https://thecrowdfundingformula.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/9.png')} alt="partner" /></a></div>
+                                <div><a href="https://www.bajaccelerator.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/10.png')} alt="partner" /></a></div>
+                                <div><a href="https://startupwiseguys.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/11.png')} alt="partner" /></a></div>
+                                <div><a href="https://www.fast.foundation/#/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/12.png')} alt="partner" /></a></div>
+                                <div><a href="https://www.speedaccelerator.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/13.png')} alt="partner" /></a></div>
+                                <div><a><img src={require('./img/partners/14.png')} alt="partner" /></a></div>
+                                <div><a href="https://skydeck.berkeley.edu/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/15.png')} alt="partner" /></a></div>
+                                <div><a href="https://fi.co/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/16.png')} alt="partner" /></a></div>
+                                <div><a href="https://epic.aua.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/17.png')} alt="partner" /></a></div>
+                            </div>
                             {/* <div className="programPartnerNext" onClick={() => this.caruselNext(this.refs.partnerImg, 150)}><b /></div> */}
                         </div>
                     </div>
