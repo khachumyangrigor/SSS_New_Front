@@ -16,7 +16,7 @@ const data = [
         },
         back: {
             title: "Contacts and Networking",
-            description: "During the 7 days of the summit you have access to over 100 top speakers and mentors, 1000 participants, 10000 guests from over 50 countries. "
+            description: "Over the course of the Summit, you will have access to over 100 top speakers and mentors, 1.000 participants, 10.000 guests from over 50 countries. The high concentration of like-minded people, who are interested in innovation, is bound to help individuals and companies to strive for the greater."
         }
 
     },
@@ -27,7 +27,7 @@ const data = [
         },
         back: {
             title: "Funding",
-            description: "All the pitching battles are run under the judgement of angel & institutional investors. On top of that, you will have access to specially design SSS Investment fund."
+            description: "The pitch battles that are organized during the Summit are judged by angel and institutional investors. Additionally, you will be introduced to numerous funding opportunities, among them Seaside Startup Summit’s in-house venture capital fund - Triple S Ventures."
         }
 
     },
@@ -38,7 +38,7 @@ const data = [
         },
         back: {
             title: "New Skills and Knowledge",
-            description: "Be the part of the world`s leading micro-acceleration program and meet over 100 top mentors and serial entrepreneurs from all over the globe"
+            description: "Being a part of the world's leading micro-acceleration program, you will be able to meet numerous mentors and serial entrepreneurs from all over the globe, all industries and disciplines. They will be ready to hear your pitch and share their insights."
         }
 
     },
@@ -49,7 +49,7 @@ const data = [
         },
         back: {
             title: "Live market experience",
-            description: "Summit attracts representatives of over 200 leading local and regional businesses and over 10000 guests. Hence, you have a chance to reach out to B2B and B2C market"
+            description: "The Summit attracts representatives of over 200 leading local and regional companies, over 10.000 guests, from Armenia and abroad alike. You will have a unique chance to catch them all under the same “roof” and make an attempt to reach out to both B2B and B2C markets."
         }
 
     },
@@ -60,7 +60,7 @@ const data = [
         },
         back: {
             title: "Additional Visibility",
-            description: "Summits are typically under the loop pof local and regional media. Hence, you always have a chance to get into the media streams "
+            description: "SSS is sure to attract attention from local and regional media, providing an opportunity for you to reach broader media streams. By leveraging this chance, you can effectively amplify your brand or cause, generating greater awareness and engagement with a wider audience."
         }
 
     },
@@ -71,7 +71,7 @@ const data = [
         },
         back: {
             title: "Recruitment",
-            description: "Get access to thousands of talented and high-profile professionals, who can join your team."
+            description: "Unlock a gateway to a vast pool of skilled and accomplished professionals, who are ready to share your ideas. You can benefit from their expertise and experience, which will enhance your project's success and help you achieve remarkable results."
         }
 
     },

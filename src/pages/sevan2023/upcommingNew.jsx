@@ -107,6 +107,13 @@ class UpcommingNew extends React.Component {
             case 'our-credo':
                 this.handelScrollTo(this.refs.credo);
                 break;
+            case 'apply-as-a-startup':
+                console.log("this.state.subpage", this.refs.participate)
+                this.handelScrollTo(this.refs.participate);
+                break;
+            case 'become-a-volunteer':
+                this.handelScrollTo(this.refs.valounteering);
+                break;
             case 'speakers-part':
                 this.handelScrollTo(this.refs.speaker);
                 break;
@@ -256,6 +263,7 @@ class UpcommingNew extends React.Component {
                                 {/* <Link className="agendaIcon" to="/agenda"><img src={require('./img/agenda.png')} alt="Agenda" title="Coming Soon" /></Link> */}
                                 <a href="https://www.f6s.com/sevan-startup-summit-2023/apply" target="_blank" rel="noopener noreferrer">Apply as Startup</a>
                                 <a href="https://forms.gle/VSG5oNLhg2nr8zhr9" target="_blank" rel="noopener noreferrer" >Become a Volunteer</a>
+                                {/*<a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy Tickets</a>*/}
                                 <div className="minmenuLastIcon" ref="submenuIcon" onClick={(e)=>this.submenuOpen()}> <span /> <span /> <span /></div>
                             </div>
                             <div className="firstPageHeaderRight Mobi">
@@ -278,8 +286,9 @@ class UpcommingNew extends React.Component {
                             </div>
                             <div className="wb-subMnue" ref="subMenu" onClick={this.menuCloase}>
                                 <ul>
-                                    <li><Link to={`/upcoming-events/${event}/our-credo`}>Our Credo</Link></li>
-                                    <li><Link to={`/upcoming-events/${event}/citizen`}>types of participation</Link></li>
+                                    <li><Link to={`/upcoming-events/${event}/our-credo`}>Our CredoX</Link></li>
+                                    <li><Link to={`/upcoming-events/${event}/apply-as-a-startup`}>Apply as a Startup</Link></li>
+                                    <li><Link to={`/upcoming-events/${event}/become-a-volunteer`}>Become a Volunteer</Link></li>
                                     <li><Link to={`/upcoming-events/${event}/program`}>OUR PROGRAMME</Link></li>
                                     <li><Link to={`/upcoming-events/${event}/how-to-reach-us`}>How to reach us</Link></li>
                                     <li><Link to={`/upcoming-events/${event}/important-to-know`}>Important to know</Link></li>
@@ -289,18 +298,20 @@ class UpcommingNew extends React.Component {
                         <GetAccess />
                         <Part4Part5 ref="uniqprogram" />
                         <Credo ref="credo"/>
-                        <Participate />
+                        <Participate ref="participate" />
                         {/* Todo closed */}
                         {/* <Platform ref="platform"/>*/}
                         {/* Todo closed */}
                         <span ref="citizen"></span> {/*TODO Why not commented?*/}
                         {/*<Citizen />*/}
                         <div className="upcommingSuggest">
-                            <h2>We suggest a unique  program tailored to your needs</h2>
-                            <p>All the applied startup teams pass a screening process and the accepted teams are distributed into either Starter (idea stage) or Booster (early stage) programmes based on their levels of development and fields of operation*.</p>
+                            <h2>We offer a unique program tailored to your needs</h2>
+                            <p>
+                                All the applied startup teams pass a screening process. The teams accepted are distributed into either Starter (Idea Stage) or Booster (Early Stage) programs, based on their level of development and field of operation*.
+                            </p>
                         </div>
                         <Programs ref="program" />
-                        <Valounteering />
+                        <Valounteering ref="valounteering" />
                         <Apply />
                         {/* Todo closed start */}
                         {/* <FireCode ref="firecode" />*/}
@@ -310,7 +321,7 @@ class UpcommingNew extends React.Component {
                         {/* Todo closed end */}
                         <Shuttle ref="shuttle" />
                         <MustKnow ref="mustKnow" />
-                        <Organizers />
+                        {/*<Organizers />*/}
                         {/*<Partners />*/}
                         <FootterNew ref="footter" />
                     </div >

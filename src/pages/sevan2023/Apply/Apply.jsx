@@ -10,22 +10,23 @@ const data = [
     {
         img:img1,
         title:"— Application —",
-        description:"In order to apply, you will need to fill in our application form. Please keep in mind, that provision of accurate information is important helps us to provide you the best experience"
+        description:"In order to apply, you will need to fill in our application form. \n" +
+            "Make sure to provide accurate information: it helps us to provide you with the best experience."
     },
     {
         img:img2,
         title:"—  Assessment & Interview — ",
-        description:"All the applied Volunteers pass a screening process and the accepted ones are interviewed"
+        description:"All applied volunteers go through a screening process. Accepted volunteers will be invited to an interview."
     },
     {
         img:img3,
         title:"—  Pre-event training — ",
-        description:"All the preselected candidates pass one-month training session and top applicants are selected and distributed into working groups"
+        description:"All the shortlisted candidates pass month-long training. Top applicants are selected and dispersed into working groups."
     },
     {
         img:img4,
         title:"— Time to work —",
-        description:"During the 7 days of the Summit you will have to support the organizers to conduct the best event ever.   "
+        description:"Over the course of the Summit, the volunteers support the organizers in conducting the hottest event of the summer!"
     }
 ]
 

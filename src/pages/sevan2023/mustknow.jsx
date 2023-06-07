@@ -31,16 +31,13 @@ class Programs extends React.Component {
                 // if(e!=='li1')this.refs.menue.scrollTo(this.refs[e].offsetLeft-20,0);
                 this.refs[e].style.color="rgb(255,255,255)";
                 this.refs[e].style.background="#2F80ED";
-            }
-            else{
-                for(let i=1; i<5; i++){
+            } else {
+                for(let i=5; i<9; i++){
                     let elm="li"+i;
                     this.refs[elm].style.color="rgb(47, 128, 237)";
                 }
-                this.refs[e].style.color="rgb(255,255,255)";
-                this.refs[e].style.background="#2F80ED";
+                this.refs[e].style.color="rgb(117,117,117)";
             }
-            // }
     }
 
     render = () => {
@@ -54,24 +51,27 @@ class Programs extends React.Component {
                         </div>
                         <div className="textBox">
                             <h3>— important to know —</h3>
-                            <p>Sevan Startup Summit is located on one of the most beautiful places of Armenia and represents an open outdoor camping. Hence, it is important to be well prepared. <br /> <b>Please check the below links for more information.</b></p>
+                            <div style={{display: "flex"}}>
+                                <img src={require('./img/disignIcon/info.png')} alt="starter program" className="textBoxMobileImg"/>
+                                <p>Sevan Startup Summit is located in one of the most beautiful places in Armenia, in an open outdoor camping area. It is extremely important to be well prepared.<br /> <b>Please check the below links for more information.</b></p>
+                            </div>
                             <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>
                                 <ul ref="menue">
-                                    <li ref="li1" onClick={() => this.programOpen("li1",this.refs.Amenities, this.refs.Amenities2)} style={{color:"rgb(117,117,117)"}}>Amenities at the venue</li>
+                                    <li ref="li5" onClick={() => this.programOpen("li5",this.refs.Amenities, this.refs.Amenities2)} style={{color:"rgb(117,117,117)"}}>Amenities at the venue</li>
                                     {/* <div ref="Amenities2" className="ulDiv ulDivOpen"> <Amenities /></div> */}
-                                    <li ref="li2" onClick={() => this.programOpen("li2",this.refs.Weather, this.refs.Weather2)}>Weather conditions</li>
+                                    <li ref="li6" onClick={() => this.programOpen("li6",this.refs.Weather, this.refs.Weather2)}>Weather conditions</li>
                                     {/* <div ref="Weather2" className="ulDiv"> <Weather /></div> */}
-                                    <li ref="li3" onClick={() => this.programOpen("li3",this.refs.Entertainments, this.refs.Entertainments2)}>Entertainments</li>
+                                    <li ref="li7" onClick={() => this.programOpen("li7",this.refs.Entertainments, this.refs.Entertainments2)}>Entertainments</li>
                                     {/* <div ref="Entertainments2" className="ulDiv"> <Entertainments /></div> */}
-                                    <li ref="li4" onClick={() => this.programOpen("li4",this.refs.LocalRules, this.refs.LocalRules2)}>Local rules </li>
+                                    <li ref="li8" onClick={() => this.programOpen("li8",this.refs.LocalRules, this.refs.LocalRules2)}>Local rules</li>
                                     {/* <div ref="LocalRules2" className="ulDiv"> <LocalRules /></div> */}
                                 </ul>
                                 <div className="mobi_meue_trp_right"/>
                             </div>
                             <div className="wb-knowMobileButtons">
                                 <div className="wb-knowMobileButtons-card">
-                                    <button ref="li1" className="wb-knowMobileButton" onClick={() => this.programOpen("li1",this.refs.Amenities, this.refs.Amenities2)}>Amenities at the venue</button>
+                                    <button ref="li1" className="wb-knowMobileButton" onClick={() => this.programOpen("li1",this.refs.Amenities, this.refs.Amenities2)} style={{color:"rgb(255,255,255)", background:"#2F80ED"}}>Amenities at the venue</button>
                                     <button ref="li2" className="wb-knowMobileButton" onClick={() => this.programOpen("li2",this.refs.Weather, this.refs.Weather2)}>Weather conditions</button>
                                 </div>
                                 <div className="wb-knowMobileButtons-card">

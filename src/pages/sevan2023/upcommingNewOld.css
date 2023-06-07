@@ -200,6 +200,7 @@
     padding: 8vh 5.5vw;
     justify-content: space-between;
     background: #F7F7F7;
+    margin-top: 10px;
 }
 
 .upcommingGetAcces_left{
@@ -213,7 +214,7 @@
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 900;
-    font-size: 2.3vw;
+    font-size: 48px;
     line-height: normal;
     color: #000000;
 }
@@ -233,10 +234,10 @@
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.3vw;
+    font-size: 25px;
     line-height: 1.5;
     color: #000000;
-    padding: 5.7vw 0px;
+    padding: 0.5vw 0px;
 }
 .upcommingGetAcces_left a{
     font-family: Source Sans Pro;
@@ -262,14 +263,15 @@
 .upcommingGetAcces_right{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: start;
     width: 50%;
 }
 .upcommingGetAcces_right iframe{
     width:47vw;
-    height:48vh;
+    height: 100%;
     max-width: 899px;
     max-height: 532px;
+    aspect-ratio: 16/9;
 }
 /* Part 4 */
 .upcommingPageStatistic{
@@ -719,7 +721,7 @@
     align-items: center;
     align-content: center;
     margin-bottom: 2.2vh;
-    cursor: pointer;
+    cursor: auto;
 }
 .infoIconBox:hover img{
     -moz-transform: scale(1.2);
@@ -1899,6 +1901,106 @@
     width: 51vw;
     max-width: 1021px;
 }
+.wb-topTitle h1 {
+    font-size: 55px;
+}
+.wb-topTitle h2 {
+    font-size: 50px;
+}
+.statisticTitle{
+    font-size: 25px;
+}
+.statisticItem>div>span{
+    font-size: 70px;
+}
+.statisticItem span{
+    font-size: 22px;
+}
+.credo>h2{
+    font-size: 48px;
+}
+.credo>p{
+    font-size: 23px;
+}
+.credoItem .front>h4{
+    font-size: 36px;
+}
+.credoItem .back>h4{
+    font-size: 36px;
+}
+.upcommingSuggest h2{
+    font-size: 48px;
+}
+.upcommingSuggest p{
+    font-size: 22px;
+}
+.upcommingPrograms .textBox h3{
+    font-size: 25px;
+}
+.upcommingPrograms .textBox p{
+    font-size: 18px;
+}
+.upcommingPrograms .upcommingPrograms_left a{
+    font-size: 15px;
+}
+.upcommingPrograms_right h3{
+    color: #1F2C4C;
+    font-size: 23px;
+}
+.programPartner>p{
+    font-size: 18px;
+}
+.wb-front p {
+    font-size: 23px !important;
+    line-height: 24px !important;
+}
+.wb-back h3 {
+    font-size: 23px !important;
+    line-height: 24px !important;
+}
+.wb-back p{
+    font-size: 21px;
+    line-height: 30px;
+}
+.wb-titleBlock h3{
+    font-size: 26px;
+}
+.wb-applyBlock .wb-description p{
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 30px;
+}
+.upcommingReach>h2{
+    font-size: 48px;
+}
+.upcommingReach>p{
+    font-size: 23px;
+}
+.vihacleOpenIN p{
+    font-size: 18px;
+}
+.vihacleOpenIN h3{
+    font-size: 60px;
+}
+.upcommingProgramsBlock h2{
+    font-size: 48px;
+}
+.infoIconBoxKnow>span{
+    font-size: 18px;
+}
+.upcommingPrograms .upcommingPrograms_left a{
+    justify-content: center;
+}
+.venueWeater>div>span{
+    font-size: 39px;
+}
+.programSub p{
+    font-size: 18px;
+}
+.programSub h4{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
 
 /* Animation */
 @keyframes circle {
@@ -1907,7 +2009,57 @@
     100% {border-color: #2F80ED;}
 }
 
+.subMnueFix{
+    background: #FFF !important;
+    top: 325px !important;
+    right: 63px;
+    z-index: 9999!important;
+}
+.subMnueFix ul{
+    background: #fff !important;
+    z-index: 9999!important;
+}
 
+.wb-subMnue{
+    width: 236px !important;
+    max-width:430px;
+    max-height: 909px;
+    position: absolute;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    right: 63px;
+    bottom: 120px !important;
+    z-index: 20;
+    background: #FFF !important;
+    padding: 0 !important;
+    transition: all .4s ease-out;
+}
+
+.wb-subMnue ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 9999!important;
+}
+
+.wb-applyButtonBlock p{
+    font-size: 15px;
+}
+
+.wb-applyBlock {
+    padding-top: 48px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.wb-participateBlock {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.textBoxMobileImg {
+    display: none;
+}
 
 @media (min-width: 2200px){
     /* .upcommingNew{
@@ -2322,8 +2474,233 @@
     }
 }
 
+@media screen and (max-width: 1750px){
+    .vihacleBox>button{
+        padding: 1.5vh 1.5vw !important;
+    }
+    .wb-topTitle h1 {
+        font-size: 38px;
+    }
+    .wb-topTitle h2 {
+        font-size: 36px;
+    }
+    .wb-footerTitle h3 {
+        font-size: 28px;
+    }
+    .firstPageHeaderMiddle ul li a {
+        font-size: 16px!important;
+    }
+    .firstPageHeaderMiddle ul li {
+        font-size: 16px!important;
+    }
+    .firstPageHeaderRight {
+        margin-bottom: 20px!important;
+        margin-top: 20px!important;
+    }
+    .firstPageHeaderRight a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .firstPageHeaderLeft a:first-child {
+        width: 39px;
+        height: 35px;
+    }
+    .wb-subMnue {
+        bottom: 100px!important;
+    }
+    .subMnueFix {
+        top: 300px!important;
+    }
+    .wb-subMnue ul li {
+        margin-bottom: 0;
+    }
+    .wb-subMnue ul li a, .subMnueFix ul li a {
+        font-size: 12px!important;
+        padding: 12px!important;
+    }
+    .wb-footerTitle h4 {
+        font-size: 28px;
+    }
+    .upcommingGetAcces_left h2 {
+        font-size: 36px;
+    }
+    .upcommingGetAcces_left p {
+        font-size: 18px;
+    }
+    .statisticTitle{
+        font-size: 22px;
+    }
+    .statisticItem>div>span{
+        font-size: 50px;
+    }
+    .statisticItem span{
+        font-size: 18px;
+    }
+    .credo>h2{
+        font-size: 36px;
+    }
+    .credo>p{
+        font-size: 22px;
+    }
+    .credoItem .front>h4{
+        font-size: 25px;
+    }
+    .credoItem .back>h4{
+        font-size: 25px;
+    }
+    .credoItem .back>p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .wb-participateTitle h2{
+        font-size: 36px;
+    }
+    .wb-front p {
+        font-size: 18px !important;
+        line-height: 17px !important;
+    }
+    .wb-back h3 {
+        font-size: 18px !important;
+        line-height: 17px !important;
+    }
+    .wb-back p{
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .wb-participateItemsBlock{
+        gap: 48px 104px;
+    }
+    .wb-container {
+        width: 290px;
+    }
+    .wb-applyButtonBlock button{
+        font-size: 18px;
+        padding: 14px 22px;
+    }
+    .upcommingSuggest h2{
+        font-size: 36px;
+    }
+    .upcommingSuggest p{
+        font-size: 16px;
+    }
+    .upcommingPrograms .textBox h3{
+        font-size: 22px;
+    }
+    .upcommingPrograms .textBox p{
+        font-size: 18px;
+    }
+    .upcommingPrograms .upcommingPrograms_left a{
+        font-size: 15px;
+    }
+    .upcommingPrograms_left {
+        padding-right: 90px;
+    }
+    .upcommingPrograms_right h3{
+        font-size: 18px;
+    }
+    .infoIconBox>span{
+        font-size: 10px;
+    }
+    .programPartner>p{
+        font-size: 15px;
+    }
+    .wb-volunteeringBlock {
+        padding: 60px 70px;
+    }
+    .wb-volunteeringTitle h2{
+        font-size: 36px;
+    }
+    .wb-volunteeringItemsBlock .wb-container{
+        width: 280px;
+    }
+    .wb-volunteeringItemsBlock {
+        gap: 45px 27px;
+    }
+    .wb-applyTitle h2{
+        font-size: 36px;
+    }
+    .wb-titleBlock h3{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .wb-applyBlock .wb-description p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .wb-applyButtonBlock button{
+        font-size: 15px;
+    }
+    .upcommingReach>h2{
+        font-size: 36px;
+    }
+    .upcommingReach>p{
+        font-size: 18px;
+    }
+    .vihacleBox>button{
+        padding: 14px 28px !important;
+        line-height: 28px;
+    }
+    .vihacleOpenIN p{
+        font-size: 15px;
+    }
+    .vihacleOpenIN h3{
+        font-size: 42px;
+    }
+    .upcommingProgramsBlock h2{
+        font-size: 36px;
+    }
+    .upcommingPrograms .textBox ul li{
+        font-size: 18px;
+    }
+    .infoIconBoxKnow>span{
+        font-size: 13px;
+    }
+    .upcommingPrograms .upcommingPrograms_left a{
+        font-size: 13px;
+    }
+    .upcommingPrograms_right h3{
+        font-size: 16px;
+    }
+    .venueWeater>div>span{
+        font-size: 27px;
+    }
+    .programSub p{
+        font-size: 15px;
+    }
+    .venueWeater>div>img{
+        width: 40px;
+        height: 40px;
+    }
+    .programSub h4{
+        font-size: 15px;
+    }
+}
 
+@media screen and (max-width: 1345px) {
+    .wb-volunteeringItemsBlock .wb-container {
+        width: 240px;
+    }
+}
 
+@media screen and (max-width: 1300px) {
+    .upcommingPrograms .textBox p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wb-volunteeringItemsBlock .wb-container {
+        width: 200px;
+    }
+    .wb-itemWithArrowBlock {
+        width: 220px;
+        flex-basis: 20vw;
+    }
+    .vihacleBox>button {
+        padding: 11px 20px !important;
+        line-height: 20px;
+    }
+}
 
 @media (max-width: 1024px){
     .upcommingNewTop{
@@ -2985,7 +3362,310 @@
     .coverbg2020Bl>p{
         font-size: 20px;
     }
+    .wb-front p {
+        font-size: 25px !important;
+    }
+    .firstPageHeaderRight.Mobi a{
+        font-size: 8px;
+        padding:7px 10px 7px 10px !important;
+        border-radius: 3.4px;
+    }
+    .firstPageHeaderRight.Mobi a i{
+        display: none;
+    }
+
+    .vihacle {
+        width: 100% !important;
+    }
+
+    .credoItem {
+        display: none;
+    }
+
+    .wb-mobileVersion-credo-block {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .wb-knowMobileButtons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wb-mobile-info-button {
+        display: block !important;
+    }
+
+    .wb-knowMobileButtons-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wb-knowMobileButtons{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    .wb-knowMobileButtons-card{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .wb-knowMobileButton {
+        padding: 9.7px 15px;
+        border:1px solid #2F80ED;
+        color: #2F80ED;
+        border-radius: 4px;
+        flex-basis: 48%;
+        font-size: 13px;
+    }
+    .wb-knowMobileButtons-card a{
+        display: inline-block;
+        padding: 10px 15px !important;
+        border:1px solid #001A34 !important;
+        color: #001A34 !important;
+        border-radius: 4px !important;
+        flex-basis: 48% !important;
+        font-size: 13px !important;
+    }
+    .upcommingPrograms_right_open h3{
+        display: block !important;
+        text-align: left;
+    }
+    .upcommingPrograms_right_open .infoIconBoxKnow{
+        display: flex;
+        flex-direction: column;
+        width: 33% !important;
+    }
+    .upcommingPrograms .textBox p {
+        font-size: 14px !important;
+    }
+    .upcommingProgramsBlock h2{
+        display: none;
+    }
+    .upcommingPrograms {
+        padding: 21px 29px !important;
+    }
+    .upcommingPrograms_right{
+        max-height: 500px !important;
+    }
+    .infoIconBoxKnow span{
+        font-size: 10px !important;
+        margin-top: 3px !important;
+        font-weight: bold !important;
+    }
+
+    .carusel_menue {
+        display: none !important;
+    }
+
+    /*    Navbar*/
+    .minmenuBoxOpen{
+        background: linear-gradient(180deg, rgba(247, 247, 247, 1) 76%, rgba(247, 247, 247, 1) 100%);
+    }
+
+    /*    STarter Program*/
+    .upcommingPrograms_left{
+        flex-flow: row;
+        gap: 15px;
+    }
+    .imgBox{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .upcommingPrograms_right{
+        margin-top: 0 !important;
+
+    }
+    .infoIconBox span{
+        font-size: 6px !important;
+    }
+    .upcommingPrograms_right_open .infoIconBox{
+        width: 20% !important;
+    }
+    .trackText{
+        display: none !important;
+    }
+    .upcommingPrograms .upcommingPrograms_left a{
+        margin-top: 15px;
+        display: block !important;
+    }
+    .upcommingPrograms_right_open .infoIconBox{
+        display: flex !important;
+        width: 17% !important;
+    }
+    .upcommingPrograms_right.one>div.upcommingPrograms_right_open{
+        flex-wrap: wrap !important;
+        height: 400px !important;
+        max-height: 500px !important;
+    }
+    .upcommingPrograms_right .mobi{
+        display: none !important;
+    }
+    .programPartnerImg {
+        display: none;
+    }
+    .wb-mobilePartners{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin: 0 auto;
+        flex-grow: 0;
+    }
+    .wb-mobilePartners div{
+        flex-basis: 20%;
+    }
+    .wb-mobilePartners div img{
+        width: 60%;
+        max-height: 100%;
+
+    }
+
+    .upcommingPrograms_right {
+
+    }
+    .programPartnerImg section{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+
+    .programPartner h3{
+        text-align: left !important;
+        margin: 15px 0 0 0  !important;
+    }
+    .wb-volunteeringTitle h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .wb-volunteeringBlock{
+        padding: 28px 45px;
+    }
+    .wb-desktopButtons{
+        display: none !important;
+    }
+
+    /*     Text sizes*/
+    .wb-topTitle h1, .wb-topTitle h2{
+        font-size: 14px !important;
+    }
+    .wb-footerTitle h3, .wb-footerTitle h4{
+        font-size: 11px !important;
+    }
+    .upcommingGetAcces_left h2{
+        text-align: left !important;
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+    .upcommingGetAcces_left .More{
+        font-size: 11px;
+    }
+    .upcommingPageStatistic .statisticTitle{
+        font-size: 11px !important;
+    }
+    .statisticItem{
+        width: 50% !important;
+    }
+    .credo p{
+        font-size: 12px !important;
+        margin-bottom: 28px !important;
+    }
+    .statisticItem span{
+        font-size: 11px;
+    }
+    .wb-participateTitle h2{
+        font-size: 25px !important;
+        margin-bottom: 28px !important;
+    }
+    .wb-mobileVersion-credo-block .wb-front p{
+        font-size: 25px !important;
+        margin-bottom: 0 !important;
+    }
+    .wb-front p{
+        font-size: 16px !important;
+    }
+    .wb-back h3{
+        font-size: 21px !important;
+        line-height: 24px;
+    }
+    .upcommingSuggest h2{
+        font-size: 20px !important;
+    }
+    .upcommingSuggest p{
+        font-size: 10px !important;
+    }
+    .upcommingPrograms .textBox p{
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
+    }
+    .upcommingPrograms .upcommingPrograms_left a{
+        padding: 1vh 1vw !important;
+    }
+    .textBox a{
+        font-size: 6.5px !important;
+    }
+    .programPartner p{
+        font-size: 10px !important;
+        margin-top: 5px !important;
+    }
+    .upcommingReach p{
+        font-size: 15px !important;
+    }
+    .wb-knowMobileButtons-card a{
+        font-size: 10px !important;
+        margin-top: 0 !important;
+    }
+    .wb-organizersBlock{
+        padding: 37px 30px !important;
+    }
+    .wb-organizersTitle h2{
+        font-size: 25px !important;
+    }
+    .wb-organizersContent{
+        gap: 30px;
+    }
+    .wb-organizersImageBlock img{
+        max-width: 163px;
+    }
+    .vihacleBox button{
+        font-size: 11px !important;
+        width: 100% !important;
+        max-width: 152px !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .wb-knowMobileButtons{
+        margin-top: 15px !important;
+    }
+    .wb-knowMobileButton{
+        padding:8px 13px !important;
+        font-size: 10px !important;
+    }
+    .upcommingPrograms_right.one>div.upcommingPrograms_right_open{
+        height: 100% !important;
+    }
+    .wb-mobileVersion-credo-block .wb-mobileVersion{
+        max-width: 100%;
+    }
+    .statisticItem>div>span {
+        font-size: 30px;
+    }
+    .upcommingPrograms_right.one>div.upcommingPrograms_right_open {
+        justify-content: center;
+    }
+    .wb-mobilePartners {
+        display: flex!important;
+        justify-content: center;
+    }
+    .wb-knowMobileButtons {
+        display: flex!important;
+    }
 }
+
 @media (max-width: 599px){
     /*  */
     .closeMsg {
@@ -3573,6 +4253,25 @@
         height: 45px;
     }
 
+    .upcommingPrograms_left .textBox {
+        width: 100%;
+    }
+
+    .upcommingPrograms .imgBox {
+        display: none;
+    }
+    .textBoxMobileImg {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 450px){
+    .vihacleBox>button {
+        line-height: 11px;
+    }
 }
 
 @media (max-width: 360px){
@@ -3610,8 +4309,37 @@
         -ms-transform: scale(1);
         transform: scale(1);
     }
+}
 
-  }
+.firstPageHeaderRight {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.firstPageHeaderMiddle ul {
+    width: auto !important;
+    max-width: 1200px !important;
+    gap: 10px;
+}
+
+.firstPageHeaderMiddle ul li {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.firstPageHeaderMiddle ul li a {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
 
 .firstPageHeaderRight a, .firstPageHeaderRight.Mobi a{
     background-color: #001A34;
@@ -3621,39 +4349,6 @@
 
 .wb-knowMobileButtons {
     display: none;
-}
-
-.wb-subMnue{
-    width: 236px !important;
-    max-width:430px;
-    max-height: 909px;
-    position: absolute;
-    display: none;
-    justify-content: flex-end;
-    align-items: center;
-    right: 63px;
-    bottom: 75px !important;
-    z-index: 20;
-    background: #FFF !important;
-    padding: 0 !important;
-    transition: all .4s ease-out;
-}
-.subMnueFix{
-    background: #FFF !important;
-    top: 260px !important;
-    right: 63px;
-    z-index: 9999!important;
-}
-.subMnueFix ul{
-    background: #fff !important;
-    z-index: 9999!important;
-}
-
-.wb-subMnue ul{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 9999!important;
 }
 
 .wb-subMnue ul li{
@@ -3684,302 +4379,4 @@
 }
 .wb-mobilePartners{
     display: none;
-}
-
-@media screen and (max-width: 1024px){
-    .wb-front p {
-        font-size: 25px !important;
-    }
-    .firstPageHeaderRight.Mobi a{
-        font-size: 8px;
-        padding:7px 10px 7px 10px !important;
-        border-radius: 3.4px;
-    }
-    .firstPageHeaderRight.Mobi a i{
-        display: none;
-    }
-
-    .vihacle {
-        width: 100% !important;
-    }
-
-    .credoItem {
-        display: none;
-    }
-
-    .wb-mobileVersion-credo-block {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .wb-knowMobileButtons {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .wb-mobile-info-button {
-        display: block !important;
-    }
-
-    .wb-knowMobileButtons-card {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .wb-knowMobileButtons{
-        margin: 0 auto;
-        width: 100%;
-
-    }
-    .wb-knowMobileButtons-card{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
-    }
-    .wb-knowMobileButton {
-        padding: 9.7px 15px;
-        border:1px solid #2F80ED;
-        color: #2F80ED;
-        border-radius: 4px;
-        flex-basis: 48%;
-        font-size: 13px;
-    }
-    .wb-knowMobileButtons-card a{
-        display: inline-block;
-        padding: 10px 15px !important;
-        border:1px solid #001A34 !important;
-        color: #001A34 !important;
-        border-radius: 4px !important;
-        flex-basis: 48% !important;
-        font-size: 13px !important;
-    }
-    .upcommingPrograms_right_open h3{
-        display: block !important;
-        text-align: left;
-    }
-    .upcommingPrograms_right_open .infoIconBoxKnow{
-        display: flex;
-        flex-direction: column;
-        width: 33% !important;
-    }
-    .upcommingPrograms .textBox p {
-        font-size: 14px !important;
-    }
-    .upcommingProgramsBlock h2{
-        display: none;
-    }
-    .upcommingPrograms {
-        padding: 21px 29px !important;
-    }
-    .upcommingPrograms_right{
-        max-height: 500px !important;
-    }
-    .infoIconBoxKnow span{
-        font-size: 10px !important;
-        margin-top: 3px !important;
-        font-weight: bold !important;
-    }
-
-    .carusel_menue {
-        display: none !important;
-    }
-
-/*    Navbar*/
-    .minmenuBoxOpen{
-        background: linear-gradient(180deg, rgba(247, 247, 247, 1) 76%, rgba(247, 247, 247, 1) 100%);
-    }
-
-/*    STarter Program*/
-    .upcommingPrograms_left{
-        flex-flow: row;
-        gap: 15px;
-    }
-    .imgBox{
-        width: 100px !important;
-        height: 100px !important;
-    }
-    .upcommingPrograms_right{
-        margin-top: 0 !important;
-
-    }
-    .infoIconBox span{
-        font-size: 6px !important;
-    }
-    .upcommingPrograms_right_open .infoIconBox{
-        width: 20% !important;
-    }
-    .trackText{
-        display: none !important;
-    }
-    .upcommingPrograms .upcommingPrograms_left a{
-        margin-top: 15px;
-        display: block !important;
-    }
-    .upcommingPrograms_right_open .infoIconBox{
-        display: flex !important;
-        width: 17% !important;
-    }
-    .upcommingPrograms_right.one>div.upcommingPrograms_right_open{
-        flex-wrap: wrap !important;
-        height: 400px !important;
-        max-height: 500px !important;
-    }
-    .upcommingPrograms_right .mobi{
-        display: none !important;
-    }
-     .programPartnerImg {
-        display: none;
-    }
-     .wb-mobilePartners{
-         display: flex;
-         flex-flow: row wrap;
-         align-items: center;
-         margin: 0 auto;
-         flex-grow: 0;
-     }
-    .wb-mobilePartners div{
-        flex-basis: 20%;
-    }
-    .wb-mobilePartners div img{
-        width: 60%;
-        max-height: 100%;
-
-    }
-
-    .upcommingPrograms_right {
-
-    }
-    .programPartnerImg section{
-        max-width: 100% !important;
-        width: 100% !important;
-    }
-
-
-     .programPartner h3{
-         text-align: left !important;
-         margin: 15px 0 0 0  !important;
-     }
-     .wb-volunteeringTitle h2{
-         font-size: 25px;
-         margin-bottom: 20px;
-     }
-     .wb-volunteeringBlock{
-         padding: 28px 45px;
-     }
-     .wb-desktopButtons{
-         display: none !important;
-     }
-
-/*     Text sizes*/
-    .wb-topTitle h1, .wb-topTitle h2{
-        font-size: 14px !important;
-    }
-    .wb-footerTitle h3, .wb-footerTitle h4{
-        font-size: 11px !important;
-    }
-    .upcommingGetAcces_left h2{
-        text-align: left !important;
-        font-size: 20px !important;
-        font-weight: bold !important;
-    }
-    .upcommingGetAcces_left .More{
-        font-size: 11px;
-    }
-    .upcommingPageStatistic .statisticTitle{
-        font-size: 11px !important;
-    }
-    .statisticItem{
-        width: 50% !important;
-    }
-    .credo p{
-        font-size: 12px !important;
-        margin-bottom: 28px !important;
-    }
-    .statisticItem span{
-        font-size: 11px;
-    }
-    .wb-participateTitle h2{
-        font-size: 25px !important;
-        margin-bottom: 28px !important;
-    }
-    .wb-mobileVersion-credo-block .wb-front p{
-        font-size: 25px !important;
-        margin-bottom: 0 !important;
-    }
-    .wb-front p{
-        font-size: 16px !important;
-    }
-    .wb-back h3{
-        font-size: 21px !important;
-        line-height: 24px;
-    }
-    .upcommingSuggest h2{
-        font-size: 20px !important;
-    }
-    .upcommingSuggest p{
-        font-size: 10px !important;
-    }
-    .upcommingPrograms .textBox p{
-        font-size: 10px !important;
-        margin-bottom: 0 !important;
-    }
-    .upcommingPrograms .upcommingPrograms_left a{
-        padding: 1vh 1vw !important;
-    }
-    .textBox a{
-        font-size: 6.5px !important;
-    }
-    .programPartner p{
-        font-size: 10px !important;
-        margin-top: 5px !important;
-    }
-    .upcommingReach p{
-        font-size: 15px !important;
-    }
-    .wb-knowMobileButtons-card a{
-        font-size: 10px !important;
-        margin-top: 0 !important;
-    }
-    .wb-organizersBlock{
-        padding: 37px 30px !important;
-    }
-    .wb-organizersTitle h2{
-        font-size: 25px !important;
-    }
-    .wb-organizersContent{
-        gap: 30px;
-    }
-    .wb-organizersImageBlock img{
-        max-width: 163px;
-    }
-    .vihacleBox button{
-        font-size: 11px !important;
-        width: 100% !important;
-        max-width: 152px !important;
-        text-align: center !important;
-        justify-content: center !important;
-    }
-    .wb-knowMobileButtons{
-        margin-top: 15px !important;
-    }
-    .wb-knowMobileButton{
-        padding:8px 13px !important;
-        font-size: 10px !important;
-    }
-    .upcommingPrograms_right.one>div.upcommingPrograms_right_open{
-        height: 100% !important;
-    }
-    .wb-mobileVersion-credo-block .wb-mobileVersion{
-        max-width: 100%;
-    }
-
-}
-@media screen and (max-width: 1400px){
-    .vihacleBox>button{
-       padding: 1.5vh 1.5vw !important;
-    }
 }

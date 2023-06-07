@@ -18,7 +18,7 @@ const data = [
         },
         back: {
             title: "GRAND ENTRY",
-            description: "These volunteers assist with grand entry procedures, requirements, and activities. Volunteers help with participant passes and escorts to the event grounds. They also are responsible for shuttle services."
+            description: "This Volunteer team assists with grand entry procedures, requirements and activities. Volunteers help participants with passes and escort them to the event grounds. They also are responsible for shuttle services.\n"
         }
 
     },
@@ -29,7 +29,7 @@ const data = [
         },
         back: {
             title: "MEET AND GREET TEAM",
-            description: "The team is responsible for organizing the meet and greet of the international guests, speakers, and special attendees, escorting them from airport and/or other transportation hubs to the venue and/or hotels.\n"
+            description: "The team is responsible for organizing the meet and greet of the international guests, speakers and special attendees, escorting them from airport and/or other transportation hubs to the venue and/or hotels."
         }
 
     },
@@ -40,7 +40,7 @@ const data = [
         },
         back: {
             title: "CONTENT RELATED SERVICES",
-            description: "Content team volunteers are responsible for the technical management of the auditoriums and campfires. They support speakers, mentors, startuppers, and jury by guiding through the agenda and providing content-related information."
+            description: "Content team volunteers are responsible for the technical management of the auditoriums and campfires. They support speakers, mentors, startuppers and judges by guiding through the agenda and providing content-related information."
         }
 
     },
@@ -51,7 +51,7 @@ const data = [
         },
         back: {
             title: "DIRECTIONS & ASSISTANCE",
-            description: "These Volunteers are responsible for assisting attendees with information and directions around the event grounds. They are responsible for the care of lost children, for the operation of the lost and found room, and distribution of the visitors guide and agenda."
+            description: "These volunteers are responsible for assisting attendees with information and directions around the event grounds. They run the lost-and-found room, distribute the visitors’ guides and agendas and help participants navigate around the camp."
         }
 
     },
@@ -62,7 +62,7 @@ const data = [
         },
         back: {
             title: "MEDIA TEAM",
-            description: "Media team is responsible for content writing during the talks, workshops, and masterclasses. They are also responsible for interviewing various participants, such as startupers, speakers, and/or special guests."
+            description: "The media team is responsible for the content writing during the talks, workshops, and masterclasses. They are also responsible for interviewing various participants, such as startuppers, speakers, and special guests."
         }
 
     },
@@ -73,7 +73,7 @@ const data = [
         },
         back: {
             title: "Photo-Video Production",
-            description: "These volunteers are responsible for photo and video shooting of various activities during the event. They must follow the agenda and prepare materials covering each activity."
+            description: "These volunteers are responsible for photo and video shooting of various activities during the event. They must follow the agenda and prepare materials, covering each activity."
         }
 
     },
@@ -84,7 +84,7 @@ const data = [
         },
         back: {
             title: "Technical support",
-            description: "The technical team is responsible for the conduction of various sets of technical operations, such as warehouse management, parking zone control, beach maintenance. These volunteers also act as a quick response team."
+            description: "The technical team conducts various technical operations, such as warehouse management, parking zone control, beach maintenance. These volunteers also act as a quick response team."
         }
 
     },
@@ -95,7 +95,7 @@ const data = [
         },
         back: {
             title: "Entertainment",
-            description: "These volunteers work under the direct supervision of the entertainment Teamlead and are responsible for the organization of various sport, art & gaming events, and contests. They also act as a support team for the DJs and professional entertainers."
+            description: "These volunteers work under direct supervision of the entertainment Teamlead and are responsible for the organization of various sport, art and gaming events and contests. They also provide support to the DJs and professional entertainers."
         }
 
     },

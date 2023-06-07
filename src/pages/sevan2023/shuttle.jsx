@@ -18,7 +18,7 @@ class Shuttle extends React.Component {
     render = () => {
         return (
             <div className="upcommingReach">
-                <h2>How to reach Sevan Startup Summit 2023</h2>
+                <h2>How to reach Sevan Startup Summit 2023 Grounds</h2>
                 <p>— The best ways to reach us —</p>
                 <div className="upcommingReach_middle">
                     <div className="vihacle" ref="shuttle">
@@ -31,7 +31,7 @@ class Shuttle extends React.Component {
                         <div className="vihacleOpen">
                             <div className="vihacleOpenIN">
                                 <p><b>Shuttle service will be available during the event.</b></p>
-                                <p>The schedule will be available closer to the event. Seat reservation will be required:</p>
+                                <p>The schedule for it will be available beforehand.  Seat reservation will be required.</p>
                                 <h3>coming&nbsp;soon</h3>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ class Shuttle extends React.Component {
                             <div className="vihacleOpenIN">
                                 <p><b>You can easily reach the venue on your own.</b></p>
                                 <p>The exact location will be provided soon.</p>
-                                <p> <img src={require('./img/disignIcon/parking.png')} alt="parking" />   Parking is available at the venue</p>
+                                <p style={{fontWeight: 700}}> <img src={require('./img/disignIcon/parking.png')} alt="parking" />Parking is available at the venue</p>
                             </div>
                             <iframe
                                 title="shuttleMap"

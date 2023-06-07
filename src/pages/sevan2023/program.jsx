@@ -76,9 +76,10 @@ class Programs extends React.Component {
                         <img src={require('./img/disignIcon/Group.png')} alt="starter program" />
                     </div>
                     <div className="textBox" >
-                        <h3>— Starter Programme —</h3>
+                        <h3>— Starter Program —</h3>
                         <p>
-                            The Starter programme is designed for aspiring entrepreneurs and idea-stage startups. Startups are divided into tracks based on the industries/technologies and the fields of their activities.<br/><br/>Each track undergoes a specially designed incubation/acceleration programme guided by the leading mentors and experts. In the end, the Starter startups participate in the industry track battles.
+                            The Starter program is created for aspiring entrepreneurs and idea-stage startups. The latter are divided into tracks, based on the industries/technologies they belong to and their field of activity.<br/><br/>
+                            Each track undergoes a tailored incubation/acceleration programme, guided by leading mentors and experts of the field. It culminated with the startups participating in respective industry track battles.
                         </p>
                            {/* <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>
@@ -112,7 +113,7 @@ class Programs extends React.Component {
                     <div ref="Camfire">
                         <Camfire />
                     </div>
-                    <h3 className='mobi'>— Suggested tracks —</h3>
+                    <h3 className='mobi'>— Suggested tracks & Technologies —</h3>
                     <div ref="TrackBattles" className="upcommingPrograms_right_open">
                         <TrackBattles />
                     </div>
@@ -123,14 +124,12 @@ class Programs extends React.Component {
                         <img src={require('./img/disignIcon/Group1.png')} alt="starter program" />
                     </div>
                     <div className="textBox">   
-                        <h3>— Booster Programme —</h3>
+                        <h3>— Booster Program —</h3>
                         <p>
-                            This is a specially designed intensive micro-acceleration programme for the startups that have developed an early prototype and secured some form of angel funding.
-                            <br/>
-                            Booster program is delivered by international accelerators and facilitated by Speakers and Mentors with a hands-on intensive acceleration experience. 
-                            <br/><br/>
-                            Educational tracks of the Booster Programme are divided based on the technologies the startups operate in.
-                            <br/><br/> Besides the main prizes, the Booster Startups can get up to $100k investment commitments by SSS Fund.
+                            The Booster Program has been crafted as an intensive micro-acceleration program for the startups that have an early prototype and have secured some form of angel funding.<br/><br/>
+                            The Booster program is delivered by international accelerators, facilitated by speakers and mentors with a hands-on intensive acceleration experience.<br/><br/>
+                            The educational tracks of the Booster Program are divided based on the technologies the startups operate in. In addition to the main prizes, the Booster Startups can get a chance to attract about $100k investment commitments by Triple S Ventures.<br/><br/>
+
                         </p>
                         {/* <p><b>TOP TEAMS WILL BE ELIGIBLE FOR PRIZE FUND OF US $15K AND OPTIONAL INVESTMENTS UP TO US $50K PER-TEAM FROM SPECIALLY DESIGNED BOOSTER FUNDS.</b></p> */}
                         <a target="_blank" rel="noopener noreferrer" className="passiveBtn">Get the Booster program</a>

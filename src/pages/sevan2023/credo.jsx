@@ -14,7 +14,7 @@ const data = [
         },
         back: {
             title: "Connect",
-            description: "We create a fully immersive environment where human relationships and trust are built through collaboration between people from different countries, cultures, and backgrounds in an informal setting guided by mentors and business experts."
+            description: "A fully immersive environment, where trust is built through collaboration between people from different countries, cultures and backgrounds, in an informal setting guided by mentors and business experts."
         },
         color:"#42C8F1"
 
@@ -26,7 +26,7 @@ const data = [
         },
         back: {
             title: "Learn",
-            description: "We create an atmosphere where experienced entrepreneurs share their knowledge, experience, resources, and aspirations in exchange for inspiration from unconstrained thinking of starting entrepreneurs."
+            description: "An atmosphere, where experienced entrepreneurs share their knowledge, experience, resources and aspirations - all in exchange for inspiration from the unconstrained thinking of starting entrepreneurs."
         },
         color:"#1CAAE2"
 
@@ -38,7 +38,7 @@ const data = [
         },
         back: {
             title: "Win",
-            description: "We provide an opportunity for startups to constantly win by participating in the Startup Battles, acquiring invaluable connections, receiving on-site and off-site investment opportunities, and just by being a part of the event. "
+            description: "Opportunities for startups to constantly score by participating in the startup battles, acquiring invaluable connections, receiving on-site and off-site investment opportunities - and all that simply by being an active participant of the event."
         },
         color:"#B92B4E"
 
@@ -50,7 +50,7 @@ const data = [
         },
         back: {
             title: "Have Fun",
-            description: "We provide an unforgettable experience full of fun activities and cool moments. After a very intense and dense day, participants need to relax, cheer up, and revive their energy. In a nutshell, SSS is all about “Working hard, Partying harder”."
+            description: "An unforgettable experience full of fun activities and amazing moments! After a very intense event day, all participants have to do is relax, cheer up and refuel their energy. SSS is all about “working hard, partying even harder”."
         },
         color:"#F68C36"
 
@@ -72,7 +72,7 @@ function Credo() {
     return(
         <div className="credo">
         <h2>Our Credo</h2>
-        <p>— The key benefits that SSS provides are —</p>
+        <p>— SSS provides the following key benefits —</p>
         <div className="credoItem">
             <div className="card">
                 <div className="content">
@@ -83,7 +83,7 @@ function Credo() {
                     <div className="back">
                         <h4 style={{color: "#42C8F1"}}>Connect</h4>
                         <p>
-                            We create a fully immersive environment where human relationships and trust are built through collaboration between people from different countries, cultures, and backgrounds in an informal setting guided by mentors and business experts.
+                            A fully immersive environment, where trust is built through collaboration between people from different countries, cultures and backgrounds, in an informal setting guided by mentors and business experts.
                         </p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ function Credo() {
                     <div className="back">
                         <h4 style={{color: "#1CAAE2"}}>Learn</h4>
                         <p>
-                            We create an atmosphere where experienced entrepreneurs share their knowledge, experience, resources, and aspirations in exchange for inspiration from unconstrained thinking of starting entrepreneurs.
+                            An atmosphere, where experienced entrepreneurs share their knowledge, experience, resources and aspirations - all in exchange for inspiration from the unconstrained thinking of starting entrepreneurs.
                         </p>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ function Credo() {
                     <div className="back">
                         <h4 style={{color: "#B92B4E"}}>Win</h4>
                         <p>
-                            We provide an opportunity for startups to constantly win by participating in the Startup Battles, acquiring invaluable connections, receiving on-site and off-site investment opportunities, and just by being a part of the event.
+                            Opportunities for startups to constantly score by participating in the startup battles, acquiring invaluable connections, receiving on-site and off-site investment opportunities - and all that simply by being an active participant of the event.
                         </p>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ function Credo() {
                     <div className="back">
                         <h4 style={{color: "#F68C36"}}>Have Fun</h4>
                         <p>
-                            We provide an unforgettable experience full of fun activities and cool moments. After a very intense and dense day, participants need to relax, cheer up, and revive their energy. In a nutshell, SSS is all about <b>“Working hard, Partying harder”</b>.
+                            An unforgettable experience full of fun activities and amazing moments! After a very intense event day, all participants have to do is relax, cheer up and refuel their energy. SSS is all about “working hard, partying even harder”.
                         </p>
                     </div>
                 </div>
