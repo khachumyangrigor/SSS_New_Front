@@ -1,254 +1,252 @@
-.wb-participateBlock{
-    display: flex;
-    flex-direction: column;
-    padding: 75px 50px;
+.wb-participateBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 50px;
 }
-.wb-participateItemsBlock{
-    display: flex;
-    gap: 66px 146px;
-    justify-content: center;
-    flex-flow: row wrap;
+.wb-participateItemsBlock {
+  display: flex;
+  gap: 66px 146px;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.wb-participateTitle h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 62px;
+  color: #000;
+}
 
+.wb-volunteeringBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 63px 100px;
+  background-color: #f7f7f7;
 }
-.wb-participateTitle h2{
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    margin-bottom: 62px;
-    color: #000;
+.wb-volunteeringItemsBlock {
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
-
-.wb-volunteeringBlock{
-    display: flex;
-    flex-direction: column;
-    padding: 63px 100px;
-    background-color: #F7F7F7;
-}
-.wb-volunteeringItemsBlock{
-    display: flex;
-    gap: 48px;
-    justify-content: space-between;
-    flex-flow: row wrap;
-
-}
-.wb-volunteeringTitle h2{
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    margin-bottom: 62px;
-    color: #000;
+.wb-volunteeringTitle h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 62px;
+  color: #000;
 }
 
 .wb-container {
-    width: 19.9vw;
-    height: 22.3vw;
-    max-width: 398px;
-    max-height: 425px;
-    -webkit-perspective: 1200px;
-    perspective: 1200px;
-    -moz-transform: perspective(1200px);
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-
+  width: 19.9vw;
+  height: 22.3vw;
+  max-width: 398px;
+  max-height: 425px;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  -moz-transform: perspective(1200px);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 .wb-flipper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    border: 3px solid #E6E6E6;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  border: 3px solid #e6e6e6;
 }
-.wb-front, .wb-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    padding: 40px 10px;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
+.wb-front,
+.wb-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px 10px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .wb-front {
-    z-index: 2;
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    background: white;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap:40px;
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
 }
 i {
-    color: #DCB8B2;
-    display: inline-block;
-    margin-bottom: 15px;
+  color: #dcb8b2;
+  display: inline-block;
+  margin-bottom: 15px;
 }
 .wb-back h3 {
-    font-size: 16px;
-    line-height: 17px;
-    text-transform: uppercase;
-    margin: 0 0 15px;
+  font-size: 16px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin: 0 0 15px;
 }
-.wb-header{
-    text-align: center;
-    width: 9vw;
-    height: 9vw;
-    max-width: 173px;
-    max-height: 173px;
-    margin: 0 auto;
+.wb-header {
+  text-align: center;
+  width: 9vw;
+  height: 9vw;
+  max-width: 173px;
+  max-height: 173px;
+  margin: 0 auto;
 }
-.wb-header img{
-    width: 100%;
-    height: 100%;
+.wb-header img {
+  width: 100%;
+  height: 100%;
 }
 
 .wb-header h3 {
-    color: #18191a;
+  color: #18191a;
 }
 .wb-front p {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #878787;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #878787;
 }
 .wb-back {
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    background-color: #fff;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  background-color: #fff;
 }
 .wb-back h3 {
-    position: relative;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #878787;
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #878787;
 }
 
 .wb-back p {
-    padding-top: 15px;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 17px;
-    color: #000000;
+  padding-top: 15px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 17px;
+  color: #000000;
 }
 .wb-participateItemsBlock .wb-container:hover .wb-flipper {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .wb-volunteeringItemsBlock .wb-container:hover .wb-flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.wb-applyButtonBlock {
+  margin-top: 50px;
+  text-align: center;
+}
+.wb-applyButtonBlock button {
+  padding: 19.7964px 31.6743px;
+  background: #2f80ed;
+  border-radius: 7.91857px;
+  border: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.7761px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.692875px;
+  cursor: pointer;
+  max-width: 295px;
+  margin: 0 auto;
+}
+.wb-applyButtonBlock p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13.5px;
+  line-height: 17px;
+  text-align: center;
+  color: #2f80ed;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.wb-mobileVersion {
+  display: none;
+}
+.wb-cardBlock {
+  position: relative;
+  width: 288px;
+  height: 308px;
+}
+.wb-mobileVersion .wb-container {
+  width: 100%;
+  height: 100%;
+}
+.arrowBlock {
+  position: absolute;
+}
+.arrowBlock:first-child {
+  left: -35px;
+  top: 40%;
+  transform: rotate(180deg);
+}
+.arrowBlock:last-child {
+  right: -35px;
+  top: 40%;
+}
+.displayNone {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .wb-participateItemsBlock {
+    display: none;
+  }
+  .wb-volunteeringItemsBlock {
+    display: none;
+  }
+  .wb-mobileVersion .wb-header {
+    width: 124px;
+    height: 124px;
+  }
+  .wb-mobileVersion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wb-flipper-rotate {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     transform: rotateY(180deg);
-}
-
-.wb-applyButtonBlock{
-    margin-top: 50px;
-    text-align: center;
-}
-.wb-applyButtonBlock button {
-    padding: 19.7964px 31.6743px;
-    background: #2F80ED;
-    border-radius: 7.91857px;
-    border: none;
-    color: #fff;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21.7761px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: 0.692875px;
-    cursor: pointer;
-    max-width: 295px;
-    margin: 0 auto;
-}
-.wb-applyButtonBlock p{
-    font-style: normal;
-    font-weight: 900;
-    font-size: 13.5px;
-    line-height: 17px;
-    text-align: center;
-    color: #2F80ED;
-    opacity: 0.7;
-    margin-top: 20px;
-}
-
-.wb-mobileVersion{
-    display: none;
-}
-.wb-cardBlock{
-    position: relative;
-    width: 288px;
-    height: 308px;
-}
-.wb-mobileVersion .wb-container{
-    width: 100%;
-    height: 100%;
-}
-.arrowBlock{
-    position: absolute;
-}
-.arrowBlock:first-child{
-    left: -35px;
-    top: 40%;
-    transform: rotate(180deg);
-}
-.arrowBlock:last-child{
-    right: -35px;
-    top: 40%;
-}
-.displayNone{
-    display: none;
-}
-
-@media screen and (max-width: 1024px){
-    .wb-participateItemsBlock {
-        display: none;
-    }
-    .wb-volunteeringItemsBlock {
-        display: none;
-    }
-    .wb-mobileVersion .wb-header {
-        width: 124px;
-        height: 124px;
-    }
-    .wb-mobileVersion {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .wb-flipper-rotate {
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-    }
+  }
 }
