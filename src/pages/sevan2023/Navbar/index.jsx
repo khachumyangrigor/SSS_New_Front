@@ -17,16 +17,15 @@ const Navbar = () => {
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
 
   useEffect(() => {
-    const handleScroll = debounce(() => {
-      const navbarPosition = navbarRef.current.getBoundingClientRect().y;
+    const handleScroll = () => {
+      const navbarPosition = navbarRef.current.getBoundingClientRect().top;
 
       if (navbarPosition <= 0 && !navBarZeroPoint) {
-        console.log(navBarZeroPoint);
         setNavbarZeroPoint(true);
       } else if (navbarPosition > 0 && navBarZeroPoint) {
         setNavbarZeroPoint(false);
       }
-    }, 50);
+    };
 
     window.addEventListener("scroll", handleScroll);
 
