@@ -9,6 +9,7 @@ import NavbarSubMenu from "./NavbarSubMenu.jsx";
 import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 
 import "./styles.css";
+import { debounce } from "lodash";
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
@@ -16,22 +17,22 @@ const Navbar = () => {
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = debounce(() => {
       const navbarPosition = navbarRef.current.getBoundingClientRect().y;
 
-      if (navbarPosition <= 0) {
+      if (navbarPosition <= 0 && !navBarZeroPoint) {
         setNavbarZeroPoint(true);
-      } else {
+      } else if (navbarPosition > 0 && navBarZeroPoint) {
         setNavbarZeroPoint(false);
       }
-    };
+    }, 50);
 
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [navBarZeroPoint]);
 
   return (
     <div

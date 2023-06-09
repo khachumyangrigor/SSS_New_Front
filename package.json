@@ -18,6 +18,7 @@
     "image-compressor": "^1.2.0",
     "ionic-image-loader": "^6.3.3",
     "jotai": "^2.1.1",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-cookie": "^4.0.3",
     "react-countup": "^4.2.3",
