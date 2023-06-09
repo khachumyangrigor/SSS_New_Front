@@ -11,10 +11,11 @@ import Platform from "./platform.jsx";
 import Participate from "./Participate/Participate.jsx";
 import Valounteering from "./Volunteering/Volunteering.jsx";
 import Apply from "./Apply/Apply.jsx";
+import Stats from "./Status/index.jsx";
 
 import WeOffer from "./WeOffer/index.jsx";
 import Navbar from "./Navbar/index.jsx";
-import { Part4Part5, GetAccess } from "./component.min.jsx";
+import { GetAccess } from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
@@ -69,7 +70,7 @@ class UpcommingNew extends React.Component {
           {/* Part 2 */}
           <Navbar />
           <GetAccess />
-          <Part4Part5 ref="uniqprogram" />
+          <Stats />
           <Credo ref="credo" />
           <Participate ref="participate" />
           <WeOffer />
