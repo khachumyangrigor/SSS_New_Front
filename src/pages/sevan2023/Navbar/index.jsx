@@ -21,6 +21,7 @@ const Navbar = () => {
       const navbarPosition = navbarRef.current.getBoundingClientRect().y;
 
       if (navbarPosition <= 0 && !navBarZeroPoint) {
+        console.log(navBarZeroPoint);
         setNavbarZeroPoint(true);
       } else if (navbarPosition > 0 && navBarZeroPoint) {
         setNavbarZeroPoint(false);
