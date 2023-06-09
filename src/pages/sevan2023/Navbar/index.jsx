@@ -1,5 +1,5 @@
 import { useAtom, useAtomValue } from "jotai";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { classNames } from "../../../utils/index";
 import MenuButton from "./MenuButton.jsx";
@@ -28,7 +28,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const isNavbarFixed = scrollPosition <= 0;
+  const isNavbarFixed = useMemo(() => scrollPosition <= 0, [scrollPosition]);
 
   return (
     <div
