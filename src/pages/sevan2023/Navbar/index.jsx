@@ -9,7 +9,6 @@ import NavbarSubMenu from "./NavbarSubMenu.jsx";
 import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 
 import "./styles.css";
-import { debounce } from "lodash";
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
