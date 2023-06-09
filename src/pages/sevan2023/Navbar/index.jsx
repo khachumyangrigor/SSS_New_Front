@@ -28,7 +28,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const isNavbarFixed = scrollPosition >= 0;
+  const isNavbarFixed = scrollPosition <= 0;
 
   return (
     <div

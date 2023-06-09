@@ -13,7 +13,6 @@
 .navbar-fixed {
   position: sticky;
   top: 0;
-  left: auto;
   z-index: 100;
 }
 
