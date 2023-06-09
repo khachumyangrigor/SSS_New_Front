@@ -1,5 +1,5 @@
 import { useAtom, useAtomValue } from "jotai";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { classNames } from "../../../utils/index";
 import MenuButton from "./MenuButton.jsx";
@@ -12,12 +12,13 @@ import "./styles.css";
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
+  const navbarRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useAtom(navbarScrollAtom);
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentPosition = window.scrollY;
-      setScrollPosition(currentPosition);
+      const navbarPosition = navbarRef.current.getBoundingClientRect().y;
+      setScrollPosition(navbarPosition);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -27,10 +28,12 @@ const Navbar = () => {
     };
   }, []);
 
-  const isNavbarFixed = scrollPosition >= 820;
+  const isNavbarFixed = scrollPosition <= 0;
 
   return (
-    <div className={classNames(isNavbarFixed ? "navbar-fixed" : "", "navbar")}>
+    <div
+      ref={navbarRef}
+      className={classNames(isNavbarFixed ? "navbar-fixed" : "", "navbar")}>
       <div className="navbar-left">
         <Link to="/">
           <img src={require("../img/tent.png")} alt="HOME" />

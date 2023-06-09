@@ -199,7 +199,6 @@
   padding: 8vh 5.5vw;
   justify-content: space-between;
   background: #f7f7f7;
-  margin-top: 10px;
 }
 
 .upcommingGetAcces_left {
@@ -3606,17 +3605,17 @@
     font-size: 20px !important;
   }
   .upcommingSuggest p {
-    font-size: 10px !important;
+    font-size: 14px !important;
   }
   .upcommingPrograms .textBox p {
-    font-size: 10px !important;
+    font-size: 14px !important;
     margin-bottom: 0 !important;
   }
   .upcommingPrograms .upcommingPrograms_left a {
-    padding: 1vh 1vw !important;
+    padding: 7px !important;
   }
   .textBox a {
-    font-size: 6.5px !important;
+    font-size: 14px !important;
   }
   .programPartner p {
     font-size: 10px !important;
