@@ -1,5 +1,5 @@
 import { useAtom, useAtomValue } from "jotai";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { classNames } from "../../../utils/index";
 import MenuButton from "./MenuButton.jsx";
@@ -14,15 +14,25 @@ const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
   const navbarRef = useRef(null);
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
+  const [initialPosition, setInitialPosition] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
       const navbarPosition = navbarRef.current.getBoundingClientRect().top;
+      const scrollPosition = window.scrollY;
 
-      if (navbarPosition <= 0 && !navBarZeroPoint) {
+      if (!initialPosition) {
+        setInitialPosition(navbarPosition);
+      }
+
+      if (initialPosition && initialPosition <= scrollPosition) {
         setNavbarZeroPoint(true);
-      } else if (navbarPosition > 0 && navBarZeroPoint) {
+      } else {
         setNavbarZeroPoint(false);
+      }
+
+      if (scrollPosition <= 0) {
+        setInitialPosition(null);
       }
     };
 
@@ -31,7 +41,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [navBarZeroPoint]);
+  }, [initialPosition]);
 
   return (
     <div

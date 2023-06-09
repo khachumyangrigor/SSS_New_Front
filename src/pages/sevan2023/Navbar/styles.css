@@ -8,15 +8,12 @@
   background: #f7f7f7;
   position: relative;
   min-height: 100px;
-  will-change: transform;
 }
 
 .navbar-fixed {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
 }
 
 .navbar-left {
