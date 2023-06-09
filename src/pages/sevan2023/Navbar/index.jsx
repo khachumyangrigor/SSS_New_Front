@@ -6,19 +6,24 @@ import MenuButton from "./MenuButton.jsx";
 import NavButtons from "./NavButtons.jsx";
 import NavbarMenu from "./NavbarMenu.jsx";
 import NavbarSubMenu from "./NavbarSubMenu.jsx";
-import { navbarMenuAtom, navbarScrollAtom } from "./state";
+import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 
 import "./styles.css";
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
   const navbarRef = useRef(null);
-  const [scrollPosition, setScrollPosition] = useAtom(navbarScrollAtom);
+  const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
 
   useEffect(() => {
     const handleScroll = () => {
       const navbarPosition = navbarRef.current.getBoundingClientRect().y;
-      setScrollPosition(navbarPosition);
+
+      if (navbarPosition <= 0) {
+        setNavbarZeroPoint(true);
+      } else {
+        setNavbarZeroPoint(false);
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -28,12 +33,10 @@ const Navbar = () => {
     };
   }, []);
 
-  const isNavbarFixed = scrollPosition <= 0;
-
   return (
     <div
       ref={navbarRef}
-      className={classNames(isNavbarFixed ? "navbar-fixed" : "", "navbar")}>
+      className={classNames(navBarZeroPoint ? "navbar-fixed" : "", "navbar")}>
       <div className="navbar-left">
         <Link to="/">
           <img src={require("../img/tent.png")} alt="HOME" />
