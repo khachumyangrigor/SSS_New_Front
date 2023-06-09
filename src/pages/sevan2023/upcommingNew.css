@@ -201,7 +201,7 @@
   flex-wrap: wrap;
   padding: 8vh 5.5vw;
   justify-content: space-between;
-  background: #f7f7f7;
+  background: white !important;
 }
 
 .upcommingGetAcces_left {
@@ -287,6 +287,7 @@
 
 /* Part 5 */
 .upcommingSuggest {
+  background-color: #fff !important;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -321,7 +322,7 @@
   padding: 10vh 5vw 14vh 5vw;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f6f6f6;
+  background-color: white;
 }
 .credo > h2 {
   width: 100%;
@@ -591,7 +592,9 @@
   display: flex;
   flex-wrap: wrap;
   padding: 8.6vh 6.1vw;
+  background-color: #f7f7f7;
 }
+
 .upcommingPrograms_left {
   width: 50%;
   display: flex;
@@ -757,6 +760,7 @@
   display: flex;
   position: relative;
 }
+
 .upcommingPrograms_right h3.mobi {
   display: none;
 }
@@ -909,6 +913,7 @@
   position: inherit !important;
   width: 100%;
 }
+
 .programPartner > p {
   padding-left: 1.5vw;
   font-family: Source Sans Pro;
@@ -1627,7 +1632,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 7.2vh 4.2vw 9vh 4.2vw;
-  background: #f7f7f7;
+  background: white !important;
 }
 .upcommingReach > h2 {
   width: 100%;
@@ -3601,7 +3606,7 @@
   }
   .vihacleBox {
     min-width: 100%;
-    align-content: center;
+    align-content: flex-start !important;
   }
 
   .vihacleBox > div {
