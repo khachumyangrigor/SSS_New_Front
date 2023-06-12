@@ -10,19 +10,19 @@ const menuItems = [
     title: "Our Credo",
   },
   {
-    link: `wb-applyBlock`,
+    link: `wb-participateBlock`,
     title: "Apply as a Startup",
   },
   {
-    link: `wb-volunteeringBlock`,
+    link: `upcommingPrograms`,
+    title: "Our Program",
+  },
+  {
+    link: `wb-applyBlock`,
     title: "Become a Volunteer",
   },
   {
-    link: `upcommingPrograms`,
-    title: "Our Programme",
-  },
-  {
-    link: `firstPageFootter`,
+    link: `upcommingReach`,
     title: "How to reach us",
   },
   {
@@ -45,7 +45,7 @@ function NavbarSubMenu() {
             <Link
               onClick={() => setIsMenuOpen(false)}
               smooth={true}
-              offset={-150}
+              offset={-100}
               spy={true}
               to={menuItem.link}
               duration={1200}>

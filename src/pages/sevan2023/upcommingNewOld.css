@@ -2064,6 +2064,10 @@
 .textBoxMobileImg {
   display: none;
 }
+.upcommingProgramsBlock {
+  background-color: #f7f7f7;
+  padding-top: 10px;
+}
 
 @media (min-width: 2200px) {
   /* .upcommingNew{
@@ -2696,6 +2700,18 @@
   .vihacleBox > button {
     padding: 11px 20px !important;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  buttons a, .navbar-menu-buttons li a {
+    font-size: 14px;
+  }
+  .navbar-menu-buttons a {
+    font-size: 14px;
+  }
+  .firstPageHeaderMiddle ul {
+    gap: 30px;
   }
 }
 
@@ -3417,12 +3433,12 @@
   }
   .wb-knowMobileButtons-card a {
     display: inline-block;
-    padding: 10px 15px !important;
-    border: 1px solid #001a34 !important;
-    color: #001a34 !important;
-    border-radius: 4px !important;
-    flex-basis: 48% !important;
-    font-size: 13px !important;
+    padding: 10px 15px;
+    border: 1px solid #001a34;
+    color: #001a34;
+    border-radius: 4px;
+    flex-basis: 48%;
+    font-size: 13px;
   }
   .upcommingPrograms_right_open h3 {
     display: block !important;
@@ -3625,8 +3641,9 @@
     font-size: 15px !important;
   }
   .wb-knowMobileButtons-card a {
-    font-size: 10px !important;
-    margin-top: 0 !important;
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .wb-organizersBlock {
     padding: 37px 30px !important;
@@ -3672,6 +3689,40 @@
   }
   .wb-knowMobileButtons {
     display: flex !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .firstPageHeaderRight {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+  .firstPageHeaderRight.Mobi a {
+    font-size: 13px;
+    padding: 8px 30px 8px 30px !important;
+    border-radius: 5px;
+  }
+  .upcommingProgramsBlock {
+    padding-top: 26px;
+  }
+  .wb-knowMobileButton {
+    border: none !important;
+    /*padding: 0 !important;*/
+    width: 100%;
+  }
+  .upcommingPrograms .upcommingPrograms_left a {
+    padding: 0 !important;
+  }
+  .wb-knowMobileButtons-card a {
+    display: inline-block;
+    padding: 10px 15px !important;
+    border: 1px solid #2f80ed !important;
+    color: #001a34;
+    border-radius: 4px !important;
+    flex-basis: 48% !important;
+    font-size: 13px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -4279,6 +4330,25 @@
   }
 }
 
+@media (max-width: 599px) {
+  .upcommingPrograms_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .upcommingPrograms .imgBox {
+    display: flex;
+  }
+  .upcommingPrograms_left .textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .upcommingPrograms .textBox h3 {
+    text-align: center;
+  }
+}
+
 @media (max-width: 450px) {
   .vihacleBox > button {
     line-height: 11px;
@@ -4328,7 +4398,7 @@
 .firstPageHeaderMiddle ul {
   width: auto !important;
   max-width: 1200px !important;
-  gap: 10px;
+  gap: 30px;
 }
 
 .firstPageHeaderMiddle ul li {

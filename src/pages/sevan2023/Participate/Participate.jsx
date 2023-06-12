@@ -93,7 +93,7 @@ function Participate() {
   return (
     <div id="participate" className="wb-participateBlock">
       <div className="wb-participateTitle">
-        <h2>Why to Participate as a Startup</h2>
+        <h2>Why Participate as a Startup</h2>
       </div>
       <div className="wb-participateItemsBlock">
         {data.map((block, i) => {
