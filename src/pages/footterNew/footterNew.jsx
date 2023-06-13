@@ -20,10 +20,11 @@ class FootterNew extends React.Component {
                         <div className="footterTopLogo"><Link to="/"><img src={logo} alt="logo" /></Link></div>
                         <ul>
                             <li><Link to="/events">EVENTS</Link></li>
-                            <li><Link to="/about-us">ABOUT</Link></li>
+                            <li><Link to="/about-us">ABOUT US</Link></li>
                             {/* <li><Link to="/startups">Startups</Link></li> */}
                             <li><Link to="/partners">Partners</Link></li>
                             <li><Link to="/blog">BLOG</Link></li>
+                            <li><Link to="/merch">MERCH</Link></li>
                         </ul>
                     </div>
                     <div className="footterContact">
@@ -35,7 +36,7 @@ class FootterNew extends React.Component {
                 </div>
                 <div className="footterLine" />
                 <div className="footterBottom">
-                    <div className="bottomLeft">© 2016-2022, Seaside Startup Summit</div>
+                    <div className="bottomLeft">© 2016-2023, Seaside Startup Summit</div>
                     <div className="bottomRight">
                         <a href="https://www.instagram.com/seasidestartupsummit/" target="_blank" rel="noopener noreferrer">
                             <img src={inst} alt="instagram" />
