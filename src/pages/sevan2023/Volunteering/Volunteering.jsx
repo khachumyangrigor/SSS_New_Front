@@ -167,7 +167,19 @@ function Volunteering(props) {
                 <div className="wb-header">
                   <img src={data[activeCardIndex].front.img} alt="Logo"/>
                 </div>
-                <p>
+                <p
+                  style={{
+                    fontFamily: 'Source Sans Pro',
+                    fontStyle: "normal",
+                    fontWeight: 400,
+                    fontSize: "16px !important",
+                    lineFeight: "20px !important",
+                    textAlign: "left",
+                    color: "#000000",
+                    letterSpacing: "normal",
+                    textTransform: "none",
+                  }}
+                >
                   {data[activeCardIndex].back.description}
                 </p>
               </div>

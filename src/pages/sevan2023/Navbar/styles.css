@@ -38,7 +38,7 @@
 }
 
 .navbar-center {
-  flex: 1 0 35%;
+  flex: 0 0 40%;
 }
 
 .navbar-menu-buttons {
@@ -52,7 +52,6 @@
 .navbar-menu-buttons li a,
 .navbar-menu-buttons li {
   display: flex;
-  width: 100%;
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.5px;
@@ -61,6 +60,7 @@
   cursor: pointer;
 }
 .navbar-menu-buttons li a {
+  width: 100%;
   padding: 6px 0px;
 }
 
