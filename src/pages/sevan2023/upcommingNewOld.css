@@ -2639,7 +2639,6 @@
   }
   .vihacleBox > button {
     padding: 14px 28px !important;
-    line-height: 28px;
   }
   .vihacleOpenIN p {
     font-size: 15px;
@@ -2712,6 +2711,10 @@
   }
   .firstPageHeaderMiddle ul {
     gap: 30px;
+  }
+  .credoItem .back > p {
+    font-size: 15px;
+    line-height: 17px;
   }
 }
 
@@ -3607,8 +3610,16 @@
     margin-bottom: 28px !important;
   }
   .wb-mobileVersion-credo-block .wb-front p {
-    font-size: 25px !important;
     margin-bottom: 0 !important;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    text-align: left;
+    color: #000000;
+    letter-spacing: normal;
+    text-transform: none;
   }
   .wb-front p {
     font-size: 16px !important;
@@ -3710,7 +3721,7 @@
     /*padding: 0 !important;*/
     width: 100%;
   }
-  .upcommingPrograms .upcommingPrograms_left a {
+  .upcommingPrograms .upcommingPrograms_left .wb-knowMobileButtons a {
     padding: 0 !important;
   }
   .wb-knowMobileButtons-card a {
@@ -3723,6 +3734,10 @@
     font-size: 13px !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+  }
+  .wb-participateBlock {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 

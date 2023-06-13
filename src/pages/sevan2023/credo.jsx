@@ -59,7 +59,6 @@ const data = [
 
 function Credo() {
     const [activeCardIndex, setActiveCardIndex] = useState(0)
-    const [toggled, setToggled] = useState(false)
 
     const nextOrPrev = (isNext) => {
         if(isNext) {
@@ -67,7 +66,6 @@ function Credo() {
         } else {
             setActiveCardIndex(activeCardIndex - 1)
         }
-        setToggled(false)
     }
     return(
         <div className="credo">
@@ -141,19 +139,25 @@ function Credo() {
                     >
                         <img src={arrow} alt="Arrow"/>
                     </div>
-                    <div
-                        className="wb-container"
-                        onClick={() => setToggled(!toggled)}
-                    >
-                        <div className={`wb-flipper ${toggled ? "wb-flipper-rotate" : ""}`} style={{borderColor:data[activeCardIndex].color}}>
+                    <div className="wb-container">
+                        <div className="wb-flipper" style={{borderColor:data[activeCardIndex].color}}>
                             <div className="wb-front">
+                                <p
+                                    style={{
+                                        color: data[activeCardIndex].color,
+                                        fontWeight: "700",
+                                        fontSize: "26px !important",
+                                        lineHeight: "24px !important",
+                                        textAlign: "center",
+                                        letterSpacing: "1px",
+                                        textTransform: "uppercase",
+                                    }}
+                                >
+                                    {data[activeCardIndex].front.text}
+                                </p>
                                 <div className="wb-header">
                                     <img src={data[activeCardIndex].front.img} alt="Logo"/>
                                 </div>
-                                <p style={{color:data[activeCardIndex].color}}>{data[activeCardIndex].front.text}</p>
-                            </div>
-                            <div className="wb-back">
-                                <h3 style={{color:data[activeCardIndex].color}}>{data[activeCardIndex].back.title}</h3>
                                 <p>
                                     {data[activeCardIndex].back.description}
                                 </p>

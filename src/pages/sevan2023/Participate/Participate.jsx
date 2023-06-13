@@ -79,7 +79,6 @@ const data = [
 
 function Participate() {
   const [activeCardIndex, setActiveCardIndex] = useState(0);
-  const [toggled, setToggled] = useState(false);
 
   const nextOrPrev = (isNext) => {
     if (isNext) {
@@ -87,7 +86,6 @@ function Participate() {
     } else {
       setActiveCardIndex(activeCardIndex - 1);
     }
-    setToggled(false);
   };
 
   return (
@@ -117,7 +115,12 @@ function Participate() {
       </div>
 
       <div className="wb-mobileVersion">
-        <div className="wb-cardBlock">
+        <div
+          className="wb-cardBlock"
+          style={{
+            height: "450px",
+          }}
+        >
           <div
             className={`arrowBlock ${
               activeCardIndex === 0 ? "displayNone" : ""
@@ -125,17 +128,34 @@ function Participate() {
             onClick={() => nextOrPrev(false)}>
             <img src={arrow} alt="Arrow" />
           </div>
-          <div className="wb-container" onClick={() => setToggled(!toggled)}>
-            <div className={`wb-flipper ${toggled ? "wb-flipper-rotate" : ""}`}>
+
+          <div
+            className="wb-container"
+            style={{
+              maxHeight: "450px",
+            }}
+          >
+            <div className="wb-flipper" style={{borderColor: "#428BEF"}}>
               <div className="wb-front">
+                <p
+                    style={{
+                      color: "#1F2C4D",
+                      fontWeight: "700",
+                      fontSize: "26px !important",
+                      lineHeight: "24px !important",
+                      textAlign: "center",
+                      letterSpacing: "1px",
+                      textTransform: "uppercase",
+                    }}
+                >
+                  {data[activeCardIndex].front.text}
+                </p>
                 <div className="wb-header">
-                  <img src={data[activeCardIndex].front.img} alt="Logo" />
+                  <img src={data[activeCardIndex].front.img} alt="Logo"/>
                 </div>
-                <p>{data[activeCardIndex].front.text}</p>
-              </div>
-              <div className="wb-back">
-                <h3>{data[activeCardIndex].back.title}</h3>
-                <p>{data[activeCardIndex].back.description}</p>
+                <p>
+                  {data[activeCardIndex].back.description}
+                </p>
               </div>
             </div>
           </div>

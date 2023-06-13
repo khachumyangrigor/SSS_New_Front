@@ -330,6 +330,9 @@
   .minmenuIcon {
     display: flex;
   }
+  .minmenuBox .firstPageHeaderMiddle ul {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 599px) {
