@@ -42,11 +42,7 @@ class UpcommingNew extends React.Component {
           />
           <meta
             property="og:image"
-            content="http://seasidestartupsummit.com/ogImage/sevan21.png"
-          />
-          <meta
-            property="og:image"
-            content="http://seasidestartupsummit.com/ogImage/sevan21.png"
+            content="http://seasidestartupsummit.com/ogImage/sevan23.png"
           />
           <meta
             property="og:description"
