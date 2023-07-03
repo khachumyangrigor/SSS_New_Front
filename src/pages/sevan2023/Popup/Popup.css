@@ -4,21 +4,35 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    /*background: rgba(0,0,0,0.6);*/
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(2px);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999 !important;
+    transition: 0.2s;
+    z-index: -9999;
+    visibility: hidden;
+    opacity: 0;
 }
 .popupBlock{
     position: relative;
     display: flex;
+    transition:  0.2s ;
     justify-content: center;
     align-items: center;
     width: 800px;
     height: 400px;
+    border-radius: 5px;
     background: #111F39;
-    z-index: 9999 !important;
+    z-index: -1 ;
+    transform: scale(0);
+}
+.popupBlockActive{
+    visibility: visible;
+    transform: scale(1);
+    transition:  0.2s ;
+    opacity: 1;
+    z-index: 9999;
 }
 .wb-close{
     position: absolute;
@@ -41,8 +55,9 @@
 }
 .wb-buyClosedInfo h2{
     color: #F1A61E;
+    width: 85%;
+    margin: 20px auto;
     font-size: 36px;
-    margin-bottom: 20px;
 }
 .wb-buyClosedInfo p{
     color: #fff;

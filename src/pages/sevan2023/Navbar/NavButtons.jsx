@@ -38,6 +38,13 @@ function NavButtons({isSaleOpen}) {
         handleWindowResize();
 
     }, []);
+  useEffect(() => {
+      if(popupStatus){
+          document.body.style.overflow = "hidden";
+      } else {
+          document.body.style.overflow = "scroll";
+      }
+  },[popupStatus])
 
   return (
       <>
@@ -65,7 +72,7 @@ function NavButtons({isSaleOpen}) {
               ))
           )}
         </div>
-        {popupStatus && <Popup infoMode={false} setPopupStatus={setPopupStatus} buttons={buyTickets}/>}
+        <Popup infoMode={false} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets}/>
       </>
 
   );

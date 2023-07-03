@@ -38,6 +38,7 @@ const data = [
 
 function Apply() {
   const [width, setWidth] = useState(0)
+  const [popupStatus, setPopupStatus] = useState(false)
   const handleWindowResize = () => {
     setWidth(window.innerWidth);
   }
@@ -46,7 +47,14 @@ function Apply() {
     handleWindowResize();
 
   }, []);
-  const [popupStatus, setPopupStatus] = useState(false)
+  useEffect(() => {
+    if(popupStatus){
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  },[popupStatus])
+
   return (
       <>
         <div className="wb-applyBlock">
@@ -89,7 +97,7 @@ function Apply() {
             </a>
           </div>
         </div>
-        {popupStatus && <Popup mobile={width < 1024 ? true : false} infoMode={true} buttons={buyTickets} setPopupStatus={setPopupStatus} />}
+         <Popup mobile={width < 1024 ? true : false} infoMode={true} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
       </>
 
   );

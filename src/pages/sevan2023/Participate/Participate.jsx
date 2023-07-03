@@ -81,6 +81,8 @@ const data = [
 
 function Participate() {
   const [width, setWidth] = useState(0)
+  const [activeCardIndex, setActiveCardIndex] = useState(0);
+  const [popupStatus, setPopupStatus] = useState(false)
   const handleWindowResize = () => {
     setWidth(window.innerWidth);
   }
@@ -89,8 +91,14 @@ function Participate() {
     handleWindowResize();
 
   }, []);
-  const [activeCardIndex, setActiveCardIndex] = useState(0);
-  const [popupStatus, setPopupStatus] = useState(false)
+  useEffect(() => {
+    if(popupStatus){
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  },[popupStatus])
+
 
   const nextOrPrev = (isNext) => {
     if (isNext) {
@@ -207,7 +215,7 @@ function Participate() {
             </p>
           </div>
         </div>
-        {popupStatus && <Popup mobile={width < 1024 ? true : false} infoMode={true} setPopupStatus={setPopupStatus} buttons={buyTickets}/>}
+        <Popup mobile={width < 1024 ? true : false} infoMode={true} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets}/>
       </>
 
   );
