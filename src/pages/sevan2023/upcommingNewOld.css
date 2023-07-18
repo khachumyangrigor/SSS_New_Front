@@ -290,7 +290,7 @@
   justify-content: center;
   align-items: center;
   padding: 6.3vh 20vw;
-  background: rgba(227, 227, 227, 0.3);
+  background: #f7f7f7;
 }
 .upcommingSuggest h2 {
   font-family: Source Sans Pro;
@@ -318,6 +318,7 @@
   padding: 10vh 5vw 14vh 5vw;
   display: flex;
   flex-wrap: wrap;
+  background: #f7f7f7;
 }
 .credo > h2 {
   width: 100%;
@@ -2065,7 +2066,7 @@
   display: none;
 }
 .upcommingProgramsBlock {
-  background-color: #f7f7f7;
+
   padding-top: 10px;
 }
 

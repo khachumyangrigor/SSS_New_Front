@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   padding: 75px 50px;
-  background-color: #f7f7f7 !important;
 }
 .wb-participateItemsBlock {
   display: flex;
@@ -22,7 +21,7 @@
   display: flex;
   flex-direction: column;
   padding: 63px 100px;
-  background-color: white !important;
+  background-color: #f7f7f7 !important;
 }
 .wb-volunteeringItemsBlock {
   display: flex;

@@ -12,6 +12,8 @@ import Participate from "./Participate/Participate.jsx";
 import Valounteering from "./Volunteering/Volunteering.jsx";
 import Apply from "./Apply/Apply.jsx";
 import Stats from "./Status/index.jsx";
+import Organizers from "./Organizers/Organizers.jsx"
+import Partners from "./Partners/Partners.jsx"
 
 import WeOffer from "./WeOffer/index.jsx";
 import Navbar from "./Navbar/index.jsx";
@@ -75,6 +77,8 @@ class UpcommingNew extends React.Component {
           <Apply />
           <Shuttle ref="shuttle" />
           <MustKnow ref="mustKnow" />
+          <Organizers />
+          <Partners />
           <FootterNew ref="footter" />
         </div>
       </Fragment>

@@ -1,24 +1,28 @@
 .wb-organizersBlock{
-    padding: 25px 64px 120px 64px;
-    background: #F7F7F7;
+    padding: 25px 64px 100px 64px;
+    background-color: #f7f7f7;
 }
 .wb-organizersTitle h2{
     text-align: center;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
-    color: #596273;
+    color: #1F2C4C;
     margin-bottom: 75px;
 }
 .wb-organizersContent{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px 250px;
+    gap: 0 5%;
+
+}
+.wb-organizersImageBlock {
+    flex-basis: calc(28% - 3%);
 }
 .wb-organizersImageBlock img{
     width: 100%;
-    max-width: 497px;
+
 }
