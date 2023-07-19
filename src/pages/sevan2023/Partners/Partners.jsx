@@ -435,7 +435,7 @@ function Partners(props) {
 
                         <div>
                             <a href="https://am.intent.ai/auth/login" target="_blank" rel="nofollow"><img src={img1} alt="Partner"/></a>
-                            <p>Digital Innovation partner</p>
+                            <p>Digital Innovation Partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
