@@ -20,9 +20,20 @@
 
 }
 .wb-organizersImageBlock {
-    flex-basis: calc(28% - 3%);
+    flex-basis: calc(30% - 3%);
 }
 .wb-organizersImageBlock img{
     width: 100%;
 
+}
+
+@media screen and (max-width: 756px){
+    .wb-organizersContent{
+
+        gap: 50px 0;
+
+    }
+    .wb-organizersImageBlock{
+        flex-basis: 60%;
+    }
 }

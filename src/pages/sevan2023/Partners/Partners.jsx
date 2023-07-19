@@ -154,7 +154,7 @@ const imgArray = [
     },{
         link:"https://bana.am/the-factory?fbclid=IwAR2Mjjoh2ptx0x3-mOnxyGS5IOFaFuYbYWBdPSmU2esui3J-nsdBNYt0ooc",
         src:img23,
-        widthClass:"w-50"
+        widthClass:"w-60"
     },{
         link:"https://www.smartgate.vc/",
         src:img24
@@ -277,7 +277,7 @@ const imgArray = [
     },{
         link:"https://freeway.am/en.html",
         src:img59,
-        widthClass:"w-60"
+        widthClass:"w-70"
     },{
         link:"https://prokat.am/",
         src:img60

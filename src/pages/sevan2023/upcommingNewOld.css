@@ -3660,15 +3660,15 @@
   .wb-organizersBlock {
     padding: 37px 30px !important;
   }
-  .wb-organizersTitle h2 {
-    font-size: 25px !important;
-  }
-  .wb-organizersContent {
-    gap: 30px;
-  }
-  .wb-organizersImageBlock img {
-    max-width: 163px;
-  }
+  /*.wb-organizersTitle h2 {*/
+  /*  font-size: 25px !important;*/
+  /*}*/
+  /*.wb-organizersContent {*/
+  /*  gap: 30px;*/
+  /*}*/
+  /*.wb-organizersImageBlock img {*/
+  /*  max-width: 163px;*/
+  /*}*/
   .vihacleBox button {
     font-size: 11px !important;
     width: 100% !important;
