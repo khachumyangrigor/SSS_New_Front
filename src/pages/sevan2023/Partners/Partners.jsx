@@ -78,219 +78,321 @@ import img72 from "./images/72.png"
 import img73 from "./images/73.png"
 import img74 from "./images/74.png"
 import img75 from "./images/75.png"
+import img76 from "./images/76.png"
+import img77 from "./images/77.png"
+import img78 from "./images/78.png"
+import img79 from "./images/79.png"
+import img80 from "./images/80.png"
+import img81 from "./images/81.png"
+import img82 from "./images/82.png"
+import img83 from "./images/83.png"
+import img84 from "./images/84.png"
+import img85 from "./images/85.png"
+import img86 from "./images/86.png"
+import img87 from "./images/87.png"
+import img88 from "./images/88.png"
+import img89 from "./images/89.png"
+import img90 from "./images/90.png"
 
 const imgArray = [
         {
-        link:"",
+        link:"https://www.telecomarmenia.am/hy/",
         src:img6
     },
     {
-        link:"",
+        link:"https://www.eif.am/",
         src:img7
     },{
-        link:"",
+        link:"https://www.capitalbuild.am/",
         src:img8
     },{
-        link:"",
+        link:"https://www.ebrd.com/home",
         src:img9
     },{
-        link:"",
+        link:"https://am.araratbrandy.com/",
         src:img10
     },{
-        link:"",
+        link:"https://amundi-acba.am/en",
         src:img11
     },{
-        link:"",
+        link:"https://am.globbing.com/hy",
         src:img12
     },{
-        link:"",
+        link:"https://womensecret.com/es/es",
         src:img13
     },{
         link:"",
         src:img14
     },{
-        link:"",
+        link:"https://myspringfield.com/es/es",
         src:img15
     },{
-        link:"",
+        link:"https://armenia.un.org/en/about/about-the-un",
         src:img16
     },{
-        link:"",
-        src:img17
+        link:"https://rate.am/",
+        src:img17,
+        widthClass:"w-70"
     },{
-        link:"",
+        link:"https://easydmarc.com/",
         src:img18
     },{
-        link:"",
-        src:img19
+        link:"https://aica.social/portfolio/",
+        src:img19,
+        widthClass:"w-70"
     },{
-        link:"",
+        link:"https://www.granatusventures.com/",
         src:img20
     },{
-        link:"",
-        src:img21
+        link:"https://fast.foundation/",
+        src:img21,
+        widthClass:"w-70"
     },{
-        link:"",
-        src:img22
+        link:"https://stan.am/",
+        src:img22,
+        widthClass:"w-80"
     },{
-        link:"",
-        src:img23
+        link:"https://bana.am/the-factory?fbclid=IwAR2Mjjoh2ptx0x3-mOnxyGS5IOFaFuYbYWBdPSmU2esui3J-nsdBNYt0ooc",
+        src:img23,
+        widthClass:"w-50"
     },{
-        link:"",
+        link:"https://www.smartgate.vc/",
         src:img24
     },{
-        link:"",
-        src:img25
+        link:"https://epic.aua.am/#",
+        src:img25,
+        widthClass:"w-60"
     },{
-        link:"",
-        src:img26
+        link:"https://tumolabs.am/",
+        src:img26,
+        widthClass:"w-70"
     },{
-        link:"",
+        link:"https://tumo.org/",
         src:img27
     },{
-        link:"",
-        src:img28
+        link:"https://www.teachforarmenia.org/",
+        src:img28,
+        widthClass:"w-70"
     },{
-        link:"",
+        link:"https://foundation.ayb.am/",
         src:img29
     },{
-        link:"",
+        link:"https://www.uate.org/",
         src:img30
     },{
-        link:"",
+        link:"https://armleasing.am/",
         src:img31
     },{
         link:"",
         src:img32
     },{
-        link:"",
-        src:img33
+        link:"https://gituzh.am/",
+        src:img33,
+        widthClass:"w-60"
     },{
-        link:"",
-        src:img34
+        link:"https://web3.am/",
+        src:img34,
+        widthClass:"w-60"
     },{
-        link:"",
-        src:img35
+        link:"https://www.newgate.capital/",
+        src:img35,
+        widthClass:"w-60"
     },{
-        link:"",
+        link:"https://tufenkianheritage.com/en/",
         src:img36
     },{
         link:"",
         src:img37
     },{
         link:"",
-        src:img38
+        src:img38,
+        widthClass:"w-60"
     },{
-        link:"",
+        link:"https://www.facebook.com/national.medical.palace.armenia/",
         src:img39
     },{
-        link:"",
+        link:"https://www.sdglab.am/en",
         src:img40
     },{
-        link:"",
-        src:img41
+        link:"https://www.ggtaxi.com/signin",
+        src:img41,
+        widthClass:"w-60"
     },{
-        link:"",
+        link:"https://app.karas.am/hy/",
         src:img42
     },{
-        link:"",
-        src:img43
+        link:"https://www.tshaurma.com/en/",
+        src:img43,
+        widthClass:"w-60"
     },{
-        link:"",
-        src:img44
+        link:"https://qayl.tech/hy",
+        src:img44,
+        widthClass:"w-70"
     },{
-        link:"",
+        link:"https://www.facebook.com/nushikyan.advertising/",
         src:img45
     },{
-        link:"",
+        link:"https://armeniatv.am/",
         src:img46
     },{
-        link:"",
+        link:"https://www.fastshift.am/en",
         src:img47
     },{
-        link:"",
+        link:"https://www.arleam.love/ru/",
         src:img48
     },{
         link:"",
         src:img49
     },{
-        link:"",
+        link:"https://www.facebook.com/DRONEEDULAB/",
         src:img50
     },{
-        link:"",
-        src:img51
+        link:"https://triples.vc/en",
+        src:img51,
+        widthClass:"w-60"
     },{
-        link:"",
-        src:img52
+        link:"https://wimedia.am/",
+        src:img52,
+        widthClass:"w-70"
     },{
-        link:"",
-        src:img53
+        link:"https://www.chargers.am/",
+        src:img53,
+        widthClass:"w-70"
     },{
-        link:"",
-        src:img54
+        link:"https://smp.am/",
+        src:img54,
+        widthClass:"w-70"
     },{
-        link:"",
+        link:"https://www.mootq.am/",
         src:img55
     },{
-        link:"",
+        link:"https://cloud2.smartrest.am/v10/",
         src:img56
     },{
-        link:"",
+        link:"https://smp.am/",
         src:img57
     },{
-        link:"",
+        link:"https://smp.am/",
         src:img58
     },{
-        link:"",
-        src:img59
+        link:"https://freeway.am/en.html",
+        src:img59,
+        widthClass:"w-60"
     },{
-        link:"",
+        link:"https://prokat.am/",
         src:img60
     },{
-        link:"",
+        link:"http://www.tumo.am/",
         src:img61
     },{
         link:"",
         src:img62
     },{
-        link:"",
+        link:"https://www.facebook.com/promoland.promoland/",
         src:img63
     },{
-        link:"",
-        src:img64
+        link:"https://www.asoghik.am/",
+        src:img64,
+        widthClass:"w-60"
     },{
-        link:"",
-        src:img65
+        link:"https://myler.am/ru/",
+        src:img65,
+        widthClass:"w-60"
     },{
         link:"",
         src:img66
     },{
-        link:"",
+        link:"https://viralmango.com/",
         src:img67
     },{
-        link:"",
+        link:"https://proservice-l.com/",
         src:img68
     },{
-        link:"",
+        link:"https://www.tk.partners/",
         src:img69
     },{
-        link:"",
-        src:img70
+        link:"http://www.storaket.com/",
+        src:img70,
+        widthClass:"w-70"
     },{
-        link:"",
-        src:img71
+        link:"https://chessify.me/",
+        src:img71,
+        widthClass:"w-80"
     },{
-        link:"",
-        src:img72
+        link:"https://earlyone.com/",
+        src:img72,
+        widthClass:"w-80"
     },{
-        link:"",
-        src:img73
+        link:"https://www.superannotate.com/",
+        src:img73,
+        widthClass:"w-80"
     },{
-        link:"",
-        src:img74
+        link:"https://wirestock.io/",
+        src:img74,
+        widthClass:"w-80"
     },{
-        link:"",
+        link:"https://robinrobot.co/?fbclid=IwAR3xFyp-tYzJSuD5SbyghNYOoPVgQ4oUnC7KU9MT9t2npKshGLtcJ6IwAnQ",
         src:img75
+    },{
+        link:"http://careercityfest.am/",
+        src:img76,
+        widthClass:"w-70"
+    },{
+        link:"https://www.devsoft.am/",
+        src:img77,
+        widthClass:"w-70"
+    },{
+        link:"https://bitlismen.com/",
+        src:img78,
+        widthClass:"w-70"
+    },{
+        link:"https://www.coffeehouse.am/",
+        src:img79,
+        widthClass:"w-70"
+    },{
+        link:"https://ecofresh.me/",
+        src:img80,
+        widthClass:"w-70"
+    },{
+        link:"https://www.danz.am/hy",
+        src:img81,
+        widthClass:"w-70"
+    },{
+        link:"",
+        src:img82,
+        widthClass:"w-50"
+    },{
+        link:"http://insport.am/",
+        src:img83,
+        widthClass:"w-70"
+    },{
+        link:"",
+        src:img84,
+        widthClass:"w-60"
+    },{
+        link:"https://skyclub.am/ru/",
+        src:img85,
+        widthClass:"w-60"
+    },{
+        link:"https://skyball.am/en",
+        src:img86,
+        widthClass:"w-70"
+    },{
+        link:"",
+        src:img87,
+        widthClass:"w-70"
+    },{
+        link:"https://www.armheli.com/",
+        src:img88,
+        widthClass:"w-70"
+    },{
+        link:"https://www.bestlife.am/",
+        src:img89,
+        widthClass:"w-70"
+    },{
+        link:"https://www.instagram.com/glampingpark.am/",
+        src:img90,
+        widthClass:"w-70"
     },
 ]
 
@@ -315,14 +417,14 @@ function Partners(props) {
                 <div className="wb-partnersContent wb-topPartner">
                     <div className="wb-partner">
                         <div>
-                            <img src={img1_1} alt="Partner"/>
+                            <a href="https://www.fastbank.am/" target="_blank" rel="nofollow"><img src={img1_1} alt="Partner"/></a>
                             <p>Strategic Partner</p>
                         </div>
                     </div>
 
                     <div className="wb-partner">
                         <div>
-                            <img src={img1_2} alt="Partner"/>
+                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={img1_2} alt="Partner"/></a>
                             <p>General Partner</p>
                         </div>
                     </div>
@@ -332,41 +434,56 @@ function Partners(props) {
                     <div className="wb-partner">
 
                         <div>
-                          <img src={img1} alt="Partner"/>
+                            <a href="https://am.intent.ai/auth/login" target="_blank" rel="nofollow"><img src={img1} alt="Partner"/></a>
                             <p>Digital Innovation partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
 
                         <div>
-                          <img src={img2} alt="Partner"/>
+                            <a href="https://imnairi.am/" target="_blank" rel="nofollow"><img src={img2} alt="Partner"/></a>
                             <p>Official Insurance Partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
 
                         <div>
-                           <img src={img3} alt="Partner"/>
+                            <a href="https://www.ardshinbank.am/" target="_blank" rel="nofollow"><img src={img3} alt="Partner"/></a>
                             <p>Strong Partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
 
                         <div>
-                            <img src={img4} alt="Partner"/>
+                            <a href="https://telcell.am/hy/" target="_blank" rel="nofollow"><img src={img4} alt="Partner"/></a>
                             <p>Official Payment Partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
 
                         <div>
-                            <img src={img5} alt="Partner"/>
+                            <a href="https://shtigen.com/hy/" target="_blank" rel="nofollow"><img src={img5} alt="Partner"/></a>
                             <p>Sustainable Partner</p>
                         </div>
                     </div>
                     {imgArray.map((img) => {
                         return (
-                            <div className="wb-partner"><img src={img.src} alt="Partner"/></div>
+                            <div className={img.widthClass ? `wb-partner ${img.widthClass}` : "wb-partner" }>
+                                {img.link !== "" ?
+                                    (
+                                        <a href={img.link} rel="nofollow" target="_blank">
+                                            <img src={img.src} alt="Partner"/>
+                                        </a>
+                                    )
+
+                                    :
+
+                                    (
+                                    <img src={img.src} alt="Partner"/>
+                                    )
+                                }
+                            </div>
+
                         )
                     })}
 
