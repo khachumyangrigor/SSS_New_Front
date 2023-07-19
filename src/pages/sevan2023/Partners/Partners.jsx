@@ -340,14 +340,14 @@ function Partners(props) {
 
                         <div>
                           <img src={img2} alt="Partner"/>
-                            <p>MOfficial Insurance Partner</p>
+                            <p>Official Insurance Partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
 
                         <div>
                            <img src={img3} alt="Partner"/>
-                            <p>Official Insurance Partner</p>
+                            <p>Strong Partner</p>
                         </div>
                     </div>
                     <div className="wb-partner">
