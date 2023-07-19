@@ -92,7 +92,7 @@ import img86 from "./images/86.png"
 import img87 from "./images/87.png"
 import img88 from "./images/88.png"
 import img89 from "./images/89.png"
-import img90 from "./images/90.png"
+
 
 const imgArray = [
         {
@@ -388,10 +388,6 @@ const imgArray = [
     },{
         link:"https://www.bestlife.am/",
         src:img89,
-        widthClass:"w-70"
-    },{
-        link:"https://www.instagram.com/glampingpark.am/",
-        src:img90,
         widthClass:"w-70"
     },
 ]
