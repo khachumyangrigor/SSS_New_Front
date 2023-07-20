@@ -37,7 +37,7 @@
 }
 .wb-main-partners::after {
     content: "";
-    flex: auto;
+    flex: content-box;
 }
 
 .wb-topPartner{
