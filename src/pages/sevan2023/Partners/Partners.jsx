@@ -92,6 +92,15 @@ import img86 from "./images/86.png"
 import img87 from "./images/87.png"
 import img88 from "./images/88.png"
 import img89 from "./images/89.png"
+import img91hexens from "./images/91hexens.png"
+import new1 from "./images/new1.png"
+import new2 from "./images/new2.png"
+import new3 from "./images/new3.png"
+import new4 from "./images/new4.png"
+import new5 from "./images/new5.png"
+import new6 from "./images/new6.png"
+import new7 from "./images/new7.png"
+import new8 from "./images/new8.png"
 
 
 const imgArray = [
@@ -182,10 +191,12 @@ const imgArray = [
     },{
         link:"https://armleasing.am/",
         src:img31
-    },{
-        link:"",
-        src:img32
-    },{
+    },
+    // {
+    //     link:"",
+    //     src:img32
+    // },
+    {
         link:"https://gituzh.am/",
         src:img33,
         widthClass:"w-60"
@@ -193,13 +204,15 @@ const imgArray = [
         link:"https://web3.am/",
         src:img34,
         widthClass:"w-60"
-    },{
+    },
+    {
+        link:"https://tufenkianheritage.com/en/",
+        src:img36
+    },
+    {
         link:"https://www.newgate.capital/",
         src:img35,
         widthClass:"w-60"
-    },{
-        link:"https://tufenkianheritage.com/en/",
-        src:img36
     },{
         link:"",
         src:img37
@@ -213,7 +226,13 @@ const imgArray = [
     },{
         link:"https://www.sdglab.am/en",
         src:img40
-    },{
+    },
+    {
+        link:"https://triples.vc/en",
+        src:img51,
+        widthClass:"w-60"
+    },
+    {
         link:"https://www.ggtaxi.com/signin",
         src:img41,
         widthClass:"w-60"
@@ -231,10 +250,12 @@ const imgArray = [
     },{
         link:"https://www.facebook.com/nushikyan.advertising/",
         src:img45
-    },{
-        link:"https://armeniatv.am/",
-        src:img46
-    },{
+    },
+    {
+        link:"",
+        src:img91hexens
+    },
+    {
         link:"https://www.fastshift.am/en",
         src:img47
     },{
@@ -246,11 +267,9 @@ const imgArray = [
     },{
         link:"https://www.facebook.com/DRONEEDULAB/",
         src:img50
-    },{
-        link:"https://triples.vc/en",
-        src:img51,
-        widthClass:"w-60"
-    },{
+    },
+
+    {
         link:"https://wimedia.am/",
         src:img52,
         widthClass:"w-70"
@@ -353,11 +372,13 @@ const imgArray = [
         link:"https://ecofresh.me/",
         src:img80,
         widthClass:"w-70"
-    },{
+    },
+    {
         link:"https://www.danz.am/hy",
         src:img81,
         widthClass:"w-70"
-    },{
+    },
+    {
         link:"",
         src:img82,
         widthClass:"w-50"
@@ -389,6 +410,46 @@ const imgArray = [
         link:"https://www.bestlife.am/",
         src:img89,
         widthClass:"w-70"
+    },
+    {
+        link:"https://armeniatv.am/",
+        src:img46
+    },
+    {
+        link:"",
+        src:new1
+    },
+    {
+        link:"",
+        src:new2
+    },
+    {
+        link:"",
+        src:new3
+    },
+    {
+        link:"",
+        src:new4,
+        widthClass:"w-70"
+    },
+    {
+        link:"",
+        src:new5,
+        widthClass:"w-70"
+    },
+    {
+        link:"",
+        src:new6,
+        widthClass:"w-70"
+    },
+    {
+        link:"",
+        src:new7,
+        widthClass:"w-70"
+    },
+    {
+        link:"",
+        src:new8
     },
 ]
 
@@ -426,7 +487,7 @@ function Partners(props) {
                     </div>
 
                 </div>
-                <div className="wb-partnersContent">
+                <div className="wb-partnersContent wb-main-partners">
                     <div className="wb-partner">
 
                         <div>
