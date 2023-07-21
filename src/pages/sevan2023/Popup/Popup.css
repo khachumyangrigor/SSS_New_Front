@@ -70,15 +70,31 @@
     margin-top: 15px;
     color: #F1A61E;
 }
-.wb-buyTicketButton{
+.wb-buyClosedInfo .wb-buyTicketButton{
     display: inline-block;
     background-color: #005BFF;
     border:none;
     border-radius: 7px;
     padding: 10px 15px;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 16px;
+}
+.wb-fowInternational{
+    position: relative;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.wb-fowInternational:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -2.5%;
+    width: 105%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.5);
+
 }
 
 @media screen and (max-width: 756px){

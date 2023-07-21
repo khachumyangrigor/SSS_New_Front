@@ -42,7 +42,7 @@ function NavButtons({isSaleOpen}) {
       if(popupStatus){
           document.body.style.overflow = "hidden";
       } else {
-          document.body.style.overflow = "scroll";
+          document.body.style.overflowY = "scroll";
       }
   },[popupStatus])
 
@@ -50,15 +50,30 @@ function NavButtons({isSaleOpen}) {
       <>
         <div className="nav-buttons">
           {isSaleOpen ? (
-              <a
-                  key={`nav-button-buy-tickets`}
-                  href={width < 1024 ? buyTickets[1].link : null}
-                  target="_blank"
-                  onClick={width < 1024 ? null : () => setPopupStatus(true)}
-                  rel="noopener noreferrer"
-              >
-                {buyTickets[1].title}
-              </a>
+              <>
+                  <a
+                      key={`nav-button-buy-tickets`}
+                      // href={width < 1024 ? buyTickets[1].link : null}
+                      href={null}
+                      target="_blank"
+                      // onClick={width < 1024 ? null : () => setPopupStatus(true)}
+                      onClick={ () => {
+                          console.log(width)
+                          setPopupStatus(true)}
+                      }
+                      rel="noopener noreferrer"
+                  >
+                      {buyTickets[1].title}
+                  </a>
+                  <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={"https://pigeonhole.at/SSS23"}
+                  >
+                      Agenda
+                  </a>
+              </>
+
           ) : (
               buttons.map((button, index) => (
                   <a
@@ -72,7 +87,11 @@ function NavButtons({isSaleOpen}) {
               ))
           )}
         </div>
-        <Popup infoMode={false} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets}/>
+          {
+              popupStatus &&
+              <Popup infoMode={width < 1024  ? true : false } width={width} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets} />
+          }
+
       </>
 
   );

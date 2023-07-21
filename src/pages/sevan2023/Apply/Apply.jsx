@@ -97,7 +97,7 @@ function Apply() {
             </a>
           </div>
         </div>
-         <Popup mobile={width < 1024 ? true : false} infoMode={true} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
+         <Popup mobile={width < 1024 ? true : false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
       </>
 
   );

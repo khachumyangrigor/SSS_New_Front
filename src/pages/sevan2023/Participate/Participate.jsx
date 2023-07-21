@@ -215,7 +215,7 @@ function Participate() {
             </p>
           </div>
         </div>
-        <Popup mobile={width < 1024 ? true : false} infoMode={true} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets}/>
+        <Popup mobile={width < 1024 ? true : false} infoMode={null} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets}/>
       </>
 
   );
