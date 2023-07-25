@@ -459,7 +459,7 @@ const imgArray = [
         widthClass:"w-70"
     },
     {
-        link:"",
+        link:"https://www.freedomholdingcorp.com/",
         src:new10,
     },
 ]
