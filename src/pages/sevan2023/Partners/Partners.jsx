@@ -102,6 +102,7 @@ import new6 from "./images/new6.png"
 import new7 from "./images/new7.png"
 import new8 from "./images/new8.png"
 import new9 from "./images/new9.png"
+import new10 from "./images/new10.png"
 
 
 const imgArray = [
@@ -455,6 +456,11 @@ const imgArray = [
     {
         link:"",
         src:new9,
+        widthClass:"w-70"
+    },
+    {
+        link:"",
+        src:new10,
         widthClass:"w-70"
     },
 ]
