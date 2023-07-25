@@ -461,7 +461,6 @@ const imgArray = [
     {
         link:"",
         src:new10,
-        widthClass:"w-70"
     },
 ]
 

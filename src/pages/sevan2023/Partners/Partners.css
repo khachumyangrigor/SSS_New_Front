@@ -35,10 +35,7 @@
     flex-grow: 0;
     gap: 50px 1%;
 }
-.wb-main-partners::after {
-    content: "";
-    flex: content-box;
-}
+
 
 .wb-topPartner{
     justify-content: center;
