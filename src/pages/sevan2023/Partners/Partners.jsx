@@ -215,17 +215,21 @@ const imgArray = [
         link:"https://www.newgate.capital/",
         src:img35,
         widthClass:"w-60"
-    },{
-        link:"",
-        src:img37
-    },{
+    },
+    {
+        link:"https://www.freedomholdingcorp.com/",
+        src:new10,
+    },
+    {
         link:"",
         src:img38,
         widthClass:"w-60"
-    },{
+    },
+    {
         link:"https://www.facebook.com/national.medical.palace.armenia/",
         src:img39
-    },{
+    },
+    {
         link:"https://www.sdglab.am/en",
         src:img40
     },
@@ -459,8 +463,8 @@ const imgArray = [
         widthClass:"w-70"
     },
     {
-        link:"https://www.freedomholdingcorp.com/",
-        src:new10,
+        link:"",
+        src:img37
     },
 ]
 
