@@ -1,0 +1,133 @@
+.wb-topPartners{
+    padding-top: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.wb-topPartners div{
+    flex-basis: 100%;
+}
+.wb-topPartners div img{
+    width: 50%;
+    max-width: 1000px;
+}
+
+
+.wb-partnersBlock {
+    padding: 75px 80px;
+}
+
+.wb-partnersTitle h2 {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    color: #1F2C4C;
+    margin-bottom: 50px;
+}
+
+.wb-partnersContent {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    gap: 50px 1%;
+}
+
+
+.wb-topPartner{
+    justify-content: center;
+    margin-bottom: 80px;
+    gap:15px 7%
+}
+.wb-topPartner .wb-partner{
+    flex-basis: calc(30% - 1%);
+}
+.wb-partner{
+    flex-basis: calc(18% - 1%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wb-partner a{
+    text-align: center;
+}
+.wb-partner img{
+    max-width: 100%;
+    transition: 0.2s;
+}
+.wb-partner img:hover{
+    transform: scale(1.1);
+}
+.wb-partner p{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: #9C9C9C;
+}
+
+@media screen and (max-width: 1140px){
+    .wb-partner p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 756px){
+    .wb-partnersBlock {
+        padding: 40px 25px;
+    }
+    .wb-topPartners div img{
+        width: 70%;
+    }
+
+    .wb-partnersContent{
+        gap: 50px 5%;
+    }
+    .wb-partner{
+        flex-basis: calc(27% - 4%);
+        align-items: center;
+    }
+    .wb-topPartner .wb-partner{
+        flex-basis: calc(39% - 1%);
+    }
+    .wb-partner p{
+        font-size: 8px;
+        padding-top: 10px;
+    }
+    .wb-topPartner{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        gap: 50px 8%;
+    }
+
+    .wb-partnersTitle h2{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    /*.w-80 img{*/
+    /*    width: 80%;*/
+    /*}*/
+    .w-70 img{
+        width: 70%;
+    }
+    .w-60 img{
+        width: 60%;
+    }
+    .w-50 img{
+        width: 50%;
+    }
+}
+@media screen  and (max-width: 480px){
+    .wb-topPartners img{
+        width: 65%;
+    }
+    .wb-partner p{
+        font-size: 6px;
+        padding-top: 5px;
+    }
+    .wb-partnersTitle h2{
+        font-size: 24px;
+    }
+}

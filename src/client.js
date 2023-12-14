@@ -1,5 +1,5 @@
 import React from "react";
-import { hydrateRoot } from "react-dom";
+import { hydrateRoot } from "react-dom/client.js";
 import App from "./app.js";
 import { BrowserRouter } from "react-router-dom";
 import { CookiesProvider } from "react-cookie";
