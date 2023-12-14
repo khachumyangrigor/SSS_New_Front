@@ -132,9 +132,14 @@ class Header extends React.Component {
                 break;
             default:
                 return (
-                    <Link to={'/upcoming-events/sevan-startup-summit-2023'}>
-                        SSS 2023
-                    </Link>
+                    <>
+                        <Link to={'/upcoming-events/UAE-2024'}>
+                            UAE 2024
+                        </Link>
+                        <Link to={'/upcoming-events/sevan-startup-summit-2024'}>
+                            SSS 2024
+                        </Link>
+                    </>
                 );
         }
     }

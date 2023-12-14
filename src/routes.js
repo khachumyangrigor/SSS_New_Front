@@ -3,6 +3,8 @@ import loadData from './assets/plugins/loadData';
 import Home_Page_Newedition from './pages/firstPageNew/firstPageNew.jsx';
 import UpcommingNew from './pages/upcommingNew/upcommingNew.jsx';
 import Sevan2023 from './pages/sevan2023/upcommingNew.jsx';
+import Sevan2024 from './pages/sevan2024/upcommingNew.jsx';
+import Uae2024 from './pages/uae2024/upcommingNew.jsx';
 import UpcommingNewOld from './pages/upcommingNew/upcommingNewOld.jsx';
 import News from './pages/news/news.jsx';
 import News_One from './pages/news/newsOpen.jsx';
@@ -38,15 +40,36 @@ export default [
     },
     {
         exact: true,
-        path: '/upcoming-events/:event/',
-        component: Sevan2023
+        path: '/upcoming-events/UAE-2024/',
+        component: Uae2024
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/UAE-2024/:subpage',
+        component: Uae2024
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/sevan-startup-summit-2024/',
+        component: Sevan2024
     },
 
     {
         exact: true,
-        path: '/upcoming-events/event/:subpage',
-        component: Sevan2023
+        path: '/upcoming-events/sevan-startup-summit-2024/:subpage',
+        component: Sevan2024
     },
+    // {
+    //     exact: true,
+    //     path: '/upcoming-events/:event/',
+    //     component: Sevan2023
+    // },
+    //
+    // {
+    //     exact: true,
+    //     path: '/upcoming-events/event/:subpage',
+    //     component: Sevan2023
+    // },
     {
         exact: true,
         path: '/upcoming-events/:event/',
