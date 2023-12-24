@@ -15,11 +15,11 @@ import {useState,useEffect} from "react"
 
 export const buyTickets = [
   {
-    link: "https://www.pay.seasidestartupsummit.com/visitor/",
-    title: "Buy Tickets",
+    link: "https://www.f6s.com/sssuae24/apply",
+    title: "Apply as a Startup",
   },
   {
-    link: "https://telcellwallet.page.link/Sevan-Startup-Summit-2023",
+    link: "https://forms.gle/PFoVK8nenicUFKaG9",
     title: "Buy Tickets",
   },
 ];//
@@ -54,23 +54,23 @@ function NavButtons({isSaleOpen}) {
                   <a
                       key={`nav-button-buy-tickets`}
                       // href={width < 1024 ? buyTickets[1].link : null}
-                      href={null}
+                      href={buyTickets[0].link}
                       target="_blank"
                       // onClick={width < 1024 ? null : () => setPopupStatus(true)}
-                      onClick={ () => {
-                          console.log(width)
-                          setPopupStatus(true)}
-                      }
+                      // onClick={ () => {
+                      //     console.log(width)
+                      //     setPopupStatus(true)}
+                      // }
                       rel="noopener noreferrer"
                   >
-                      {buyTickets[1].title}
+                      {buyTickets[0].title}
                   </a>
                   <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={"https://pigeonhole.at/SSS23"}
+                      href={buyTickets[1].link}
                   >
-                      Agenda
+                      {buyTickets[1].title}
                   </a>
               </>
 

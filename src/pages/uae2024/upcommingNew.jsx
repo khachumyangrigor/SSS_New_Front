@@ -7,7 +7,7 @@ import Shuttle from "./shuttle.jsx";
 import Programs from "./program.jsx";
 import MustKnow from "./mustknow.jsx";
 import Credo from "./credo.jsx";
-import Platform from "./platform.jsx";
+
 import Participate from "./Participate/Participate.jsx";
 import Valounteering from "./Volunteering/Volunteering.jsx";
 import Apply from "./Apply/Apply.jsx";
@@ -21,6 +21,7 @@ import { GetAccess } from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
+import Roadmap from "./Roadmap/Roadmap.jsx";
 
 //Media
 
@@ -29,7 +30,7 @@ class UpcommingNew extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <title>Seaside Startup Summit | UAE2024</title>
+          <title>Sevan Startup Summit 2024 | Seaside Startup Summit</title>
           <meta
             name="description"
             content="Sevan Startup Summit 2023 will be held at Sevan seashore from July 23 to July 29"
@@ -61,8 +62,12 @@ class UpcommingNew extends React.Component {
               </h2>
             </div>
             <div className="wb-footerTitle">
-              <h3>UAE 2024</h3>
-              <h4>february 23 - 29</h4>
+              <h3><b>SEASIDE STARTUP SUMMIT UAE 2024</b></h3>
+
+                <h3 className="wb-cityTitle">Ras Al Khaimah, Longbeach Campground</h3>
+
+
+              <h4>FEBRUARY 23 - 28</h4>
             </div>
           </div>
           {/* Part 2 */}
@@ -70,15 +75,16 @@ class UpcommingNew extends React.Component {
           <GetAccess />
           <Stats />
           <Credo ref="credo" />
-          <Participate ref="participate" />
-          <WeOffer />
+          {/*<Participate ref="participate" />*/}
+          <Roadmap />
+          {/*<WeOffer />*/}
           <Programs ref="program" />
-          <Valounteering ref="valounteering" />
+          {/*<Valounteering ref="valounteering" />*/}
           <Apply />
           <Shuttle ref="shuttle" />
           <MustKnow ref="mustKnow" />
           <Organizers />
-          <Partners />
+          {/*<Partners />*/}
           <FootterNew ref="footter" />
         </div>
       </Fragment>

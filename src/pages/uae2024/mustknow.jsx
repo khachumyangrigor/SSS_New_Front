@@ -6,8 +6,22 @@ import {
     LocalRules,
 } from './mustknow.min.jsx';
 import { Link } from "react-scroll";
+import "./myStyles.css"
 
 class Programs extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            width : 0
+        }
+    }
+
+    componentDidMount() {
+        this.setState({
+            width: window.innerWidth
+        })
+    }
+
     programOpen = (e,elem, elem2) => {
         this.refs.Amenities.classList.remove('upcommingPrograms_right_open');
         this.refs.Weather.classList.remove('upcommingPrograms_right_open');
@@ -24,11 +38,13 @@ class Programs extends React.Component {
             this.refs[e].style.color="rgb(255,255,255)";
             this.refs[e].style.background="#2F80ED";
         } else {
-            for(let i=5; i<9; i++){
+            for(let i=4; i<9; i++){
                 let elm="li"+i;
                 this.refs[elm].style.color="rgb(47, 128, 237)";
+
             }
             this.refs[e].style.color="rgb(117,117,117)";
+            this.refs[e].querySelector("::after").style.color = "rgb(117,117,117)"
         }
     }
 
@@ -42,10 +58,12 @@ class Programs extends React.Component {
                             <img src={require('./img/disignIcon/info.png')} alt="starter program" />
                         </div>
                         <div className="textBox">
-                            <h3>— important to know —</h3>
+                            <h3>{this.state.width > 1024 ? "— important to know —" : "important to know"}</h3>
                             <div style={{display: "flex"}}>
                                 <img src={require('./img/disignIcon/info.png')} alt="starter program" className="textBoxMobileImg"/>
-                                <p>Sevan Startup Summit is located in one of the most beautiful places in Armenia, in an open outdoor camping area. It is extremely important to be well prepared.<br /> <b>Please check the below links for more information.</b></p>
+                                <p>
+                                    SSSUAE24 is located in one of the most beautiful places in Ras Al Khaimah, in an open outdoor campground area. It is extremely important to be well prepared<br /> <b>Please check the below links for more information.</b>
+                                </p>
                             </div>
                             <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>
@@ -54,11 +72,28 @@ class Programs extends React.Component {
                                     {/* <div ref="Amenities2" className="ulDiv ulDivOpen"> <Amenities /></div> */}
                                     <li ref="li6" onClick={() => this.programOpen("li6",this.refs.Weather, this.refs.Weather2)}>Weather conditions</li>
                                     {/* <div ref="Weather2" className="ulDiv"> <Weather /></div> */}
-                                    <li ref="li7" onClick={() => this.programOpen("li7",this.refs.Entertainments, this.refs.Entertainments2)}>Entertainments</li>
+                                    <li style={{display:"none"}} ref="li7" onClick={() => this.programOpen("li7",this.refs.Entertainments, this.refs.Entertainments2)}>Entertainments</li>
                                     {/* <div ref="Entertainments2" className="ulDiv"> <Entertainments /></div> */}
                                     <li ref="li8" onClick={() => this.programOpen("li8",this.refs.LocalRules, this.refs.LocalRules2)}>Local rules</li>
                                     {/* <div ref="LocalRules2" className="ulDiv"> <LocalRules /></div> */}
                                 </ul>
+                                {/*<div className="wb-buttons-block">*/}
+                                {/*    <div>*/}
+                                {/*        <button*/}
+                                {/*            className="wb-knowMobileButton"*/}
+                                {/*        >*/}
+                                {/*            Info brochure for Participants*/}
+                                {/*        </button>*/}
+                                {/*    </div>*/}
+                                {/*    <div>*/}
+                                {/*        <button*/}
+                                {/*            className="wb-knowMobileButton"*/}
+                                {/*        >*/}
+                                {/*            Info brochure for Visitors*/}
+                                {/*        </button>*/}
+                                {/*    </div>*/}
+
+                                {/*</div>*/}
                                 <div className="mobi_meue_trp_right"/>
                             </div>
                             <div className="wb-knowMobileButtons">
@@ -102,11 +137,13 @@ class Programs extends React.Component {
                                         spy={true}
                                         to="wb-knowMobileButtons"
                                         duration={1200}
+                                        style={{display:"none !important"}}
                                     >
                                         <button
                                             ref="li3"
                                             onClick={() => this.programOpen("li3",this.refs.Entertainments, this.refs.Entertainments2)}
                                             className="wb-knowMobileButton"
+                                            style={{display:"none"}}
                                         >
                                             Entertainments
                                         </button>

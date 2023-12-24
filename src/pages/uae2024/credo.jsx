@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import img1 from "./img/disignIcon/know/credo5.png"
 import img2 from "./img/disignIcon/know/credo6.png"
@@ -14,7 +14,7 @@ const data = [
         },
         back: {
             title: "Connect",
-            description: "A fully immersive environment, where trust is built through collaboration between people from different countries, cultures and backgrounds, in an informal setting guided by mentors and business experts."
+            description: ["Access to VCs & Angel Investors","Networking with Professionals","Partnership Opportunities","Recruiting Perspectives"]
         },
         color:"#42C8F1"
 
@@ -26,7 +26,7 @@ const data = [
         },
         back: {
             title: "Learn",
-            description: "An atmosphere, where experienced entrepreneurs share their knowledge, experience, resources and aspirations - all in exchange for inspiration from the unconstrained thinking of starting entrepreneurs."
+            description: ["Micro Acceleration Program","One-to-one Mentorship and Guidance","Expert-Led Campfire Talks","Workshops & Panel Discussions"]
         },
         color:"#1CAAE2"
 
@@ -38,7 +38,7 @@ const data = [
         },
         back: {
             title: "Win",
-            description: "Opportunities for startups to constantly score by participating in the startup battles, acquiring invaluable connections, receiving on-site and off-site investment opportunities - and all that simply by being an active participant of the event."
+            description: ["Competitions with Prizes","Exposure and Visibility","Investment Opportunities","Valuable Connections"]
         },
         color:"#B92B4E"
 
@@ -50,7 +50,7 @@ const data = [
         },
         back: {
             title: "Have Fun",
-            description: "An unforgettable experience full of fun activities and amazing moments! After a very intense event day, all participants have to do is relax, cheer up and refuel their energy. SSS is all about “working hard, partying even harder”."
+            description: ["Tent Life Unique Experience","Team-Building Adventures","Water Sports Activities","Live Music and Night Parties"]
         },
         color:"#F68C36"
 
@@ -58,7 +58,19 @@ const data = [
 ];
 
 function Credo() {
+
+    const handleWindowResize = () => {
+        setWidth(window.innerWidth);
+    }
+
     const [activeCardIndex, setActiveCardIndex] = useState(0)
+    const [width, setWidth] = useState(0)
+
+    useEffect(() => {
+        handleWindowResize()
+    })
+
+
 
     const nextOrPrev = (isNext) => {
         if(isNext) {
@@ -69,8 +81,8 @@ function Credo() {
     }
     return(
         <div className="credo">
-        <h2>Our Credo</h2>
-        <p>— SSS provides the following key benefits —</p>
+        <h2>Why Participate as a Startup</h2>
+        <p>{width > 1024 ? "— SSS provides the following key benefits —" : "SSS provides the following key benefits"}</p>
         <div className="credoItem">
             <div className="card">
                 <div className="content">
@@ -80,9 +92,14 @@ function Credo() {
                     </div>
                     <div className="back">
                         <h4 style={{color: "#42C8F1"}}>Connect</h4>
-                        <p>
-                            A fully immersive environment, where trust is built through collaboration between people from different countries, cultures and backgrounds, in an informal setting guided by mentors and business experts.
-                        </p>
+
+                            <ul>
+                                <li>Access to VCs & Angel Investors</li>
+                                <li>Networking with Professionals</li>
+                                <li>Partnership Opportunities</li>
+                                <li>Recruiting Perspectives</li>
+                            </ul>
+
                     </div>
                 </div>
             </div>
@@ -94,9 +111,12 @@ function Credo() {
                     </div>
                     <div className="back">
                         <h4 style={{color: "#1CAAE2"}}>Learn</h4>
-                        <p>
-                            An atmosphere, where experienced entrepreneurs share their knowledge, experience, resources and aspirations - all in exchange for inspiration from the unconstrained thinking of starting entrepreneurs.
-                        </p>
+                            <ul>
+                                <li>Micro Acceleration Program</li>
+                                <li>One-to-one Mentorship and Guidance</li>
+                                <li>Expert-Led Campfire Talks</li>
+                                <li>Workshops & Panel Discussions</li>
+                            </ul>
                     </div>
                 </div>
             </div>
@@ -108,9 +128,12 @@ function Credo() {
                     </div>
                     <div className="back">
                         <h4 style={{color: "#B92B4E"}}>Win</h4>
-                        <p>
-                            Opportunities for startups to constantly score by participating in the startup battles, acquiring invaluable connections, receiving on-site and off-site investment opportunities - and all that simply by being an active participant of the event.
-                        </p>
+                            <ul>
+                                <li>Competitions with Prizes</li>
+                                <li>Exposure and Visibility</li>
+                                <li>Investment Opportunities</li>
+                                <li>Valuable Connections</li>
+                            </ul>
                     </div>
                 </div>
             </div>
@@ -122,9 +145,12 @@ function Credo() {
                     </div>
                     <div className="back">
                         <h4 style={{color: "#F68C36"}}>Have Fun</h4>
-                        <p>
-                            An unforgettable experience full of fun activities and amazing moments! After a very intense event day, all participants have to do is relax, cheer up and refuel their energy. SSS is all about “working hard, partying even harder”.
-                        </p>
+                            <ul>
+                                <li>Tent Life Unique Experience</li>
+                                <li>Team-Building Adventures</li>
+                                <li>Water Sports Activities</li>
+                                <li>Live Music and Night Parties</li>
+                            </ul>
                     </div>
                 </div>
             </div>
@@ -158,9 +184,14 @@ function Credo() {
                                 <div className="wb-header">
                                     <img src={data[activeCardIndex].front.img} alt="Logo"/>
                                 </div>
-                                <p>
-                                    {data[activeCardIndex].back.description}
-                                </p>
+
+                                <ul>
+                                    {data[activeCardIndex].back.description.map((li) => {
+                                        return (
+                                            <li>{li}</li>
+                                        )
+                                    })}
+                                </ul>
                             </div>
                         </div>
                     </div>

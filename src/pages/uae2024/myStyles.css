@@ -1,0 +1,547 @@
+/* Get Access*/
+
+.upcommingGetAcces_left h2 {
+    color: #1F2C4C !important;
+    letter-spacing: 1px;
+}
+.upcommingGetAcces_left p{
+    font-size: 18px !important;
+    color: #1F2C4C !important;
+    padding: 20px 0 !important;
+}
+
+
+/* Stats */
+.statItem{
+    color: #1F2C4C !important;
+}
+.statItem span:last-child{
+    opacity: 0.8 !important;
+}
+
+
+/* Credo */
+.credo {
+    background-color: #f7f7f7 !important;
+}
+.credo h2{
+    color: #1F2C4C !important;
+    font-size: 36px !important;
+}
+.credoItem .card{
+    width: 21.5vw !important;
+}
+.credo > p{
+    letter-spacing: 0.7px !important;
+    color: #1F2C4C !important;
+    opacity: 40% !important;
+}
+ .credo ul{
+    margin-top: 12px;
+}
+ .credo ul li{
+    padding: 0;
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px !important;
+    line-height: 50px;
+    font-weight: 400;
+    color: #1F2C4C;
+}
+ .credo ul li:before,.wb-mobileVersion  ul li:before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #1F2C4C; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.wb-mobileVersion  ul li{
+    position: relative;
+    margin-left: 20px;
+    line-height: 19px;
+    color: #1F2C4C;
+    font-size: 15px;
+
+}
+
+
+/* program */
+.program-block h2{
+    margin-top: 0 !important;
+}
+.program-block{
+    padding-top: 45px !important;
+    background-color: #f7f7f7 !important;
+}
+.program-block .textBox{
+    width: 90% !important;
+}
+.textBox p{
+    font-size: 18px !important;
+}
+.textBox p b{
+    color: #1F2C4C !important;
+}
+
+.upcommingPrograms_right h3 {
+    color: #1F2C4C !important;
+    font-size: 18px !important;
+}
+
+/* Shuttle */
+.upcommingReach > h2{
+    color: #1F2C4C !important;
+    font-size: 36px !important;
+}
+.upcommingReach > p{
+    color: #1F2C4C !important;
+    font-size: 18px !important;
+}
+.vihacleOpenIN p, .vihacleOpenIN h3{
+    color: #1F2C4C !important;
+    justify-content: left !important;
+}
+.vihacleBox > div > img{
+    opacity: 0.5 !important;
+}
+.vihacleFullOpen .vihacleBox > div > img{
+    opacity: 1 !important;
+}
+.vihacleBox > button{
+    font-size: 14px !important;
+}
+
+
+/* Must Know */
+.upcommingProgramsBlock h2{
+    font-size: 36px !important;
+    color: #1F2C4C !important;
+}
+
+.upcommingPrograms .textBox h3,.upcommingPrograms .textBox p{
+    color: #1F2C4C !important;
+}
+.infoIconBoxKnow > span{
+    color: #1F2C4C !important;
+    font-weight: 600 !important;
+}
+.wb-buttons-block button {
+    padding: 9.7px 15px;
+    border: 1px solid #2f80ed;
+    color: #2f80ed;
+    border-radius: 8px;
+    margin: 5px 0 ;
+    width: 220px;
+    transition: 0.2s;
+}
+
+.wb-buttons-block button:hover {
+    background-color: #2F80ED;
+    color: #fff;
+}
+.wb-waterBlock{
+    display: none !important;
+}
+.eventComingSoonBtn {
+    position: relative;
+    cursor: pointer;
+}
+.eventComingSoonBtn:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "Coming Soon";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: #2f80ed;
+    border-radius: 8px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.eventComingSoonBtn:hover::before {
+    opacity: 1;
+    background: #ffffff;
+    color: #2f80ed;
+}
+
+.wb-mobileVersion-joinOurTeam-block {
+    display: none;
+}
+
+@media screen  and (max-width: 1690px){
+    /* Credo */
+    .credoItem .back ul li{
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+}
+
+@media screen  and (max-width: 1400px){
+    /* Credo */
+    .credoItem .back ul li{
+        font-size: 18px !important;
+        line-height: 24px;
+
+    }
+}
+
+@media screen  and (max-width: 1200px){
+    /* Credo */
+    .credoItem .back ul li{
+        font-size: 16px !important;
+        line-height: 22px;
+
+    }
+    .uae-24-pic {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .uae-24-pic {
+        max-width: unset;
+        width: 100%;
+    }
+    /*Credo*/
+    .credo{
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+    .credo > h2{
+        text-align: left !important;
+    }
+    .credo p{
+        font-size: 18px !important;
+        text-align: left !important;
+        font-weight: 700;
+    }
+    .credoItem{
+        display: none !important;
+    }
+    .credo ul li{
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+
+    /*Access */
+    .statsTitle{
+        color: #001A34 !important;
+        opacity: 1 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+    }
+    /* Stats */
+     .container{
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+     .statsTitle{
+         font-size: 36px !important;
+         color: #1F2C4C !important;
+         width: 100% !important;
+         text-align: left !important;
+         text-transform: unset !important;
+     }
+    .statsBox{
+        gap: 0 !important;
+    }
+
+    .statItem:nth-child(1),.statItem:nth-child(2),.statItem:nth-child(3),.statItem:nth-child(4){
+        flex-basis: 45%;
+        border-bottom: #898989a7 solid 1px;
+        padding: 15px;
+    }
+
+    .statItem:nth-child(5){
+        flex-basis: 100%;
+        padding: 15px !important;
+        margin-top: 10px;
+    }
+    .statItem:nth-child(1),.statItem:nth-child(2){
+        border-bottom:none !important;
+        margin-bottom: 15px;
+    }
+    .statItem:nth-child(3),.statItem:nth-child(4){
+        position: relative;
+        border-bottom: none !important;
+    }
+    .statItem:nth-child(3):after,.statItem:nth-child(4):after{
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 0.44px;
+        background-color: #898989;
+    }
+    .statItem:nth-child(3):before,.statItem:nth-child(4):before{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 100%;
+        height: 0.44px;
+        background-color: #898989;
+    }
+    .statItem:nth-child(2),.statItem:nth-child(4){
+        border-right: none !important;
+    }
+    .statItem span:first-child{
+        font-size: 31px !important;
+    }
+    .statItem span:last-child{
+        font-size: 13px !important;
+    }
+
+    /* Program */
+    .program-block{
+        padding: 40px 35px !important;
+        background-color: #f7f7f7 !important;
+    }
+    .program-block h2{
+        font-size: 36px !important;
+        text-align: left;
+    }
+
+    .upcommingPrograms_left.wb-program{
+        align-items: flex-start !important;
+    }
+    .upcommingPrograms .textBox p{
+        font-size: 16px !important;
+    }
+    .upcommingPrograms_right_open .trackText{
+        display: none !important;
+    }
+    .infoIconBox span{
+        font-size: 10px !important;
+    }
+    .upcommingPrograms_right.one > div.upcommingPrograms_right_open,.upcommingPrograms_right{
+        max-height: 550px !important;
+    }
+    .upcommingPrograms_right.one > div.upcommingPrograms_right_open{
+        overflow: hidden !important;
+    }
+
+    .upcommingPrograms{
+        padding: 0 !important;
+    }
+
+    /* Shuttle */
+    .upcommingReach{
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+    .upcommingReach > h2{
+        font-size: 36px !important;
+        text-align: left !important;
+    }
+
+    /* Most Know */
+    .upcommingPrograms_left {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .upcommingProgramsBlock{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .upcommingProgramsBlock h2{
+        display: block !important;
+        font-size: 36px !important;
+        text-align: left !important;
+    }
+    .upcommingPrograms_left .textBox h3{
+        text-align: center !important;
+    }
+    .wb-knowMobileButtons-card {
+        justify-content: center;
+        gap: 10px;
+    }
+    .upcommingPrograms_right_open .programSub > img {
+        display: none !important;
+    }
+    .venueWeater{
+        display: none !important;
+    }
+    .wb-waterBlock{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .wb-waterBlock > div{
+        flex-basis: 40% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .wb-waterBlock > div > div{
+        justify-content: center;
+    }
+    .wb-waterBlock > div > div span{
+        font-weight: 600 !important;
+        color: #1F2C4C !important;
+        opacity: 0.7;
+        margin-left: 8px;
+    }
+    .programSub p{
+        font-size: 21px !important;
+        max-width: unset !important;
+        margin-top: 22px;
+    }
+    .wb-waterTwoImg div{
+        display: flex;
+        align-items: center;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .wb-waterTwoImg div img{
+        width: 52px !important;
+        height: 52px !important;
+    }
+    .wb-waterTwoImg {
+        gap: 30px
+    }
+    .wb-front p {
+        text-align: center !important;
+    }
+    .upcommingPrograms_left .textBox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wb-mobileVersion-joinOurTeam-block {
+        display: flex;
+    }
+    .wb-joinOurTeamDesktop {
+        display: none !important;
+    }
+    .wb-applyHereButtonBlock {
+        margin-top: 16px !important;
+    }
+    .wb-applyBlock {
+        margin-top: 0 !important;
+    }
+}
+
+@media screen  and (max-width: 640px){
+    /* Stat */
+    .statItem:nth-child(1),.statItem:nth-child(3){
+        border-right:#898989a7 solid 1px !important;
+
+    }
+    .upcommingPrograms {
+        padding: 0 !important;
+    }
+    .programSub p{
+        max-width: unset !important;
+    }
+    .wb-waterTwoImg {
+        gap: 23px
+    }
+    .wb-waterTwoImg div img{
+        width: 42px !important;
+        height: 42px !important;
+    }
+    .programSub p{
+        font-size: 15px !important;
+    }
+    .credo h2 {
+        font-size: 25px !important;
+    }
+    .statsTitle {
+        font-size: 25px !important;
+    }
+    .wb-applyTitle h2 {
+        font-size: 25px !important;
+    }
+    .program-block h2 {
+        font-size: 25px !important;
+    }
+    .upcommingReach h2 {
+        font-size: 25px !important;
+    }
+    .upcommingProgramsBlock h2 {
+        font-size: 25px !important;
+    }
+    .wb-organizersTitle h2 {
+        font-size: 25px !important;
+    }
+
+
+}
+@media screen and (max-width: 599px){
+    /* Get Access */
+    .upcommingGetAcces_left p{
+        height: unset !important;
+        overflow: visible !important;
+        display: unset !important;
+    }
+    /* Program */
+
+    .upcommingPrograms_right_open .infoIconBox{
+        width: 16% !important;
+    }
+    /* Most Know*/
+    .textBoxMobileImg{
+        display: none !important;
+    }
+    .wb-front {
+        gap: 0 !important;
+    }
+}
+
+@media screen and (max-width: 440px){
+
+    .credo p{
+        font-size: 15px !important;
+    }
+
+    .credo ul li{
+        font-size: 15px !important;
+        font-weight: 400;
+    }
+
+    /* Stats */
+    .statsTitle{
+        font-size: 25px !important;
+        font-weight: 900 !important;
+    }
+
+    /* Program */
+    .program-block h2{
+        font-size: 25px !important;
+    }
+    .upcommingPrograms .textBox p{
+        font-size: 15px !important;
+    }
+    .infoIconBox span{
+        font-size: 10px !important;
+        font-weight: 700 !important;
+    }
+
+    /* Shuttle */
+    .upcommingReach > h2{
+        font-size: 25px !important;
+    }
+
+    /* Most Know */
+    .upcommingProgramsBlock h2{
+        font-size: 25px !important;
+    }
+    .upcommingPrograms .textBox h3{
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+    .programSub p{
+        font-size: 15px !important;
+        font-weight: 400 !important;
+    }
+    .wb-waterTwoImg div{
+        font-size: 28px;
+        font-weight: bold;
+    }
+}

@@ -19,9 +19,9 @@ const Organizers = () => {
                 <div className="wb-organizersImageBlock">
                     <img src={amtzImg} alt="Startup" />
                 </div>
-                <div className="wb-organizersImageBlock">
-                    <img src={gtbImg} alt="Startup" />
-                </div>
+                {/*<div className="wb-organizersImageBlock">*/}
+                {/*    <img src={gtbImg} alt="Startup" />*/}
+                {/*</div>*/}
             </div>
         </div>
     )

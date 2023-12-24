@@ -1,0 +1,134 @@
+.wb-roadmapBlock{
+  padding-top: 45px !important;
+}
+.wb-applyTitle {
+  text-align: center;
+}
+.wb-applyTitle h2 {
+  color: #1F2C4C;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 100px;
+  text-align: center !important;
+}
+.wb-roadmapBlock h2{
+  text-align: center !important;
+}
+.wb-applyBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px 25px 35px;
+
+}
+.wb-applyItemsBlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.wb-itemWithArrowBlock {
+  flex-basis: 22vw;
+  text-align: center;
+  display: flex;
+}
+.wb-imageBlock {
+  margin: 0 auto;
+}
+.wb-imageBlock {
+  width: 100%;
+  height: 100%;
+  max-width: 230px;
+  max-height: 192px;
+}
+.wb-imageBlock img {
+  height: 100%;
+}
+.wb-titleBlock {
+  margin-top: 20px;
+}
+
+.wb-titleBlock h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1F2C4C;
+}
+
+.wb-applyBlock .wb-description p {
+  line-height: 21px;
+  color: #1F2C4C;
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 15px;
+}
+.roadmap-msg{
+  text-align: center;
+  color: #2F80ED;
+  font-size: 16px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 1200px) {
+  .wb-imageBlock {
+    max-width: 210px;
+    max-height: 160px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wb-applyTitle h2 {
+    font-size: 25px !important;
+    margin-bottom: 35px !important;
+    text-align: left !important;
+  }
+  .wb-applyItemsBlock {
+    gap: 22px 0;
+  }
+  .wb-itemWithArrowBlock {
+    flex-basis: 100% !important;
+  }
+
+  .wb-imageBlock {
+    width: auto !important;
+    max-height: 50px !important;
+  }
+  .wb-imageBlock img {
+    max-height: inherit;
+  }
+  .wb-itemBlock {
+    display: flex;
+    width: 100%;
+  }
+  .wb-contentBlock {
+    width: 100%;
+  }
+  .wb-titleBlock {
+    margin-top: 0 !important;
+  }
+  .wb-titleBlock h3 {
+    font-size: 15px !important;
+  }
+  .wb-description p {
+    font-size: 16px !important;
+    line-height: 16px !important;
+  }
+  .wb-applyButtonBlock a button {
+    padding: 10px 17px;
+    font-size: 12px;
+  }
+  .wb-roadmapBlock .wb-titleBlock h3 {
+    text-align: left !important;
+    margin-left: 20px !important;
+  }
+  .wb-roadmapBlock .wb-description p{
+    margin: 0 !important;
+    margin-left: 20px !important;
+    text-align: left !important;
+  }
+}

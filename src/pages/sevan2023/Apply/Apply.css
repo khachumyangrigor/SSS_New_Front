@@ -1,5 +1,5 @@
 .wb-applyTitle {
-  text-align: left;
+  text-align: center;
 }
 .wb-applyTitle h2 {
   color: #000;
@@ -7,7 +7,7 @@
   font-weight: 900;
   font-size: 48px;
   margin-bottom: 100px;
-  text-align: left;
+  text-align: center;
 }
 .wb-applyBlock {
   display: flex;
@@ -70,12 +70,9 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .wb-applyBlock {
-    margin-top: 25px !important;
-  }
   .wb-applyTitle h2 {
     font-size: 25px !important;
-    margin-bottom: 25px !important;
+    margin-bottom: 35px !important;
   }
   .wb-applyItemsBlock {
     gap: 22px 0;

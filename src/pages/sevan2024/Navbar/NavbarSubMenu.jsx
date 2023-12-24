@@ -11,7 +11,7 @@ const menuItems = [
   },
   {
     link: `wb-participateBlock`,
-    title: "Apply as a Startup",
+    title: "Roadmap as a Startup",
   },
   {
     link: `upcommingPrograms`,

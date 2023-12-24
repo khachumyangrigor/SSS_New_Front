@@ -40,25 +40,25 @@ export default [
     },
     {
         exact: true,
-        path: '/upcoming-events/UAE-2024/',
+        path: '/upcoming-events/uae-24/',
         component: Uae2024
     },
     {
         exact: true,
-        path: '/upcoming-events/UAE-2024/:subpage',
+        path: '/upcoming-events/uae-24/:subpage',
         component: Uae2024
     },
-    {
-        exact: true,
-        path: '/upcoming-events/sevan-startup-summit-2024/',
-        component: Sevan2024
-    },
-
-    {
-        exact: true,
-        path: '/upcoming-events/sevan-startup-summit-2024/:subpage',
-        component: Sevan2024
-    },
+    // {
+    //     exact: true,
+    //     path: '/upcoming-events/sevan-startup-summit-2024/',
+    //     component: Sevan2024
+    // },
+    //
+    // {
+    //     exact: true,
+    //     path: '/upcoming-events/sevan-startup-summit-2024/:subpage',
+    //     component: Sevan2024
+    // },
     // {
     //     exact: true,
     //     path: '/upcoming-events/:event/',

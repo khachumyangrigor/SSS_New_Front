@@ -11,37 +11,97 @@ import {buyTickets} from "../Navbar/NavButtons.jsx"
 const data = [
   {
     img: img1,
-    title: "— Application —",
+    title: "— Communications —",
     description:
-      "In order to apply, you will need to fill in our application form. \n" +
-      "Make sure to provide accurate information: it helps us to provide you with the best experience.",
+      "",
   },
   {
     img: img2,
-    title: "—  Assessment & Interview — ",
+    title: "— Organizational Support —",
     description:
-      "All applied volunteers go through a screening process. Accepted volunteers will be invited to an interview.",
+      "This position is engaged both pre-event and on the grounds,  where the main requirements are strong organizational skills. The involvement requries full-time or at least part-time availability.",
   },
   {
     img: img3,
-    title: "—  Pre-event training — ",
+    title: "— Media Team —",
     description:
-      "All the shortlisted candidates pass month-long training. Top applicants are selected and dispersed into working groups.",
+      "This posistion is more engaged on the grounds activities, where the main requirements are SMM knowledge, content writing, photo & video shooting and editing. ",
   },
   {
     img: img4,
-    title: "— Time to work —",
+    title: "— TeamLeads —",
     description:
-      "Over the course of the Summit, the volunteers support the organizers in conducting the hottest event of the summer!",
+      "This position is more engaged on the grounds activities, where they are mainly responsible for keeping communication with startups, and keeping track of program agenda.",
+  },
+];
+const dataMobile = [
+  {
+    front: {
+      img: img1,
+      text: "Communications"
+    },
+    back: {
+      title: "Communications",
+      description: <p style={{textAlign: "left !important", fontSize: "15px"}}>This position is more engaged in <b>pre-event activities</b>, where the main requirements are well-developed language, and communication skills. The involvement requires at least part-time availability. </p>
+    },
+    color:"#428BEF"
+
+  },
+  {
+    front: {
+      img: img2,
+      text: "Organizational Support"
+    },
+    back: {
+      title: "Organizational Support",
+      description: <p style={{textAlign: "left !important", fontSize: "15px"}}>This position is engaged both <b>pre-event and on the grounds</b>,  where the main requirements are strong organizational skills. The involvement requries full-time or at least part-time availability.</p>
+    },
+    color:"#428BEF"
+
+  },
+  {
+    front: {
+      img: img3,
+      text: "Media Team"
+    },
+    back: {
+      title: "Media Team",
+      description: <p style={{textAlign: "left !important", fontSize: "15px"}}>This posistion is more engaged <b>on the grounds activities</b>, where the main requirements are SMM knowledge, content writing, photo & video shooting and editing. </p>
+    },
+    color:"#428BEF"
+
+  },
+  {
+    front: {
+      img: img4,
+      text: "TeamLeads"
+    },
+    back: {
+      title: "TeamLeads",
+      description: <p style={{textAlign: "left !important", fontSize: "15px"}}>This position is more engaged <b>on the grounds activities</b>, where they are mainly responsible for keeping communication with startups, and keeping track of program agenda.</p>
+    },
+    color:"#428BEF"
+
   },
 ];
 
 function Apply() {
   const [width, setWidth] = useState(0)
   const [popupStatus, setPopupStatus] = useState(false)
+  const [activeCardIndex, setActiveCardIndex] = useState(0)
+
   const handleWindowResize = () => {
     setWidth(window.innerWidth);
   }
+
+  const nextOrPrev = (isNext) => {
+    if(isNext) {
+      setActiveCardIndex(activeCardIndex + 1)
+    } else {
+      setActiveCardIndex(activeCardIndex - 1)
+    }
+  }
+
   useEffect(() => {
     // component is mounted and window is available
     handleWindowResize();
@@ -57,43 +117,136 @@ function Apply() {
 
   return (
       <>
-        <div className="wb-applyBlock">
+        <div className="wb-applyBlock wb-joinTeam">
           <div className="wb-applyTitle">
-            <h2>How To Apply</h2>
+            <h2>Join our team</h2>
           </div>
-          <div className="wb-applyItemsBlock">
-            {data.map((block, i) => {
-              return (
-                  <div key={`apply-${i}`} className="wb-itemWithArrowBlock">
-                    <div className="wb-itemBlock">
-                      <div className="wb-imageBlock">
-                        <img src={block.img} alt="Icon" />
-                      </div>
-                      <div className="wb-contentBlock">
-                        <div className="wb-titleBlock">
-                          <h3>{block.title}</h3>
-                        </div>
-                        <div className="wb-description">
-                          <p>{block.description}</p>
-                        </div>
-                      </div>
-                    </div>
-                    {i !== data.length - 1 && (
-                        <div className="wb-arrowBlock">
-                          <img src={arrow} alt="" />
-                        </div>
-                    )}
+          <div className="wb-applyItemsBlock wb-joinOurTeamDesktop">
+
+            <div className="wb-itemWithArrowBlock">
+              <div className="wb-itemBlock">
+                <div className="wb-imageBlock">
+                  <img src={data[0].img} alt="Icon" />
+                </div>
+                <div className="wb-contentBlock">
+                  <div className="wb-titleBlock">
+                    <h3>{data[0].title}</h3>
                   </div>
-              );
-            })}
+                  <div className="wb-description">
+                    <p>
+                      This position is more engaged in <strong>pre-event activities,</strong> where the main requirements are well-developed language, and communication skills. The involvement requires at least part-time availability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="wb-itemWithArrowBlock">
+              <div className="wb-itemBlock">
+                <div className="wb-imageBlock">
+                  <img src={data[1].img} alt="Icon" />
+                </div>
+                <div className="wb-contentBlock">
+                  <div className="wb-titleBlock">
+                    <h3>{data[1].title}</h3>
+                  </div>
+                  <div className="wb-description">
+                    <p>
+                      This position is engaged both <strong>pre-event and on the grounds,</strong> where the main requirements are strong organizational skills. The involvement requries full-time or at least part-time availability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="wb-itemWithArrowBlock">
+              <div className="wb-itemBlock">
+                <div className="wb-imageBlock">
+                  <img src={data[2].img} alt="Icon" />
+                </div>
+                <div className="wb-contentBlock">
+                  <div className="wb-titleBlock">
+                    <h3>{data[2].title}</h3>
+                  </div>
+                  <div className="wb-description">
+                    <p>
+                      This posistion is more engaged <strong>on the grounds activities,</strong> where the main requirements are SMM knowledge, content writing, photo & video shooting and editing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="wb-itemWithArrowBlock">
+              <div className="wb-itemBlock">
+                <div className="wb-imageBlock">
+                  <img src={data[3].img} alt="Icon" />
+                </div>
+                <div className="wb-contentBlock">
+                  <div className="wb-titleBlock">
+                    <h3>{data[3].title}</h3>
+                  </div>
+                  <div className="wb-description">
+                    <p>
+                      This position is more engaged <strong>on the grounds activities,</strong> where they are mainly responsible for keeping communication with startups, and keeping track of program agenda.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="wb-applyButtonBlock">
+          <div className="wb-mobileVersion-credo-block wb-mobileVersion-joinOurTeam-block">
+            <div className="wb-mobileVersion">
+              <div className="wb-cardBlock">
+                <div
+                    className={`arrowBlock ${activeCardIndex === 0 ? "displayNone" : ""}`}
+                    onClick={() => nextOrPrev(false)}
+                >
+                  <img width={16} src={arrow} alt="Arrow"/>
+                </div>
+                <div className="wb-container">
+                  <div className="wb-flipper" style={{borderColor: "#428BEF"}}>
+                    <div className="wb-front">
+                      <p
+                          style={{
+                            color: "#1F2C4D",
+                            fontWeight: "700",
+                            fontSize: "20px !important",
+                            lineHeight: "28px !important",
+                            textAlign: "center",
+                            letterSpacing: "0.7px",
+                            textTransform: "uppercase",
+                          }}
+                      >
+                        {dataMobile[activeCardIndex].front.text}
+                      </p>
+                      <div className="wb-header">
+                        <img src={dataMobile[activeCardIndex].front.img} alt="Logo"/>
+                      </div>
+
+                      {dataMobile[activeCardIndex].back.description}
+                    </div>
+                  </div>
+                </div>
+                <div
+                    className={`arrowBlock ${activeCardIndex === data.length-1 ? "displayNone" : ""}`}
+                    onClick={() => nextOrPrev(true)}
+                >
+                  <img width={16} src={arrow} alt="Arrow"/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="wb-applyButtonBlock wb-applyHereButtonBlock">
             <a
-                // href="https://forms.gle/VSG5oNLhg2nr8zhr9"
+                href="https://forms.gle/UYUaL5DsLdqpsdu66"
                 target="_blank"
-                onClick={() => setPopupStatus(true)}
+                // onClick={() => setPopupStatus(true)}
                 rel="noopener noreferrer">
-              <button>Apply as a Volunteer</button>
+              <button>Apply Here</button>
             </a>
           </div>
         </div>

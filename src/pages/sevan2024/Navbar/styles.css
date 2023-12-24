@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 0.9vh 6vw !important;
   background: #f7f7f7;
   position: relative;
   min-height: 100px;
@@ -75,6 +75,7 @@
   flex: 1 0 35%;
   justify-content: flex-end;
   align-items: center;
+  /*min-width: 40%;*/
 }
 
 .navbar-right .nav-buttons {

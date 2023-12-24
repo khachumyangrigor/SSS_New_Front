@@ -1,5 +1,5 @@
 .wb-applyTitle {
-  text-align: left;
+  text-align: center;
 }
 .wb-applyTitle h2 {
   color: #000;
@@ -7,12 +7,12 @@
   font-weight: 900;
   font-size: 48px;
   margin-bottom: 100px;
-  text-align: left;
+  text-align: center !important;
 }
 .wb-applyBlock {
   display: flex;
   flex-direction: column;
-  padding: 0 35px 25px 35px;
+  padding: 45px 35px 25px 35px !important;
 
 }
 .wb-applyItemsBlock {
@@ -36,13 +36,16 @@
   max-height: 192px;
 }
 .wb-imageBlock img {
-  height: 100%;
+  max-height: 90%;
 }
 .wb-titleBlock {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .wb-arrowBlock {
-  margin-top: 75px;
+  margin-top: 50px;
+}
+.wb-arrowBlock img{
+  transform: scale(0.6);
 }
 .wb-titleBlock h3 {
   font-family: "Source Sans Pro";
@@ -63,6 +66,12 @@
   width: 80%;
   margin: 0 auto;
 }
+.wb-applyHereButtonBlock {
+  margin-top: 100px;
+}
+.wb-applyButtonBlock button{
+  font-size: 14px !important;
+}
 @media screen and (max-width: 1200px) {
   .wb-imageBlock {
     max-width: 210px;
@@ -70,12 +79,9 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .wb-applyBlock {
-    margin-top: 25px !important;
-  }
   .wb-applyTitle h2 {
     font-size: 25px !important;
-    margin-bottom: 25px !important;
+    margin-bottom: 35px !important;
   }
   .wb-applyItemsBlock {
     gap: 22px 0;
@@ -107,7 +113,7 @@
     font-size: 15px !important;
   }
   .wb-description p {
-    font-size: 13px !important;
+    font-size: 16px !important;
     line-height: 16px !important;
   }
   .wb-applyButtonBlock a button {

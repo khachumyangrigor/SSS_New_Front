@@ -15,6 +15,13 @@ const Navbar = () => {
   const navbarRef = useRef(null);
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
   const [initialPosition, setInitialPosition] = useState(null);
+  const  handelScrollIntoView = () => {
+     window.scroll({
+            top: document.body.scrollHeight,
+            left: 0,
+            behavior: 'smooth'
+     });
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,9 +59,19 @@ const Navbar = () => {
           <img src={require("../img/tent.png")} alt="HOME" />
         </Link>
       </div>
-      <div className="navbar-center">
-        <NavbarMenu />
+      <div className="firstPageHeaderMiddle">
+        <ul>
+           <li><Link  to="/events">Events</Link></li>
+           <li><Link  to="/about-us">About us</Link></li>
+           <li><Link  to="/partners">Partners</Link></li>
+           <li><Link  to="/merch">Merch</Link></li>
+           <li><Link  to="/blog">Blog</Link></li>
+           <li onClick={handelScrollIntoView}>Contact</li>
+        </ul>
       </div>
+      {/*<div className="navbar-center">*/}
+      {/*  <NavbarMenu />*/}
+      {/*</div>*/}
       <div className={classNames("navbar-right")}>
         <NavButtons isSaleOpen={true}/>
         <MenuButton />

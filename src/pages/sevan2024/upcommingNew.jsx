@@ -7,7 +7,7 @@ import Shuttle from "./shuttle.jsx";
 import Programs from "./program.jsx";
 import MustKnow from "./mustknow.jsx";
 import Credo from "./credo.jsx";
-import Platform from "./platform.jsx";
+
 import Participate from "./Participate/Participate.jsx";
 import Valounteering from "./Volunteering/Volunteering.jsx";
 import Apply from "./Apply/Apply.jsx";

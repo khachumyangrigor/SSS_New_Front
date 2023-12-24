@@ -2494,10 +2494,10 @@
   .firstPageHeaderMiddle ul li {
     font-size: 16px !important;
   }
-  .firstPageHeaderRight {
-    margin-bottom: 20px !important;
-    margin-top: 20px !important;
-  }
+  /*.firstPageHeaderRight {*/
+  /*  margin-bottom: 20px !important;*/
+  /*  margin-top: 20px !important;*/
+  /*}*/
   .firstPageHeaderRight a {
     font-size: 12px;
     padding: 10px 15px;
@@ -3435,6 +3435,7 @@
     flex-basis: 48%;
     font-size: 13px;
   }
+
   .wb-knowMobileButtons-card a {
     display: inline-block;
     padding: 10px 15px;
@@ -3705,10 +3706,10 @@
 }
 
 @media (max-width: 1024px) {
-  .firstPageHeaderRight {
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-  }
+  /*.firstPageHeaderRight {*/
+  /*  margin-bottom: 10px !important;*/
+  /*  margin-top: 10px !important;*/
+  /*}*/
   .firstPageHeaderRight.Mobi a {
     font-size: 13px;
     padding: 8px 30px 8px 30px !important;
@@ -4407,10 +4408,10 @@
   }
 }
 
-.firstPageHeaderRight {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+/*.firstPageHeaderRight {*/
+/*  margin-top: 30px;*/
+/*  margin-bottom: 30px;*/
+/*}*/
 .firstPageHeaderMiddle ul {
   width: auto !important;
   max-width: 1200px !important;

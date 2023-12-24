@@ -10,16 +10,16 @@ const menuItems = [
     title: "Our Credo",
   },
   {
-    link: `wb-participateBlock`,
-    title: "Apply as a Startup",
+    link: `wb-roadmapBlock`,
+    title: "Roadmap for Startups",
   },
   {
-    link: `upcommingPrograms`,
+    link: `program-block`,
     title: "Our Program",
   },
   {
-    link: `wb-applyBlock`,
-    title: "Become a Volunteer",
+    link: `wb-joinTeam`,
+    title: "Join our team",
   },
   {
     link: `upcommingReach`,
