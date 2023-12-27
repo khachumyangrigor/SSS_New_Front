@@ -134,7 +134,7 @@ class Header extends React.Component {
                 return (
                     <>
                         <Link to={'/upcoming-events/uae-24'}>
-                            SSS UAE 24
+                            SSSUAE24
                         </Link>
                         {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
                         {/*    SSS 2024*/}

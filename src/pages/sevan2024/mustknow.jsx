@@ -34,7 +34,7 @@ class Programs extends React.Component {
 
     render = () => {
         return (
-            <div className="upcommingProgramsBlock">
+            <div className="upcommingProgramsBlock sevan-2024-upcoming">
                 <h2>What you need to know beforehand</h2>
                 <div className="upcommingPrograms">
                     <div className="upcommingPrograms_left">

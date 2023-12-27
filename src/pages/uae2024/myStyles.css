@@ -1,3 +1,11 @@
+
+.wb-footerTitle h3 span{
+    font-weight: 500 !important;
+    display: block;
+}
+.wb-footerTitle h3.wb-cityTitle{
+    line-height: 35px;
+}
 /* Get Access*/
 
 .upcommingGetAcces_left h2 {
@@ -17,6 +25,8 @@
 }
 .statItem span:last-child{
     opacity: 0.8 !important;
+    font-weight: 600 !important;
+    text-transform: unset !important;
 }
 
 
@@ -44,7 +54,7 @@
     margin-left: 20px;
     position: relative;
     font-size: 20px !important;
-    line-height: 50px;
+    line-height: 65px;
     font-weight: 400;
     color: #1F2C4C;
 }
@@ -55,6 +65,30 @@
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.credo .card:nth-child(1) ul li:before{
+    color: #42C8F1 !important;
+}
+.credo .card:nth-child(2) ul li:before{
+    color: #1CAAE2 !important;
+}
+.credo .card:nth-child(3) ul li:before{
+    color: #B92B4E !important;
+}
+.credo .card:nth-child(4) ul li:before{
+    color: #F68C36 !important;
+}
+.wb-mobileVersion .slideCard1  li:before{
+    color: #42C8F1 !important;
+}
+.wb-mobileVersion .slideCard2  li:before{
+    color: #1CAAE2 !important;
+}
+.wb-mobileVersion .slideCard3  li:before{
+    color: #B92B4E !important;
+}
+.wb-mobileVersion .slideCard4  li:before{
+    color: #F68C36 !important;
 }
 .wb-mobileVersion  ul li{
     position: relative;
@@ -177,7 +211,7 @@
     /* Credo */
     .credoItem .back ul li{
         font-size: 20px;
-        line-height: 30px;
+        line-height: 40px;
 
     }
 }
@@ -188,6 +222,9 @@
         font-size: 18px !important;
         line-height: 24px;
 
+    }
+    .statItem span:first-child{
+        font-size: 34px !important;
     }
 }
 
@@ -202,7 +239,25 @@
         max-width: 500px;
     }
 }
+
+@media screen  and (max-width: 1110px){
+    .firstPageHeaderMiddle ul{
+        gap: 20px !important;
+    }
+    /*.firstPageHeaderMiddle ul li a,.firstPageHeaderMiddle ul li{*/
+    /*    font-size: 15px !important;*/
+    /*}*/
+}
+
 @media screen and (max-width: 1024px){
+    .wb-footerTitle h3 span{
+        display: inline !important;
+    }
+    /*Head*/
+    .firstPageHeaderLeft,.firstPageHeaderRight,.navbar-left,.navbar-right{
+        flex: unset !important;
+    }
+
     .uae-24-pic {
         max-width: unset;
         width: 100%;
@@ -296,6 +351,7 @@
     }
     .statItem span:last-child{
         font-size: 13px !important;
+        font-weight: 400 !important;
     }
 
     /* Program */
@@ -428,6 +484,15 @@
 }
 
 @media screen  and (max-width: 640px){
+    .wb-footerTitle h3.wb-cityTitle{
+        line-height: unset;
+    }
+    .wb-topTitle h1, .wb-topTitle h2,.wb-footerTitle h3{
+        font-size: 18px !important;
+    }
+    .wb-footerTitle .wb-cityTitle, .wb-footerTitle h4{
+        font-size: 12px !important;
+    }
     /* Stat */
     .statItem:nth-child(1),.statItem:nth-child(3){
         border-right:#898989a7 solid 1px !important;
@@ -495,7 +560,12 @@
 }
 
 @media screen and (max-width: 440px){
-
+    .wb-topTitle h1, .wb-topTitle h2,.wb-footerTitle h3{
+        font-size: 16px !important;
+    }
+    .wb-footerTitle .wb-cityTitle, .wb-footerTitle h4{
+        font-size: 10px !important;
+    }
     .credo p{
         font-size: 15px !important;
     }
@@ -545,3 +615,25 @@
         font-weight: bold;
     }
 }
+
+
+
+/*Sevan 2024*/
+@media screen and (max-width: 1024px){
+    .sevan-2024-upcoming .upcommingPrograms > div:nth-child(3), .upcommingPrograms > div:nth-child(4){
+        height: unset !important;
+    }
+    .sevan-2024-upcoming .upcommingPrograms_right > div.upcommingPrograms_right_open, .upcommingPrograms_right{
+        max-height: unset !important;
+    }
+    .sevan-2024-upcoming .upcommingPrograms_right.one {
+        max-height: 500px !important;
+    }
+    .wb-volunteeringBlock,.wb-participateBlock{
+        padding: 45px 35px !important;
+    }
+    .wb-volunteeringTitle h2{
+        font-size: 25px !important;
+    }
+}
+

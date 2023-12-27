@@ -83,7 +83,7 @@ class Programs extends React.Component {
     }
 
     render = () => {
-        console.log(this.state.width)
+
         return (
             <div className="program-block">
                 <h2>Educational Program for Startups</h2>

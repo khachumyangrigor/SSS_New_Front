@@ -75,6 +75,9 @@
   font-size: 16px;
   margin-top: 15px;
 }
+.roadmap-msg p{
+  font-weight: 600 !important;
+}
 @media screen and (max-width: 1200px) {
   .wb-imageBlock {
     max-width: 210px;

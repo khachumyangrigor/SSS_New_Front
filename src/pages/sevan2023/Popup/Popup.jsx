@@ -6,7 +6,6 @@ function Popup(props) {
 
     const blockRef = useRef(null)
     const [infoMode, setInfoMode] = useState(props.infoMode)
-    console.log(props.width)
     return (
         <div className={(props.status ? "popupWrapper popupBlockActive" : "popupWrapper")} onClick={() => props.setPopupStatus(false)}>
             <div

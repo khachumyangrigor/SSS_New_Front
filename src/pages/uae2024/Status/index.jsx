@@ -3,11 +3,11 @@ import React from "react";
 import "../myStyles.css"
 
 const statsData = [
-  { number: "30+", text: "countries" },
-  { number: "100+", text: "startups" },
-  { number: "3,000+", text: "participants" },
-  { number: "20+", text: "VC & investors" },
-  { number: "US $100K+", text: "prize fund" },
+  { number: "30+", text: "COUNTRIES" },
+  { number: "100+", text: "STARTUPS" },
+  { number: "3,000+", text: "PARTICIPANTS" },
+  { number: "20+", text: "VCs & INVESTORS" },
+  { number: "US $100K+", text: "PRIZE FUND" },
 ];
 
 const Stats = () => {

@@ -5,9 +5,11 @@ import img2 from "./img/disignIcon/know/credo6.png"
 import img3 from "./img/disignIcon/know/credo7.png"
 import img4 from "./img/disignIcon/know/credo8.png"
 import arrow from "./img/disignIcon/icon.png"
+import "./myStyles.css"
 
 const data = [
     {
+        id:"1",
         front: {
             img: img1,
             text: "Connect"
@@ -20,18 +22,20 @@ const data = [
 
     },
     {
+        id:"2",
         front: {
             img: img2,
             text: "Learn"
         },
         back: {
             title: "Learn",
-            description: ["Micro Acceleration Program","One-to-one Mentorship and Guidance","Expert-Led Campfire Talks","Workshops & Panel Discussions"]
+            description: ["Micro-acceleration Program","One-on-one Mentoring and Guidance","Expert-Led Campfire Talks","Workshops & Panel Discussions"]
         },
         color:"#1CAAE2"
 
     },
     {
+        id:"3",
         front: {
             img: img3,
             text: "Win"
@@ -44,6 +48,7 @@ const data = [
 
     },
     {
+        id:"4",
         front: {
             img: img4,
             text: "Have Fun"
@@ -80,7 +85,7 @@ function Credo() {
         }
     }
     return(
-        <div className="credo">
+        <div className="credo uae-credo">
         <h2>Why Participate as a Startup</h2>
         <p>{width > 1024 ? "— SSS provides the following key benefits —" : "SSS provides the following key benefits"}</p>
         <div className="credoItem">
@@ -185,8 +190,8 @@ function Credo() {
                                     <img src={data[activeCardIndex].front.img} alt="Logo"/>
                                 </div>
 
-                                <ul>
-                                    {data[activeCardIndex].back.description.map((li) => {
+                                <ul className={"slideCard" + data[activeCardIndex].id}>
+                                    {data[activeCardIndex].back.description.map((li,i) => {
                                         return (
                                             <li>{li}</li>
                                         )

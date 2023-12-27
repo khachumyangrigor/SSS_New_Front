@@ -292,7 +292,7 @@ class Events extends React.Component {
                             <div>
                                 {/*<Link to="/upcoming-events/sevan-startup-summit-2024" >*/}
                                     <img
-                                        src={require('./img/eventCover/sevan2024.png')}
+                                        src={require('./img/eventCover/newSevan2024.png')}
                                         alt="eventImg"
                                     />
                                 {/*</Link>*/}
@@ -309,8 +309,8 @@ class Events extends React.Component {
                                 </a>
                             </p>
                             <p>July 20 - 26, 2024</p>
-                            {/*<Link to="/upcoming-events/sevan-startup-summit-2024">See More</Link>*/}
-                            <a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>
+                            <Link to="/upcoming-events/sevan-startup-summit-2024">See More</Link>
+                            {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
                         </div>
                         {/*<div ref="event">*/}
                         {/*    <div>*/}

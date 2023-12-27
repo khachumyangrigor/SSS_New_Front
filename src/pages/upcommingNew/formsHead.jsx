@@ -27,7 +27,6 @@ class FormHeader extends React.Component {
     }
     
     componentWillReceiveProps=(newprops)=>{
-        console.log('asasasasas');
         
         // let subpage=newprops.match.params.subpage;
         // this.scrollSubPart(subpage);

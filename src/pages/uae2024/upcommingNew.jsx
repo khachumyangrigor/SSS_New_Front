@@ -64,10 +64,10 @@ class UpcommingNew extends React.Component {
             <div className="wb-footerTitle">
               <h3><b>SEASIDE STARTUP SUMMIT UAE 2024</b></h3>
 
-                <h3 className="wb-cityTitle">Ras Al Khaimah, Longbeach Campground</h3>
+                <h3 className="wb-cityTitle">Ras Al Khaimah, Longbeach Campground <span>FEBRUARY 23 - 28</span> </h3>
 
 
-              <h4>FEBRUARY 23 - 28</h4>
+
             </div>
           </div>
           {/* Part 2 */}

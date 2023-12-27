@@ -30,9 +30,12 @@ class Programs extends React.Component {
         elem.classList.add('upcommingPrograms_right_open');
         if (window.innerWidth <= 1024) {
             for(let i=1; i<5; i++){
-                let elm="li"+i;
-                this.refs[elm].style.color="#2F80ED";
-                this.refs[elm].style.background="#f7f7f7";
+                if(i !== 3){
+                    let elm="li"+i;
+                    this.refs[elm].style.color="#2F80ED";
+                    this.refs[elm].style.background="#f7f7f7";
+                }
+
             }
             // if(e!=='li1')this.refs.menue.scrollTo(this.refs[e].offsetLeft-20,0);
             this.refs[e].style.color="rgb(255,255,255)";
@@ -72,7 +75,7 @@ class Programs extends React.Component {
                                     {/* <div ref="Amenities2" className="ulDiv ulDivOpen"> <Amenities /></div> */}
                                     <li ref="li6" onClick={() => this.programOpen("li6",this.refs.Weather, this.refs.Weather2)}>Weather conditions</li>
                                     {/* <div ref="Weather2" className="ulDiv"> <Weather /></div> */}
-                                    <li style={{display:"none"}} ref="li7" onClick={() => this.programOpen("li7",this.refs.Entertainments, this.refs.Entertainments2)}>Entertainments</li>
+                                    {/*<li style={{display:"none !important"}} ref="li7" onClick={() => this.programOpen("li7",this.refs.Entertainments, this.refs.Entertainments2)}>Entertainments</li>*/}
                                     {/* <div ref="Entertainments2" className="ulDiv"> <Entertainments /></div> */}
                                     <li ref="li8" onClick={() => this.programOpen("li8",this.refs.LocalRules, this.refs.LocalRules2)}>Local rules</li>
                                     {/* <div ref="LocalRules2" className="ulDiv"> <LocalRules /></div> */}
@@ -131,23 +134,23 @@ class Programs extends React.Component {
                                     </Link>
                                 </div>
                                 <div className="wb-knowMobileButtons-card">
-                                    <Link
-                                        smooth={true}
-                                        offset={-80}
-                                        spy={true}
-                                        to="wb-knowMobileButtons"
-                                        duration={1200}
-                                        style={{display:"none !important"}}
-                                    >
-                                        <button
-                                            ref="li3"
-                                            onClick={() => this.programOpen("li3",this.refs.Entertainments, this.refs.Entertainments2)}
-                                            className="wb-knowMobileButton"
-                                            style={{display:"none"}}
-                                        >
-                                            Entertainments
-                                        </button>
-                                    </Link>
+                                    {/*<Link*/}
+                                    {/*    smooth={true}*/}
+                                    {/*    offset={-80}*/}
+                                    {/*    spy={true}*/}
+                                    {/*    to="wb-knowMobileButtons"*/}
+                                    {/*    duration={1200}*/}
+                                    {/*    style={{display:"none !important"}}*/}
+                                    {/*>*/}
+                                    {/*    <button*/}
+                                    {/*        ref="li3"*/}
+                                    {/*        onClick={() => this.programOpen("li3",this.refs.Entertainments, this.refs.Entertainments2)}*/}
+                                    {/*        className="wb-knowMobileButton"*/}
+                                    {/*        style={{display:"none"}}*/}
+                                    {/*    >*/}
+                                    {/*        Entertainments*/}
+                                    {/*    </button>*/}
+                                    {/*</Link>*/}
                                     <Link
                                         smooth={true}
                                         offset={-80}

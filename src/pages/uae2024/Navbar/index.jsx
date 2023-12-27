@@ -9,6 +9,7 @@ import NavbarSubMenu from "./NavbarSubMenu.jsx";
 import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 
 import "./styles.css";
+import "../myStyles.css"
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
@@ -74,8 +75,10 @@ const Navbar = () => {
       {/*</div>*/}
       <div className={classNames("navbar-right")}>
         <NavButtons isSaleOpen={true}/>
-        <MenuButton />
       </div>
+        <div>
+            <MenuButton />
+        </div>
       <div className={isMenuOpen ? "navbar-menu-box" : "navbar-menu-closed"}>
         <NavbarMenu />
       </div>

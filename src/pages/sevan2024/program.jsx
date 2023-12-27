@@ -70,7 +70,7 @@ class Programs extends React.Component {
 
     render = () => {
         return (
-            <div className="upcommingPrograms one">
+            <div className="upcommingPrograms one sevan-2024-upcoming">
                 <div className="upcommingPrograms_left">
                     <div className="imgBox">
                         <img src={require('./img/disignIcon/Group.png')} alt="starter program" />

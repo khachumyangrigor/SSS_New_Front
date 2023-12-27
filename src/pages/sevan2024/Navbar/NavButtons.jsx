@@ -58,7 +58,6 @@ function NavButtons({isSaleOpen}) {
                       target="_blank"
                       // onClick={width < 1024 ? null : () => setPopupStatus(true)}
                       onClick={ () => {
-                          console.log(width)
                           setPopupStatus(true)}
                       }
                       rel="noopener noreferrer"
