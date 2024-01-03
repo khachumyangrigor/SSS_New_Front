@@ -7,9 +7,9 @@ function MenuButton() {
   const [isMenuOpen, setIsMenuOpen] = useAtom(navbarMenuAtom);
   useEffect(() => {
       return () => {
-          setIsMenuOpen(!isMenuOpen)
+          setIsMenuOpen(false)
       }
-  })
+  },[])
 
   return (
     <div
