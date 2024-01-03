@@ -354,7 +354,7 @@
   padding-top: 0vh;
 }
 .credoItem .card {
-  width: 19.9vw;
+  width: 21.5vw;
   height: 22.3vw;
   max-width: 398px;
   max-height: 425px;
@@ -363,6 +363,7 @@
 .credoItem .back > p {
   text-align: left;
 }
+
 
 .credoItem .front {
   align-items: unset;
@@ -584,11 +585,17 @@
   color: #000000;
   margin-bottom: 2vh;
 }
+.program-block h2{
+  color: #1F2C4C;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
 .upcommingPrograms {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 8.6vh 6.1vw;
 
 }
 

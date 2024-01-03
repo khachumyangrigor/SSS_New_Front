@@ -267,14 +267,37 @@ class Events extends React.Component {
                         {/*</div>*/}
                         <div ref="event">
                             <div>
-                                <Link to="/upcoming-events/sevan-startup-summit-2023" >
+                                <Link to="/upcoming-events/uae-24" >
                                     <img
-                                        src={require('./img/eventCover/sevan2023.png')}
+                                        src={require('./img/eventCover/uae2024.png')}
                                         alt="eventImg"
                                     />
                                 </Link>
                             </div>
-                            <h3>— Sevan startup summit 2023 —</h3>
+                            <h3>— Seaside startup summit Uae 2024 —</h3>
+                            <p>
+                                <a
+                                    href="https://www.google.com/maps/place/Longbeach+Campground/@25.7570442,55.9056701,680m/data=!3m1!1e3!4m20!1m10!3m9!1s0x3ef674416fe48c51:0xa4fbd8293d1d3d8c!2sLongbeach+Campground!5m2!4m1!1i2!8m2!3d25.7570394!4d55.908245!16s%2Fg%2F11f6djq_0k!3m8!1s0x3ef674416fe48c51:0xa4fbd8293d1d3d8c!5m2!4m1!1i2!8m2!3d25.7570394!4d55.908245!16s%2Fg%2F11f6djq_0k?entry=ttu"
+                                    // href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Longbeach Campground, Ras Al Khaimah, UAE
+                                </a>
+                            </p>
+                            <p>February 23-28, 2024</p>
+                            <Link to="/upcoming-events/uae-24">See More</Link>
+                        </div>
+                        <div ref="event">
+                            <div>
+                                {/*<Link to="/upcoming-events/sevan-startup-summit-2024" >*/}
+                                    <img
+                                        src={require('./img/eventCover/newSevan2024.png')}
+                                        alt="eventImg"
+                                    />
+                                {/*</Link>*/}
+                            </div>
+                            <h3>— Sevan startup summit 2024 —</h3>
                             <p>
                                 <a
                                     href="https://www.google.com/maps/place/Sevan+Startup+Summit/@40.344047,45.578228,2390m/data=!3m1!1e3!4m6!3m5!1s0x403f89d42619d199:0xab251b125c1578ac!8m2!3d40.3440465!4d45.5782279!16s%2Fg%2F11v0qtkrr8?hl=en&entry=ttu"
@@ -285,9 +308,33 @@ class Events extends React.Component {
                                     Lake Sevan, Armenia
                                 </a>
                             </p>
-                            <p>July 23 - 29, 2023</p>
-                            <Link to="/upcoming-events/sevan-startup-summit-2023">See More</Link>
+                            <p>July 20 - 26, 2024</p>
+                            <Link to="/upcoming-events/sevan-startup-summit-2024">See More</Link>
+                            {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
                         </div>
+                        {/*<div ref="event">*/}
+                        {/*    <div>*/}
+                        {/*        <Link to="/upcoming-events/sevan-startup-summit-2023" >*/}
+                        {/*            <img*/}
+                        {/*                src={require('./img/eventCover/sevan2023.png')}*/}
+                        {/*                alt="eventImg"*/}
+                        {/*            />*/}
+                        {/*        </Link>*/}
+                        {/*    </div>*/}
+                        {/*    <h3>— Sevan startup summit 2023 —</h3>*/}
+                        {/*    <p>*/}
+                        {/*        <a*/}
+                        {/*            href="https://www.google.com/maps/place/Sevan+Startup+Summit/@40.344047,45.578228,2390m/data=!3m1!1e3!4m6!3m5!1s0x403f89d42619d199:0xab251b125c1578ac!8m2!3d40.3440465!4d45.5782279!16s%2Fg%2F11v0qtkrr8?hl=en&entry=ttu"*/}
+                        {/*            // href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"*/}
+                        {/*            target="_blank"*/}
+                        {/*            rel="noopener noreferrer"*/}
+                        {/*        >*/}
+                        {/*            Lake Sevan, Armenia*/}
+                        {/*        </a>*/}
+                        {/*    </p>*/}
+                        {/*    <p>July 23 - 29, 2023</p>*/}
+                        {/*    <Link to="/upcoming-events/sevan-startup-summit-2023">See More</Link>*/}
+                        {/*</div>*/}
                         <div>
                             <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg" /></div>
                             <h3> Seaside startup summit </h3>

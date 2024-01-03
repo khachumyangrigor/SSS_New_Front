@@ -192,7 +192,7 @@ class Programs extends React.Component {
                     </div>
                 </div>
                 {/*<div className="upcommingProgramsFootter">*/}
-                {/*    <a href="https://www.f6s.com/sevan-startup-summit-2022/apply" target="_blank" rel="noopener noreferrer">Apply as Startup</a>*/}
+                {/*    <a href="https://www.f6s.com/sevan-startup-summit-2022/apply" target="_blank" rel="noopener noreferrer">Roadmap as Startup</a>*/}
                 {/*    <p>*The distribution into  Starter and Booster is done by the SSS steering committee</p>*/}
                 {/*</div>*/}
             </div>

@@ -36,7 +36,7 @@
   /* align-content: flex-end; */
 
   position: relative;
-  text-transform: uppercase;
+
 }
 .upcommingNewTop .wb-topTitle {
   font-size: 3rem;
@@ -47,13 +47,11 @@
   font-size: 40px;
   color: #fff;
   padding: 2.8vw 0vw 2.8vw 6vw;
+  margin-top: 10vh;
 }
 .wb-footerTitle,
 .wb-topTitle {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
 }
 .wb-topTitle {
   padding: 3.1vw 0vw 0vw 6vw;
@@ -91,7 +89,10 @@
   font-size: 2vw;
   line-height: 1.1;
   /* text-align: right; */
-  text-transform: uppercase;
+
+}
+.wb-footerTitle h3.wb-cityTitle{
+  font-weight: 300;
 }
 .wb-footerTitle h4 {
   width: 100%;
@@ -2494,10 +2495,10 @@
   .firstPageHeaderMiddle ul li {
     font-size: 16px !important;
   }
-  .firstPageHeaderRight {
-    margin-bottom: 20px !important;
-    margin-top: 20px !important;
-  }
+  /*.firstPageHeaderRight {*/
+    /*margin-bottom: 20px !important;*/
+    /*margin-top: 20px !important;*/
+  /*}*/
   .firstPageHeaderRight a {
     font-size: 12px;
     padding: 10px 15px;
@@ -2720,6 +2721,16 @@
 }
 
 @media (max-width: 1024px) {
+  .upcommingNewTop .wb-footerTitle{
+    margin-top: 0;
+  }
+  .wb-footerTitle,
+  .wb-topTitle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .upcommingNewTop {
     background: url(./img/headerBackground.png) no-repeat 0% 40%;
     background-size: 100%;
@@ -3705,10 +3716,10 @@
 }
 
 @media (max-width: 1024px) {
-  .firstPageHeaderRight {
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-  }
+  /*.firstPageHeaderRight {*/
+  /*  margin-bottom: 10px !important;*/
+  /*  margin-top: 10px !important;*/
+  /*}*/
   .firstPageHeaderRight.Mobi a {
     font-size: 13px;
     padding: 8px 30px 8px 30px !important;
@@ -4407,10 +4418,10 @@
   }
 }
 
-.firstPageHeaderRight {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+/*.firstPageHeaderRight {*/
+/*  margin-top: 30px;*/
+/*  margin-bottom: 30px;*/
+/*}*/
 .firstPageHeaderMiddle ul {
   width: auto !important;
   max-width: 1200px !important;

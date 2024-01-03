@@ -7,7 +7,7 @@
   background: #f7f7f7;
   transition: all 0.5s ease;
   position: relative;
-  min-height: 11vh;
+  min-height: 100px !important;
   z-index: 10000;
 }
 
@@ -19,6 +19,7 @@
 }
 
 .firstPageHeaderLeft {
+  flex: 1 0 5%;
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
@@ -93,7 +94,8 @@
 }
 .firstPageHeaderRight {
   display: flex;
-  justify-content: center;
+  flex: 1 0 35%;
+  justify-content: flex-end;
   align-items: center;
 }
 .firstPageHeaderRight a {
@@ -233,9 +235,6 @@
 /* End Mobile Button */
 
 @media (min-width: 2200px) {
-  .firstPageHeader {
-    padding: 40px 110px;
-  }
   .firstPageHeaderLeft {
     font-size: 24px;
   }
