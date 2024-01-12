@@ -221,7 +221,9 @@
 .wb-applyPassiveBtn:before{
     content: "Expired" !important;
     border-radius: 7.91857px !important;
-
+    background: #FFFFFF !important;
+    color: #2F80ED !important;
+    border:1px solid #2F80ED !important;
 }
 
 @media screen  and (max-width: 1690px){
