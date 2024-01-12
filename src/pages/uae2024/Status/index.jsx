@@ -12,7 +12,7 @@ const statsData = [
 
 const Stats = () => {
   return (
-    <div className="container">
+    <div className="container wb-statBlock">
       <div className={"statsWrapper"}>
         <div className={"statsTitle"}>
           Seaside Startup Summit UAE 2024 in numbers

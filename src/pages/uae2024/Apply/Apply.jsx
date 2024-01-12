@@ -242,15 +242,15 @@ function Apply() {
 
           <div className="wb-applyButtonBlock wb-applyHereButtonBlock">
             <a
-                href="https://forms.gle/UYUaL5DsLdqpsdu66"
+                // href="https://forms.gle/UYUaL5DsLdqpsdu66"
                 target="_blank"
                 // onClick={() => setPopupStatus(true)}
                 rel="noopener noreferrer">
-              <button>Apply Here</button>
+              <button className="passiveBtn wb-applyPassiveBtn">Apply Here</button>
             </a>
           </div>
         </div>
-         <Popup mobile={width < 1024 ? true : false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
+         <Popup mobile={false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
       </>
 
   );

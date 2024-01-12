@@ -207,6 +207,23 @@
     display: none;
 }
 
+
+/* Main Page*/
+.firstPageHeaderRight a {
+    font-size: 16px;
+    width: 129px !important;
+    height: 45px;
+    justify-content: center;
+    font-weight: 500 !important;
+}
+
+/*Passive btn*/
+.wb-applyPassiveBtn:before{
+    content: "Expired" !important;
+    border-radius: 7.91857px !important;
+
+}
+
 @media screen  and (max-width: 1690px){
     /* Credo */
     .credoItem .back ul li{
@@ -219,8 +236,8 @@
 @media screen  and (max-width: 1400px){
     /* Credo */
     .credoItem .back ul li{
-        font-size: 18px !important;
-        line-height: 24px;
+        font-size: 16px !important;
+        /*line-height: 24px;*/
 
     }
     .statItem span:first-child{
@@ -228,11 +245,17 @@
     }
 }
 
+@media screen  and (max-width: 1250px){
+    /* Credo */
+    .credoItem .back ul li{
+        font-size: 14px !important;
+    }
+}
+
 @media screen  and (max-width: 1200px){
     /* Credo */
     .credoItem .back ul li{
-        font-size: 16px !important;
-        line-height: 22px;
+        line-height: 28px;
 
     }
     .uae-24-pic {
@@ -250,8 +273,23 @@
 }
 
 @media screen and (max-width: 1024px){
+    /*main Page */
+
+    .firstPageHeaderRight a {
+        height: 40px;
+    }
+
     .wb-footerTitle h3 span{
         display: inline !important;
+    }
+
+    /*Main page statistic */
+
+    .statisticItem {
+        width: 100% !important;
+    }
+    .borderNum {
+        display: none !important;
     }
     /*Head*/
     .firstPageHeaderLeft,.firstPageHeaderRight,.navbar-left,.navbar-right{
@@ -291,41 +329,41 @@
         font-weight: 900 !important;
     }
     /* Stats */
-     .container{
+     .wb-statBlock{
         padding-left: 35px !important;
         padding-right: 35px !important;
     }
-     .statsTitle{
+     .wb-statBlock .statsTitle{
          font-size: 36px !important;
          color: #1F2C4C !important;
          width: 100% !important;
          text-align: left !important;
          text-transform: unset !important;
      }
-    .statsBox{
+    .wb-statBlock .statsBox{
         gap: 0 !important;
     }
 
-    .statItem:nth-child(1),.statItem:nth-child(2),.statItem:nth-child(3),.statItem:nth-child(4){
+    .wb-statBlock .statItem:nth-child(1),.statItem:nth-child(2),.statItem:nth-child(3),.statItem:nth-child(4){
         flex-basis: 45%;
         border-bottom: #898989a7 solid 1px;
         padding: 15px;
     }
 
-    .statItem:nth-child(5){
+    .wb-statBlock .statItem:nth-child(5){
         flex-basis: 100%;
         padding: 15px !important;
         margin-top: 10px;
     }
-    .statItem:nth-child(1),.statItem:nth-child(2){
+    .wb-statBlock .statItem:nth-child(1),.statItem:nth-child(2){
         border-bottom:none !important;
         margin-bottom: 15px;
     }
-    .statItem:nth-child(3),.statItem:nth-child(4){
+    .wb-statBlock .statItem:nth-child(3),.statItem:nth-child(4){
         position: relative;
         border-bottom: none !important;
     }
-    .statItem:nth-child(3):after,.statItem:nth-child(4):after{
+    .wb-statBlock .statItem:nth-child(3):after,.statItem:nth-child(4):after{
         content: "";
         position: absolute;
         top: -10px;
@@ -334,7 +372,7 @@
         height: 0.44px;
         background-color: #898989;
     }
-    .statItem:nth-child(3):before,.statItem:nth-child(4):before{
+    .wb-statBlock .statItem:nth-child(3):before,.statItem:nth-child(4):before{
         content: "";
         position: absolute;
         bottom: -10px;
@@ -343,13 +381,13 @@
         height: 0.44px;
         background-color: #898989;
     }
-    .statItem:nth-child(2),.statItem:nth-child(4){
+    .wb-statBlock .statItem:nth-child(2),.statItem:nth-child(4){
         border-right: none !important;
     }
-    .statItem span:first-child{
+    .wb-statBlock .statItem span:first-child{
         font-size: 31px !important;
     }
-    .statItem span:last-child{
+    .wb-statBlock .statItem span:last-child{
         font-size: 13px !important;
         font-weight: 400 !important;
     }
@@ -560,6 +598,14 @@
 }
 
 @media screen and (max-width: 440px){
+    /*Event page*/
+
+    .firstPageHeaderRight a {
+        font-size: 13px;
+        height: 35px;
+    }
+
+    /**/
     .wb-topTitle h1, .wb-topTitle h2,.wb-footerTitle h3{
         font-size: 16px !important;
     }
