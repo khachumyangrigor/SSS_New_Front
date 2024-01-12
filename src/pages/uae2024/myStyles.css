@@ -224,6 +224,15 @@
 
 }
 
+/*Event page*/
+
+.eventPassiveBtn:before{
+    background: #FFFFFF !important;
+    color: #2F80ED !important;
+    border-radius: 8px !important;
+}
+
+
 @media screen  and (max-width: 1690px){
     /* Credo */
     .credoItem .back ul li{
@@ -520,7 +529,11 @@
         margin-top: 0 !important;
     }
 }
-
+@media screen and (max-width: 716px){
+    .eventBodyMiddle.past{
+        justify-content: space-around !important;
+    }
+}
 @media screen  and (max-width: 640px){
     .wb-footerTitle h3.wb-cityTitle{
         line-height: unset;
