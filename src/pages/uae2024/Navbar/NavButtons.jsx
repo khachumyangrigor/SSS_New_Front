@@ -68,7 +68,9 @@ function NavButtons({isSaleOpen}) {
                   <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={buyTickets[1].link}
+                      // href={buyTickets[1].link}
+                      onClick={ () => setPopupStatus(true)}
+
                   >
                       {buyTickets[1].title}
                   </a>
@@ -89,7 +91,7 @@ function NavButtons({isSaleOpen}) {
         </div>
           {
               popupStatus &&
-              <Popup infoMode={width < 1024  ? true : false } width={width} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets} />
+              <Popup infoMode={ false } width={width} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets} />
           }
 
       </>

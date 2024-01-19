@@ -19,10 +19,11 @@ function Popup(props) {
                         (infoMode === false ?
                         (
                             <>
-                                <h2>Visitor passes are available for purchase
-                                    in the Telcell Wallet application.</h2>
-                                <p className="wb-fowInternational">For international visitors</p>
-                                <a href={"https://www.pay.seasidestartupsummit.com"} target="_blank" className="wb-buyTicketButton">Buy Tickets</a>
+                                <h2>Please read the introductions
+                                    before buying the tickets</h2>
+                                {/*<p className="wb-fowInternational">For international visitors</p>*/}
+                                <a href={"https://www.pay.seasidestartupsummit.com/doc/SSSUAE24_Tickets.pdf"} target="_blank" className="wb-buyTicketButton">Read Introduction</a>
+                                <a href={"https://www.pay.seasidestartupsummit.com/tickets/uae-24/"} target="_blank" className="wb-buyTicketButton">Buy Tickets</a>
                             </>
 
 
