@@ -32,10 +32,10 @@
         font-size: 32px;
     }
     .wb-organizersContent{
-        gap: 50px 0;
+        gap: 25px;
     }
     .wb-organizersImageBlock{
-        flex-basis: 60%;
+        flex-basis: 40%;
     }
 }
 @media screen  and (max-width: 480px){
