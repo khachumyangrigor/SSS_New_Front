@@ -1,7 +1,7 @@
 import React from "react"
 import startupImg from "./Images/startup.png"
 import amtzImg from "./Images/amtz.png"
-import gtbImg from "./Images/gtb.png"
+import btaImg from "./Images/bta.png"
 
 import "./Organizers.css"
 
@@ -19,9 +19,9 @@ const Organizers = () => {
                 <div className="wb-organizersImageBlock">
                     <img src={amtzImg} alt="Startup" />
                 </div>
-                {/*<div className="wb-organizersImageBlock">*/}
-                {/*    <img src={gtbImg} alt="Startup" />*/}
-                {/*</div>*/}
+                <div className="wb-organizersImageBlock">
+                    <img src={btaImg} alt="Startup" />
+                </div>
             </div>
         </div>
     )
