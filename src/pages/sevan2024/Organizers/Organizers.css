@@ -23,7 +23,7 @@
     flex-basis: calc(30% - 3%);
 }
 .wb-organizersImageBlock img{
-    width: 100%;
+    max-width: 100%;
 
 }
 

@@ -14,16 +14,35 @@
 }
 .wb-organizersContent{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 0 5%;
-
+    gap: 0 2%;
+}
+.wb-justifyContentCenter{
+    justify-content: center !important;
+}
+.wb-justifyContentCenter img{
+    max-width: 100%;
 }
 .wb-organizersImageBlock {
-    flex-basis: calc(30% - 3%);
+    max-width: 22%;
+    flex-basis: unset !important;
+}
+.wb-supportedOrganizer{
+    max-width: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #9C9C9C;
+    gap: 0 27px;
+    margin-top: 100px;
+}
+.wb-supportedOrganizer img{
+    max-width: 100%;
 }
 .wb-organizersImageBlock img{
-    width: 100%;
+    max-width: 100%;
 
 }
 
@@ -33,13 +52,33 @@
     }
     .wb-organizersContent{
         gap: 25px;
+        justify-content: center !important;
+        align-items: center;
     }
-    .wb-organizersImageBlock{
-        flex-basis: 40%;
+    .wb-organizersImageBlock {
+        max-width: 47%;
+        width: 100%;
+        flex-basis: unset !important;
+        text-align: center;
+    }
+    .wb-organizersImageBlock img{
+        max-width: 90% !important;
+    }
+    .wb-supportedOrganizer{
+        font-size: 16px;
+        max-width: 80%;
+        white-space: nowrap;
     }
 }
 @media screen  and (max-width: 480px){
+    .wb-organizersContent{
+        gap: 25px 0 !important;
+    }
     .wb-organizersTitle h2{
         font-size: 28px;
+    }
+    .wb-supportedOrganizer{
+        margin-top: 50px;
+        font-size: 14px;
     }
 }

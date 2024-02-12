@@ -14,14 +14,19 @@ import {useState,useEffect} from "react"
 ];
 
 export const buyTickets = [
-  {
-    link: "https://www.f6s.com/sssuae24/apply",
-    title: "Apply as a Startup",
-  },
-  {
-    link: "https://forms.gle/PFoVK8nenicUFKaG9",
-    title: "Buy Tickets",
-  },
+    {
+        link: "https://forms.gle/PFoVK8nenicUFKaG9",
+        title: "Buy Tickets",
+    },
+  // {
+  //   link: "https://www.f6s.com/sssuae24/apply",
+  //   title: "Apply as a Startup",
+  // },
+    {
+        link: "",
+        title: "Download Agenda",
+    },
+
 ];//
 
 
@@ -54,7 +59,8 @@ function NavButtons({isSaleOpen}) {
                   <a
                       key={`nav-button-buy-tickets`}
                       // href={width < 1024 ? buyTickets[1].link : null}
-                      href={buyTickets[0].link}
+                      // href={buyTickets[0].link}
+                      onClick={ () => setPopupStatus(true)}
                       target="_blank"
                       // onClick={width < 1024 ? null : () => setPopupStatus(true)}
                       // onClick={ () => {
@@ -65,12 +71,11 @@ function NavButtons({isSaleOpen}) {
                   >
                       {buyTickets[0].title}
                   </a>
+
                   <a
                       target="_blank"
                       rel="noopener noreferrer"
                       // href={buyTickets[1].link}
-                      onClick={ () => setPopupStatus(true)}
-
                   >
                       {buyTickets[1].title}
                   </a>

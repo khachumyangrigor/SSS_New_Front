@@ -51,6 +51,12 @@
     align-items: center;
     justify-content: center;
 }
+.wb-partner:nth-child(8){
+    margin-right: auto;
+}
+.wb-partner:nth-child(6),.wb-partner:nth-child(7){
+    margin-right: 3%;
+}
 .wb-partner a{
     text-align: center;
 }
@@ -88,6 +94,12 @@
     .wb-partner{
         flex-basis: calc(27% - 4%);
         align-items: center;
+    }
+    .wb-partner:nth-child(6){
+        margin-right: 0;
+    }
+    .wb-partner:nth-child(7){
+        margin-right: 10%;
     }
     .wb-topPartner .wb-partner{
         flex-basis: calc(39% - 1%);

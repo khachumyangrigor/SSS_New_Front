@@ -84,7 +84,7 @@ class UpcommingNew extends React.Component {
           <Shuttle ref="shuttle" />
           <MustKnow ref="mustKnow" />
           <Organizers />
-          {/*<Partners />*/}
+          <Partners />
           <FootterNew ref="footter" />
         </div>
       </Fragment>
