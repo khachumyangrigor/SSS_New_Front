@@ -23,7 +23,7 @@ export const buyTickets = [
   //   title: "Apply as a Startup",
   // },
     {
-        link: "",
+        link: "https://seasidestartupsummit.com/pdf/SSSUAE24_Agenda.pdf",
         title: "Download Agenda",
     },
 
@@ -75,7 +75,7 @@ function NavButtons({isSaleOpen}) {
                   <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      // href={buyTickets[1].link}
+                      href={buyTickets[1].link}
                   >
                       {buyTickets[1].title}
                   </a>

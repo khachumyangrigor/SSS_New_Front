@@ -7,6 +7,8 @@ import new5Img from "./images/new5.png"
 import new6Img from "./images/new6.png"
 import new7Img from "./images/new7.png"
 import new8Img from "./images/new8.png"
+import new9Img from "./images/new9.png"
+import new10Img from "./images/new10.png"
 import "./Partners.css"
 // import topImg from "./images/topImg.png"
 // import img1_1 from "./images/1-1.png"
@@ -506,6 +508,14 @@ const imgArray = [
     {
         link:"",
         src:new8Img
+    },
+    {
+        link:"",
+        src:new9Img
+    },
+    {
+        link:"",
+        src:new10Img
     },
 
 ]
