@@ -9,6 +9,15 @@ import new7Img from "./images/new7.png"
 import new8Img from "./images/new8.png"
 import new9Img from "./images/new9.png"
 import new10Img from "./images/new10.png"
+import new11Img from "./images/new11.png"
+import new12Img from "./images/new12.png"
+import new13Img from "./images/new13.png"
+import new14Img from "./images/new14.png"
+import new15Img from "./images/new15.png"
+import new16Img from "./images/new16.png"
+import new17Img from "./images/new17.png"
+import new18Img from "./images/new18.png"
+import new19Img from "./images/new19.png"
 import "./Partners.css"
 // import topImg from "./images/topImg.png"
 // import img1_1 from "./images/1-1.png"
@@ -516,6 +525,42 @@ const imgArray = [
     {
         link:"",
         src:new10Img
+    },
+    {
+        link:"",
+        src:new11Img
+    },
+    {
+        link:"",
+        src:new12Img
+    },
+    {
+        link:"",
+        src:new13Img
+    },
+    {
+        link:"",
+        src:new14Img
+    },
+    {
+        link:"",
+        src:new15Img
+    },
+    {
+        link:"",
+        src:new16Img
+    },
+    {
+        link:"",
+        src:new17Img
+    },
+    {
+        link:"",
+        src:new18Img
+    },
+    {
+        link:"",
+        src:new19Img
     },
 
 ]

@@ -52,6 +52,13 @@
     justify-content: center;
 }
 
+.wb-partner:nth-child(n+16){
+    margin-right: 2.8%;
+}
+.wb-partner:last-child{
+    margin-right: auto;
+}
+
 .wb-partner a{
     text-align: center;
 }
@@ -89,6 +96,12 @@
     .wb-partner{
         flex-basis: calc(27% - 4%);
         align-items: center;
+    }
+    .wb-partner:nth-child(n+16){
+        margin-right: 1%;
+    }
+    .wb-partner:last-child{
+        margin-right: auto;
     }
 
     .wb-topPartner .wb-partner{
