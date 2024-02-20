@@ -20,6 +20,10 @@
 }
 .wb-justifyContentCenter{
     justify-content: center !important;
+    align-items: center;
+    gap: 25px 100px;
+    background-color: #fff;
+    padding: 50px 0 !important;
 }
 .wb-justifyContentCenter img{
     max-width: 100%;
@@ -36,14 +40,63 @@
     font-size: 18px;
     color: #9C9C9C;
     gap: 0 27px;
-    margin-top: 100px;
 }
 .wb-supportedOrganizer img{
     max-width: 100%;
 }
 .wb-organizersImageBlock img{
     max-width: 100%;
+}
+.rakMediaBlock{
+    display: flex;
+    align-items: center;
+    color: #1F2C4C;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+}
 
+.rakMediaBlock div{
+    line-height: 25px;
+    text-align: left;
+    white-space: pre-wrap;
+    max-width: 100%;
+}
+.rakMediaBlock span{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.rakMediaBlock:before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 72px;
+    background-color: #9C9C9C80;
+    opacity: 0.5;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: -30px;
+}
+
+@media screen and (max-width: 1264px){
+    .rakMediaBlock:before{
+        display: none;
+    }
+    .wb-justifyContentCenter{
+        justify-content: center !important;
+    }
+    .wb-justifyContentCenter > div{
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .wb-supportedOrganizer{
+        max-width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 756px){
@@ -66,10 +119,31 @@
     }
     .wb-supportedOrganizer{
         font-size: 16px;
-        max-width: 80%;
+        max-width: 80% !important;
         white-space: nowrap;
+        margin-top: 50px !important;
     }
 }
+
+@media screen  and (max-width: 588px){
+    .wb-supportedOrganizer{
+        margin-top: 25px !important;
+    }
+    .wb-supportedOrganizer{
+        max-width: 100% !important;
+    }
+    .rakMediaBlock div{
+        line-height: unset;
+        max-width: 100%;
+        white-space: pre-wrap;
+        font-size: 13px;
+    }
+    .rakMediaBlock span{
+        font-size: 16px;
+    }
+
+}
+
 @media screen  and (max-width: 480px){
     .wb-organizersContent{
         gap: 25px 0 !important;
@@ -79,6 +153,12 @@
     }
     .wb-supportedOrganizer{
         margin-top: 50px;
+        font-size: 14px;
+    }
+    .rakMediaBlock div{
+        font-size: 13px;
+    }
+    .rakMediaBlock span{
         font-size: 14px;
     }
 }
