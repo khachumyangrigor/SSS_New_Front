@@ -1,17 +1,17 @@
 import React from "react";
-import "./myStyles.css"
+import "./myStyles.css";
 
 class Shuttle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      width:0
-    }
+      width: 0,
+    };
   }
   componentDidMount() {
     this.setState({
-      width:window.innerWidth
-    })
+      width: window.innerWidth,
+    });
   }
 
   shuttleOpen = () => {
@@ -30,7 +30,11 @@ class Shuttle extends React.Component {
     return (
       <div className="upcommingReach">
         <h2>How to reach Seaside Startup Summit UAE 2024 Grounds</h2>
-        <p>{this.state.width > 1024 ? "— The best ways to reach us —" : "The best ways to reach us"}</p>
+        <p>
+          {this.state.width > 1024
+            ? "— The best ways to reach us —"
+            : "The best ways to reach us"}
+        </p>
         <div className="upcommingReach_middle">
           <div className="vihacle" ref="shuttle">
             <div className="vihacleBox">
@@ -45,14 +49,23 @@ class Shuttle extends React.Component {
             <div className="vihacleOpen">
               <div className="vihacleOpenIN">
                 <p>
-                  <b>Shuttle service will be available during
-                    the event from Dubai to Longbeach Campground.</b>
+                  <b>
+                    Shuttle service will be available during the event from
+                    Dubai to Longbeach Campground.
+                  </b>
                 </p>
                 <p>
-                  The schedule for it will be available beforehand.
-                  Seat reservation will be required.
+                  The schedule for it will be available beforehand. Seat
+                  reservation will be required.
                 </p>
-                <h3>coming&nbsp;soon</h3>
+                <a
+                  href="https://www.seasidestartupsummit.com/pdf/SSSUAE24_Shuttle_Service.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="report"
+                >
+                  Download Shuttle Schedule
+                </a>
               </div>
             </div>
             <div className="border" />
@@ -74,9 +87,10 @@ class Shuttle extends React.Component {
                 </p>
               </div>
               <iframe
-                  title="shuttleMap"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4299.925855513273!2d55.9056701!3d25.7570442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef674416fe48c51%3A0xa4fbd8293d1d3d8c!2sLongbeach%20Campground!5e1!3m2!1sru!2sam!4v1703373971399!5m2!1sru!2sam"
-                  allowFullScreen></iframe>
+                title="shuttleMap"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4299.925855513273!2d55.9056701!3d25.7570442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef674416fe48c51%3A0xa4fbd8293d1d3d8c!2sLongbeach%20Campground!5e1!3m2!1sru!2sam!4v1703373971399!5m2!1sru!2sam"
+                allowFullScreen
+              ></iframe>
               {/*<iframe*/}
               {/*  title="shuttleMap"*/}
               {/*  // src="https://www.google.com/maps/place/40%C2%B020'40.1%22N+45%C2%B034'43.2%22E/@40.3278435,45.5387228,13.25z/data=!4m4!3m3!8m2!3d40.3444672!4d45.5786688?hl=en-GB&entry=ttu"*/}
