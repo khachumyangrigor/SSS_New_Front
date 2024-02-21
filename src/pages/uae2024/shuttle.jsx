@@ -26,6 +26,7 @@ class Shuttle extends React.Component {
     this.refs.car.classList.remove("vihacleFullClose");
     this.refs.shuttle.classList.add("vihacleFullClose");
   };
+
   render = () => {
     return (
       <div className="upcommingReach">
@@ -58,14 +59,21 @@ class Shuttle extends React.Component {
                   The schedule for it will be available beforehand. Seat
                   reservation will be required.
                 </p>
-                <a
-                  href="https://www.seasidestartupsummit.com/pdf/SSSUAE24_Shuttle_Service.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="report"
-                >
-                  Download Shuttle Schedule
-                </a>
+                  <div className="wb-downloadBtnBlock">
+                    <a
+                        href="https://www.seasidestartupsummit.com/pdf/SSSUAE24_Shuttle_Service.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="report"
+                    >
+                      <button className="wb-downloadBtn">
+                        Shuttle Service
+                      </button>
+                    </a>
+                  </div>
+
+
+
               </div>
             </div>
             <div className="border" />

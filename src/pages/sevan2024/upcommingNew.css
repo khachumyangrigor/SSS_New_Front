@@ -1798,6 +1798,34 @@
   opacity: 0;
   font-size: 0px;
 }
+.report{
+  display: inline-block;
+}
+.vihacleFullOpen .wb-downloadBtn{
+  opacity: 1 !important;
+  font-size: 14px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 92.58%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #2f80ed;
+  border: 1.5px solid #2f80ed;
+  border-radius: 8px;
+  padding: 1.5vh 3vw;
+  transition: all 0.4s ease;
+  margin-top: 5px;
+}
+.vihacleFullOpen .wb-downloadBtn:hover{
+  background: #ffffff;
+  color: #2f80ed;
+}
+.vihacleFullOpen .wb-downloadBtn a {
+  color: #fff;
+}
 .vihacleFullOpen .border {
   display: block;
 }
@@ -2994,6 +3022,10 @@
   .vihacleOpenIN p img {
     width: 50px;
     height: 50px;
+  }
+  .wb-downloadBtnBlock{
+    margin: 10px 0;
+    text-align: center;
   }
 
   .vihacleFullClose {
