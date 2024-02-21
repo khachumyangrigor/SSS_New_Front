@@ -26,6 +26,13 @@ class Shuttle extends React.Component {
     this.refs.car.classList.remove("vihacleFullClose");
     this.refs.shuttle.classList.add("vihacleFullClose");
   };
+  pdfLink = () => {
+    const fileURL = "https://www.seasidestartupsummit.com/pdf/SSSUAE24_Shuttle_Service.pdf"
+    let alink = document.createElement('a');
+    alink.href = fileURL;
+    alink.target = "_blank"
+    alink.click();
+  }
 
   render = () => {
     return (
@@ -45,7 +52,9 @@ class Shuttle extends React.Component {
                   alt="shuttle"
                 />
               </div>
-              <button onClick={this.shuttleOpen}>Shuttle Service</button>
+
+              <button onClick={this.pdfLink}>Shuttle Service</button>
+
             </div>
             <div className="vihacleOpen">
               <div className="vihacleOpenIN">

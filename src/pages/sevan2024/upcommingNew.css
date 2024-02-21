@@ -1696,7 +1696,7 @@
 .vihacle:last-child .vihacleBox > div > img {
   width: 68%;
 }
-.vihacleBox > button {
+.vihacleBox > button, .vihacleBox a button {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: 600;
