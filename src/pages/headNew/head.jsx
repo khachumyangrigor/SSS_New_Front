@@ -106,16 +106,16 @@ class Header extends React.Component {
                         Download Report
                     </a>
                 );
-            case '/sss-holidays-india-vizag/':
-                return (
-                    <a
-                        href="https://www.seasidestartupsummit.com/pdf/SSSholiday_Vizaag_Agenda.pdf"
-                        target="_blank"
-                        className='report'
-                    >
-                        Download Agenda
-                    </a>
-                );
+            // case '/sss-holidays-india-vizag/':
+            //     return (
+            //         <a
+            //             href="https://www.seasidestartupsummit.com/pdf/SSSholiday_Vizaag_Agenda.pdf"
+            //             target="_blank"
+            //             className='report'
+            //         >
+            //             Download Agenda
+            //         </a>
+            //     );
             case '/sss-holidays-india-vizag/apply':
                 if(!mobile) {
                     return (
@@ -133,8 +133,8 @@ class Header extends React.Component {
             default:
                 return (
                     <>
-                        <Link to={'/upcoming-events/uae-24'}>
-                            SSSUAE24
+                        <Link to={'#'} className="passiveBtn">
+                            SSS24
                         </Link>
                         {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
                         {/*    SSS 2024*/}

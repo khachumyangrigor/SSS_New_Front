@@ -25,6 +25,9 @@ import "./upcommingNew.css";
 //Media
 
 class UpcommingNew extends React.Component {
+  componentDidMount() {
+    scrollTo(0, 0)
+  }
   render = () => {
     return (
       <Fragment>
@@ -53,7 +56,7 @@ class UpcommingNew extends React.Component {
         </Helmet>
         <div className="upcommingNew">
           {/* Part 1 */}
-          <div className="upcommingNewTop">
+          <div className="upcommingNewTop sevan2023">
             <div className="wb-topTitle">
               <h1>a harbor of discoveries</h1>
               <h2>
@@ -69,14 +72,14 @@ class UpcommingNew extends React.Component {
           <Navbar />
           <GetAccess />
           <Stats />
-          <Credo ref="credo" />
-          <Participate ref="participate" />
-          <WeOffer />
-          <Programs ref="program" />
-          <Valounteering ref="valounteering" />
-          <Apply />
-          <Shuttle ref="shuttle" />
-          <MustKnow ref="mustKnow" />
+          {/*<Credo ref="credo" />*/}
+          {/*<Participate ref="participate" />*/}
+          {/*<WeOffer />*/}
+          {/*<Programs ref="program" />*/}
+          {/*<Valounteering ref="valounteering" />*/}
+          {/*<Apply />*/}
+          {/*<Shuttle ref="shuttle" />*/}
+          {/*<MustKnow ref="mustKnow" />*/}
           <Organizers />
           <Partners />
           <FootterNew ref="footter" />

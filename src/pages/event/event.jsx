@@ -7,10 +7,12 @@ import * as EmailValidator from 'email-validator';
 import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
+import PastEventComponent from "./PastEventComponent.jsx";
 //css
 import './event.css';
 //Media
 import footprint from './img/footprint.png';
+
 
 
 class Events extends React.Component {
@@ -265,29 +267,29 @@ class Events extends React.Component {
                         {/*    <p>February 13-18, 2023</p>*/}
                         {/*    <Link to="/sss-holidays-india-Vizag">See More</Link>*/}
                         {/*</div>*/}
-                        <div ref="event">
-                            <div>
-                                <Link to="/upcoming-events/uae-24" >
-                                    <img
-                                        src={require('./img/eventCover/uae2024.png')}
-                                        alt="eventImg"
-                                    />
-                                </Link>
-                            </div>
-                            <h3>— Seaside startup summit Uae 2024 —</h3>
-                            <p>
-                                <a
-                                    href="https://www.google.com/maps/place/Longbeach+Campground/@25.7570442,55.9056701,680m/data=!3m1!1e3!4m20!1m10!3m9!1s0x3ef674416fe48c51:0xa4fbd8293d1d3d8c!2sLongbeach+Campground!5m2!4m1!1i2!8m2!3d25.7570394!4d55.908245!16s%2Fg%2F11f6djq_0k!3m8!1s0x3ef674416fe48c51:0xa4fbd8293d1d3d8c!5m2!4m1!1i2!8m2!3d25.7570394!4d55.908245!16s%2Fg%2F11f6djq_0k?entry=ttu"
-                                    // href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Longbeach Campground, Ras Al Khaimah, UAE
-                                </a>
-                            </p>
-                            <p>February 23-28, 2024</p>
-                            <Link to="/upcoming-events/uae-24">See More</Link>
-                        </div>
+                        {/*<div ref="event">*/}
+                        {/*    <div>*/}
+                        {/*        <Link to="/upcoming-events/uae-24" >*/}
+                        {/*            <img*/}
+                        {/*                src={require('./img/eventCover/uae2024.png')}*/}
+                        {/*                alt="eventImg"*/}
+                        {/*            />*/}
+                        {/*        </Link>*/}
+                        {/*    </div>*/}
+                        {/*    <h3>— Seaside startup summit Uae 2024 —</h3>*/}
+                        {/*    <p>*/}
+                        {/*        <a*/}
+                        {/*            href="https://www.google.com/maps/place/Longbeach+Campground/@25.7570442,55.9056701,680m/data=!3m1!1e3!4m20!1m10!3m9!1s0x3ef674416fe48c51:0xa4fbd8293d1d3d8c!2sLongbeach+Campground!5m2!4m1!1i2!8m2!3d25.7570394!4d55.908245!16s%2Fg%2F11f6djq_0k!3m8!1s0x3ef674416fe48c51:0xa4fbd8293d1d3d8c!5m2!4m1!1i2!8m2!3d25.7570394!4d55.908245!16s%2Fg%2F11f6djq_0k?entry=ttu"*/}
+                        {/*            // href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"*/}
+                        {/*            target="_blank"*/}
+                        {/*            rel="noopener noreferrer"*/}
+                        {/*        >*/}
+                        {/*            Longbeach Campground, Ras Al Khaimah, UAE*/}
+                        {/*        </a>*/}
+                        {/*    </p>*/}
+                        {/*    <p>February 23-28, 2024</p>*/}
+                        {/*    <Link to="/upcoming-events/uae-24">See More</Link>*/}
+                        {/*</div>*/}
                         <div ref="event">
                             <div>
                                 {/*<Link to="/upcoming-events/sevan-startup-summit-2024" >*/}
@@ -355,56 +357,136 @@ class Events extends React.Component {
                         </div>
                     </div>
                     <div className="eventBodyMiddle past">
-                        <h3>Past events</h3>
-                        <div>
-                            <div><Link to="/sss-holidays-uae-rak"><img src={require('./img/eventCover/sssholydatrak2021.png')} alt="eventImg" /></Link></div>
-                            <h3> SSSholidays UAE RAK </h3>
-                            <p><a href="https://www.hilton.com/en/hotels/rktmidi-doubletree-resort-and-spa-marjan-island/?WT.srch=1&WT.mc_id=zIMDPDA0EMEA1MB2PSH3PPC_Google_search4cid175362171_aid11825797131_mp_kkwd-3152065556895Brand_Nano6RKTMIDI7en&utm_source=Google&utm_medium=ppc&utm_campaign=paidsearch&campaignid=175362171&adgroupid=11825797131&targetid=kwd-315206555689&gclid=CjwKCAiAyPyQBhB6EiwAFUuakmSExmhV2hcezrw7GqpQ7mx0Gpq6Z-GGNeihjcaTEoYRtTtkFSbxIxoCGrwQAvD_BwE&gclsrc=aw.ds" target="_blank" rel="noopener noreferrer">Al Marjan Island, UAE</a></p>
-                            <p>December 6 - December 12, 2021</p>
-                            <Link to="/sss-holidays-uae-rak">See More</Link>
-                        </div>
-                        <div>
-                            <div><Link to="/sevan19"><img src={require('./img/eventCover/2019.png')} alt="eventImg" /></Link></div>
-                            <h3> Sevan startup summit 2019 </h3>
-                            <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>
-                            <p>July 28 - August 3, 2019</p>
-                            <Link to="/sevan19">See More</Link>
-                        </div>
-                        <div>
-                            <div><Link to="/sevan18"><img src={require('./img/eventCover/2018.png')} alt="eventImg" /></Link></div>
-                            <h3> Sevan startup summit 2018 </h3>
-                            <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>
-                            <p>July 22 - July 29, 2018</p>
-                            <Link to="/sevan18">See More</Link>
-                        </div>
-                        <div>
-                            <div><Link to="/india18/"><img src={require('./img/eventCover/goa.png')} alt="eventImg" /></Link></div>
-                            <h3> Seaside startup summit India Goa</h3>
-                            <p><a href="https://www.google.com/search?newwindow=1&safe=active&tbm=lcl&sxsrf=ALeKk003o1jhB6sTnv4gjhm0VDW2W3HA1w%3A1583940339878&ei=8wJpXo-eNYHsrgTVsLeAAg&q=seaside+startup+summit+india+goa&oq=seaside+startup+summit+india+goa&gs_l=psy-ab.3...1965.1965.0.2424.1.1.0.0.0.0.156.156.0j1.1.0....0...1c.1.64.psy-ab..0.0.0....0.EfaQ2k-5JXs#rlfi=hd:;si:794608609848060597;mv:[[15.10509207731903,73.9254705180064],[15.104732122680973,73.92509768199359]]" target="_blank" rel="noopener noreferrer">Cabo De Rama, India </a></p>
-                            <p>Mar 6 - Mar 11, 2018</p>
-                            <Link to="/india18/">See More</Link>
-                        </div>
-                        <div>
-                            <div><Link to="/uae18/"><img src={require('./img/eventCover/rak.png')} alt="eventImg" /></Link></div>
-                            <h3> Seaside startup summit UAE RAK</h3>
-                            <p><a href="https://www.google.com/search?newwindow=1&safe=active&tbm=lcl&sxsrf=ALeKk03-HqGXplAxpQjYnRqeXbZAiV8CAA%3A1583940158100&ei=PgJpXtLOBcvZrgSm9JHADg&q=al+marjan+island&oq=al+marjan+i&gs_l=psy-ab.3.0.0i273k1j0l9.8455.11195.0.12399.13.11.0.1.1.0.236.1256.0j7j1.8.0....0...1c.1.64.psy-ab..4.9.1265...35i39k1j0i67k1j0i22i30k1.0.TBG8r_Zbago#rlfi=hd:;si:;mv:[[25.693232634090634,55.76156978133547],[25.671110065407618,55.72097186568605],null,[25.682171863200242,55.74127082351076],15]" target="_blank" rel="noopener noreferrer">Al Marjan Island, UAE</a></p>
-                            <p>Feb 8 - Feb 12, 2018</p>
-                            <Link to="/uae18/">See More</Link>
-                        </div>
-                        <div>
-                            <div><Link to="/sevan17/"><img src={require('./img/eventCover/2017.png')} alt="eventImg" /></Link></div>
-                            <h3> Sevan startup summit 2017 </h3>
-                            <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>
-                            <p>July 24 - July 29, 2017</p>
-                            <Link to="/sevan17/">See More</Link>
-                        </div>
-                        <div>
-                            <div><Link to="/sevan16/"><img src={require('./img/eventCover/2016.png')} alt="eventImg" /></Link></div>
-                            <h3> Sevan startup summit 2016 </h3>
-                            <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>
-                            <p>Aug 18 - Aug 27, 2016</p>
-                            <Link to="/sevan16/">See More</Link>
-                        </div>
+                        <h3>Previous events</h3>
+                        <PastEventComponent
+                            eventPageLink={"/uae-24/"}
+                            title={"Seaside startup summit Uae 2024"}
+                            eventImg={require("./img/eventCover/uae2024.png")}
+                            locationLink={""}
+                            locationTitle={"Longbeach Campground, Ras Al Khaimah, UAE"}
+                            eventDate={"February 23-28, 2024"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sevan2023"}
+                            title={"Sevan startup summit 2023"}
+                            eventImg={require("./img/eventCover/sevan2023New.png")}
+                            locationLink={"https://www.google.com/maps/place/Sevan+Startup+Summit/@40.344047,45.578228,3342m/data=!3m1!1e3!4m6!3m5!1s0x403f89d42619d199:0xab251b125c1578ac!8m2!3d40.3440465!4d45.5782279!16s%2Fg%2F11v0qtkrr8?hl=en&entry=ttu"}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"July 23-29, 2023"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sss-holidays-india-vizag/"}
+                            title={"SSSholidays India Vizag"}
+                            eventImg={require("./img/eventCover/indiaVizag.png")}
+                            locationLink={""}
+                            locationTitle={"Sagar-Nagar beach, IndiaE"}
+                            eventDate={"February 12-18, 2023"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sss-holidays-uae-rak"}
+                            title={"SSSholidays UAE RAK"}
+                            eventImg={require('./img/eventCover/sssholydatrak2021.png')}
+                            locationLink={"https://www.hilton.com/en/hotels/rktmidi-doubletree-resort-and-spa-marjan-island/?WT.srch=1&WT.mc_id=zIMDPDA0EMEA1MB2PSH3PPC_Google_search4cid175362171_aid11825797131_mp_kkwd-3152065556895Brand_Nano6RKTMIDI7en&utm_source=Google&utm_medium=ppc&utm_campaign=paidsearch&campaignid=175362171&adgroupid=11825797131&targetid=kwd-315206555689&gclid=CjwKCAiAyPyQBhB6EiwAFUuakmSExmhV2hcezrw7GqpQ7mx0Gpq6Z-GGNeihjcaTEoYRtTtkFSbxIxoCGrwQAvD_BwE&gclsrc=aw.ds"}
+                            locationTitle={"Al Marjan Island, UAE"}
+                            eventDate={"December 6 - December 12, 2021"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sevan19"}
+                            title={"Sevan startup summit 2019"}
+                            eventImg={require('./img/eventCover/2019.png')}
+                            locationLink={"https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"July 28 - August 3, 2019"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sevan18"}
+                            title={"Sevan startup summit 2018"}
+                            eventImg={require('./img/eventCover/2018.png')}
+                            locationLink={"https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"July 22 - July 29, 2018"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/india18/"}
+                            title={"Seaside startup summit India"}
+                            eventImg={require('./img/eventCover/goa.png')}
+                            locationLink={"https://www.google.com/search?newwindow=1&safe=active&tbm=lcl&sxsrf=ALeKk003o1jhB6sTnv4gjhm0VDW2W3HA1w%3A1583940339878&ei=8wJpXo-eNYHsrgTVsLeAAg&q=seaside+startup+summit+india+goa&oq=seaside+startup+summit+india+goa&gs_l=psy-ab.3...1965.1965.0.2424.1.1.0.0.0.0.156.156.0j1.1.0....0...1c.1.64.psy-ab..0.0.0....0.EfaQ2k-5JXs#rlfi=hd:;si:794608609848060597;mv:[[15.10509207731903,73.9254705180064],[15.104732122680973,73.92509768199359]]"}
+                            locationTitle={"Cabo De Rama, India"}
+                            eventDate={"Mar 6 - Mar 11, 2018"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/uae18/"}
+                            title={"Seaside startup summit UAE"}
+                            eventImg={require('./img/eventCover/rak.png')}
+                            locationLink={"https://www.google.com/search?newwindow=1&safe=active&tbm=lcl&sxsrf=ALeKk03-HqGXplAxpQjYnRqeXbZAiV8CAA%3A1583940158100&ei=PgJpXtLOBcvZrgSm9JHADg&q=al+marjan+island&oq=al+marjan+i&gs_l=psy-ab.3.0.0i273k1j0l9.8455.11195.0.12399.13.11.0.1.1.0.236.1256.0j7j1.8.0....0...1c.1.64.psy-ab..4.9.1265...35i39k1j0i67k1j0i22i30k1.0.TBG8r_Zbago#rlfi=hd:;si:;mv:[[25.693232634090634,55.76156978133547],[25.671110065407618,55.72097186568605],null,[25.682171863200242,55.74127082351076],15]"}
+                            locationTitle={"Al Marjan Island, UAE"}
+                            eventDate={"Feb 8 - Feb 12, 2018"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sevan17/"}
+                            title={"Sevan startup summit 2017"}
+                            eventImg={require('./img/eventCover/2017.png')}
+                            locationLink={"https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"July 24 - July 29, 2017"}
+                        />
+                        <PastEventComponent
+                            eventPageLink={"/sevan16/"}
+                            title={"Sevan startup summit 2016"}
+                            eventImg={require('./img/eventCover/2016.png')}
+                            locationLink={"https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"Aug 18 - Aug 27, 2016"}
+                        />
+                        {/*<div>*/}
+                        {/*    <div><Link to="/sss-holidays-uae-rak"><img src={require('./img/eventCover/sssholydatrak2021.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> SSSholidays UAE RAK </h3>*/}
+                        {/*    <p><a href="https://www.hilton.com/en/hotels/rktmidi-doubletree-resort-and-spa-marjan-island/?WT.srch=1&WT.mc_id=zIMDPDA0EMEA1MB2PSH3PPC_Google_search4cid175362171_aid11825797131_mp_kkwd-3152065556895Brand_Nano6RKTMIDI7en&utm_source=Google&utm_medium=ppc&utm_campaign=paidsearch&campaignid=175362171&adgroupid=11825797131&targetid=kwd-315206555689&gclid=CjwKCAiAyPyQBhB6EiwAFUuakmSExmhV2hcezrw7GqpQ7mx0Gpq6Z-GGNeihjcaTEoYRtTtkFSbxIxoCGrwQAvD_BwE&gclsrc=aw.ds" target="_blank" rel="noopener noreferrer">Al Marjan Island, UAE</a></p>*/}
+                        {/*    <p>December 6 - December 12, 2021</p>*/}
+                        {/*    <Link to="/sss-holidays-uae-rak">See More</Link>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div><Link to="/sevan19"><img src={require('./img/eventCover/2019.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> Sevan startup summit 2019 </h3>*/}
+                        {/*    <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>*/}
+                        {/*    <p>July 28 - August 3, 2019</p>*/}
+                        {/*    <Link to="/sevan19">See More</Link>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div><Link to="/sevan18"><img src={require('./img/eventCover/2018.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> Sevan startup summit 2018 </h3>*/}
+                        {/*    <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>*/}
+                        {/*    <p>July 22 - July 29, 2018</p>*/}
+                        {/*    <Link to="/sevan18">See More</Link>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div><Link to="/india18/"><img src={require('./img/eventCover/goa.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> Seaside startup summit India Goa</h3>*/}
+                        {/*    <p><a href="https://www.google.com/search?newwindow=1&safe=active&tbm=lcl&sxsrf=ALeKk003o1jhB6sTnv4gjhm0VDW2W3HA1w%3A1583940339878&ei=8wJpXo-eNYHsrgTVsLeAAg&q=seaside+startup+summit+india+goa&oq=seaside+startup+summit+india+goa&gs_l=psy-ab.3...1965.1965.0.2424.1.1.0.0.0.0.156.156.0j1.1.0....0...1c.1.64.psy-ab..0.0.0....0.EfaQ2k-5JXs#rlfi=hd:;si:794608609848060597;mv:[[15.10509207731903,73.9254705180064],[15.104732122680973,73.92509768199359]]" target="_blank" rel="noopener noreferrer">Cabo De Rama, India </a></p>*/}
+                        {/*    <p>Mar 6 - Mar 11, 2018</p>*/}
+                        {/*    <Link to="/india18/">See More</Link>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div><Link to="/uae18/"><img src={require('./img/eventCover/rak.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> Seaside startup summit UAE RAK</h3>*/}
+                        {/*    <p><a href="https://www.google.com/search?newwindow=1&safe=active&tbm=lcl&sxsrf=ALeKk03-HqGXplAxpQjYnRqeXbZAiV8CAA%3A1583940158100&ei=PgJpXtLOBcvZrgSm9JHADg&q=al+marjan+island&oq=al+marjan+i&gs_l=psy-ab.3.0.0i273k1j0l9.8455.11195.0.12399.13.11.0.1.1.0.236.1256.0j7j1.8.0....0...1c.1.64.psy-ab..4.9.1265...35i39k1j0i67k1j0i22i30k1.0.TBG8r_Zbago#rlfi=hd:;si:;mv:[[25.693232634090634,55.76156978133547],[25.671110065407618,55.72097186568605],null,[25.682171863200242,55.74127082351076],15]" target="_blank" rel="noopener noreferrer">Al Marjan Island, UAE</a></p>*/}
+                        {/*    <p>Feb 8 - Feb 12, 2018</p>*/}
+                        {/*    <Link to="/uae18/">See More</Link>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div><Link to="/sevan17/"><img src={require('./img/eventCover/2017.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> Sevan startup summit 2017 </h3>*/}
+                        {/*    <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>*/}
+                        {/*    <p>July 24 - July 29, 2017</p>*/}
+                        {/*    <Link to="/sevan17/">See More</Link>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                        {/*    <div><Link to="/sevan16/"><img src={require('./img/eventCover/2016.png')} alt="eventImg" /></Link></div>*/}
+                        {/*    <h3> Sevan startup summit 2016 </h3>*/}
+                        {/*    <p><a href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]" target="_blank" rel="noopener noreferrer">Lake Sevan, Armenia</a></p>*/}
+                        {/*    <p>Aug 18 - Aug 27, 2016</p>*/}
+                        {/*    <Link to="/sevan16/">See More</Link>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 <div className="eventGraphic">

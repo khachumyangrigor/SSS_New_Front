@@ -12,6 +12,10 @@ import "./styles.css";
 import "../myStyles.css"
 
 const Navbar = () => {
+    // const [width, setWidth] = useState(0)
+    // const handleWindowResize = () => {
+    //     setWidth(window.innerWidth);
+    // }
   const isMenuOpen = useAtomValue(navbarMenuAtom);
   const navbarRef = useRef(null);
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
@@ -23,7 +27,11 @@ const Navbar = () => {
             behavior: 'smooth'
      });
   }
-
+    // useEffect(() => {
+    //     // component is mounted and window is available
+    //     handleWindowResize();
+    //
+    // }, []);
   useEffect(() => {
     const handleScroll = () => {
       const navbarPosition = navbarRef.current.getBoundingClientRect().top;
@@ -74,7 +82,7 @@ const Navbar = () => {
       {/*  <NavbarMenu />*/}
       {/*</div>*/}
       <div className={classNames("navbar-right")}>
-        <NavButtons isSaleOpen={true}/>
+        {/*<NavButtons isSaleOpen={true}/>*/}
       </div>
         <div>
             <MenuButton />

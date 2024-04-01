@@ -38,16 +38,16 @@ export default [
         path: '/privacy-policy',
         component: Privacy
     },
-    {
-        exact: true,
-        path: '/upcoming-events/uae-24/',
-        component: Uae2024
-    },
-    {
-        exact: true,
-        path: '/upcoming-events/uae-24/:subpage',
-        component: Uae2024
-    },
+    // {
+    //     exact: true,
+    //     path: '/upcoming-events/uae-24/',
+    //     component: Uae2024
+    // },
+    // {
+    //     exact: true,
+    //     path: '/upcoming-events/uae-24/:subpage',
+    //     component: Uae2024
+    // },
     // {
     //     exact: true,
     //     path: '/upcoming-events/sevan-startup-summit-2024/',
@@ -87,7 +87,16 @@ export default [
         path: '/upcoming-events/',
         component: Events
     },
-
+    {
+        exact: true,
+        path: '/uae-24/',
+        component: Uae2024
+    },
+    {
+        exact: true,
+        path: '/sevan2023/',
+        component: Sevan2023
+    },
     {
         exact: true,
         path: '/sss-holidays-india-vizag/',

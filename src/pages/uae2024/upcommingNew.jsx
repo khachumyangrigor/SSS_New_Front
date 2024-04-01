@@ -26,6 +26,10 @@ import Roadmap from "./Roadmap/Roadmap.jsx";
 //Media
 
 class UpcommingNew extends React.Component {
+  componentDidMount() {
+    scrollTo(0, 0)
+  }
+
   render = () => {
     return (
       <Fragment>
@@ -74,15 +78,15 @@ class UpcommingNew extends React.Component {
           <Navbar />
           <GetAccess />
           <Stats />
-          <Credo ref="credo" />
+          {/*<Credo ref="credo" />*/}
           {/*<Participate ref="participate" />*/}
-          <Roadmap />
+          {/*<Roadmap />*/}
           {/*<WeOffer />*/}
-          <Programs ref="program" />
+          {/*<Programs ref="program" />*/}
           {/*<Valounteering ref="valounteering" />*/}
-          <Apply />
-          <Shuttle ref="shuttle" />
-          <MustKnow ref="mustKnow" />
+          {/*<Apply />*/}
+          {/*<Shuttle ref="shuttle" />*/}
+          {/*<MustKnow ref="mustKnow" />*/}
           <Organizers />
           <Partners />
           <FootterNew ref="footter" />
