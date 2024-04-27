@@ -133,7 +133,7 @@ class Header extends React.Component {
             default:
                 return (
                     <>
-                        <Link to={'#'} className="passiveBtn">
+                        <Link to={'/sevan2024/'} >
                             SSS24
                         </Link>
                         {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
