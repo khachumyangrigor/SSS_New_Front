@@ -34,7 +34,7 @@ class UpcommingNew extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <title>Sevan Startup Summit 2024 | Seaside Startup Summit</title>
+          <title>Seaside Startup Summit 2024 | Seaside Startup Summit</title>
           <meta
             name="description"
             content="Sevan Startup Summit 2023 will be held at Sevan seashore from July 23 to July 29"

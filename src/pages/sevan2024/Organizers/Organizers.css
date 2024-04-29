@@ -16,8 +16,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0 5%;
-
+    gap: 0 10%;
+}
+.sevan24-organizers .wb-organizersContent{
+    justify-content: center !important;
+    gap: 0 10% !important;
 }
 .wb-organizersImageBlock {
     flex-basis: calc(30% - 3%);

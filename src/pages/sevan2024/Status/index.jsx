@@ -2,30 +2,30 @@ import "./styles.css";
 import React from "react";
 
 const statsData = [
-  { number: "50+", text: "countries" },
-  { number: "150+", text: "startups" },
-  { number: "10K+", text: "participants" },
-  { number: "$100K+", text: "prizes" },
-  { number: "$1mln", text: "investments" },
+  { number: "50+", text: "COUNTRIES" },
+  { number: "250+", text: "STARTUPS" },
+  { number: "10,000+", text: "PARTICIPANTS" },
+  { number: "50+", text: "VCS & INVESTORS" },
+  { number: "US $200K+", text: "INVESTMENTS" },
 ];
 
 const Stats = () => {
   return (
-    <div className="container">
-      <div className={"statsWrapper"}>
-        <div className={"statsTitle"}>
-          Seaside Startup Summit shapes dreams of millions
-        </div>
-        <div className={"statsBox"}>
-          {statsData.map((data, index) => (
-            <div className={"statItem"} key={index}>
-              <span>{data.number}</span>
-              <span>{data.text}</span>
-            </div>
-          ))}
+      <div className="container wb-statBlock">
+        <div className={"statsWrapper"}>
+          <div className={"statsTitle"}>
+            Sevan Startup Summit 2024 in numbers
+          </div>
+          <div className={"statsBox"}>
+            {statsData.map((data, index) => (
+                <div className={"statItem"} key={index}>
+                  <span className="wb-statCount">{data.number}</span>
+                  <span>{data.text}</span>
+                </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

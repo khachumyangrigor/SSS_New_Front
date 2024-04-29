@@ -1,4 +1,5 @@
 /*  */
+
 .closeMsg {
   font-family: Montserrat;
   font-style: normal;
@@ -25,6 +26,20 @@
   max-height: 909px;
   /* background: url(./img/bg33.jpg) no-repeat 50% 100%; */
   background: url(./img/headerBackground.png) no-repeat fixed;
+  background-size: cover;
+  background-position: bottom;
+  /* padding: 4.3vw 10vw 0vw 0vw; */
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: flex-end; */
+  position: relative;
+}
+.upcommingNewTop.sevan2024 {
+  width: 100%;
+  height: 89vh;
+  max-height: 909px;
+  /* background: url(./img/bg33.jpg) no-repeat 50% 100%; */
+  background: url(./img/sevan24-headerImg.png) no-repeat fixed;
   background-size: cover;
   background-position: bottom;
   /* padding: 4.3vw 10vw 0vw 0vw; */
@@ -1968,6 +1983,31 @@
 
 .passiveBtnDta:hover::before {
   opacity: 1;
+}
+  .sevan2024 .wb-topTitle{
+    max-width: 700px !important;
+    font-size: 48px !important;
+  }
+.sevan2024 .wb-topTitle h1{
+  text-transform: unset !important;
+  color: #E7E9ED !important;
+}
+.sevan2024 .wb-topTitle h5{
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  margin-top: 8px !important;
+}
+.sevan2024 .wb-footerTitle h4{
+    color: #FFB600 !important;
+    font-size: 18px !important;
+    letter-spacing: 1.7px !important;
+    font-weight: 800 !important;
+}
+  .sevan2024 .wb-applyButtonBlock-right{
+    text-align: left !important;
+  }
+.sevan2024 .wb-applyButtonBlock-right button{
+  font-weight: 800 !important;
 }
 
 /* Animation */

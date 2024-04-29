@@ -16,7 +16,7 @@ class Shuttle extends React.Component {
   render = () => {
     return (
       <div className="upcommingReach">
-        <h2>How to reach Sevan Startup Summit 2023 Grounds</h2>
+        <h2>How to reach Sevan Startup Summit 2024 Grounds</h2>
         <p>— The best ways to reach us —</p>
         <div className="upcommingReach_middle">
           <div className="vihacle" ref="shuttle">

@@ -21,6 +21,7 @@ import { GetAccess } from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
+import Roadmap from "./Roadmap/Roadmap.jsx";
 
 //Media
 
@@ -32,14 +33,14 @@ class UpcommingNew extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <title>Sevan Startup Summit 2023 | Seaside Startup Summit</title>
+          <title>Sevan Startup Summit 2024 | Seaside Startup Summit</title>
           <meta
             name="description"
-            content="Sevan Startup Summit 2023 will be held at Sevan seashore from July 23 to July 29"
+            content="Sevan Startup Summit 2024 will be held at Sevan seashore from July 23 to July 29"
           />
           <meta
             property="og:title"
-            content="Sevan Startup Summit 2023 | Seaside Startup Summit"
+            content="Sevan Startup Summit 2024 | Seaside Startup Summit"
           />
           <meta
             property="og:url"
@@ -56,32 +57,43 @@ class UpcommingNew extends React.Component {
         </Helmet>
         <div className="upcommingNew">
           {/* Part 1 */}
-          <div className="upcommingNewTop sevan2023">
+          <div className="upcommingNewTop sevan2023 sevan2024">
             <div className="wb-topTitle">
-              <h1>a harbor of discoveries</h1>
-              <h2>
-                From <b>start</b> through <b>struggle</b> to <b>success</b>
-              </h2>
+              <h1>A Campsite Festival <br/> for Startup Enthusiasts</h1>
+              <h5>
+                Where Ideas Spark and Dreams Take Flight!
+              </h5>
             </div>
             <div className="wb-footerTitle">
-              <h3>Sevan Startup Summit 2023</h3>
-              <h4>july 23 - 29</h4>
+              <h4>SEVAN STARTUP SUMMIT 2024 <br/> JULY 20 - 26</h4>
+              <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
+                <a
+                    // href="https://www.f6s.com/sevan-startup-summit-2023/apply"
+                    // onClick={() => setPopupStatus(true)}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                  <button>Apply as a Startup</button>
+                </a>
+
+              </div>
             </div>
+
           </div>
           {/* Part 2 */}
           <Navbar />
           <GetAccess />
           <Stats />
           <Credo ref="credo" />
-          <Participate ref="participate" />
-          <WeOffer />
+          <Roadmap />
+          {/*<Participate ref="participate" />*/}
+          {/*<WeOffer />*/}
           <Programs ref="program" />
           <Valounteering ref="valounteering" />
-          <Apply />
+          {/*<Apply />*/}
           <Shuttle ref="shuttle" />
           <MustKnow ref="mustKnow" />
           <Organizers />
-          <Partners />
+          {/*<Partners />*/}
           <FootterNew ref="footter" />
         </div>
       </Fragment>

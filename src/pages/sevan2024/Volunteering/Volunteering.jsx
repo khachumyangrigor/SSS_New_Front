@@ -9,6 +9,7 @@ import img6 from "./images/6.png";
 import img7 from "./images/7.png";
 import img8 from "./images/8.png";
 import arrow from "./images/icon.png";
+import "../myStyles.css"
 
 const data = [
   {
@@ -19,7 +20,7 @@ const data = [
     back: {
       title: "GRAND ENTRY",
       description:
-        "This Volunteer team assists with grand entry procedures, requirements and activities. Volunteers help participants with passes and escort them to the event grounds. They also are responsible for shuttle services.\n",
+        "This Volunteer team assists with grand entry procedures, requirements and activities. Volunteers help participants with passes and escort them to the event grounds. They also are responsible for shuttle services.",
     },
   },
   {
@@ -113,7 +114,7 @@ function Volunteering(props) {
   };
 
   return (
-    <div className="wb-volunteeringBlock">
+    <div className="wb-volunteeringBlock sevan24-volunteering">
       <div className="wb-volunteeringTitle">
         <h2>Main Types of Volunteering</h2>
       </div>
@@ -126,7 +127,7 @@ function Volunteering(props) {
                   <div className="wb-header">
                     <img src={block.front.img} alt="Logo" />
                   </div>
-                  <p>{block.front.text}</p>
+                  <p className="sevan24-volunteering-card-title">{block.front.text}</p>
                 </div>
                 <div className="wb-back">
                   <h3>{block.back.title}</h3>
@@ -193,6 +194,16 @@ function Volunteering(props) {
             <img src={arrow} alt="Arrow" />
           </div>
         </div>
+      </div>
+      <div className="wb-applyButtonBlock">
+        <a
+            // href="https://www.f6s.com/sevan-startup-summit-2023/apply"
+            // onClick={() => setPopupStatus(true)}
+            target="_blank"
+            rel="noopener noreferrer">
+          <button>Apply as a Volunteer</button>
+        </a>
+
       </div>
     </div>
   );
