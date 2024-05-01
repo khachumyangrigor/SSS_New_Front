@@ -127,15 +127,15 @@ class Programs extends React.Component {
                                         </button>
                                     </Link>
                                 </div>
-                                <div className="wb-knowMobileButtons-card">
-                                    <a target="_blank" rel="noopener noreferrer" className={`passiveBtn wb-mobile-info-button`}>Info brochure for Participants</a>
-                                    <a target="_blank" rel="noopener noreferrer" className={`passiveBtn wb-mobile-info-button`}>Info brochure for Visitors</a>
-                                </div>
+                                {/*<div className="wb-knowMobileButtons-card">*/}
+                                {/*    <a target="_blank" rel="noopener noreferrer" className={`passiveBtn wb-mobile-info-button`}>Info brochure for Participants</a>*/}
+                                {/*    <a target="_blank" rel="noopener noreferrer" className={`passiveBtn wb-mobile-info-button`}>Info brochure for Visitors</a>*/}
+                                {/*</div>*/}
                             </div>
-                            <div className="wb-desktopButtons">
-                                <a target="_blank" rel="noopener noreferrer" className="passiveBtn">Info brochure for Participants</a>
-                                <a target="_blank" rel="noopener noreferrer" className="passiveBtn">Info brochure for Visitors</a>
-                            </div>
+                            {/*<div className="wb-desktopButtons">*/}
+                            {/*    <a target="_blank" rel="noopener noreferrer" className="passiveBtn">Info brochure for Participants</a>*/}
+                            {/*    <a target="_blank" rel="noopener noreferrer" className="passiveBtn">Info brochure for Visitors</a>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="upcommingPrograms_right">
