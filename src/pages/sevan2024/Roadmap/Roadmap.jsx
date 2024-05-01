@@ -88,12 +88,12 @@ function Roadmap() {
           </div>
           <div className="wb-applyButtonBlock">
             <a
-                // href="https://www.f6s.com/sssuae24/apply"
-                // target="_blank"
+                href="https://www.f6s.com/sevan-startup-summit-24/apply"
+                target="_blank"
                 // // onClick={() => setPopupStatus(true)}
-                // rel="noopener noreferrer"
+                rel="noopener noreferrer"
                 >
-              <button className="passiveBtn wb-applyPassiveBtn">Apply as a Startup</button>
+              <button>Apply as a Startup</button>
             </a>
           </div>
           <div className="roadmap-msg">

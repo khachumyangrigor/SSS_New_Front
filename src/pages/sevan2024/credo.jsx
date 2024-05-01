@@ -211,8 +211,8 @@ function Credo() {
             </div>
             <div className="wb-applyButtonBlock">
                 <a
-                    // href="https://www.f6s.com/sevan-startup-summit-2023/apply"
-                    onClick={() => setPopupStatus(true)}
+                    href="https://www.f6s.com/sevan-startup-summit-24/apply"
+                    // onClick={() => setPopupStatus(true)}
                     target="_blank"
                     rel="noopener noreferrer">
                     <button>Apply as a Startup</button>

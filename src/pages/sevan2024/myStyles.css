@@ -1,4 +1,11 @@
-
+/*New Styles sevan 2024*/
+.wb-comingPassiveBtn:before{
+    content: "Coming Soon" !important;
+    border-radius: 7.91857px !important;
+    background: #FFFFFF !important;
+    color: #2F80ED !important;
+    border:1px solid #2F80ED !important;
+}
 .wb-footerTitle h3 span{
     font-weight: 500 !important;
     display: block;

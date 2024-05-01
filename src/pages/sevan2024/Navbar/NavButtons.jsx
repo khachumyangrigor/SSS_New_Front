@@ -52,6 +52,7 @@ function NavButtons({isSaleOpen}) {
           {isSaleOpen ? (
               <>
                   <a
+                      className="passiveBtn wb-comingPassiveBtn"
                       key={`nav-button-buy-tickets`}
                       // href={width < 1024 ? buyTickets[1].link : null}
                       href={null}

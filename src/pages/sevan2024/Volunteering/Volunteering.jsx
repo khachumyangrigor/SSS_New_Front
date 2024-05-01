@@ -201,7 +201,7 @@ function Volunteering(props) {
             // onClick={() => setPopupStatus(true)}
             target="_blank"
             rel="noopener noreferrer">
-          <button>Apply as a Volunteer</button>
+          <button className="passiveBtn wb-comingPassiveBtn">Apply as a Volunteer</button>
         </a>
 
       </div>

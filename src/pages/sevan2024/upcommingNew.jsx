@@ -68,7 +68,7 @@ class UpcommingNew extends React.Component {
               <h4>SEVAN STARTUP SUMMIT 2024 <br/> JULY 20 - 26</h4>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
                 <a
-                    // href="https://www.f6s.com/sevan-startup-summit-2023/apply"
+                    href="https://www.f6s.com/sevan-startup-summit-24/apply"
                     // onClick={() => setPopupStatus(true)}
                     target="_blank"
                     rel="noopener noreferrer">
