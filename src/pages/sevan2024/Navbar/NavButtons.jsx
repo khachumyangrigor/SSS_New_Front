@@ -57,20 +57,14 @@ function NavButtons({isSaleOpen}) {
                       href={null}
                       target="_blank"
                       // onClick={width < 1024 ? null : () => setPopupStatus(true)}
-                      onClick={ () => {
-                          setPopupStatus(true)}
-                      }
+                      // onClick={ () => {
+                      //     setPopupStatus(true)}
+                      // }
                       rel="noopener noreferrer"
                   >
                       {buyTickets[1].title}
                   </a>
-                  <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={"https://pigeonhole.at/SSS23"}
-                  >
-                      Agenda
-                  </a>
+
               </>
 
           ) : (

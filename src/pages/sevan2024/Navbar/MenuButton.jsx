@@ -8,7 +8,7 @@ function MenuButton() {
 
   return (
       <>
-          <div className = "wb-hide-icon">
+          <div>
               <div
                   className={classNames(
                       isMenuOpen ? "navbar-menu-icon-open" : "",
