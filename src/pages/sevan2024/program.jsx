@@ -85,7 +85,7 @@ class Programs extends React.Component {
     render = () => {
 
         return (
-            <div className="program-block">
+            <div className="program-block sevan2024-program">
                 <h2>Educational Program for Startups</h2>
                 <div className="upcommingPrograms one">
                     <div className="upcommingPrograms_left wb-program">
@@ -132,7 +132,7 @@ class Programs extends React.Component {
                         <div ref="Camfire">
                             <Camfire />
                         </div>
-                        <h3 className='mobi'>— Suggested tracks & Technologies —</h3>
+                        <h3 className='mobi'>Suggested tracks & Technologies</h3>
                         <div ref="TrackBattles" className="upcommingPrograms_right_open">
                             <TrackBattles width={this.state.width}/>
                         </div>

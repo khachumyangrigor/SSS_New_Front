@@ -43,11 +43,14 @@
   color: #fff;
   padding: 3.1vw 0vw 0vw 6vw;
 }
-.upcommingNewTop .wb-footerTitle {
+.sevan2024 .wb-applyButtonBlock{
+  margin-top: 20px !important;
+}
+.sevan2024 .wb-footerTitle {
   font-size: 40px;
   color: #fff;
   padding: 2.8vw 0vw 2.8vw 6vw;
-  margin-top: 10vh;
+  margin-top: 0 !important;
 }
 .wb-footerTitle,
 .wb-topTitle {
@@ -2718,15 +2721,27 @@
 }
 
 @media (max-width: 1024px) {
-  .upcommingNewTop .wb-footerTitle{
-    margin-top: 0;
+  .sevan2024 .wb-applyButtonBlock a button{
+    padding: 18px 30px !important;
   }
-  .wb-footerTitle,
-  .wb-topTitle {
+  .sevan2024 .wb-topTitle h1{
+    font-size: 2.5rem !important;
+  }
+  .sevan2024{
+    padding-left: 40px !important;
+  }
+  .sevan2024 .wb-topTitle h1,.sevan2024 .wb-footerTitle h4{
+    text-align: left !important;
+  }
+  .upcommingNewTop .wb-footerTitle,.sevan2024 .wb-applyButtonBlock{
+    margin-top: 5px !important;
+  }
+  .sevan2024 .wb-footerTitle,
+  .sevan2024 .wb-topTitle {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: unset !important;
   }
   .upcommingNewTop {
     background: url(./img/headerBackground.png) no-repeat 0% 40%;
@@ -3751,6 +3766,13 @@
 }
 
 @media (max-width: 599px) {
+  .sevan2024 .wb-topTitle h1{
+    font-size: 2rem !important;
+  }
+  .sevan2024 .wb-applyButtonBlock a button{
+    font-size: 11px !important;
+    padding: 13px 20px !important;
+  }
   /*  */
   .closeMsg {
     width: 90%;
@@ -4374,6 +4396,15 @@
 }
 
 @media (max-width: 450px) {
+  .sevan2024 .wb-topTitle h1{
+    font-size: 28px !important;
+  }
+  .sevan2024 .wb-topTitle h5{
+    font-size: 15px !important;
+  }
+  .sevan2024 .wb-footerTitle h4{
+    font-size: 15px !important;
+  }
   .vihacleBox > button {
     line-height: 11px;
   }

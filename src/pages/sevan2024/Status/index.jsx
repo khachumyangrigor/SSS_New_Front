@@ -11,7 +11,7 @@ const statsData = [
 
 const Stats = () => {
   return (
-      <div className="container wb-statBlock">
+      <div className="container wb-statBlock sevan2024Stat">
         <div className={"statsWrapper"}>
           <div className={"statsTitle"}>
             Sevan Startup Summit 2024 in numbers

@@ -38,7 +38,7 @@ function NavbarSubMenu() {
   return (
     <div
       style={{ display: isMenuOpen ? "flex" : "none" }}
-      className={classNames(navbarZeroPoint ? "subMenu-fix" : "", "subMenu")}>
+      className="subMenu subMenu-fix">
       <ul>
         {menuItems.map((menuItem, index) => (
           <li key={index}>

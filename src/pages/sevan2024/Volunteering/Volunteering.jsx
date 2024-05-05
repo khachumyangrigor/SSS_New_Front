@@ -176,7 +176,7 @@ function Volunteering(props) {
                     fontSize: "16px !important",
                     lineFeight: "20px !important",
                     textAlign: "left",
-                    color: "#000000",
+                    color: "#1F2C4C",
                     letterSpacing: "normal",
                     textTransform: "none",
                   }}

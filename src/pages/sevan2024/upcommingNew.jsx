@@ -26,10 +26,41 @@ import Roadmap from "./Roadmap/Roadmap.jsx";
 //Media
 
 class UpcommingNew extends React.Component {
-  componentDidMount() {
-    scrollTo(0, 0)
+  constructor(props) {
+    super(props);
+    this.state = {
+      screenWidth: null,
+      scrollY: null
+    };
+    this.handleResize = this.handleResize.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
+
+  componentDidMount() {
+    this.setState({
+      screenWidth:window.innerWidth,
+      scrollY:window.scrollY
+    })
+    window.addEventListener('resize', this.handleResize);
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleResize() {
+    this.setState({ screenWidth: window.innerWidth });
+  }
+
+  handleScroll() {
+    this.setState({ scrollY: window.scrollY });
+  }
+
+
   render = () => {
+    console.log(this.state)
     return (
       <Fragment>
         <Helmet>
@@ -58,6 +89,13 @@ class UpcommingNew extends React.Component {
         <div className="upcommingNew">
           {/* Part 1 */}
           <div className="upcommingNewTop sevan2023 sevan2024">
+            {(this.state.screenWidth > 1024 || this.state.screenWidth === null) &&
+                <div className= {this.state.scrollY >= 650 ?  "sevan2024-mainNavbar" : "sevan2024-headerNavbar" }>
+                  <Navbar />
+                </div>
+            }
+
+
             <div className="wb-topTitle">
               <h1>A Campsite Festival <br/> for Startup Enthusiasts</h1>
               <h5>
@@ -80,7 +118,7 @@ class UpcommingNew extends React.Component {
 
           </div>
           {/* Part 2 */}
-          <Navbar />
+          {(this.state.screenWidth <= 1024 && this.state.screenWidth !== null) && <Navbar />}
           <GetAccess />
           <Stats />
           <Credo ref="credo" />

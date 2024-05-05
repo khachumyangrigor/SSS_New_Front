@@ -9,6 +9,7 @@ import NavbarSubMenu from "./NavbarSubMenu.jsx";
 import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 
 import "./styles.css";
+import "../myStyles.css"
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
@@ -46,7 +47,7 @@ const Navbar = () => {
   return (
     <div
       ref={navbarRef}
-      className={classNames(navBarZeroPoint ? "navbar-fixed" : "", "navbar")}>
+      className={classNames(navBarZeroPoint ? "navbar-fixed" : "", "navbar sevan2024-navbar")}>
       <div className="navbar-left">
         <Link to="/">
           <img src={require("../img/tent.png")} alt="HOME" />
@@ -55,7 +56,7 @@ const Navbar = () => {
       <div className="navbar-center">
         <NavbarMenu />
       </div>
-      <div className={classNames("navbar-right")}>
+      <div className={"navbar-right"}>
         <NavButtons isSaleOpen={true}/>
         <MenuButton />
       </div>

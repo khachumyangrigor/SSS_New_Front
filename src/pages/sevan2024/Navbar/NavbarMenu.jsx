@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import * as Scroll from "react-scroll";
+import "../myStyles.css"
 
 const menuItems = [
   { link: "/events", title: "Events" },
@@ -13,7 +14,7 @@ const menuItems = [
 
 function NavbarMenu() {
   return (
-    <ul className="navbar-menu-buttons">
+    <ul className="navbar-menu-buttons sevan2024-menu">
       {menuItems.map((item, i) => (
         <Fragment key={`menu-item-${i}`}>
           {item.title !== "Contacts" ? (
