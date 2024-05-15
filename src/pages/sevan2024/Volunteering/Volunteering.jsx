@@ -64,7 +64,7 @@ const data = [
     back: {
       title: "MEDIA TEAM",
       description:
-        "The media team is responsible for the content writing during the talks, workshops, and masterclasses. They are also responsible for interviewing various participants, such as startuppers, speakers, and special guests.",
+        "The media team's role includes writing engaging content for social media, tailored to each platform. They also draft press releases and maintain communication with media outlets. Additionally, they make Instagram stories, which will also involve conducting interviews with a range of participants, such as startup founders, speakers, and special guests.",
     },
   },
   {
@@ -197,11 +197,11 @@ function Volunteering(props) {
       </div>
       <div className="wb-applyButtonBlock">
         <a
-            // href="https://www.f6s.com/sevan-startup-summit-2023/apply"
+            href="https://forms.gle/Akbbh67cwWD8SU3g6"
             // onClick={() => setPopupStatus(true)}
             target="_blank"
             rel="noopener noreferrer">
-          <button className="passiveBtn wb-comingPassiveBtn">Apply as a Volunteer</button>
+          <button /*className="passiveBtn wb-comingPassiveBtn"*/>Apply as a Volunteer</button>
         </a>
 
       </div>

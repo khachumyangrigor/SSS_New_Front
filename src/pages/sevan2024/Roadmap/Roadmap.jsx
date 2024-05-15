@@ -56,7 +56,7 @@ function Roadmap() {
 
   return (
       <>
-        <div className="wb-applyBlock wb-roadmapBlock">
+        <div className="wb-applyBlock wb-roadmapBlock sevan2024-roadmapBlock">
           <div className="wb-applyTitle">
             <h2>Roadmap for Startups</h2>
           </div>

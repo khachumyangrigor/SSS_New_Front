@@ -127,7 +127,7 @@ class UpcommingNew extends React.Component {
           {/*<WeOffer />*/}
           <Programs ref="program" />
           <Valounteering ref="valounteering" />
-          {/*<Apply />*/}
+          <Apply />
           <Shuttle ref="shuttle" />
           <MustKnow ref="mustKnow" />
           <Organizers />

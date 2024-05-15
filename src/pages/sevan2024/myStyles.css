@@ -220,7 +220,7 @@
     font-size: 36px !important;
 }
 .sevan24-volunteering .wb-volunteeringItemsBlock{
-    gap: 40px 0 !important;
+    gap: 48px !important;
 }
 .sevan24-volunteering .wb-back h3,.sevan24-volunteering .wb-front  p.sevan24-volunteering-card-title{
     color: #1F2C4C !important;
@@ -349,6 +349,17 @@
         font-size: 20px;
         line-height: 40px;
 
+    }
+}
+@media screen  and (max-width: 1600px){
+    .sevan24-volunteering .wb-back p{
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+}
+@media screen  and (max-width: 1470px) {
+    .sevan24-volunteering .wb-volunteeringItemsBlock {
+        gap: 40px 0 !important;
     }
 }
 
@@ -643,6 +654,12 @@
     .wb-applyBlock {
         margin-top: 0 !important;
     }
+    .sevan2024-applyBlock .wb-applyTitle h2{
+        font-size: 36px !important;
+    }
+    .sevan2024-roadmapBlock .wb-applyTitle h2{
+        font-size: 36px !important;
+    }
 }
 @media screen and (max-width: 716px){
     .eventBodyMiddle.past{
@@ -686,10 +703,16 @@
     .statsTitle {
         font-size: 25px !important;
     }
-    .wb-applyTitle h2 {
+    .sevan2024-roadmapBlock .wb-applyTitle h2{
         font-size: 25px !important;
     }
     .program-block h2 {
+        font-size: 25px !important;
+    }
+    .sevan24-volunteering .wb-volunteeringTitle h2{
+        font-size: 25px !important;
+    }
+    .sevan2024-applyBlock .wb-applyTitle h2{
         font-size: 25px !important;
     }
     .upcommingReach h2 {
