@@ -103,7 +103,7 @@ class UpcommingNew extends React.Component {
               </h5>
             </div>
             <div className="wb-footerTitle">
-              <h4>SEVAN STARTUP SUMMIT 2024 <br/> JULY 20 - 26</h4>
+              <h4>SEVAN STARTUP SUMMIT 2024 <br/> JULY 21 - 27</h4>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
                 <a
                     href="https://www.f6s.com/sevan-startup-summit-24/apply"
