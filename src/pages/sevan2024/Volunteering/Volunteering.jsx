@@ -37,12 +37,12 @@ const data = [
   {
     front: {
       img: img3,
-      text: "CONTENT RELATED SERVICES",
+      text: "Educational support team",
     },
     back: {
-      title: "CONTENT RELATED SERVICES",
+      title: "Educational support team",
       description:
-        "Content team volunteers are responsible for the technical management of the auditoriums and campfires. They support speakers, mentors, startuppers and judges by guiding through the agenda and providing content-related information.",
+        "Educational support volunteers are responsible for guiding startup founders, speakers, mentors, and judges through the agenda, facilitating communication among them, and assisting the educational program team with various tasks.",
     },
   },
   {

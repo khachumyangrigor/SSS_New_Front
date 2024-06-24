@@ -225,6 +225,9 @@
 .sevan24-volunteering .wb-back h3,.sevan24-volunteering .wb-front  p.sevan24-volunteering-card-title{
     color: #1F2C4C !important;
 }
+.sevan24-volunteering .wb-front .sevan24-volunteering-card-title, .sevan24-volunteering .wb-back h3{
+    font-size: 18px !important;
+}
 .sevan24-volunteering .wb-back p{
     font-size: 17px !important;
     color: #1F2C4C !important;
