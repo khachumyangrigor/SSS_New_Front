@@ -67,7 +67,7 @@ class UpcommingNew extends React.Component {
           <title>Sevan Startup Summit 2024 | Seaside Startup Summit</title>
           <meta
             name="description"
-            content="Sevan Startup Summit 2024 will be held at Sevan seashore from July 23 to July 29"
+            content="Sevan Startup Summit 2024 will be held at Sevan from July 21 to July 27"
           />
           <meta
             property="og:title"
@@ -83,7 +83,7 @@ class UpcommingNew extends React.Component {
           />
           <meta
             property="og:description"
-            content="Sevan Startup Summit 2023 will be held at Sevan seashore from July 23 to July 29"
+            content="Sevan Startup Summit 2024 will be held at Sevan from July 21 to July 27"
           />
         </Helmet>
         <div className="upcommingNew">
