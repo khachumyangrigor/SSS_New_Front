@@ -24,6 +24,8 @@ import HolidayGOA from './pages/holydayGoa/event_page.jsx';
 import HolidayRAK from './pages/holydayRakPast/event_page.jsx';
 import Merch from './pages/merch/index.jsx';
 import Privacy from './pages/privacy/index.jsx';
+import TermsEN from './pages/termsEn/index.jsx';
+import TermsARM from './pages/termsArm/index.jsx';
 import { Page_404 } from './404.jsx';
 
 export default [
@@ -37,6 +39,18 @@ export default [
         exact: true,
         path: '/privacy-policy',
         component: Privacy
+    },
+
+    {
+        exact: true,
+        path: '/terms-conditions/en',
+        component: TermsEN
+    },
+
+    {
+        exact: true,
+        path: '/terms-conditions/arm',
+        component: TermsARM
     },
     // {
     //     exact: true,
