@@ -122,18 +122,18 @@ class UpcommingNew extends React.Component {
             this.state.screenWidth !== null && <Navbar />}
           <GetAccess />
           <Stats />
-          <Credo ref="credo" />
+          <Credo />
           <Roadmap />
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}
-          <Programs ref="program" />
-          <Valounteering ref="valounteering" />
+          <Programs />
+          <Valounteering />
           <Apply />
-          <Shuttle ref="shuttle" />
-          <MustKnow ref="mustKnow" />
+          <Shuttle />
+          <MustKnow />
           <Organizers />
           {/*<Partners />*/}
-          <FootterNew ref="footter" />
+          <FootterNew />
         </div>
       </Fragment>
     );

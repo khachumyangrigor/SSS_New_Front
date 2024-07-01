@@ -84,7 +84,7 @@
   gap: 5px;
 }
 
-.navbar-right a {
+.navbar-right button {
   font-weight: 600;
   font-size: 0.9rem;
   display: flex;
@@ -218,7 +218,6 @@
 }
 
 @media (max-width: 1024px) {
-
   .navbar {
     align-items: center;
     padding: 10px 30px;
