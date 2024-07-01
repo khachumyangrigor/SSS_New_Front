@@ -1,6 +1,4 @@
 import React from "react";
-import Popup from "../Popup/Popup.jsx";
-import { useState, useEffect } from "react";
 
 const buttons = [
   {
@@ -25,60 +23,30 @@ export const buyTickets = [
 ]; //
 
 function NavButtons({ isSaleOpen }) {
-  const [popupStatus, setPopupStatus] = useState(false);
-  const [width, setWidth] = useState(0);
-  const handleWindowResize = () => {
-    setWidth(window.innerWidth);
-  };
-  useEffect(() => {
-    // component is mounted and window is available
-    handleWindowResize();
-  }, []);
-  useEffect(() => {
-    if (popupStatus) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflowY = "scroll";
-    }
-  }, [popupStatus]);
-
   return (
-    <>
-      <div className="nav-buttons">
-        {isSaleOpen ? (
-          <>
-            <a
-              key={`nav-button-buy-tickets-sevan-2024`}
-              href={"https://mootq.com/events/sss24"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {"Buy Tickets"}
-            </a>
-          </>
-        ) : (
-          buttons.map((button, index) => (
-            <a
-              key={`nav-button-${index}`}
-              href={button.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {button.title}
-            </a>
-          ))
-        )}
-      </div>
-      {popupStatus && (
-        <Popup
-          infoMode={width < 1024 ? true : false}
-          width={width}
-          status={popupStatus}
-          setPopupStatus={setPopupStatus}
-          buttons={buyTickets}
-        />
+    <div className="nav-buttons">
+      {isSaleOpen ? (
+        <a
+          key={`nav-button-buy-tickets-sevan-2024`}
+          href={"https://mootq.com/events/sss24"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Buy Tickets
+        </a>
+      ) : (
+        buttons.map((button, index) => (
+          <a
+            key={`nav-button-${index}`}
+            href={button.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {button.title}
+          </a>
+        ))
       )}
-    </>
+    </div>
   );
 }
 

@@ -9,7 +9,7 @@ import NavbarSubMenu from "./NavbarSubMenu.jsx";
 import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 
 import "./styles.css";
-import "../myStyles.css"
+import "../myStyles.css";
 
 const Navbar = () => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
@@ -17,37 +17,45 @@ const Navbar = () => {
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
   const [initialPosition, setInitialPosition] = useState(null);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const navbarPosition = navbarRef.current.getBoundingClientRect().top;
-      const scrollPosition = window.scrollY;
+  useEffect(
+    () => {
+      const handleScroll = () => {
+        const navbarPosition = navbarRef.current.getBoundingClientRect().top;
+        const scrollPosition = window.scrollY;
 
-      if (!initialPosition) {
-        setInitialPosition(navbarPosition);
-      }
+        if (!initialPosition) {
+          setInitialPosition(navbarPosition);
+        }
 
-      if (initialPosition && initialPosition <= scrollPosition) {
-        setNavbarZeroPoint(true);
-      } else {
-        setNavbarZeroPoint(false);
-      }
+        if (initialPosition && initialPosition <= scrollPosition) {
+          setNavbarZeroPoint(true);
+        } else {
+          setNavbarZeroPoint(false);
+        }
 
-      if (scrollPosition <= 0) {
-        setInitialPosition(null);
-      }
-    };
+        if (scrollPosition <= 0) {
+          setInitialPosition(null);
+        }
+      };
 
-    window.addEventListener("scroll", handleScroll);
+      window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [initialPosition]);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [initialPosition]
+  );
 
   return (
     <div
       ref={navbarRef}
-      className={classNames(navBarZeroPoint ? "navbar-fixed" : "", "navbar sevan2024-navbar")}>
+      className={classNames(
+        navBarZeroPoint ? "navbar-fixed" : "",
+        "navbar sevan2024-navbar"
+      )}
+    >
       <div className="navbar-left">
         <Link to="/">
           <img src={require("../img/tent.png")} alt="HOME" />
@@ -57,7 +65,7 @@ const Navbar = () => {
         <NavbarMenu />
       </div>
       <div className={"navbar-right"}>
-        <NavButtons isSaleOpen={true}/>
+        <NavButtons isSaleOpen={true} />
         <MenuButton />
       </div>
       <div className={isMenuOpen ? "navbar-menu-box" : "navbar-menu-closed"}>

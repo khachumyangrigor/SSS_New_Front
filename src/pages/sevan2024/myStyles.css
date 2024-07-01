@@ -8,7 +8,6 @@
 .sevan2024-headerNavbar {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 9999 !important;
 }
@@ -71,13 +70,7 @@
 .sevan24-organizers .wb-organizersImageBlock {
   max-width: 30% !important;
 }
-.wb-comingPassiveBtn:before {
-  content: "Coming Soon";
-  border-radius: 7.91857px !important;
-  background: #ffffff !important;
-  color: #2f80ed !important;
-  border: 1px solid #2f80ed !important;
-}
+
 .wb-footerTitle h3 span {
   font-weight: 500 !important;
   display: block;
