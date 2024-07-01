@@ -48,7 +48,7 @@ function NavButtons({ isSaleOpen }) {
         {isSaleOpen ? (
           <>
             <a
-              key={`nav-button-buy-tickets`}
+              key={`nav-button-buy-tickets-sevan-2024`}
               href={"https://mootq.com/events/sss24"}
               target="_blank"
               rel="noopener noreferrer"
