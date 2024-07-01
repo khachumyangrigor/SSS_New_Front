@@ -1,8 +1,7 @@
-import { useAtom, useAtomValue } from "jotai";
 import React from "react";
+import { useAtom } from "jotai";
 import { Link } from "react-scroll";
-import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
-import { classNames } from "../../../utils";
+import { navbarMenuAtom } from "./state";
 
 const menuItems = [
   {
@@ -33,12 +32,12 @@ const menuItems = [
 
 function NavbarSubMenu() {
   const [isMenuOpen, setIsMenuOpen] = useAtom(navbarMenuAtom);
-  const navbarZeroPoint = useAtomValue(navbarZeroPointAtom);
 
   return (
     <div
       style={{ display: isMenuOpen ? "flex" : "none" }}
-      className="subMenu subMenu-fix">
+      className="subMenu subMenu-fix"
+    >
       <ul>
         {menuItems.map((menuItem, index) => (
           <li key={index}>
@@ -48,7 +47,8 @@ function NavbarSubMenu() {
               offset={-100}
               spy={true}
               to={menuItem.link}
-              duration={1200}>
+              duration={1200}
+            >
               {menuItem.title}
             </Link>
           </li>

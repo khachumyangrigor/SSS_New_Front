@@ -36,14 +36,13 @@
   /* align-content: flex-end; */
 
   position: relative;
-
 }
 .upcommingNewTop .wb-topTitle {
   font-size: 3rem;
   color: #fff;
   padding: 3.1vw 0vw 0vw 6vw;
 }
-.sevan2024 .wb-applyButtonBlock{
+.sevan2024 .wb-applyButtonBlock {
   margin-top: 20px !important;
 }
 .sevan2024 .wb-footerTitle {
@@ -92,9 +91,8 @@
   font-size: 2vw;
   line-height: 1.1;
   /* text-align: right; */
-
 }
-.wb-footerTitle h3.wb-cityTitle{
+.wb-footerTitle h3.wb-cityTitle {
   font-weight: 300;
 }
 .wb-footerTitle h4 {
@@ -1849,29 +1847,7 @@
   color: #000000;
   opacity: 0.7;
 }
-.passiveBtn {
-  position: relative;
-  cursor: pointer;
-}
-.passiveBtn:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "Coming Soon";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  background: #2f80ed;
-  border-radius: 4px;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-.passiveBtn:hover::before {
-  opacity: 1;
-}
+
 .coverbg2020Bl {
   width: 100%;
   height: calc(100% - 11vh);
@@ -2070,7 +2046,6 @@
   display: none;
 }
 .upcommingProgramsBlock {
-
   padding-top: 10px;
 }
 
@@ -2499,8 +2474,8 @@
     font-size: 16px !important;
   }
   /*.firstPageHeaderRight {*/
-    /*margin-bottom: 20px !important;*/
-    /*margin-top: 20px !important;*/
+  /*margin-bottom: 20px !important;*/
+  /*margin-top: 20px !important;*/
   /*}*/
 
   .firstPageHeaderLeft a:first-child {
@@ -2705,7 +2680,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-  buttons a, .navbar-menu-buttons li a {
+  buttons a,
+  .navbar-menu-buttons li a {
     font-size: 14px;
   }
   .navbar-menu-buttons a {
@@ -2721,19 +2697,21 @@
 }
 
 @media (max-width: 1024px) {
-  .sevan2024 .wb-applyButtonBlock a button{
+  .sevan2024 .wb-applyButtonBlock a button {
     padding: 18px 30px !important;
   }
-  .sevan2024 .wb-topTitle h1{
+  .sevan2024 .wb-topTitle h1 {
     font-size: 2.5rem !important;
   }
-  .sevan2024{
+  .sevan2024 {
     padding-left: 40px !important;
   }
-  .sevan2024 .wb-topTitle h1,.sevan2024 .wb-footerTitle h4{
+  .sevan2024 .wb-topTitle h1,
+  .sevan2024 .wb-footerTitle h4 {
     text-align: left !important;
   }
-  .upcommingNewTop .wb-footerTitle,.sevan2024 .wb-applyButtonBlock{
+  .upcommingNewTop .wb-footerTitle,
+  .sevan2024 .wb-applyButtonBlock {
     margin-top: 5px !important;
   }
   .sevan2024 .wb-footerTitle,
@@ -3635,7 +3613,7 @@
   }
   .wb-mobileVersion-credo-block .wb-front p {
     margin-bottom: 0 !important;
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 400;
     font-size: 16px !important;
@@ -3766,10 +3744,10 @@
 }
 
 @media (max-width: 599px) {
-  .sevan2024 .wb-topTitle h1{
+  .sevan2024 .wb-topTitle h1 {
     font-size: 2rem !important;
   }
-  .sevan2024 .wb-applyButtonBlock a button{
+  .sevan2024 .wb-applyButtonBlock a button {
     font-size: 11px !important;
     padding: 13px 20px !important;
   }
@@ -4396,13 +4374,13 @@
 }
 
 @media (max-width: 450px) {
-  .sevan2024 .wb-topTitle h1{
+  .sevan2024 .wb-topTitle h1 {
     font-size: 28px !important;
   }
-  .sevan2024 .wb-topTitle h5{
+  .sevan2024 .wb-topTitle h5 {
     font-size: 15px !important;
   }
-  .sevan2024 .wb-footerTitle h4{
+  .sevan2024 .wb-footerTitle h4 {
     font-size: 15px !important;
   }
   .vihacleBox > button {
