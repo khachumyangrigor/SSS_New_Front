@@ -103,7 +103,7 @@ import new7 from "./images/new7.png"
 import new8 from "./images/new8.png"
 import new9 from "./images/new9.png"
 import new10 from "./images/new10.png"
-
+import "./Partners.css"
 
 const imgArray = [
         {
@@ -471,7 +471,7 @@ const imgArray = [
 function Partners(props) {
 
     return (
-        <>
+        <div className="sevan2024-partners">
             <div className="wb-topPartners">
                 <div>
                     <img src={topImg} alt="Partenr"/>
@@ -487,12 +487,12 @@ function Partners(props) {
                 </div>
 
                 <div className="wb-partnersContent wb-topPartner">
-                    <div className="wb-partner">
-                        <div>
-                            <a href="https://www.fastbank.am/" target="_blank" rel="nofollow"><img src={img1_1} alt="Partner"/></a>
-                            <p>Strategic Partner</p>
-                        </div>
-                    </div>
+                    {/*<div className="wb-partner">*/}
+                    {/*    <div>*/}
+                    {/*        <a href="https://www.fastbank.am/" target="_blank" rel="nofollow"><img src={img1_1} alt="Partner"/></a>*/}
+                    {/*        <p>Strategic Partner</p>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     <div className="wb-partner">
                         <div>
@@ -502,66 +502,66 @@ function Partners(props) {
                     </div>
 
                 </div>
-                <div className="wb-partnersContent wb-main-partners">
-                    <div className="wb-partner">
+                {/*<div className="wb-partnersContent wb-main-partners">*/}
+                {/*    <div className="wb-partner">*/}
 
-                        <div>
-                            <a href="https://am.intent.ai/auth/login" target="_blank" rel="nofollow"><img src={img1} alt="Partner"/></a>
-                            <p>Digital Innovation Partner</p>
-                        </div>
-                    </div>
-                    <div className="wb-partner">
+                {/*        <div>*/}
+                {/*            <a href="https://am.intent.ai/auth/login" target="_blank" rel="nofollow"><img src={img1} alt="Partner"/></a>*/}
+                {/*            <p>Digital Innovation Partner</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="wb-partner">*/}
 
-                        <div>
-                            <a href="https://imnairi.am/" target="_blank" rel="nofollow"><img src={img2} alt="Partner"/></a>
-                            <p>Official Insurance Partner</p>
-                        </div>
-                    </div>
-                    <div className="wb-partner">
+                {/*        <div>*/}
+                {/*            <a href="https://imnairi.am/" target="_blank" rel="nofollow"><img src={img2} alt="Partner"/></a>*/}
+                {/*            <p>Official Insurance Partner</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="wb-partner">*/}
 
-                        <div>
-                            <a href="https://www.ardshinbank.am/" target="_blank" rel="nofollow"><img src={img3} alt="Partner"/></a>
-                            <p>Strong Partner</p>
-                        </div>
-                    </div>
-                    <div className="wb-partner">
+                {/*        <div>*/}
+                {/*            <a href="https://www.ardshinbank.am/" target="_blank" rel="nofollow"><img src={img3} alt="Partner"/></a>*/}
+                {/*            <p>Strong Partner</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="wb-partner">*/}
 
-                        <div>
-                            <a href="https://telcell.am/hy/" target="_blank" rel="nofollow"><img src={img4} alt="Partner"/></a>
-                            <p>Official Payment Partner</p>
-                        </div>
-                    </div>
-                    <div className="wb-partner">
+                {/*        <div>*/}
+                {/*            <a href="https://telcell.am/hy/" target="_blank" rel="nofollow"><img src={img4} alt="Partner"/></a>*/}
+                {/*            <p>Official Payment Partner</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="wb-partner">*/}
 
-                        <div>
-                            <a href="https://shtigen.com/hy/" target="_blank" rel="nofollow"><img src={img5} alt="Partner"/></a>
-                            <p>Sustainable Partner</p>
-                        </div>
-                    </div>
-                    {imgArray.map((img) => {
-                        return (
-                            <div className={img.widthClass ? `wb-partner ${img.widthClass}` : "wb-partner" }>
-                                {img.link !== "" ?
-                                    (
-                                        <a href={img.link} rel="nofollow" target="_blank">
-                                            <img src={img.src} alt="Partner"/>
-                                        </a>
-                                    )
+                {/*        <div>*/}
+                {/*            <a href="https://shtigen.com/hy/" target="_blank" rel="nofollow"><img src={img5} alt="Partner"/></a>*/}
+                {/*            <p>Sustainable Partner</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    {imgArray.map((img) => {*/}
+                {/*        return (*/}
+                {/*            <div className={img.widthClass ? `wb-partner ${img.widthClass}` : "wb-partner" }>*/}
+                {/*                {img.link !== "" ?*/}
+                {/*                    (*/}
+                {/*                        <a href={img.link} rel="nofollow" target="_blank">*/}
+                {/*                            <img src={img.src} alt="Partner"/>*/}
+                {/*                        </a>*/}
+                {/*                    )*/}
 
-                                    :
+                {/*                    :*/}
 
-                                    (
-                                    <img src={img.src} alt="Partner"/>
-                                    )
-                                }
-                            </div>
+                {/*                    (*/}
+                {/*                    <img src={img.src} alt="Partner"/>*/}
+                {/*                    )*/}
+                {/*                }*/}
+                {/*            </div>*/}
 
-                        )
-                    })}
+                {/*        )*/}
+                {/*    })}*/}
 
-                </div>
+                {/*</div>*/}
             </div>
-        </>
+        </div>
 
     )
 }

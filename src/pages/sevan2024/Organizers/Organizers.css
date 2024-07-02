@@ -34,11 +34,22 @@
     .wb-organizersTitle h2{
         font-size: 32px;
     }
-    .wb-organizersContent{
-        gap: 50px 0;
+    .sevan24-organizers .wb-organizersContent{
+        gap: 25px !important;
     }
     .wb-organizersImageBlock{
         flex-basis: 60%;
+    }
+}
+@media screen  and (max-width: 560px){
+    .sevan24-organizers .wb-organizersContent{
+        gap: 10px !important;
+    }
+    .sevan24-organizers .s3-imageBlock .wb-organizersImageBlock{
+        width: 70%;
+    }
+    .sevan24-organizers .s3-imageBlock img{
+        width: 50% ;
     }
 }
 @media screen  and (max-width: 480px){

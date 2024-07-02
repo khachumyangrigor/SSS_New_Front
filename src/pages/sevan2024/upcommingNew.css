@@ -841,7 +841,7 @@
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
-  font-size: 0.8vw;
+  font-size: 11px !important;
   line-height: 1.5;
   text-align: center;
   color: #000000;
@@ -2432,6 +2432,37 @@
     min-height: 300px;
     height: auto;
     align-content: space-between;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 {
+    background-size:cover !important;
+    max-height: 275px !important;
+    background-attachment: unset !important;
+    background-position: left !important;
+    align-items: flex-start !important;
+    padding-left: 30px;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-topTitle{
+    text-align: left !important;
+    justify-content: left !important;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-topTitle h1, body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-footerTitle{
+    text-align: left ;
+    display: inline-block !important;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-topTitle h1{
+    font-size: 28px !important;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-topTitle h5,body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-footerTitle h4{
+    font-size: 15px !important;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-footerTitle a button{
+    display: inline-block !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 14px 18px !important;
+  }
+  body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-footerTitle .wb-applyButtonBlock{
+    margin-top: 10px !important;
   }
   .upcommingNewTopHead h1 {
     font-size: 3.5vw;

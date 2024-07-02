@@ -16,10 +16,10 @@ const menuItems = [
     link: `upcommingPrograms`,
     title: "Our Program",
   },
-  {
-    link: `wb-volunteeringBlock`,
-    title: "Become a Volunteer",
-  },
+  // {
+  //   link: `wb-volunteeringBlock`,
+  //   title: "Become a Volunteer",
+  // },
   {
     link: `upcommingReach`,
     title: "How to reach us",

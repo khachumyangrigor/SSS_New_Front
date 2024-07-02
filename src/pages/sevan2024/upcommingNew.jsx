@@ -17,6 +17,7 @@ import { GetAccess } from "./component.min.jsx";
 //css
 import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
+import Partners from "./Partners/Partners.jsx";
 
 //Media
 
@@ -112,7 +113,7 @@ class UpcommingNew extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Apply as a Startup</button>
+                  <button>Buy Tickets</button>
                 </a>
               </div>
             </div>
@@ -127,12 +128,12 @@ class UpcommingNew extends React.Component {
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}
           <Programs />
-          <Valounteering />
-          <Apply />
+          {/*<Valounteering />*/}
+          {/*<Apply />*/}
           <Shuttle />
           <MustKnow />
           <Organizers />
-          {/*<Partners />*/}
+          <Partners />
           <FootterNew />
         </div>
       </Fragment>
