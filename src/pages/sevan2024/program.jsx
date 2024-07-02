@@ -88,7 +88,7 @@ class Programs extends React.Component {
             <div className="program-block sevan2024-program">
                 <h2>Educational Program for Startups</h2>
                 <div className="upcommingPrograms one">
-                    <div className="upcommingPrograms_left wb-program">
+                    <div className="upcommingPrograms_left sevan2024-program wb-program">
                         {/*<div className="imgBox">*/}
                         {/*    <img src={require('./img/disignIcon/Group.png')} alt="starter program" />*/}
                         {/*</div>*/}

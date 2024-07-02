@@ -45,6 +45,25 @@
   font-size: 17px !important;
 }
 
+/* Program */
+.sevan2024-program.upcommingPrograms_left{
+  align-items: stretch !important;
+  padding-right: 0 !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sevan2024-program.upcommingPrograms_left p{
+  font-size: 23px !important;
+  margin-bottom: 4vh !important;
+}
+
+@media screen and (max-width:1500px ){
+  .sevan2024-program.upcommingPrograms_left p{
+    font-size: 18px !important;
+    margin-bottom: 3vh !important;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .sevan2024-program .upcommingPrograms_right {
     max-height: 400px !important;

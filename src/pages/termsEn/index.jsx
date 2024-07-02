@@ -1,24 +1,10 @@
 import React from 'react';
-
-import termsImg from './img/terms.jpg'
-import termsMobileImg from './img/termsMobile.jpg'
-
-import './style.css'
+import TermsComponent from "../Terms/TermsComponent.jsx";
+import {engData} from "../Terms/EngData/EngData";
 class TermsEn extends React.Component {
     render = () => {
         return (
-            <div className="termsEnContainer">
-                <img
-                    src={termsImg}
-                    alt="Terms and Conditions"
-                    className="termsEnPic"
-                />
-                <img
-                    src={termsMobileImg}
-                    alt="Terms and Conditions"
-                    className="termsEnPicMobile"
-                />
-            </div>
+            <TermsComponent data={engData}/>
         ) 
     }
 }
