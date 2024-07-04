@@ -2456,10 +2456,10 @@
     font-size: 15px !important;
   }
   body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-footerTitle a button{
-    display: inline-block !important;
     font-size: 12px !important;
     font-weight: 600 !important;
     padding: 14px 18px !important;
+    display: none !important;
   }
   body .app .upcommingNew .upcommingNewTop.sevan2024 .wb-footerTitle .wb-applyButtonBlock{
     margin-top: 10px !important;

@@ -71,6 +71,9 @@
   .sevan2024-mustKnow .upcommingPrograms_right {
     max-height: 500px !important;
   }
+  .sevan2024-program .upcommingPrograms_left .textBox{
+    width: 100% !important;
+  }
   .sevan2024-navbar .navbar-menu-box {
     top: 80px !important;
   }

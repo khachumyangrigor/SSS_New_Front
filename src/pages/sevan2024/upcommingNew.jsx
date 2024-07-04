@@ -18,6 +18,7 @@ import { GetAccess } from "./component.min.jsx";
 import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
 import Partners from "./Partners/Partners.jsx";
+import Agritech from "./Agritech/Agritech.jsx";
 
 //Media
 
@@ -128,6 +129,7 @@ class UpcommingNew extends React.Component {
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}
           <Programs />
+          <Agritech />
           {/*<Valounteering />*/}
           {/*<Apply />*/}
           <Shuttle />
