@@ -1,0 +1,77 @@
+.container-with-header {
+  width: 100%;
+  padding: 10vh 5vw 14vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Remove Background Color Once add to the page*/
+  background-color: #f7f7f7;
+  justify-content: center;
+}
+
+.container-with-header > h2 {
+  width: 100%;
+  font-weight: 900;
+  font-size: 2.3vw;
+  line-height: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 2vh;
+}
+
+.container-with-header > p {
+  width: 100%;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #9c9c9c;
+  margin-bottom: 7.4vh;
+}
+
+@media (min-width: 2200px) {
+  .container-with-header {
+    padding: 100px 100px 120px 100px;
+  }
+  .container-with-header > h2 {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  .container-with-header > p {
+    font-size: 23px;
+    margin-bottom: 82px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-with-header {
+    padding: 40px 50px 40px 50px;
+    flex-direction: column;
+  }
+  .container-with-header > h2 {
+    font-size: 4vw;
+    margin-bottom: 24px;
+  }
+  .container-with-header > p {
+    font-size: 3vw;
+    margin-bottom: 82px;
+  }
+}
+
+@media (max-width: 599px) {
+  .container-with-header {
+    padding: 40px 50px 40px 50px;
+  }
+  .container-with-header > h2 {
+    font-size: 25px;
+    margin-bottom: 24px;
+  }
+  .container-with-header > p {
+    font-size: 20px;
+    margin-bottom: 82px;
+  }
+}

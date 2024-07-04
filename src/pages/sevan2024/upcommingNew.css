@@ -379,11 +379,11 @@
   text-align: left;
 }
 
-
 .credoItem .front {
   align-items: unset;
   align-content: unset;
 }
+
 .credoItem .front > div {
   width: 9vw;
   height: 9vw;
@@ -600,8 +600,8 @@
   color: #000000;
   margin-bottom: 2vh;
 }
-.program-block h2{
-  color: #1F2C4C;
+.program-block h2 {
+  color: #1f2c4c;
   font-size: 36px;
   text-align: center;
   font-weight: bold;
@@ -611,7 +611,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .upcommingPrograms_left {
@@ -1651,7 +1650,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 7.2vh 4.2vw 9vh 4.2vw;
-
 }
 .upcommingReach > h2 {
   width: 100%;
@@ -1984,29 +1982,30 @@
 .passiveBtnDta:hover::before {
   opacity: 1;
 }
-  .sevan2024 .wb-topTitle{
-    max-width: 700px !important;
-    font-size: 48px !important;
-  }
-.sevan2024 .wb-topTitle h1{
-  text-transform: unset !important;
-  color: #E7E9ED !important;
+.sevan2024 .wb-topTitle {
+  max-width: 700px !important;
+  font-size: 48px !important;
 }
-.sevan2024 .wb-topTitle h5{
+.sevan2024 .wb-topTitle h1 {
+  text-transform: unset !important;
+  color: #e7e9ed !important;
+}
+.sevan2024 .wb-topTitle h5 {
   font-size: 19px !important;
   font-weight: 600 !important;
   margin-top: 8px !important;
 }
-.sevan2024 .wb-footerTitle h4{
-    color: #FFB600 !important;
-    font-size: 18px !important;
-    letter-spacing: 1.7px !important;
-    font-weight: 800 !important;
+.sevan2024 .wb-footerTitle h4 {
+  color: #ffb600 !important;
+  font-size: 18px !important;
+  letter-spacing: 1.7px !important;
+  font-weight: 800 !important;
 }
-  .sevan2024 .wb-applyButtonBlock-right{
-    text-align: left !important;
-  }
-.sevan2024 .wb-applyButtonBlock-right button{
+.sevan2024 .wb-applyButtonBlock-right {
+  text-align: left !important;
+}
+
+.sevan2024 .wb-applyButtonBlock-right button {
   font-weight: 800 !important;
 }
 
