@@ -2,6 +2,11 @@ import React from 'react';
 import topImg from "./images/topImg.png"
 import img1_1 from "./images/1-1.png"
 import img1_2 from "./images/1-2.png"
+import sevan24_2 from "./images/sevan24-2.png"
+import sevan24_3 from "./images/sevan24-3.png"
+import sevan24_4 from "./images/sevan24-4.png"
+import sevan24_5 from "./images/sevan24-5.png"
+
 
 import img1 from "./images/1.png"
 import img2 from "./images/2.png"
@@ -498,6 +503,22 @@ function Partners(props) {
                         <div>
                             <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={img1_2} alt="Partner"/></a>
                             <p>General Partner</p>
+                        </div>
+                        <div>
+                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={sevan24_2} alt="Partner"/></a>
+                            <p>Strategic partner</p>
+                        </div>
+                        <div>
+                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={sevan24_3} alt="Partner"/></a>
+                            <p>Technological Partner</p>
+                        </div>
+                        <div>
+                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img className="ggImage"  src={sevan24_4} alt="Partner"/></a>
+                            <p className="wb-partnerWithoutPadding">Transportation partner</p>
+                        </div>
+                        <div>
+                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={sevan24_5} alt="Partner"/></a>
+                            <p>Transportation partner</p>
                         </div>
                     </div>
 

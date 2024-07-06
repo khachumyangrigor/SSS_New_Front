@@ -70,17 +70,17 @@
     justify-content: center;
     margin-top: 16px;
 }
-.agritech-buttons button{
+.agritech-buttons a button{
     width: 192px;
     height: 32px;
     border-radius: 5px;
     font-size: 11px;
 }
-.agritech-buttons button:first-child{
+.agritech-buttons a:first-child button{
     background-color: rgba(47, 128, 237, 1);
-    color: #fff;
+    color: #fff ;
 }
-.agritech-buttons button:last-child{
+.agritech-buttons a:last-child button{
     color: rgba(47, 128, 237, 1);
     border: 1px solid rgba(47, 128, 237, 1);
 }
