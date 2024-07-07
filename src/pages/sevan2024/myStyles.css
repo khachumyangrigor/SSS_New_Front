@@ -1,5 +1,9 @@
 /*New Styles sevan 2024*/
+/*NavButtons*/
 
+.navbar-right .wb-sevan2024-agendaBtn{
+  display: none;
+}
 /*Navbar*/
 .sevan2024 {
   position: relative;
@@ -77,12 +81,26 @@
   .sevan2024-navbar .navbar-menu-box {
     top: 80px !important;
   }
+  .navbar-right .wb-sevan2024-agendaBtn{
+    display: inline-block;
+  }
+  .sevan2024-navbar .navbar-right{
+    margin-left: 0 !important;
+  }
+  .sevan2024-navbar .navbar-right .nav-buttons{
+    gap: 5px 20px !important;
+  }
 }
 
 @media screen and (max-width: 599px) {
   .sevan2024-navbar .navbar-right a {
     padding: 10px 30px !important;
     font-size: 14px !important;
+  }
+  .sevan2024-navbar .navbar-right .nav-buttons button{
+    padding: 9px 12px !important;
+    font-size: 10px !important;
+    border-radius: 4px !important;
   }
 }
 /*end Navbar*/
