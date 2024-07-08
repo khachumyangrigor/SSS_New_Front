@@ -42,7 +42,7 @@ function NavButtons({ isSaleOpen }) {
             </button>
             <button
                 className="wb-sevan2024-agendaBtn"
-                onClick={() => handleRedirection("http://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf")}
+                onClick={() => handleRedirection("https://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf")}
             >
               Agenda
             </button>
