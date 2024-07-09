@@ -26,6 +26,10 @@
   color: #fff !important;
   background: #fff !important;
 }
+.wb-agendaDesktopButton{
+  margin-left: 20px;
+
+}
 /*Main navbar*/
 .sevan2024-navbar .navbar-center {
   flex: unset !important;
@@ -61,6 +65,18 @@
   margin-bottom: 4vh !important;
 }
 
+/*Must Know*/
+
+button.wb-localRuleTermsButton{
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: rgba(47, 128, 237, 1);
+  color: #fff;
+  border-radius: 9px;
+  margin-top: 25px;
+}
+
 @media screen and (max-width:1500px ){
   .sevan2024-program.upcommingPrograms_left p{
     font-size: 18px !important;
@@ -89,6 +105,9 @@
   }
   .sevan2024-navbar .navbar-right .nav-buttons{
     gap: 5px 20px !important;
+  }
+  a.wb-localRuleTermsButtonBlock{
+    margin: 0 auto;
   }
 }
 
@@ -346,6 +365,9 @@
 
 .wb-mobileVersion-joinOurTeam-block {
   display: none;
+}
+button.wb-localRuleTermsButton{
+  font-size: 14px;
 }
 
 /* Main Page*/
@@ -800,6 +822,9 @@
   .firstPageHeaderRight a {
     font-size: 13px;
     height: 35px;
+  }
+  .sevan2024-upcommingPrograms_right{
+    height: 450px !important;
   }
 
   /**/

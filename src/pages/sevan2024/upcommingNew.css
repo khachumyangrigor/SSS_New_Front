@@ -2008,6 +2008,8 @@
   }
 .sevan2024 .wb-applyButtonBlock-right button{
   font-weight: 800 !important;
+  width: 200px !important;
+  height: 60px !important;
 }
 
 /* Animation */

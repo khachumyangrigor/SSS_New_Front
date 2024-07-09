@@ -138,7 +138,7 @@ class Programs extends React.Component {
                             {/*</div>*/}
                         </div>
                     </div>
-                    <div className="upcommingPrograms_right">
+                    <div className="upcommingPrograms_right sevan2024-upcommingPrograms_right">
                         <div ref="Amenities" className="upcommingPrograms_right_open">
                             <Amenities />
                         </div>

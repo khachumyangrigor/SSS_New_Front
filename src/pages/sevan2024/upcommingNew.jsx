@@ -116,6 +116,15 @@ class UpcommingNew extends React.Component {
                 >
                   <button>Buy Tickets</button>
                 </a>
+                <a
+                    className="wb-agendaDesktopButton"
+                    href="https://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf"
+                    // onClick={() => setPopupStatus(true)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  <button>Agenda</button>
+                </a>
               </div>
             </div>
           </div>
