@@ -58,7 +58,7 @@ function Agritech(props) {
                 </div>
 
                 <div className="agritech-buttonsBlock">
-                    <h6>Fill the applications form below before July 10th.</h6>
+                    <h6>Fill the applications form below before July 14th.</h6>
                     <div className="agritech-buttons">
                         <a href="https://www.f6s.com/sevan-agritech-summit-2024" target="_blank">
                             <button>Apply Now</button>

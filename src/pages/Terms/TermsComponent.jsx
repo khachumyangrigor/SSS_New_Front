@@ -43,17 +43,33 @@ function TermsComponent({data}) {
                         </ul>
                     </div>
                     <div className="wb-termsSecondContent">
-                        <ul>
+                        <ul className="wb-termsSecondContentMainList">
 
                             {data.secondContent.map((term) => {
-                                if(term.hasOwnProperty("bold")){
+                             if (term.hasOwnProperty("list")){
+                                    return (
+                                        <li key={term.id}>
+                                                <b>{term.bold}</b>
+                                                {term.list.map((list) => {
+                                                    return (
+                                                        <p className="wb-termsSecondContentList">
+                                                            {list}
+                                                        </p>
+                                                    )
+                                                })}
+
+                                        </li>
+                                    )
+                                }
+                             else if(term.hasOwnProperty("bold")){
                                     return (
                                         <li key={term.id}>
                                             <b>{term.bold}</b>
                                             <p>{term.content}</p>
                                         </li>
                                     )
-                                } else {
+                                }
+                                else {
                                     return (
                                         <li key={term.id}>
                                             <p>{term.content}</p>

@@ -48,7 +48,7 @@
 .wb-termsMainContent > div{
     flex-basis: 50%;
 }
-.wb-termsMainContent ul{
+.wb-termsMainContent  ul{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -68,6 +68,22 @@
     width: 19px;
     height: 19px;
     background-color: rgba(255, 194, 29, 1);
+}
+.wb-termsSecondContentList{
+    position: relative;
+    padding-left: 15px;
+}
+.wb-termsSecondContentList:after{
+    content:"";
+    position: absolute;
+    top: 10px;
+
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background-color:rgba(14, 11, 50, 1) ;
+    border-radius: 50%;
+
 }
 .wb-termsDownloadBtn{
     display: flex;
