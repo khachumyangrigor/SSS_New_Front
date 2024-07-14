@@ -479,7 +479,10 @@ function Partners(props) {
         <div className="sevan2024-partners">
             <div className="wb-topPartners">
                 <div>
-                    <img src={topImg} alt="Partenr"/>
+                    <a href="https://www.giz.de/en/worldwide/374.html" target="_blank">
+                        <img src={topImg} alt="Partner"/>
+                    </a>
+
                 </div>
 
             </div>
@@ -505,19 +508,19 @@ function Partners(props) {
                             <p>General Partner</p>
                         </div>
                         <div>
-                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={sevan24_2} alt="Partner"/></a>
+                            <a href="https://shtigen.com/en/" target="_blank" rel="nofollow"><img src={sevan24_2} alt="Partner"/></a>
                             <p>Strategic partner</p>
                         </div>
                         <div>
-                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={sevan24_3} alt="Partner"/></a>
+                            <a href="https://www.telecomarmenia.am/hy/" target="_blank" rel="nofollow"><img src={sevan24_3} alt="Partner"/></a>
                             <p>Technological Partner</p>
                         </div>
                         <div>
-                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img className="ggImage"  src={sevan24_4} alt="Partner"/></a>
+                            <a href="https://bit.ly/to-SSS" target="_blank" rel="nofollow"><img className="ggImage"  src={sevan24_4} alt="Partner"/></a>
                             <p className="wb-partnerWithoutPadding">Transportation partner</p>
                         </div>
                         <div>
-                            <a href="https://www.fastex.com/" target="_blank" rel="nofollow"><img src={sevan24_5} alt="Partner"/></a>
+                            <a href="https://armeniatv.am/" target="_blank" rel="nofollow"><img src={sevan24_5} alt="Partner"/></a>
                             <p>Transportation partner</p>
                         </div>
                     </div>

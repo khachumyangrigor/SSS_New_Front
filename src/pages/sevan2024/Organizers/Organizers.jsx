@@ -17,10 +17,14 @@ const Organizers = () => {
                     <img src={startupImg} alt="Startup" />
                 </div>
                 <div className="wb-organizersImageBlock">
-                    <img src={gtbImg} alt="Startup" />
+                    <a href="https://temp.gtbholdings.com/" target="_blank">
+                        <img src={gtbImg} alt="Startup" />
+                    </a>
                 </div>
                 <div className="wb-organizersImageBlock s3-imageBlock">
-                    <img src={s3Img} alt="Startup" />
+                    <a href="https://www.triples.vc/" target="_blank">
+                        <img src={s3Img} alt="Startup" />
+                    </a>
                 </div>
             </div>
         </div>
