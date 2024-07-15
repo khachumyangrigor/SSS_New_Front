@@ -1,51 +1,85 @@
 import React from "react";
 
 class Shuttle extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      screenWidth: null,
+      busOpen:false
+    };
+    this.handleResize = this.handleResize.bind(this);
+  }
+  componentDidMount() {
+    this.setState({
+      screenWidth: window.innerWidth,
+    });
+    window.addEventListener("resize", this.handleResize);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  }
+
+  handleResize() {
+    this.setState({ screenWidth: window.innerWidth });
+  }
   shuttleOpen = () => {
     this.refs.shuttle.classList.add("vihacleFullOpen");
     this.refs.car.classList.remove("vihacleFullOpen");
     this.refs.shuttle.classList.remove("vihacleFullClose");
     this.refs.car.classList.add("vihacleFullClose");
+    this.setState({
+      busOpen:true
+    })
   };
   carOpen = () => {
     this.refs.car.classList.add("vihacleFullOpen");
     this.refs.shuttle.classList.remove("vihacleFullOpen");
     this.refs.car.classList.remove("vihacleFullClose");
     this.refs.shuttle.classList.add("vihacleFullClose");
+    this.setState({
+      busOpen:false
+    })
   };
   render = () => {
     return (
-      <div className="upcommingReach">
+      <div className="upcommingReach wb-sevan2024">
         <h2>How to reach Sevan Startup Summit 2024 Grounds</h2>
         <p>— The best ways to reach us —</p>
         <div className="upcommingReach_middle">
-          <div className="vihacle" ref="shuttle">
+          <div className={(this.state.screenWidth < 547) ? "vihacle vihacleFullOpen" : "vihacle"} ref="shuttle">
             <div className="vihacleBox">
               <div>
                 <img
-                  src={require("./img/disignIcon/bus-side-view 1.png")}
+                    className="wb-ggImage"
+                  src={(this.state.screenWidth < 547 || this.state.busOpen) ? require("./img/disignIcon/ggImage.png") : require("./img/disignIcon/bus-side-view 1.png")}
                   alt="shuttle"
                 />
               </div>
-              <button onClick={this.shuttleOpen}>Shuttle Service</button>
+              {this.state.screenWidth > 546 && <button onClick={this.shuttleOpen}>Shuttle Service</button>}
             </div>
-            <div className="vihacleOpen">
+            <div className="vihacleOpen ">
               <div className="vihacleOpenIN">
                 <p>
-                  <b>Shuttle service will be available during the event.</b>
+                  <b>This year our transportation partner gg is organizing convenient ggShuttle group rides from Yerevan to SSS. </b>
                 </p>
                 <p>
-                  The schedule for it will be available beforehand. Seat
-                  reservation will be required.
+                  Reserve your seat in advance and share the journey with fellow participants.
                 </p>
-                <h3>coming&nbsp;soon</h3>
+                <div className="wb-sevan2024ShuttleButtons">
+                  <a href="#">
+                    <button>To SSS</button>
+                  </a>
+                  <a href="#">
+                    <button>From SSS</button>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="border" />
           </div>
-          <div className="vihacle" ref="car">
+          <div className= {this.state.screenWidth < 547 ? "vihacle wb-vehicleCar vihacleFullOpen" : "vihacle wb-vehicleCar"} ref="car">
             <div className="border" />
-            <div className="vihacleOpen">
+            <div className="vihacleOpen wb-sevan2024WihacleOpenCar">
               <div className="vihacleOpenIN">
                 <p>
                   <b>You can easily reach the venue on your own.</b>
@@ -73,7 +107,8 @@ class Shuttle extends React.Component {
                   alt="shuttle"
                 />
               </div>
-              <button onClick={this.carOpen}>Drive on your own</button>
+              {this.state.screenWidth > 546 && <button onClick={this.carOpen}>Drive on your own</button>}
+
             </div>
           </div>
         </div>

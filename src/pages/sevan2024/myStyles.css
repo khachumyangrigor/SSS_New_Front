@@ -77,6 +77,29 @@ button.wb-localRuleTermsButton{
   margin-top: 25px;
 }
 
+/*Shuttle*/
+.wb-sevan2024ShuttleButtons{
+  display: flex;
+  gap: 13px;
+  margin-top: 15px;
+
+}
+.wb-sevan2024 .upcommingReach_middle .vihacleBox .vihacleOpenIN p{
+  font-size: 15px !important;
+}
+.wb-sevan2024 .upcommingReach_middle .vihacleBox div.vihacleOpenIN{
+  margin: 0 !important;
+}
+
+.wb-sevan2024ShuttleButtons a button{
+  opacity: 1 !important;
+  font-size: 15px !important;
+  background-color: rgba(47, 128, 237, 1);
+  padding:16px 28px ;
+  border-radius: 6px;
+  color: #fff;
+}
+
 @media screen and (max-width:1500px ){
   .sevan2024-program.upcommingPrograms_left p{
     font-size: 18px !important;
@@ -108,6 +131,48 @@ button.wb-localRuleTermsButton{
   }
   a.wb-localRuleTermsButtonBlock{
     margin: 0 auto;
+  }
+  .wb-sevan2024 .vihacleOpenIN{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .wb-sevan2024 .vihacleOpenIN p{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+
+}
+
+@media screen and (max-width: 546px){
+  .wb-sevan2024 .upcommingReach_middle{
+    gap: 20px !important;
+  }
+  .wb-sevan2024 .upcommingReach_middle .vihacleBox .wb-ggImage{
+    max-width: 76px !important;
+  }
+  /*  Shuttle*/
+  .wb-vehicleCar{
+    flex-direction: column-reverse !important;
+  }
+  .wb-sevan2024 .vihacleBox{
+    justify-content: flex-start !important;
+  }
+  .wb-sevan2024 .wb-sevan2024WihacleOpenCar{
+    flex-direction: column !important;
+  }
+  .wb-sevan2024 .vihacleOpenIN{
+    margin: 0 !important;
+    display: unset !important;
+    flex-direction: unset !important;
+    align-items: unset !important;
+  }
+  .wb-sevan2024WihacleOpenCar iframe{
+    width: 100% !important;
+    height: 210px !important;
+    margin-top: 10px !important;
   }
 }
 
