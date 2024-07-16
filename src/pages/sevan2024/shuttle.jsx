@@ -82,6 +82,7 @@ class Shuttle extends React.Component {
                   Reserve your seat in advance and share the journey with fellow
                   participants.
                 </p>
+
                 <div className="wb-sevan2024ShuttleButtons">
                   <a href="https://bit.ly/to-SSS">
                     <button>To SSS</button>
@@ -90,6 +91,10 @@ class Shuttle extends React.Component {
                     <button>From SSS</button>
                   </a>
                 </div>
+                <p>
+                  To reserve your seat, please open the link on your mobile
+                  device.
+                </p>
               </div>
             </div>
             <div className="border" />
