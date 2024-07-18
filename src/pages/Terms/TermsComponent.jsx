@@ -19,7 +19,7 @@ function TermsComponent({ data }) {
           src={termsLogo}
           alt="Sevan Startup Summit"
         />
-        <div>
+        <div className="wb-termsTitleAndButton">
           <h2>{data.title}</h2>
           <DownloadButton url={data.downloadLink} position={"center"} />
         </div>

@@ -23,6 +23,7 @@
 
 .wb-termsLeft > div {
   max-width: fit-content;
+  text-align: left;
 }
 
 .wb-termsLeft h2 {
@@ -91,7 +92,7 @@
 }
 .wb-termsDownloadBtn {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 20px;
 }
 

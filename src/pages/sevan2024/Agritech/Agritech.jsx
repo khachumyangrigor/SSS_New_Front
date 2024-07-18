@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./Agritech.css";
 import agritechImg from "./img/agritech.png";
 import a_1 from "./img/a-1.png";
@@ -7,7 +7,17 @@ import a_3 from "./img/a-3.png";
 import a_4 from "./img/a-4.png";
 import a_5 from "./img/a-5.png";
 import a_6 from "./img/a-6.png";
+import Popup from "../Popup/Popup.jsx";
+import {buyTickets} from "../Navbar/NavButtons.jsx";
 function Agritech(props) {
+  const [popupStatus, setPopupStatus] = useState(false)
+  useEffect(() => {
+    if(popupStatus){
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  },[popupStatus])
   return (
     <div className="agritech-block">
       <div className="agritech-content">
@@ -75,8 +85,9 @@ function Agritech(props) {
           <h6>Fill the applications form below before July 15th.</h6>
           <div className="agritech-buttons">
             <a
-              href="https://www.f6s.com/sevan-agritech-summit-2024"
-              target="_blank"
+              // href="https://www.f6s.com/sevan-agritech-summit-2024"
+                onClick={() => setPopupStatus(true)}
+
             >
               <button>Apply Now</button>
             </a>
@@ -111,6 +122,7 @@ function Agritech(props) {
           <img src={a_6} alt="Partner" />
         </div>
       </div>
+      <Popup mobile={ false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
     </div>
   );
 }

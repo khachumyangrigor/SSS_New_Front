@@ -56,8 +56,8 @@ function Popup(props) {
                             :
                         (
                             <>
-                                <h2>Registration deadline has passed.</h2>
-                                <p>Visitor Passes are now available in the Events section of Telcell Wallet.</p>
+                                <h2>This application was closed on July 15th.</h2>
+                                {/*<p>Visitor Passes are now available in the Events section of Telcell Wallet.</p>*/}
                             </>
 
                         )
