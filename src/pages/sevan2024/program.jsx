@@ -88,7 +88,7 @@ class Programs extends React.Component {
             <div className="program-block sevan2024-program">
                 <h2>Educational Program for Startups</h2>
                 <div className="upcommingPrograms one">
-                    <div className="upcommingPrograms_left wb-program">
+                    <div className="upcommingPrograms_left sevan2024-program wb-program">
                         {/*<div className="imgBox">*/}
                         {/*    <img src={require('./img/disignIcon/Group.png')} alt="starter program" />*/}
                         {/*</div>*/}
@@ -113,7 +113,7 @@ class Programs extends React.Component {
                                 <div className="mobi_meue_trp_right"/>
                            </div> */}
                             {/* <p className="lasrPText">Starter Programme teams compete for the top 2 positions in each Industry Track and a chance to go on to the Starter Big Battle. The top team from each Industry Track will receive US$1,500 in prizes. Up to 18 teams will be selected for the Semi-Finals out of which 6 teams will go on to participate in the Starter Big Battle Finals. The finalists will compete for US$10,000 in prizes for the top 3 teams and in-kind prizes worth up to US$20,000.</p> */}
-                            <a target="_npmblank" rel="noopener noreferrer" className="passiveBtn">Get the educational program</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf">Get the educational program</a>
                         </div>
                     </div>
                     <div className="upcommingPrograms_right one">

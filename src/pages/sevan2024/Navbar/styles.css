@@ -45,7 +45,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 30px !important;
 }
 
 .navbar-menu-buttons a,
@@ -93,9 +93,9 @@
   color: #ffffff;
   border-radius: 8px;
   cursor: pointer;
-  background: #001a34;
+  background: rgba(47, 128, 237, 1);
   padding: 14px 21px;
-  border-color: #001a34;
+  border-color: rgba(47, 128, 237, 1);
 }
 
 .navbar-right a:hover {
@@ -132,7 +132,7 @@
 }
 
 .subMenu-fix {
-  bottom: -245px;
+  bottom: -200px !important;
 }
 
 .subMenu ul {

@@ -66,8 +66,9 @@ const Navbar = () => {
       </div>
       <div className={"navbar-right"}>
         <NavButtons isSaleOpen={true} />
-        <MenuButton />
+
       </div>
+      <MenuButton />
       <div className={isMenuOpen ? "navbar-menu-box" : "navbar-menu-closed"}>
         <NavbarMenu />
       </div>

@@ -23,9 +23,9 @@ export const buyTickets = [
 ]; //
 
 function NavButtons({ isSaleOpen }) {
-  function handleRedirection() {
+  function handleRedirection(link) {
     window.open(
-      "https://mootq.com/events/sss24",
+      link,
       "_blank",
       "noopener,noreferrer"
     );
@@ -34,12 +34,20 @@ function NavButtons({ isSaleOpen }) {
   return (
     <div className="nav-buttons">
       {isSaleOpen ? (
-        <button
-          key={`nav-button-buy-tickets-sevan-2024`}
-          onClick={handleRedirection}
-        >
-          Buy Tickets
-        </button>
+          <>
+            <button
+                onClick={() => handleRedirection("https://mootq.com/events/sss24")}
+            >
+              Buy Tickets
+            </button>
+            <button
+                className="wb-sevan2024-agendaBtn"
+                onClick={() => handleRedirection("https://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf")}
+            >
+              Agenda
+            </button>
+          </>
+
       ) : (
         buttons.map((button, index) => (
           <a
