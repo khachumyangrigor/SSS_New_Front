@@ -542,13 +542,13 @@ const imgArray = [
 function Partners(props) {
   return (
     <div className="sevan2024-partners">
-      <div className="wb-topPartners">
-        <div>
-          <a href="https://www.giz.de/en/worldwide/374.html" target="_blank">
-            <img src={topImg} alt="Partner" />
-          </a>
-        </div>
-      </div>
+      {/*<div className="wb-topPartners">*/}
+      {/*  <div>*/}
+      {/*    <a href="https://www.giz.de/en/worldwide/374.html" target="_blank">*/}
+      {/*      <img src={topImg} alt="Partner" />*/}
+      {/*    </a>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
 
       <div className="wb-partnersBlock">
         <div className="wb-partnersTitle">
