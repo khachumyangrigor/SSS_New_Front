@@ -53,6 +53,13 @@
   font-size: 17px !important;
 }
 
+.upcommingPrograms_right > div {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-content: flex-start !important;
+}
+
 /* Program */
 .sevan2024-program.upcommingPrograms_left{
   align-items: stretch !important;
@@ -160,6 +167,11 @@ button.wb-localRuleTermsButton{
   .wb-sevan2024 .vihacleBox{
     justify-content: flex-start !important;
   }
+
+  .vihacleBox > button {
+    display: none;
+  }
+
   .wb-sevan2024 .wb-sevan2024WihacleOpenCar{
     flex-direction: column !important;
   }
