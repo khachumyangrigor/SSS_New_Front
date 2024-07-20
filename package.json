@@ -24,7 +24,7 @@
     "react-countup": "^4.2.3",
     "react-dom": "^18.2.0",
     "react-download-link": "^2.2.0",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.1.0",
     "react-hot-loader": "^4.13.0",
     "react-image": "^2.2.2",
     "react-infinite-scroll-component": "^4.5.2",
