@@ -476,7 +476,6 @@ class About extends React.Component {
                         The photographs and video materials contained on this site are the property of Seaside Startup Summit LLC and are protected by International copyright laws. All copyright, trademark, and other intellectual property rights in this site, are the property of Seaside Startup Summit LLC. Those persons who wish to use the photography found on this site in a commercial purpose must receive written consent from Seaside Startup Summit LLC, prior to its commercial use.
                     </div>
                 </div>
-                <FootterNew ref="footter" />
             </div>
             </Fragment>
         )

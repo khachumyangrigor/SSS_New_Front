@@ -1,6 +1,5 @@
 import React, {Fragment} from "react";
 import {Helmet} from "react-helmet";
-import FootterNew from "../footterNew/footterNew.jsx";
 import Organizers from "./Organizers/Organizers.jsx";
 import Stats from "./Status/index.jsx";
 import MustKnow from "./mustknow.jsx";
@@ -95,7 +94,6 @@ function SeasideEvent() {
                 <MustKnow/>
                 <Organizers/>
                 <Partners/>
-                <FootterNew/>
             </div>
         </Fragment>
     );

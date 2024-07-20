@@ -1,10 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, {Fragment} from 'react';
+import {Link} from 'react-router-dom';
 //import axios from 'axios';
-import FootterNew from '../footterNew/footterNew.jsx';
 import Header from '../headNew/head.jsx';
 import * as EmailValidator from 'email-validator';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 //css
 import './firstPageNew.css';
@@ -241,7 +239,6 @@ class Home_Page_Newedition extends React.Component {
                         </section>
                     </div>
                 </div>
-                <FootterNew ref="footter" />
             </div>
             </Fragment>
         )

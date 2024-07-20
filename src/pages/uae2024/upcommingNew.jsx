@@ -89,7 +89,6 @@ class UpcommingNew extends React.Component {
           {/*<MustKnow ref="mustKnow" />*/}
           <Organizers />
           <Partners />
-          <FootterNew ref="footter" />
         </div>
       </Fragment>
     );

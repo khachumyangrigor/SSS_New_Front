@@ -19,7 +19,6 @@ class Merch extends React.Component{
                 <Included/>
                 <Community/>
                 <Subscribe/>
-                <FootterNew/>
             </div>
         )
     }

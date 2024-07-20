@@ -80,8 +80,7 @@ class Past_Page extends React.Component {
                 <Speakers info={Info} />
                 <Startups info={Info} />
                 <Organizers />
-                <FootterNew />
-            </Fragment >
+s            </Fragment >
         )
     }
 }

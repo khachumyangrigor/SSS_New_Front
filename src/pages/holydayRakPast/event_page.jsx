@@ -114,7 +114,6 @@ class HolidayRAK extends React.Component{
                     </div>
                     <p>SSSholidays UAE RAK will be organized for the first time, and we are sure that it will be as unique and unprecedented as the main format of Seaside Startup Summit. We believe that it will become an annual phenomenon.</p>
                 </div>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         );

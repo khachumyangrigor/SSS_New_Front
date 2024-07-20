@@ -156,7 +156,6 @@ class News extends React.Component {
                         </InfiniteScroll>
                     </div>
                 </div>
-                <FootterNew />
             </Fragment >
         )
     }

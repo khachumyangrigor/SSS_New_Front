@@ -158,7 +158,6 @@ class HolidayGOA extends React.Component{
                     </div>
                     <p>SSSholidays India Vizag is already the second event in this format and it is obviously becoming an annual phenomenon. We are sure that SSSholidays India Vizag will raise your standards about high-quality rest and will be as unique and unprecedented as the main format of Seaside Startup Summit.</p>
                 </div>
-                <FootterNew ref="footter"/>
             </div>
             </div>
         );

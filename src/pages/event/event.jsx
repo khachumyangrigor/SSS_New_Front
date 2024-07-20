@@ -1,10 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, {Fragment} from 'react';
+import {Link} from 'react-router-dom';
 //import axios from 'axios';
 import scrollToComponent from 'react-scroll-to-component';
-import FootterNew from '../footterNew/footterNew.jsx';
 import * as EmailValidator from 'email-validator';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
 import PastEventComponent from "./PastEventComponent.jsx";
@@ -12,7 +10,6 @@ import PastEventComponent from "./PastEventComponent.jsx";
 import './event.css';
 //Media
 import footprint from './img/footprint.png';
-
 
 
 class Events extends React.Component {
@@ -512,7 +509,6 @@ class Events extends React.Component {
                         </section>
                     </div>
                 </div>
-                <FootterNew ref="footter" />
             </div>
             </Fragment>
         )
