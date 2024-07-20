@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../headNew/head.jsx';
-import FootterNew from '../footterNew/footterNew.jsx';
 import Cover from './cover.jsx';
 import About from './about.jsx';
 import Included from './included.jsx';

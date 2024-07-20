@@ -1,27 +1,13 @@
-import React from "react";
-import { Fragment } from "react";
-import { Helmet } from "react-helmet";
-import FootterNew from "../footterNew/footterNew.jsx";
-
-import Shuttle from "./shuttle.jsx";
-import Programs from "./program.jsx";
-import MustKnow from "./mustknow.jsx";
-import Credo from "./credo.jsx";
-
-import Participate from "./Participate/Participate.jsx";
-import Valounteering from "./Volunteering/Volunteering.jsx";
-import Apply from "./Apply/Apply.jsx";
+import React, {Fragment} from "react";
+import {Helmet} from "react-helmet";
 import Stats from "./Status/index.jsx";
 import Organizers from "./Organizers/Organizers.jsx"
 import Partners from "./Partners/Partners.jsx"
-
-import WeOffer from "./WeOffer/index.jsx";
 import Navbar from "./Navbar/index.jsx";
-import { GetAccess } from "./component.min.jsx";
+import {GetAccess} from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
-import Roadmap from "./Roadmap/Roadmap.jsx";
 
 //Media
 

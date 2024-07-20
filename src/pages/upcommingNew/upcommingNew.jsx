@@ -1,9 +1,7 @@
-import React from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import React, {Fragment} from 'react';
+import {Link, Redirect} from 'react-router-dom';
 import scrollToComponent from 'react-scroll-to-component';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
-import FootterNew from '../footterNew/footterNew.jsx';
 import Speakers from './speakers.jsx';
 import Investors from './investors.jsx';
 import Startups from './sartups.jsx';
@@ -13,17 +11,13 @@ import MustKnow from './mustknow.jsx';
 import Credo from './credo.jsx';
 import Platform from './platform.jsx';
 import Citizen from './citizen.jsx';
-import {
-    FireCode,
-    Part4Part5,
-    GetAccess
-} from './component.min.jsx';
+import {FireCode, GetAccess, Part4Part5} from './component.min.jsx';
 
 // Sub Pages
-import  SpeakersPage from './speakers/speakers.jsx';
-import  ValunteersPage from './volunteers/volunteers.jsx';
-import  TeamleadPage from './taemlead/teamlead.jsx';
-import  CoachesPage from './coaches/coaches.jsx';
+import SpeakersPage from './speakers/speakers.jsx';
+import ValunteersPage from './volunteers/volunteers.jsx';
+import TeamleadPage from './taemlead/teamlead.jsx';
+import CoachesPage from './coaches/coaches.jsx';
 
 //css
 import './upcommingNew.css';
@@ -302,7 +296,6 @@ class UpcommingNew extends React.Component {
                         {/* Todo closed end */}
                         <Shuttle ref="shuttle" />
                         <MustKnow ref="mustKnow" />
-                        <FootterNew ref="footter" />
                     </div >
                 </Fragment>
             )

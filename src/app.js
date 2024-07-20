@@ -5,7 +5,6 @@ import routes from "./routes";
 //MAIN COMPOENTS
 // import Doc from './doc.jsx';
 import "./index.css";
-import FootterNew from "./pages/footterNew/footterNew.jsx";
 import Footer from "./components/Footer/index.jsx";
 
 const getRoutes = () => {

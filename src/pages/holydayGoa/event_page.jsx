@@ -1,12 +1,9 @@
 import React from 'react';
-import FootterNew from '../footterNew/footterNew.jsx';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
-import  Options from './options.jsx';
 import Partners from './partners.jsx';
-import MinHolidayForm from './form.jsx';
-import  './forms.css';   
-import  './style.css';
+import './forms.css';
+import './style.css';
 
 class HolidayGOA extends React.Component{
     constructor(){

@@ -1,17 +1,16 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import scrollToComponent from 'react-scroll-to-component';
 import Header from '../headNew/head.jsx';
-import FootterNew from '../footterNew/footterNew.jsx';
-import { Baner } from './baner.jsx';
-import { Participate } from './participate.jsx';
-import { Fund } from './boosterfund.jsx';
-import { Apply } from './howApply.jsx';
+import {Baner} from './baner.jsx';
+import {Participate} from './participate.jsx';
+import {Fund} from './boosterfund.jsx';
+import {Apply} from './howApply.jsx';
 import Programs from './program.jsx';
 import Meet from './meet.jsx';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 //css
 import './startup.css';
+
 //Media
 
 
@@ -58,7 +57,6 @@ class Startups extends React.Component {
                 <Fund/>
                 <Apply/>
                 <Meet/>
-                <FootterNew/>
             </div>
             </Fragment>
         )

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import scrollToComponent from 'react-scroll-to-component';
 import CoachesForm from './form.jsx';
-import FootterNew from '../../footterNew/footterNew.jsx';
 import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import './coaches.css';
@@ -368,7 +367,6 @@ class CoachesPage extends React.Component{
                     </div>
                 </div>
                 <CoachesForm ref="coachesForm"/>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         );

@@ -1,9 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, {Fragment} from 'react';
+import {Link} from 'react-router-dom';
 import scrollToComponent from 'react-scroll-to-component';
 import ValunteersForm from './form.jsx';
-import FootterNew from '../../footterNew/footterNew.jsx';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import './volunteers.css';
 
@@ -546,7 +544,6 @@ class ValunteersPage extends React.Component{
                     </div>
                 </div>
                 <ValunteersForm ref="valunteersForm"/>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         )

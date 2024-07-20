@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fragment } from 'react';
+import {Fragment} from 'react';
 import Banner from './section1.jsx';
 import Videos from './section2.jsx';
 import Infographic from './section3.jsx';
@@ -7,8 +7,7 @@ import Speakers from './section4.0.jsx';
 import Startups from './section5.jsx';
 import Organizers from './organizers/organizers.jsx';
 import Head from '../headNew/head.jsx';
-import FootterNew from '../footterNew/footterNew.jsx';
-import { Info_Past1, Info_Past2, Info_Past3, Info_Past4, Info_Past5, Info_Past6 } from './eventArray/array.jsx';
+import {Info_Past1, Info_Past2, Info_Past3, Info_Past4, Info_Past5, Info_Past6} from './eventArray/array.jsx';
 
 import './css/style.css';
 import './css/media.css';
@@ -29,6 +28,7 @@ class Past_Page extends React.Component {
             Info: {}
         }
     }
+
     componentDidMount = () => {
         window.addEventListener('scroll', this.handleScroll);
     }
@@ -41,12 +41,12 @@ class Past_Page extends React.Component {
         }
     }
     handelUpdate = location => {
-        if (location === '/sevan18/' || location === '/sevan18') this.setState({ Info: Info_Past1 });
-        else if (location === '/sevan17/' || location === '/sevan17') this.setState({ Info: Info_Past2 });
-        else if (location === '/sevan16/' || location === '/sevan16') this.setState({ Info: Info_Past3 });
-        else if (location === '/uae18/' || location === '/uae18') this.setState({ Info: Info_Past4 });
-        else if (location === '/india18/' || location === '/india18') this.setState({ Info: Info_Past5 });
-        else if (location === '/sevan19/' || location === '/sevan19') this.setState({ Info: Info_Past6 });
+        if (location === '/sevan18/' || location === '/sevan18') this.setState({Info: Info_Past1});
+        else if (location === '/sevan17/' || location === '/sevan17') this.setState({Info: Info_Past2});
+        else if (location === '/sevan16/' || location === '/sevan16') this.setState({Info: Info_Past3});
+        else if (location === '/uae18/' || location === '/uae18') this.setState({Info: Info_Past4});
+        else if (location === '/india18/' || location === '/india18') this.setState({Info: Info_Past5});
+        else if (location === '/sevan19/' || location === '/sevan19') this.setState({Info: Info_Past6});
     }
 
     handleScroll = () => {
@@ -64,23 +64,23 @@ class Past_Page extends React.Component {
         }
     }
     render = () => {
-        const { Info } = this.state;
+        const {Info} = this.state;
         return (
-            <Fragment >
+            <Fragment>
                 <div ref='Banner'>
-                    <Banner info={Info} />
+                    <Banner info={Info}/>
                 </div>
-                <Head />
+                <Head/>
                 <div className='opacity' ref='Video'>
-                    <Videos info={Info} />
+                    <Videos info={Info}/>
                 </div>
                 <div className='opacity' ref='Infographic'>
-                    <Infographic info={Info} />
+                    <Infographic info={Info}/>
                 </div>
-                <Speakers info={Info} />
-                <Startups info={Info} />
-                <Organizers />
-s            </Fragment >
+                <Speakers info={Info}/>
+                <Startups info={Info}/>
+                <Organizers/>
+                s </Fragment>
         )
     }
 }

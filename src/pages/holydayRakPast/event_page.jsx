@@ -1,16 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 // import scrollToComponent  from 'react-scroll-to-component';
-import FootterNew from '../footterNew/footterNew.jsx';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
-import  Partners from './partners.jsx';
-import  Infographic from './infographic.jsx';
-import  Startups from './startups.jsx';
-import  Diaries from './diaries.jsx';
-import  Mentors from './mentors.jsx';
+import Partners from './partners.jsx';
+import Infographic from './infographic.jsx';
+import Startups from './startups.jsx';
+import Diaries from './diaries.jsx';
+import Mentors from './mentors.jsx';
 
-import  './style.css';
+import './style.css';
 
 class HolidayRAK extends React.Component{
     constructor(){

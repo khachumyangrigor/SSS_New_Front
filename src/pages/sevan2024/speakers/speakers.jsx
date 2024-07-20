@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import scrollToComponent from 'react-scroll-to-component';
 import SpeakerForm from './form.jsx';
-import FootterNew from '../../footterNew/footterNew.jsx';
 import './speakers.css'
 import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
@@ -202,7 +201,6 @@ class SpeakersPage extends React.Component {
                     </div>
                 </div>
                 <SpeakerForm ref="speakerForm" />
-                <FootterNew ref="footter" />
             </div>
             </Fragment>
         )

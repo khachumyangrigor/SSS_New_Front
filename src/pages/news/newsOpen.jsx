@@ -1,17 +1,24 @@
-import React from 'react';
-import { Fragment } from 'react';
+import React, {Fragment} from 'react';
 // import Header from "../header/header.jsx";
 import Head from '../headNew/head.jsx';
-import FootterNew from '../footterNew/footterNew.jsx';
 //img
 import "./news.css";
 //social
-import { FacebookShareButton, LinkedinShareButton, TwitterShareButton, TelegramShareButton, WhatsappShareButton } from 'react-share';
-import { FacebookIcon, LinkedinIcon, TwitterIcon, TelegramIcon, WhatsappIcon } from 'react-share';
+import {
+    FacebookIcon,
+    FacebookShareButton,
+    LinkedinIcon,
+    LinkedinShareButton,
+    TelegramIcon,
+    TelegramShareButton,
+    TwitterIcon,
+    TwitterShareButton,
+    WhatsappIcon,
+    WhatsappShareButton
+} from 'react-share';
 // import { FacebookShareCount, LinkedinShareCount, TwitterShareCount, TelegramShareCount, WhatsappShareCount } from 'react-share';
-
 import restoreData from '../../assets/plugins/restoreData';
-import { Helmet } from 'react-helmet';
+import {Helmet} from 'react-helmet';
 
 class News extends React.Component {
     constructor(props) {
@@ -110,7 +117,6 @@ class News extends React.Component {
                         </div>
                     </div>
                 </div>
-                <FootterNew />
             </Fragment >
         )
     }
