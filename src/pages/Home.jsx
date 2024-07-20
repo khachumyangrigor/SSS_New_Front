@@ -1,16 +1,18 @@
 import React, {Fragment} from 'react';
 import {Helmet} from "react-helmet";
 
-//components
-import Stats from '../../components/Stats/index.jsx'
-import Testimonials from "../../components/Testimonials/index.jsx";
-import Accelerators from "../../components/Accelerators/index.jsx";
-import JoinUs from "../../components/JoinUs/index.jsx";
-import FootPrint from "../../components/FootPrint/index.jsx";
-import Header from '../headNew/head.jsx';
+//components"
+import Stats from "../components/Stats/index.jsx"
+import Testimonials from "../components/Testimonials/index.jsx";
+import Accelerators from "../components/Accelerators/index.jsx";
+import JoinUs from "../components/JoinUs/index.jsx";
+import FootPrint from "../components/FootPrint/index.jsx";
+import Header from "./headNew/head.jsx";
+
+// Create Dedicated CSS for pages
 
 //css
-import './firstPageNew.css';
+import '../pages/firstPageNew/firstPageNew.css';
 
 
 const statsData = [

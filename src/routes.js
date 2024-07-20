@@ -2,7 +2,7 @@ import loadData from "./assets/plugins/loadData";
 ///PAGES
 import About from "./pages/about/about.jsx";
 import Events from "./pages/event/event.jsx";
-import Home_Page_Newedition from "./pages/firstPageNew/firstPageNew.jsx";
+import HomePage from "./pages/Home.jsx";
 import News from "./pages/news/news.jsx";
 import News_One from "./pages/news/newsOpen.jsx";
 import Partners from "./pages/partners/partners.jsx";
@@ -29,7 +29,7 @@ export default [
   {
     exact: true,
     path: "/",
-    component: Home_Page_Newedition,
+    component: HomePage,
   },
 
   {

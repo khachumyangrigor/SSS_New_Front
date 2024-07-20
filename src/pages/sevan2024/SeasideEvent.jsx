@@ -21,6 +21,14 @@ import ApplyButtonBlock from "../../ui/buttons/apply-button-block/ApplyButtonBlo
 
 //Media
 
+const statsData = [
+    {number: "50+", text: "COUNTRIES"},
+    {number: "250+", text: "STARTUPS"},
+    {number: "10,000+", text: "PARTICIPANTS"},
+    {number: "50+", text: "VCS & INVESTORS"},
+    {number: "US $200K+", text: "INVESTMENTS"},
+];
+
 function SeasideEvent() {
     return (
         <Fragment>
@@ -74,7 +82,7 @@ function SeasideEvent() {
                 {/* Part 2 */}
                 <Navbar/>
                 <Intro/>
-                <Stats/>
+                <Stats statsTitle={'Sevan Startup Summit 2024 in numbers'} statsData={statsData}/>
                 <Credo
                     title="Why Participate as a Startup"
                     description="SSS provides the following key benefits"
