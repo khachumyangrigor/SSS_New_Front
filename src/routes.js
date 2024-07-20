@@ -7,7 +7,7 @@ import News from "./pages/news/news.jsx";
 import News_One from "./pages/news/newsOpen.jsx";
 import Partners from "./pages/partners/partners.jsx";
 import Sevan2023 from "./pages/sevan2023/upcommingNew.jsx";
-import Sevan2024 from "./pages/sevan2024/SeasideEvent.jsx";
+import Sevan2024 from "./events/Sevan2024/index.jsx";
 import Uae2024 from "./pages/uae2024/upcommingNew.jsx";
 import UpcommingNew from "./pages/upcommingNew/upcommingNew.jsx";
 // PAST PAGES

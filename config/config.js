@@ -1,4 +1,4 @@
-const { join } = require("path");
+const path = require("path");
 const webpack = require("webpack");
 const TerserJSPlugin = require("terser-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
@@ -23,17 +23,17 @@ function createTarget({
   /**
    * Root of project
    */
-  let root = join(__dirname, "../");
+  let root = path.join(__dirname, "../");
 
   /**
    * Path for compiled assets
    */
-  let dist = join(root, "dist", target);
+  let dist = path.join(root, "dist", target);
 
   /**
    * Source directory
    */
-  let src = join(root, "src");
+  let src = path.join(root, "src");
 
   /**
    * Name of output bundles
@@ -54,7 +54,7 @@ function createTarget({
 
     webpack: {
       name: target,
-      entry: join(src, target + ".js"),
+      entry: path.join(src, target + ".js"),
       devtool: IS_DEVELOPMENT ? "cheap-module-eval-source-map" : false,
 
       mode: NODE_ENV,
@@ -72,7 +72,8 @@ function createTarget({
       },
 
       resolve: {
-        modules: ["node_modules", "src"],
+        modules: ["node_modules", path.resolve(__dirname, '../src'),],
+        extensions: ['.js', '.jsx', '.json']
       },
 
       module: {
