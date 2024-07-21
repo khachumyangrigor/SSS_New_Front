@@ -111,7 +111,7 @@ class Header extends React.Component {
                             <li><Link to="/blog">Blog</Link></li>
                             <li onClick={this.handelScrollIntoView}>Contacts</li>
                             {/* <li> <a href="http://seasidestartupsummit.com/pdf/agenda-egypt.pdf" target="_blank" rel="noopener noreferrer">Preliminary agenda</a></li> */}
-                            {/* <li><Link to="/events">Apply as Startup</Link></li> */}
+                            {/* <li><Link to="/events">Roadmap as Startup</Link></li> */}
                             {/* <li><Link to="/upcoming-events/sevan2020">Buy Ticket</Link></li> */}
                         </ul>
                     </div>

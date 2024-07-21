@@ -2,7 +2,6 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import scrollToComponent from 'react-scroll-to-component';
 // import CoachesForm from './form.jsx';
-import FootterNew from '../../footterNew/footterNew.jsx';
 import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 // import Header from '../../headNew/head.jsx';
@@ -148,7 +147,6 @@ class AfterCovid19 extends React.Component{
                     <button onClick={this.handleSubmit} ref="submitBtn">Apply</button>
                     <p>{this.state.errorSbm}</p>
                 </div>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         );

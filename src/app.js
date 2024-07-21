@@ -1,26 +1,33 @@
-import React from 'react';
-import routes from './routes';
-import { BrowserRouter, Route, Switch, } from 'react-router-dom';
- 
+import React from "react";
+import {Route, Switch} from "react-router-dom";
+import routes from "./routes";
+
 //MAIN COMPOENTS
 // import Doc from './doc.jsx';
-import './index.css';
+import "./index.css";
+import Footer from "./components/Footer/index.jsx";
 
-const getRoutes = () =>{
-    return routes.map((route, index)=>{
-      return <Route key={index} path={route.path} exact={route.exact} render={(params) => <route.component {...params} />}/>
+const getRoutes = () => {
+    return routes.map((route, index) => {
+        return (
+            <Route
+                key={index}
+                path={route.path}
+                exact={route.exact}
+                render={(params) => <route.component {...params} />}
+            />
+        );
     });
-}
+};
 
 const App = () => {
     return (
-        <div className='app'>
+        <div className="app">
             {/* <Doc /> */}
-            <Switch>
-                {getRoutes()}
-            </Switch>
+            <Switch>{getRoutes()}</Switch>
+            <Footer/>
         </div>
-    )
-}
+    );
+};
 
 export default App;

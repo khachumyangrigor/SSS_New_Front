@@ -1,13 +1,21 @@
-import React from 'react';
-import { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import React, {Fragment} from 'react';
+import {Link} from 'react-router-dom';
 import InfiniteScroll from "react-infinite-scroll-component";
 import Head from '../headNew/head.jsx';
-import FootterNew from '../footterNew/footterNew.jsx';
-import { Helmet } from "react-helmet";
+import {Helmet} from "react-helmet";
 //social
-import { FacebookShareButton, LinkedinShareButton, TwitterShareButton, TelegramShareButton, WhatsappShareButton } from 'react-share';
-import { FacebookIcon, LinkedinIcon, TwitterIcon, TelegramIcon, WhatsappIcon } from 'react-share';
+import {
+    FacebookIcon,
+    FacebookShareButton,
+    LinkedinIcon,
+    LinkedinShareButton,
+    TelegramIcon,
+    TelegramShareButton,
+    TwitterIcon,
+    TwitterShareButton,
+    WhatsappIcon,
+    WhatsappShareButton
+} from 'react-share';
 //css
 import "./news.css";
 //img
@@ -156,7 +164,6 @@ class News extends React.Component {
                         </InfiniteScroll>
                     </div>
                 </div>
-                <FootterNew />
             </Fragment >
         )
     }

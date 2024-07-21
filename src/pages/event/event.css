@@ -89,7 +89,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding:5.5vh 5.8vw;
     padding-bottom: 0px;
 }
@@ -118,7 +118,7 @@
     margin-bottom: 5.5vh;
 }
 .eventBodyMiddle:nth-child(2)>div{
-    margin-left: 2vw;
+    margin-left: 0;
 }
 .eventBodyMiddle>div .cover{
     position: absolute;
@@ -136,6 +136,7 @@
     background: #FFFFFF; 
 }
 .eventBodyMiddle>div>div img{
+    width: 100%;
     max-width:100%;
     max-height: 100%;
     transition: all .4s ease;
@@ -150,7 +151,6 @@
     font-size: 1.3vw;
     line-height: normal;
     text-align: center;
-    letter-spacing: 1px;
     text-transform: uppercase;
     color: #000000;
     margin-top:3vh;
@@ -164,7 +164,6 @@
     font-size: 1.1vw;
     line-height: normal;
     text-align: center;
-    letter-spacing: 0.5px;
     color: #000000;
     opacity: 0.5;
     margin-bottom:3vh;
@@ -173,6 +172,8 @@
     font-family: Source Sans Pro;
     font-style: normal;
     color: #000000;
+    letter-spacing: 0.5px;
+    font-weight: 600;
 }
 .eventBodyMiddle>div>a,
 .eventBodyMiddle>div>button{
@@ -201,8 +202,34 @@
     background: rgba(227, 227, 227, 0.3);
     justify-content: space-between;
 }
+.eventBodyMiddle.past > h3{
+    color: #596273;
+}
+
 .eventBodyMiddle.past>div{
     background: #FFFFFF;
+}
+.eventBodyMiddle.past > div h3 span{
+    position: relative;
+    font-weight: bold;
+}
+.eventBodyMiddle.past > div h3 span:after{
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: -21px;
+    width: 15px;
+    height: 1px;
+    background-color: black;
+}
+.eventBodyMiddle.past > div h3 span:before{
+    content:"";
+    position: absolute;
+    top: 50%;
+    right: -21px;
+    width: 15px;
+    height: 1px;
+    background-color: black;
 }
 .eventBodyMiddle.past>div>div{
     background: rgba(227, 227, 227, 0.3);
@@ -390,7 +417,7 @@
         margin-bottom: 60px;
     }
     .eventBodyMiddle:nth-child(2)>div{
-        margin-left: 50px;
+        margin-left: 0;
     }
     .eventBodyMiddle>div>h3{
         font-size: 25px;
@@ -469,7 +496,7 @@
         align-content: space-between;
     }
     .eventBodyMiddle:nth-child(2)>div{
-        margin-left: 0vw;
+        margin-left: 0;
     }
     .eventBodyMiddle>div>div{
         width: 100%;
@@ -477,19 +504,19 @@
     }
 
     .eventBodyMiddle>div>h3{
-        font-size: 3vw;
+        font-size: 1.5vw;
         margin-top:13px;
         margin-bottom:13px;
     }
     .eventBodyMiddle>div>p{
-        font-size: 2.5vw;
+        font-size: 1.3vw;
         margin-bottom:13px;
     }
     .eventBodyMiddle>div>button,
     .eventBodyMiddle>div>a{
-        font-size: 30px;
+        font-size: 15px;
         margin-bottom:15px;
-        padding: 11px 40px;
+        padding: 8px 40px;
     }
 
     /* event body end */
