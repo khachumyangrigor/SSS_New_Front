@@ -9,6 +9,7 @@ import Partners from "../../pages/sevan2024/Partners/partners.jsx";
 import Agritech from "../../pages/sevan2024/Agritech/Agritech.jsx";
 import Intro from "../../components/Intro/index.jsx";
 import Transport from "../../components/Transport/index.jsx";
+import eventData from './data'
 
 
 import Navbar from "pages/sevan2024/Navbar/index.jsx";
@@ -81,7 +82,7 @@ function Sevan2024() {
                 </div>
                 {/* Part 2 */}
                 <Navbar/>
-                <Intro/>
+                <Intro data={eventData}/>
                 <Stats statsTitle={'Sevan Startup Summit 2024 in numbers'} statsData={statsData}/>
                 <Credo
                     title="Why Participate as a Startup"
