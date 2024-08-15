@@ -1,10 +1,10 @@
-import loadData from "./assets/plugins/loadData";
+import loadData from "./assets/plugins/loadData.js";
 ///PAGES
 import About from "./pages/about/about.jsx";
 import Events from "./pages/event/event.jsx";
 import HomePage from "./pages/Home.jsx";
 import News from "./pages/news/news.jsx";
-import News_One from "./pages/news/newsOpen.jsx";
+// import News_One from "./pages/news/newsOpen.jsx";
 import Partners from "./pages/partners/partners.jsx";
 import Sevan2023 from "./pages/sevan2023/upcommingNew.jsx";
 import Sevan2024 from "./events/Sevan2024/index.jsx";
@@ -25,7 +25,7 @@ import Privacy from "./pages/privacy/index.jsx";
 import TermsARM from "./pages/termsArm/index.jsx";
 import TermsEN from "./pages/termsEn/index.jsx";
 
-export default [
+export const routes = [
   {
     exact: true,
     path: "/",
@@ -245,15 +245,15 @@ export default [
     component: News,
   },
 
-  {
-    path: "/blog/:id",
-    exact: true,
-    component: News_One,
-    loadData: (params) =>
-      loadData(
-        `https://www.apis.seasidestartupsummit.com/news/?method=getNewsOne&id=${params.id}`
-      ),
-  },
+  // {
+  //   path: "/blog/:id",
+  //   exact: true,
+  //   component: News_One,
+  //   loadData: (params) =>
+  //     loadData(
+  //       `https://www.apis.seasidestartupsummit.com/news/?method=getNewsOne&id=${params.id}`
+  //     ),
+  // },
   {
     component: Page_404,
   },

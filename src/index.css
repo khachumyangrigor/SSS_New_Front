@@ -8,22 +8,23 @@
   --mobile-text-size: 16px;
 }
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html,body,#root{
+html,
+body,
+#root {
   width: 100%;
   height: 100vh;
 }
 
-body{
+body {
   overflow-x: hidden !important;
 }
 
-.app{
+.app {
   width: 100%;
   max-width: 1920px;
   margin: 0px auto;
@@ -31,72 +32,68 @@ body{
   flex-direction: column;
   position: relative;
   cursor: default;
-
-
-
 }
 
-
-h2{
-  color: #FFFFFF;
+h2 {
+  color: #ffffff;
   font-weight: normal;
   margin-bottom: 25px;
 }
 
-button{
-  outline:none;
+button {
+  outline: none;
   border: none;
   background: transparent;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   cursor: pointer;
 }
 
-ul li{
+ul li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
-iframe{
+iframe {
   border: none;
 }
 
-.PageLoading{
+.PageLoading {
   width: 100vw;
   height: 100vh;
   max-width: 1920px;
   max-height: 1080px;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0E2043;
+  background: #0e2043;
   z-index: 1000000000;
 }
 p,
-h3{
+h3 {
   cursor: text;
 }
-.slick-dots li{
+.slick-dots li {
   width: 14px;
   height: 20px;
   margin: 0 3px;
 }
 
-.dateBreakMobile{
-  display: none;    
+.dateBreakMobile {
+  display: none;
 }
 
-@media (max-width: 599px){
+@media (max-width: 599px) {
   .stop-scrolling {
     height: 100%;
     overflow: hidden;
   }
 
-  .dateBreakMobile{
-    display: block;    
+  .dateBreakMobile {
+    display: block;
   }
 }
