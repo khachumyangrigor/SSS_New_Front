@@ -21,7 +21,7 @@ app.use("*", async (req, res) => {
       url,
       fs.readFileSync("index.html", "utf-8")
     );
-    const { render } = await vite.ssrLoadModule("/src/main.jsx");
+    const { render } = await vite.ssrLoadModule("/src/server.jsx");
 
     const html = template.replace(`<!--outlet-->`, render);
     res.status(200).set({ "Content-Type": "text/html" }).end(html);
