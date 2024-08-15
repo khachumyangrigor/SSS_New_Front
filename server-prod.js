@@ -15,7 +15,7 @@ app.use(
 app.use("*", async (_, res) => {
   try {
     const template = fs.readFileSync("./dist/client/index.html", "utf-8");
-    const { render } = await import("./dist/server/server.js");
+    const { render } = await import("./dist/server/server.cjs");
 
     const html = template.replace(`<!--outlet-->`, render);
     res.status(200).set({ "Content-Type": "text/html" }).end(html);
