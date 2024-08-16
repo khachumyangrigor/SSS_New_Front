@@ -11,7 +11,7 @@ export default defineConfig(({ isSsrBuild }) => {
       rollupOptions: {
         output: {
           format: isSsrBuild ? "cjs" : "es",
-          entryFileNames: "[name].[format].js",
+          entryFileNames: "[name].js",
         },
         external: isSsrBuild ? ["react-router-dom/server"] : [],
       },
