@@ -15,7 +15,7 @@ app.use(
   sirv(
     path.resolve(path.dirname(fileURLToPath(import.meta.url)), "dist/client"),
     {
-      dev: false,
+      dev: true,
       maxAge: false, // Cache static assets for one year
     }
   )
@@ -24,7 +24,7 @@ app.use(
 app.use("*", async (req, res) => {
   try {
     const template = fs.readFileSync("./dist/client/index.html", "utf-8");
-    const { render } = await import("./dist/server/server.js");
+    const { render } = await import("./dist/server/server.cjs");
 
     // Ensure the render function is correctly called with URL and SSR manifest if needed
     const html = template.replace(`<!--outlet-->`, await render(req.url));

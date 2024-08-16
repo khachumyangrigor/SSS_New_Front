@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import EgyptIndividual from "./individual.jsx";
 
 class EgyptIndividualPage extends React.Component {

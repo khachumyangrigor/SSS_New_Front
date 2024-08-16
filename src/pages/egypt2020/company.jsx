@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 // import scrollToComponent from "react-scroll-to-component";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Header from "../headNew/head.jsx";
 
 import "./forms.css";

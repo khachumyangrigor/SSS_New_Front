@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SpeakerForm from "./form.jsx";
 import "./speakers.css";
 import { Fragment } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 class SpeakersPage extends React.Component {
   constructor() {

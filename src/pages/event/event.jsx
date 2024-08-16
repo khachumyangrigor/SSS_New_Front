@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 //import axios from 'axios';
 // import scrollToComponent from 'react-scroll-to-component';
 import * as EmailValidator from "email-validator";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Header from "../headNew/head.jsx";
 import PastEventComponent from "./PastEventComponent.jsx";
 //css

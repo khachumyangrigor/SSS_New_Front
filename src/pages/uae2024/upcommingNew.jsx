@@ -1,10 +1,10 @@
-import React, {Fragment} from "react";
-import {Helmet} from "react-helmet";
+import React, { Fragment } from "react";
+import { Helmet } from "react-helmet-async";
 import Stats from "./Status/index.jsx";
-import Organizers from "./Organizers/Organizers.jsx"
-import Partners from "./Partners/Partners.jsx"
+import Organizers from "./Organizers/Organizers.jsx";
+import Partners from "./Partners/Partners.jsx";
 import Navbar from "./Navbar/index.jsx";
-import {GetAccess} from "./component.min.jsx";
+import { GetAccess } from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
@@ -13,7 +13,7 @@ import "./upcommingNew.css";
 
 class UpcommingNew extends React.Component {
   componentDidMount() {
-    scrollTo(0, 0)
+    scrollTo(0, 0);
   }
 
   render = () => {
@@ -52,12 +52,14 @@ class UpcommingNew extends React.Component {
               </h2>
             </div>
             <div className="wb-footerTitle">
-              <h3><b>SEASIDE STARTUP SUMMIT UAE 2024</b></h3>
+              <h3>
+                <b>SEASIDE STARTUP SUMMIT UAE 2024</b>
+              </h3>
 
-                <h3 className="wb-cityTitle">Ras Al Khaimah, Longbeach Campground <span>FEBRUARY 23 - 28</span> </h3>
-
-
-
+              <h3 className="wb-cityTitle">
+                Ras Al Khaimah, Longbeach Campground{" "}
+                <span>FEBRUARY 23 - 28</span>{" "}
+              </h3>
             </div>
           </div>
           {/* Part 2 */}

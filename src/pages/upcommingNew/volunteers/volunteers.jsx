@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import scrollToComponent from 'react-scroll-to-component';
 import ValunteersForm from "./form.jsx";
 import { Fragment } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "./volunteers.css";
 
 class ValunteersPage extends React.Component {

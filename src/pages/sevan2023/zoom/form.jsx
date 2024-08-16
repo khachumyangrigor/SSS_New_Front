@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 // import scrollToComponent from "react-scroll-to-component";
 
 import { FormControlLabel, Radio, RadioGroup, TextField } from "@mui/material";

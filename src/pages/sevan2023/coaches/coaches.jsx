@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link, withRouter } from "react-router-dom";
 // import scrollToComponent from 'react-scroll-to-component';
 import CoachesForm from "./form.jsx";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "./coaches.css";
 
 class CoachesPage extends React.Component {

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 // import scrollToComponent from 'react-scroll-to-component';
 import TeamleadForm from "./form.jsx";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "./teamlead.css";
 
 class TeamleadPage extends React.Component {

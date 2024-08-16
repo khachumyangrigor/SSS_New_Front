@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Organizers from "../../pages/sevan2024/Organizers/Organizers.jsx";
 import Stats from "../../pages/sevan2024/Status/index.jsx";
 import MustKnow from "../../pages/sevan2024/mustknow.jsx";

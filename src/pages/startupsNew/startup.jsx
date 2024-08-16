@@ -7,7 +7,7 @@ import { Fund } from "./boosterfund.jsx";
 import { Apply } from "./howApply.jsx";
 import Programs from "./program.jsx";
 import Meet from "./meet.jsx";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 //css
 import "./startup.css";
 

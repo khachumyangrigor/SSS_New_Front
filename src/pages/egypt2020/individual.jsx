@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 // import scrollToComponent from "react-scroll-to-component";
 import Header from "../headNew/head.jsx";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import {
   Radio,

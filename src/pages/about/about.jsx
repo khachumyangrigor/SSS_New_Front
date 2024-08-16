@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 // import scrollToComponent from 'react-scroll-to-component';
 // import Img from "react-image";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Header from "../headNew/head.jsx";
 import aboutData from "./data";
 import Intro from "../../components/Intro";

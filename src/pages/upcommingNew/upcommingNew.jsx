@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Link, Redirect } from "react-router-dom";
 // import scrollToComponent from 'react-scroll-to-component';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Speakers from "./speakers.jsx";
 import Investors from "./investors.jsx";
 import Startups from "./sartups.jsx";

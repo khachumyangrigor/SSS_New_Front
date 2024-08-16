@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 // import InfiniteScroll from "react-infinite-scroll-component";
 import Head from "../headNew/head.jsx";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 //social
 import {
   FacebookIcon,

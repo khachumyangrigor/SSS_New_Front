@@ -2,6 +2,7 @@ import React from "react";
 import { CookiesProvider } from "react-cookie";
 import { hydrateRoot } from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import App from "./app.jsx";
 import "./index.css";
 
@@ -12,9 +13,11 @@ if (rootElement) {
     rootElement,
     <Router>
       <React.StrictMode>
-        <CookiesProvider>
-          <App />
-        </CookiesProvider>
+        <HelmetProvider>
+          <CookiesProvider>
+            <App />
+          </CookiesProvider>
+        </HelmetProvider>
       </React.StrictMode>
     </Router>
   );
