@@ -1,16 +1,21 @@
-import { defineConfig } from "vite";
+import commonjs from "@rollup/plugin-commonjs";
 import react from "@vitejs/plugin-react";
-import commonjs from "vite-plugin-commonjs";
+import { defineConfig } from "vite";
 
-export default defineConfig({
-  plugins: [react(), commonjs()],
-  optimizeDeps: {
-    include: ["@vite-mono/lib-cjs"],
-  },
-  build: {
-    commonjsOptions: {
-      include: [/lib-cjs/, /node_modules/],
+// Determine if we are building for the server or client
+export default defineConfig(({ isSsrBuild }) => {
+  return {
+    plugins: [react(), isSsrBuild && commonjs()].filter(Boolean),
+    build: {
+      outDir: isSsrBuild ? "dist/server" : "dist/client",
+      rollupOptions: {
+        output: {
+          format: isSsrBuild ? "cjs" : "es",
+          entryFileNames: "[name].[format].js",
+        },
+        external: isSsrBuild ? ["react-router-dom/server"] : [],
+      },
     },
-  },
-  assetsInclude: ["**/*.PNG"],
+    assetsInclude: ["**/*.PNG"],
+  };
 });
