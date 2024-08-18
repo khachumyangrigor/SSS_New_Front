@@ -1,9 +1,8 @@
-import fs from "fs";
-import path from "path";
-import compression from "compression";
-import sirv from "sirv";
-import express from "express";
-import { fileURLToPath } from "url";
+const fs = require("fs");
+const path = require("path");
+const compression = require("compression");
+const sirv = require("sirv");
+const express = require("express");
 
 const app = express();
 
@@ -12,19 +11,24 @@ app.use(compression());
 
 // Serve static files from the client build using sirv
 app.use(
-  sirv(
-    path.resolve(path.dirname(fileURLToPath(import.meta.url)), "dist/client"),
-    {
-      dev: true,
-      maxAge: false, // Cache static assets for one year
-    }
-  )
+  sirv(path.resolve(__dirname, "dist/client"), {
+    dev: true,
+    maxAge: false, // Cache static assets for one year
+  })
 );
 
 app.use("*", async (req, res) => {
   try {
-    const template = fs.readFileSync("./dist/client/index.html", "utf-8");
-    const { render } = await import("./dist/server/server.cjs");
+    const template = fs.readFileSync(
+      path.resolve(__dirname, "./dist/client/index.html"),
+      "utf-8"
+    );
+    // Load the server module using require instead of import
+    const serverModule = require(path.resolve(
+      __dirname,
+      "./dist/server/server.cjs"
+    ));
+    const { render } = serverModule;
 
     // Ensure the render function is correctly called with URL and SSR manifest if needed
     const html = template.replace(`<!--outlet-->`, await render(req.url));
