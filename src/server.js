@@ -3,7 +3,7 @@ import * as React from "react";
 import { StaticRouter } from "react-router-dom";
 import { renderToString } from "react-dom/server";
 import { Helmet } from "react-helmet";
-import App from "./app";
+import App from "./App";
 import express from "express";
 import { matchRoutes } from "react-router-config";
 import { CookiesProvider } from "react-cookie";

@@ -1,14 +1,17 @@
 import React from "react";
-import { hydrateRoot } from "react-dom/client.js";
-import App from "./app.js";
-import { BrowserRouter } from "react-router-dom";
+import App from "./App.jsx";
+
+import { hydrateRoot } from "react-dom/client";
 import { CookiesProvider } from "react-cookie";
+import { BrowserRouter } from "react-router-dom";
 
 hydrateRoot(
   document.getElementById("root"),
-  <CookiesProvider>
+  <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <CookiesProvider>
+        <App />
+      </CookiesProvider>
     </BrowserRouter>
-  </CookiesProvider>
+  </React.StrictMode>
 );
