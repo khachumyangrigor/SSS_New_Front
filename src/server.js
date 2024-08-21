@@ -9,8 +9,8 @@ import { matchRoutes } from "react-router-config";
 import { CookiesProvider } from "react-cookie";
 import cookiesMiddleware from "universal-cookie-express";
 
-import { pageTemplate } from "pageTemplate";
-import routes from "routes";
+import { pageTemplate } from "./pageTemplate.js";
+import routes from "./routes.js";
 import loadData from "./assets/plugins/loadData";
 import { join } from "path";
 
