@@ -5,7 +5,7 @@ import Stats from "../../pages/sevan2024/Status/index.jsx";
 import MustKnow from "../../pages/sevan2024/mustknow.jsx";
 import Programs from "../../pages/sevan2024/program.jsx";
 import Credo from "../../components/Credo/index.jsx";
-import Partners from "../../pages/sevan2024/Partners/partners.jsx";
+import Partners from "../../pages/sevan2024/Partners/index.jsx";
 import Agritech from "../../pages/sevan2024/Agritech/Agritech.jsx";
 import Intro from "../../components/Intro/index.jsx";
 import Transport from "../../components/Transport/index.jsx";
