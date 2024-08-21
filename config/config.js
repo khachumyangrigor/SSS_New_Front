@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const { NODE_ENV = "development" } = process.env;
+const { NODE_ENV = "production" } = process.env;
 
 const IS_DEVELOPMENT = NODE_ENV === "development";
 
@@ -63,7 +63,7 @@ function createTarget({
         clean: true,
         library: {
           name: "Library Name",
-          type: "commonjs2",
+          type: "commonjs-static",
         },
       },
 
