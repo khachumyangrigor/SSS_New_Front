@@ -201,19 +201,19 @@ function Participate() {
               </div>
             </div>
           </div>
-          <div className="wb-applyButtonBlock">
-            <a
-                // href="https://www.f6s.com/sevan-startup-summit-2023/apply"
-                onClick={() => setPopupStatus(true)}
-                target="_blank"
-                rel="noopener noreferrer">
-              <button>Apply as a Startup</button>
-            </a>
-            <p>
-              *The distribution into Starter and Booster is done by the SSS steering
-              committee
-            </p>
-          </div>
+          {/*<div className="wb-applyButtonBlock">*/}
+          {/*  <a*/}
+          {/*      // href="https://www.f6s.com/sevan-startup-summit-2023/apply"*/}
+          {/*      onClick={() => setPopupStatus(true)}*/}
+          {/*      target="_blank"*/}
+          {/*      rel="noopener noreferrer">*/}
+          {/*    <button>Apply as a Startup</button>*/}
+          {/*  </a>*/}
+          {/*  <p>*/}
+          {/*    *The distribution into Starter and Booster is done by the SSS steering*/}
+          {/*    committee*/}
+          {/*  </p>*/}
+          {/*</div>*/}
         </div>
         <Popup mobile={width < 1024 ? true : false} infoMode={null} status={popupStatus} setPopupStatus={setPopupStatus} buttons={buyTickets}/>
       </>

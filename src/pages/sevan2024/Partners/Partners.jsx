@@ -5,8 +5,13 @@ import img2 from "./images/2.png";
 import img3 from "./images/3.png";
 import img4 from "./images/4.png";
 import img5 from "./images/5.png";
-
-
+import ardshinImg from "./images/ardshin.png"
+import eifImg from "./images/eif.png"
+import lamborginiImg from "./images/laborgini.png"
+import xDriveImg from "./images/xdrive.png"
+import archesterImg from "./images/archester.png"
+import robinImg from "./images/robin.png"
+import storaketImg from "./images/storaket.png"
 
 
 import img6 from "./images/6.png";
@@ -81,219 +86,247 @@ import "./Partners.css";
 
 const imgArray = [
   {
-    link: "",
+    link: "https://www.inecobank.am/hy/Individual",
     src: img6,
   },
   {
-    link: "",
+    link: " https://myler.am/en/",
     src: img7,
   },
   {
-    link: "",
-    src: img8,
+    link: "https://www.team.gg/home",
+    src: img5,
   },
   {
-    link: "",
+    link: "https://amundi-acba.am/",
     src: img9,
   },
   {
-    link: "",
+    link: "https://smp.am/",
     src: img10,
   },
   {
-    link: "",
+    link: "https://www.granatusventures.com/",
     src: img11,
   },
   {
-    link: "",
+    link: "https://www.fast.foundation/",
     src: img12,
   },
   {
-    link: "",
+    link: "https://www.smartgate.vc/",
     src: img13,
   },
   {
-    link: "",
+    link: "https://epic.aua.am/",
     src: img14,
   },
   {
-    link: "",
+    link: "https://www.bigstory.vc/",
     src: img15,
   },
   {
-    link: "",
+    link: "https://www.uate.org/",
     src: img16,
   },
   {
-    link: "",
+    link: "https://gituzh.am/en/",
     src: img17,
   },
   {
-    link: "",
+    link: "https://www.eif.am/",
+    src: eifImg,
+  },
+  {
+    link: "https://www.impala-agency.com/",
     src: img18,
   },
   {
-    link: "",
+    link: "https://prokat.am/",
     src: img19,
   },
   {
-    link: "",
+    link: "https://vega.am/am",
     src: img20,
   },
   {
-    link: "",
+    link: "https://chargers.am/",
     src: img21,
   },
   {
-    link: "",
+    link: "https://xdrive.am/",
+    src: xDriveImg,
+  },
+  {
+    link: "https://www.yellextremepark.com/",
     src: img22,
   },
   {
-    link: "",
+    link: "https://mootq.com/home",
     src: img23,
   },
   {
-    link: "",
+    link: "https://polytech.am/en/home/",
     src: img24,
   },
   {
-    link: "",
+    link: "https://am.globbing.com/hy",
+    src: img8,
+  },
+  {
+    link: "https://www.instagram.com/eqwefy/",
     src: img25,
   },
   {
-    link: "",
+    link: "https://armeniatv.am/",
     src: img26,
   },
   {
-    link: "",
+    link: "https://abcmedia.am/",
     src: img27,
   },
   {
-    link: "",
+    link: "https://fastmedia.am/",
     src: img28,
   },
   {
-    link: "",
+    link: "https://www.tert.am/am/",
     src: img29,
   },
   {
-    link: "",
+    link: "https://tech.news.am/arm/",
     src: img30,
   },
   {
-    link: "",
+    link: "https://www.facebook.com/national.medical.palace.armenia?locale=es_ES",
     src: img31,
   },
   {
-    link: "",
+    link: "https://www.gov.uk/world/organisations/british-embassy-yerevan",
     src: img32,
   },
   {
-    link: "",
+    link: "https://www.wwf.am/en/",
     src: img33,
   },
   {
-    link: "",
+    link: "https://proservice-l.com/en/",
     src: img34,
   },
   {
-    link: "",
+    link: "https://www.coffeehouse.am/",
     src: img35,
   },{
-    link: "",
+    link: "https://tshaurma.com/am",
     src: img36,
   },
   {
-    link: "",
+    link: "https://www.33pizzas.com/en",
     src: img37,
   },
   {
-    link: "",
+    link: "https://bacon.am/",
     src: img38,
   },{
-    link: "",
+    link: "https://www.instagram.com/icelava.armenia/",
     src: img39,
   },
   {
-    link: "",
+    link: "https://www.instagram.com/max_corn_am/",
     src: img40,
   },{
-    link: "",
+    link: "https://www.instagram.com/yumwagon/",
     src: img41,
   },
   {
-    link: "",
+    link: "https://www.instagram.com/gustavyerevan/?hl=en",
     src: img42,
   },{
-    link: "",
+    link: "https://www.instagram.com/pabloyerevan/?hl=en",
     src: img43,
   },
   {
     link: "",
+    src: lamborginiImg,
+  },
+  {
+    link: "https://www.instagram.com/shoonch.life/?api=1",
     src: img44,
   },{
-    link: "",
+    link: "https://am.coca-colahellenic.com/",
     src: img45,
   },{
-    link: "",
+    link: "https://teamenergy.am/hy/",
     src: img46,
   },{
-    link: "",
+    link: "https://www.andron.am/",
     src: img47,
   },{
-    link: "",
+    link: "https://www.instagram.com/orion_sports_club/?hl=en",
     src: img48,
   },{
-    link: "",
+    link: "https://www.superannotate.com/",
     src: img49,
   },{
-    link: "",
+    link: "https://chessify.me/",
     src: img50,
   },{
-    link: "",
+    link: "https://www.earlyone.com/",
     src: img51,
   },{
-    link: "",
+    link: "https://www.archestr.com/en/",
+    src: archesterImg,
+  }
+  ,{
+    link: "https://www.expper.tech/",
+    src: robinImg,
+  }
+  ,{
+    link: "https://qayl.tech/hy",
     src: img52,
   },{
-    link: "",
+    link: "https://denovosciences.ai/",
     src: img53,
   },{
-    link: "",
+    link: "https://wirestock.io/",
     src: img54,
   },{
-    link: "",
+    link: " https://www.list.am/u/expressparts?fbclid=IwY2xjawEpae9leHRuA2FlbQIxMAABHUsmAHSlZ_NEq9wJNsXrRUJeNvoOWvkzpVQRJgb-VEzW8yEXznQNLdUdeA_aem_zyFoL3KJhPQ7lT28RCKPBQ",
     src: img55,
   },{
-    link: "",
+    link: "https://sleepdoctor.com/",
     src: img56,
   },{
-    link: "",
+    link: "https://docus.ai/",
     src: img57,
   },
   {
-    link: "",
+    link: "https://www.uba.am/",
     src: img58,
   },
   {
-    link: "",
+    link: "https://www.storaket.com/",
+    src: storaketImg,
+  },
+  {
+    link: "https://www.wimedia.am/",
     src: img59,
   },
   {
-    link: "",
+    link: "https://devsoft.am/",
     src: img60,
   },
   {
-    link: "",
+    link: "https://easydmarc.com/",
     src: img61,
   },{
-    link: "",
+    link: "https://powerfull.am/en/",
     src: img62,
   },{
-    link: "",
+    link: "https://www.asoghik.am/",
     src: img63,
   },{
-    link: "",
+    link: "https://www.instagram.com/f_tex_armenia/",
     src: img64,
   },
   {
@@ -301,29 +334,29 @@ const imgArray = [
     src: img65,
   },
   {
-    link: "",
+    link: "https://www.bestlife.am/",
     src: img66,
   },{
-    link: "",
+    link: "https://skyball.am/en",
     src: img67,
   },
   {
-    link: "",
+    link: "https://skyclub.am/",
     src: img68,
   },{
-    link: "",
+    link: "https://workout.am/",
     src: img69,
   },
   {
-    link: "",
+    link: "https://redalertpaintball.co.uk/",
     src: img70,
   },
   {
-    link: "",
+    link: "https://www.instagram.com/g.quadro.park/",
     src: img71,
   },
   {
-    link: "",
+    link: "https://anitex.am/hy",
     src: img72,
   },
 
@@ -361,6 +394,12 @@ function Partners(props) {
               <p>General Partner</p>
             </div>
             <div>
+              <a href="https://ardshinbank.am/" target="_blank" rel="nofollow">
+                <img className="Ardshin Bank" src={ardshinImg} alt="Partner" />
+              </a>
+              <p className="wb-partnerWithoutPadding">Transportation partner</p>
+            </div>
+            <div>
               <a href="https://shtigen.com/en/" target="_blank" rel="nofollow">
                 <img src={img2} alt="Partner" />
               </a>
@@ -377,16 +416,10 @@ function Partners(props) {
               <p>Technological Partner</p>
             </div>
             <div>
-              <a href="https://armeniatv.am/" target="_blank" rel="nofollow">
+              <a href="https://www.liga.am/en" target="_blank" rel="nofollow">
                 <img src={img4} alt="Partner" />
               </a>
-              <p></p>
-            </div>
-            <div>
-              <a href="https://bit.ly/to-SSS" target="_blank" rel="nofollow">
-                <img className="ggImage" src={img5} alt="Partner" />
-              </a>
-              <p className="wb-partnerWithoutPadding">Transportation partner</p>
+              <p>Insurance Partner</p>
             </div>
           </div>
         </div>

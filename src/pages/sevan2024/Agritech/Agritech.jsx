@@ -81,26 +81,26 @@ function Agritech(props) {
           </div>
         </div>
 
-        <div className="agritech-buttonsBlock">
-          <h6>Fill the applications form below before July 15th.</h6>
-          <div className="agritech-buttons">
-            <a
-              // href="https://www.f6s.com/sevan-agritech-summit-2024"
-                onClick={() => setPopupStatus(true)}
+        {/*<div className="agritech-buttonsBlock">*/}
+        {/*  <h6>Fill the applications form below before July 15th.</h6>*/}
+        {/*  <div className="agritech-buttons">*/}
+        {/*    <a*/}
+        {/*      // href="https://www.f6s.com/sevan-agritech-summit-2024"*/}
+        {/*        onClick={() => setPopupStatus(true)}*/}
 
-            >
-              <button>Apply Now</button>
-            </a>
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-              }}
-            >
-              <button className="passiveBtn">Agenda</button>
-            </a>
-          </div>
-        </div>
+        {/*    >*/}
+        {/*      <button>Apply Now</button>*/}
+        {/*    </a>*/}
+        {/*    <a*/}
+        {/*      href="#"*/}
+        {/*      onClick={(e) => {*/}
+        {/*        e.preventDefault();*/}
+        {/*      }}*/}
+        {/*    >*/}
+        {/*      <button className="passiveBtn">Agenda</button>*/}
+        {/*    </a>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </div>
       <div className="agritech-partners">
         <div>
