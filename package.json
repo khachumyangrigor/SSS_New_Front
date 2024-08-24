@@ -48,7 +48,7 @@
     "webpack-client": "webpack --config config/webpack.client.js",
     "webpack-server": "webpack --config config/webpack.server.js",
     "webpack": "concurrently  \"npm run webpack-client\" \"npm run webpack-server\"",
-    "dist": "concurrently cross-env NODE_ENV=production \"npm run clean\" \"npm run build\"",
+    "dist": "cross-env NODE_ENV=production concurrently \"npm run clean\" \"npm run build\"",
     "build": "npm run webpack",
     "start": "webpack serve --mode development --config config/webpack.client"
   },
