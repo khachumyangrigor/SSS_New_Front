@@ -1,25 +1,25 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
 const TerserJSPlugin = require("terser-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const { join } = require("path");
 const path = require("path");
 
 const config = require("./config").createTarget({
   target: "client",
 });
 
+const filter = (arr) => arr.filter(Boolean);
+
 module.exports = {
   ...config.webpack,
 
   entry: {
-    main: [
-      "webpack-hot-middleware/client?reload=true", // HMR client code
-      "./src/client.js",
-    ],
+    main: filter([
+      config.isDevelopment && "webpack-hot-middleware/client?reload=true",
+      config.webpack.entry,
+    ]),
   },
 
   module: {
@@ -70,14 +70,12 @@ module.exports = {
   },
 
   plugins: [
-    ...config.webpack.plugins,
-
     new MiniCssExtractPlugin({
       filename: "css/[name].css",
     }),
 
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "../public/index.html"), // Adjust the path as necessary
+      template: path.join(__dirname, "../public/index.html"),
     }),
 
     ...(config.isDevelopment
@@ -85,9 +83,6 @@ module.exports = {
       : [
           new CompressionPlugin({
             test: /\.js(\?.*)?$/i,
-          }),
-          new CopyPlugin({
-            patterns: [{ from: join(__dirname, "..", "public"), to: "./" }],
           }),
         ]),
   ],

@@ -8,6 +8,9 @@ module.exports = {
 
   output: {
     ...config.webpack.output,
+    library: {
+      type: "commonjs2",
+    },
   },
 
   module: {
@@ -35,5 +38,9 @@ module.exports = {
   },
 
   target: "node",
-  externals: [nodeExternals()],
+  node: {
+    __dirname: false,
+    __filename: false,
+  },
+  externals: nodeExternals(),
 };

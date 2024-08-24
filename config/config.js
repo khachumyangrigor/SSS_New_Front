@@ -1,7 +1,5 @@
 const path = require("path");
-const webpack = require("webpack");
-
-const { NODE_ENV = "production" } = process.env;
+const { NODE_ENV = "development" } = process.env;
 
 const IS_DEVELOPMENT = NODE_ENV === "development";
 
@@ -38,9 +36,6 @@ function createTarget({
    */
   let name = "[name].js";
 
-  let IS_SERVER = target === "server";
-  let IS_CLIENT = target === "client";
-
   return {
     root,
     src,
@@ -57,14 +52,10 @@ function createTarget({
       output: {
         path: dist,
         filename: name,
-        chunkFilename: name,
-        sourceMapFilename: "[name].map",
+        sourceMapFilename: "[name].[hash:8].map",
+        chunkFilename: "[id].[hash:8].js",
         publicPath,
         clean: true,
-        library: {
-          name: "Library Name",
-          type: "commonjs-static",
-        },
       },
 
       stats: "normal",
@@ -93,16 +84,6 @@ function createTarget({
           },
         ],
       },
-
-      plugins: [
-        new webpack.DefinePlugin({
-          IS_SERVER: JSON.stringify(IS_SERVER),
-          IS_CLIENT: JSON.stringify(IS_CLIENT),
-          "typeof window": JSON.stringify(IS_CLIENT ? "object" : "undefined"),
-        }),
-
-        new webpack.NoEmitOnErrorsPlugin(),
-      ],
     },
   };
 }
