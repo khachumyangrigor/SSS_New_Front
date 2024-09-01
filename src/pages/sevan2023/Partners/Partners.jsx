@@ -103,7 +103,7 @@ import new7 from "./images/new7.png"
 import new8 from "./images/new8.png"
 import new9 from "./images/new9.png"
 import new10 from "./images/new10.png"
-
+import "./Partners.css"
 
 const imgArray = [
         {
@@ -472,7 +472,7 @@ function Partners(props) {
 
     return (
         <>
-            <div className="wb-topPartners">
+            <div className="wb-topPartners wb-sevan2023">
                 <div>
                     <img src={topImg} alt="Partenr"/>
                 </div>

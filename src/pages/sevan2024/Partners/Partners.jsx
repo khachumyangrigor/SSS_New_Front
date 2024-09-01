@@ -106,8 +106,20 @@ const imgArray = [
     src: img10,
   },
   {
+    link: "https://www.instagram.com/eqwefy/",
+    src: img25,
+  },
+  {
+    link: "https://epic.aua.am/",
+    src: img14,
+  },
+  {
     link: "https://www.granatusventures.com/",
     src: img11,
+  },
+  {
+    link: "https://www.bigstory.vc/",
+    src: img15,
   },
   {
     link: "https://www.fast.foundation/",
@@ -116,14 +128,6 @@ const imgArray = [
   {
     link: "https://www.smartgate.vc/",
     src: img13,
-  },
-  {
-    link: "https://epic.aua.am/",
-    src: img14,
-  },
-  {
-    link: "https://www.bigstory.vc/",
-    src: img15,
   },
   {
     link: "https://www.uate.org/",
@@ -138,34 +142,6 @@ const imgArray = [
     src: eifImg,
   },
   {
-    link: "https://www.impala-agency.com/",
-    src: img18,
-  },
-  {
-    link: "https://prokat.am/",
-    src: img19,
-  },
-  {
-    link: "https://vega.am/am",
-    src: img20,
-  },
-  {
-    link: "https://chargers.am/",
-    src: img21,
-  },
-  {
-    link: "https://xdrive.am/",
-    src: xDriveImg,
-  },
-  {
-    link: "https://www.yellextremepark.com/",
-    src: img22,
-  },
-  {
-    link: "https://mootq.com/home",
-    src: img23,
-  },
-  {
     link: "https://polytech.am/en/home/",
     src: img24,
   },
@@ -174,8 +150,20 @@ const imgArray = [
     src: img8,
   },
   {
-    link: "https://www.instagram.com/eqwefy/",
-    src: img25,
+    link: "https://mootq.com/home",
+    src: img23,
+  },
+  {
+    link: "https://www.impala-agency.com/",
+    src: img18,
+  },
+  {
+    link: "https://prokat.am/",
+    src: img19,
+  },
+  {
+    link: "https://www.instagram.com/orion_sports_club/?hl=en",
+    src: img48,
   },
   {
     link: "https://armeniatv.am/",
@@ -198,8 +186,8 @@ const imgArray = [
     src: img30,
   },
   {
-    link: "https://www.facebook.com/national.medical.palace.armenia?locale=es_ES",
-    src: img31,
+    link: "https://vega.am/am",
+    src: img20,
   },
   {
     link: "https://www.gov.uk/world/organisations/british-embassy-yerevan",
@@ -210,15 +198,16 @@ const imgArray = [
     src: img33,
   },
   {
-    link: "https://proservice-l.com/en/",
-    src: img34,
-  },
-  {
     link: "https://www.coffeehouse.am/",
     src: img35,
-  },{
+  },
+  {
     link: "https://tshaurma.com/am",
     src: img36,
+  },
+  {
+    link: "https://www.instagram.com/shoonch.life/?api=1",
+    src: img44,
   },
   {
     link: "https://www.33pizzas.com/en",
@@ -250,55 +239,88 @@ const imgArray = [
     src: lamborginiImg,
   },
   {
-    link: "https://www.instagram.com/shoonch.life/?api=1",
-    src: img44,
-  },{
     link: "https://am.coca-colahellenic.com/",
     src: img45,
   },{
     link: "https://teamenergy.am/hy/",
     src: img46,
-  },{
+  },
+  {
+    link: "https://www.yellextremepark.com/",
+    src: img22,
+  },
+  {
     link: "https://www.andron.am/",
     src: img47,
-  },{
-    link: "https://www.instagram.com/orion_sports_club/?hl=en",
-    src: img48,
-  },{
+  },
+  {
+    link: " https://www.list.am/u/expressparts?fbclid=IwY2xjawEpae9leHRuA2FlbQIxMAABHUsmAHSlZ_NEq9wJNsXrRUJeNvoOWvkzpVQRJgb-VEzW8yEXznQNLdUdeA_aem_zyFoL3KJhPQ7lT28RCKPBQ",
+    src: img55,
+  },
+  {
+    link: "https://chargers.am/",
+    src: img21,
+  },
+  {
+    link: "https://xdrive.am/",
+    src: xDriveImg,
+  },
+  {
     link: "https://www.superannotate.com/",
     src: img49,
-  },{
-    link: "https://chessify.me/",
-    src: img50,
-  },{
+  },
+  {
     link: "https://www.earlyone.com/",
     src: img51,
-  },{
-    link: "https://www.archestr.com/en/",
-    src: archesterImg,
-  }
-  ,{
-    link: "https://www.expper.tech/",
-    src: robinImg,
-  }
-  ,{
+  },
+  {
     link: "https://qayl.tech/hy",
     src: img52,
-  },{
+  },
+  {
     link: "https://denovosciences.ai/",
     src: img53,
   },{
     link: "https://wirestock.io/",
     src: img54,
   },{
-    link: " https://www.list.am/u/expressparts?fbclid=IwY2xjawEpae9leHRuA2FlbQIxMAABHUsmAHSlZ_NEq9wJNsXrRUJeNvoOWvkzpVQRJgb-VEzW8yEXznQNLdUdeA_aem_zyFoL3KJhPQ7lT28RCKPBQ",
-    src: img55,
-  },{
     link: "https://sleepdoctor.com/",
     src: img56,
   },{
     link: "https://docus.ai/",
     src: img57,
+  },
+  {
+    link: "https://chessify.me/",
+    src: img50,
+  },
+  {
+    link: "https://www.archestr.com/en/",
+    src: archesterImg,
+  },
+  {
+    link: "https://www.expper.tech/",
+    src: robinImg,
+  },
+  {
+    link: "https://proservice-l.com/en/",
+    src: img34,
+  },
+  {
+    link: "https://www.wimedia.am/",
+    src: img59,
+  },
+  {
+    link: "https://easydmarc.com/",
+    src: img61,
+  },
+  {
+    link: "https://devsoft.am/",
+    src: img60,
+  },
+  {
+    link: "https://powerfull.am/en/",
+    src: img62,
   },
   {
     link: "https://www.uba.am/",
@@ -309,34 +331,30 @@ const imgArray = [
     src: storaketImg,
   },
   {
-    link: "https://www.wimedia.am/",
-    src: img59,
-  },
-  {
-    link: "https://devsoft.am/",
-    src: img60,
-  },
-  {
-    link: "https://easydmarc.com/",
-    src: img61,
-  },{
-    link: "https://powerfull.am/en/",
-    src: img62,
-  },{
     link: "https://www.asoghik.am/",
     src: img63,
-  },{
-    link: "https://www.instagram.com/f_tex_armenia/",
-    src: img64,
   },
   {
     link: "",
     src: img65,
   },
   {
+    link: "https://www.instagram.com/f_tex_armenia/",
+    src: img64,
+  },
+  {
+    link: "https://anitex.am/hy",
+    src: img72,
+  },
+  {
+    link: "https://www.facebook.com/national.medical.palace.armenia?locale=es_ES",
+    src: img31,
+  },
+  {
     link: "https://www.bestlife.am/",
     src: img66,
-  },{
+  },
+  {
     link: "https://skyball.am/en",
     src: img67,
   },
@@ -348,17 +366,25 @@ const imgArray = [
     src: img69,
   },
   {
-    link: "https://redalertpaintball.co.uk/",
-    src: img70,
-  },
-  {
     link: "https://www.instagram.com/g.quadro.park/",
     src: img71,
   },
   {
-    link: "https://anitex.am/hy",
-    src: img72,
+    link: "https://redalertpaintball.co.uk/",
+    src: img70,
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 ];
 

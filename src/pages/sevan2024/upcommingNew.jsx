@@ -109,21 +109,21 @@ class UpcommingNew extends React.Component {
               </h4>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
                 <a
-                  href="https://mootq.com/events/sss24"
+                  href="https://360.skywlkr.me/share/collection/7KM2B?logo=-1&info=0&fs=1&vr=0&sd=1&gyro=0&initload=0&thumbs=1"
                   // onClick={() => setPopupStatus(true)}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Buy Tickets</button>
+                  <button>Area Map</button>
                 </a>
                 <a
                     className="wb-agendaDesktopButton"
-                    href="https://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf"
+                    href="https://my.matterport.com/show/?m=uuhg5Lm2u9y"
                     // onClick={() => setPopupStatus(true)}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                  <button>Agenda</button>
+                  <button>Expo Map</button>
                 </a>
               </div>
             </div>
