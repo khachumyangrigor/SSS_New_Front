@@ -132,9 +132,14 @@ class Header extends React.Component {
                 break;
             default:
                 return (
-                    <Link to={'/upcoming-events/sevan-startup-summit-2023'}>
-                        SSS 2023
-                    </Link>
+                    <>
+                        <Link to={'/upcoming-events/uae-24'}>
+                            SSSUAE24
+                        </Link>
+                        {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
+                        {/*    SSS 2024*/}
+                        {/*</Link>*/}
+                    </>
                 );
         }
     }
@@ -207,7 +212,7 @@ class Header extends React.Component {
                             <li><Link to="/blog">Blog</Link></li>
                             <li onClick={this.handelScrollIntoView}>Contacts</li>
                             {/* <li><a href="https://www.pay.seasidestartupsummit.com/vissitor/" target="_blank" rel="noopener noreferrer" >Buy Ticket</a></li> */}
-                            {/* <li><Link to="/events">Apply as Startup</Link></li> */}
+                            {/* <li><Link to="/events">Roadmap as Startup</Link></li> */}
                             {/* <li><Link to="/upcoming-events/sevan2020">Buy Ticket</Link></li> */}
                         </ul>
                     </div>
