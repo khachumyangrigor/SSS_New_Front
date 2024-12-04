@@ -1,0 +1,124 @@
+.new-credo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.new-credo .credo-front,
+.new-credo .credo-back {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.new-credo h4 {
+  font-size: 1.6vw;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.new-credo .credo-front > div {
+  width: 9vw;
+  height: 9vw;
+  max-width: 173px;
+  max-height: 173px;
+  display: flex;
+  justify-content: center;
+}
+
+.new-credo img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 82%;
+  object-fit: contain;
+}
+
+.new-credo ul {
+  margin-top: 12px;
+  padding: 5px;
+}
+
+.new-credo ul li {
+  line-height: 40px;
+  margin-left: 20px;
+  font-size: clamp(16px, 1.6vw, 20px);
+  font-weight: 400;
+  color: #1f2c4c;
+}
+
+.new-credo ul li:before,
+.wb-mobileVersion ul li:before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #1f2c4c; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.new-credo:nth-child(1) ul li:before {
+  color: #42c8f1;
+}
+
+.new-credo:nth-child(2) ul li:before {
+  color: #1caae2;
+}
+
+.new-credo:nth-child(3) ul li:before {
+  color: #b92b4e;
+}
+
+.new-credo:nth-child(4) ul li:before {
+  color: #f68c36;
+}
+
+@media (max-width: 1024px) {
+  .new-credo {
+    display: none;
+  }
+
+  .wb-mobileVersion-new-credo-block .wb-front p {
+    margin-bottom: 0;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  .wb-front p {
+    font-size: 16px;
+  }
+
+  .wb-back h3 {
+    font-size: 21px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 599px) {
+  .new-credo {
+    padding: 0 50px 40px 50px;
+  }
+
+  .wb-mobileVersion ul li {
+    position: relative;
+    margin-left: 20px;
+    line-height: 19px;
+    color: #1f2c4c;
+    font-size: 15px;
+  }
+}
