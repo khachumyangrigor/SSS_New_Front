@@ -1,0 +1,660 @@
+/* mainform */
+.form_body{
+    width: 100%;
+    display: grid;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding:9vh 0px 9vh 9.25vw;
+}
+.form_body h4{
+    width: fit-content;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7vw;
+    line-height: 1.3;
+    color: #3C4858;
+    margin-bottom: 1.5vw;
+}
+.form_body h4>span{
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: normal;
+}
+.form_body_grid{
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.MuiFormControlLabel-label{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: normal;
+    color: #676767;
+}
+
+.form_body_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:8vh;
+}
+.form_body_flex>div{
+    width: 27vw;
+    max-width: 540px;
+    display: grid;
+    row-gap: 3vh;
+    align-content:flex-start ;
+}
+.form_body_flex>div:nth-child(2){
+    margin-left: 3vw;
+}
+.form_body_flex label{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 1.2vw; */
+    line-height: 1.3;
+    color: #555555;
+    margin-right: 8px;
+}
+.form_body_flex .gender>div{
+    flex-direction:row;
+    align-items: center;
+}
+.gender{
+    height: 47px;
+    padding-top: 16px;
+}
+.genderSpan{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 1.2vw; */
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #555555;
+    margin-right: 8px;
+    border-bottom: 1px solid #949494;
+}
+
+/*  */
+.form_body_flex_textbox{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8vh;
+}
+.form_body_flex_textbox>div:last-child{
+    margin-left: 3vw;
+}
+.form_body_flex_textbox .textAreaBox{
+    margin-left: 2.2vw;
+    margin-top: 0px;
+    width: 42vw;
+}
+.form_body_flex_textbox .textAreaBox>textarea{
+    height: 30vh;
+    max-height: 30vh;
+    min-height: 30vh;
+    width: 42vw;
+    max-width: 42vw;
+    min-width: 42vw;
+}
+/*  */
+.form_body_grid2{
+    width: fit-content;
+}
+
+.form_body_grid2>.textButtonBox{
+    width: 27vw;
+    max-width: 540px;
+    display: grid;
+    grid-row-gap: 3vh;
+}
+.form_body_grid2.second{
+    margin-top: 8vh;
+}
+
+.form_body_flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:8vh;
+}
+.form_body_flex2>div:nth-child(2){
+    margin-left: 15vw;
+}
+
+/* Text area */
+.textAreaBox{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    position: relative;
+    margin-top: 10vh;
+    width: 50vw;
+    height: 45vh;
+    overflow: hidden;
+}
+
+.textAreaBox>div{
+    width: 35vw;
+    height:7vh;
+    max-width:720px;
+    max-height: 77px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.textAreaBox.long>div{
+    width: 47vw;    
+    max-width: 907px;
+}
+.textAreaBox>div>h6{
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 3px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7vw;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-left:0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 5px;
+}
+.textAreaBox>div>h6>i{
+    width:1.3vw;
+    height: 1.3vw;
+    max-width: 24px;
+    max-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textAreaBox>div>h6>i>img{
+    max-width: 100%;
+    margin-right: 7px;
+}
+
+.textAreaBox>div>h6>span{
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: normal;
+    margin-left: 5px;
+}
+.textAreaBox>textarea{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    width: 50vw;
+    height: 40vh;
+    max-width:50vw;
+    max-height: 40vh;
+    min-width:50vw;
+    min-height: 40vh;
+    position: absolute;
+    top: 3.5vh;
+    left: 0;
+    z-index: 2;
+    border: 3px solid rgba(13, 99, 215, 0.36);
+    outline: none;
+    padding-top:4.1vh;
+    padding-left: 12px;
+}
+/*  */
+.attachFile{
+    display: flex;
+    width: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 8vh;
+}
+.attachIcon{
+    width:4.5vw;
+    height: 4.5vw;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100%;
+    background-color: rgba(0, 22, 51, 0.8);
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.attachIcon:hover{
+    background-color: #0D63D7;
+}
+.attachIcon:hover img{
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.attachIcon img{
+    max-width: 100%;
+    transition: all .3s ease;
+}
+.attachText{
+    display: flex;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7vw;
+    line-height: 1.5;
+    color: #3C4858;
+    margin-left: 20px;
+}
+/*  */
+.formFootter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+}
+.formFootter>button{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 92.58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgb(47, 128, 237);
+    width: 14vw;
+    max-width: 280px;
+    border-radius: 5px;
+    padding:13px;
+    transition: all .4s ease;
+}
+.formFootter>button:hover{
+    background-color: rgb(0, 81, 189);
+}
+.formFootter>p{
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.5px;
+    line-height: 17px;
+    text-align: center;
+    color: #2F80ED;
+    margin-top: 14px;
+}
+
+
+
+@media (min-width: 2200px){
+
+    .form_body{
+        padding:100px 0px 100px 180px;
+    }
+    .form_body h4{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .form_body h4>span{
+        font-size: 1.2vw;
+    }
+
+    .MuiFormControlLabel-label{
+        font-size: 25px;
+    }
+
+    .form_body_flex{
+        margin-top:85px;
+    }
+    .form_body_flex>div{
+        row-gap: 30px;
+    }
+    .form_body_flex>div:nth-child(2){
+        margin-left: 60px;
+    }
+    .form_body_flex label{
+        font-size: initial;
+    }
+    .genderSpan{
+        font-size: initial;
+    }
+    /*  */
+    .form_body_flex_textbox{
+        margin-top: 80px;
+    }
+    .form_body_flex_textbox>div:last-child{
+        margin-left: 50px;
+    }
+    .form_body_flex_textbox .textAreaBox{
+        margin-left: 40px;
+        width: 800px;
+    }
+    .form_body_flex_textbox .textAreaBox>textarea{
+        padding-top: 40px;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 70%;
+        min-width: 100%;
+        min-height: 70%;
+    }
+    .form_body_grid2>.textButtonBox{
+        grid-row-gap: 30px;
+    }
+    .form_body_grid2.second{
+        margin-top: 80px;
+    }
+    .form_body_flex2{
+        margin-top:80px;
+    }
+    .form_body_flex2>div:nth-child(2){
+        margin-left: 98px;
+    }
+    .textAreaBox{
+        margin-top: 100px;
+        width: 1000px;
+        height: 490px;
+        overflow: hidden;
+    }
+
+    .textAreaBox.long>div{
+        width: 1000px;
+        max-width: 1000px;  
+    }
+    .textAreaBox>div>h6{
+        font-size: 35px;
+        margin-left:10px;
+    }
+
+    .textAreaBox>div>h6>span{
+        font-size: 25px;
+    }
+    .textAreaBox>textarea{
+        top: 40px;
+        padding-top:40px;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 92%;
+        min-width: 100%;
+        min-height: 92%;
+    }
+    .attachFile{
+        margin-top: 80px;
+    }
+    .attachText{
+        font-size: 35px;
+    }
+    .formFootter{
+        padding-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    /* Form */
+    .form_body{
+        padding:40px 15px 40px 50px!important;
+    }
+    .form_body h4{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .form_body h4>span{
+        font-size: 19px;
+    }
+
+    .MuiFormControlLabel-label{
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .form_body_flex{
+        margin-top:50px;
+    }
+    .form_body_flex>div{
+        width: 100%;
+        max-width: initial;
+        row-gap: 30px;
+    }
+    .form_body_flex>div:nth-child(2){
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .form_body_flex label{
+        font-size: 25px;
+        line-height: normal;
+    }
+    .form_body_grid2{
+    width: 100%;
+    }
+    .form_body_grid label span,
+    .form_body_grid2 label span,
+    .form_body_flex label span,
+    .form_body_flex2 label span,
+    .form_body_grid label,
+    .form_body_grid2 label{
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .form_body_flex input ,
+    .form_body_flex2 input ,
+    .form_body_grid input,
+    .form_body_grid2 input{
+        /* padding: 27px 0 18px; */
+        font-size: 25px;
+    }
+    .genderSpan{
+        font-size: 25px;
+    }
+    /*  */
+    .form_body_flex_textbox{
+        margin-top: 40px;
+        flex-wrap: wrap;
+        display: grid;
+    }
+    .form_body_flex_textbox>div:last-child{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .form_body_flex_textbox .textAreaBox{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .form_body_flex_textbox .textAreaBox>textarea{
+        padding-top: 40px;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 70%;
+        min-width: 100%;
+        min-height: 70%;
+    }
+    .form_body_grid2>.textButtonBox{
+        grid-row-gap: 30px;
+        width: 100%;
+        max-width: initial;
+    }
+    .form_body_grid2.second{
+        margin-top: 80px;
+    }
+
+    .form_body_flex2{
+        margin-top:80px;
+    }
+    .form_body_flex2>div:nth-child(2){
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .textAreaBox{
+        margin-top: 40px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .textAreaBox>div{
+        width: 100%;
+        max-width: 100%;  
+    }
+    .textAreaBox.long>div{
+        width: 100%;
+        max-width: 100%;  
+    }
+    .textAreaBox>div>h6{
+        font-size: 24px;
+        margin-left:10px;
+    }
+
+    .textAreaBox>div>h6>span{
+        font-size: 20px;
+    }
+    .textAreaBox>div>h6>i{
+        width: 50px;
+        height: 50px;
+    }
+    .textAreaBox>textarea{
+        font-size: 25px;
+        top: 40px;
+        padding-top:40px;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 210px;
+        min-width: 100%;
+        min-height: 210px;
+    }
+    .attachFile{
+        margin-top: 50px;
+    }
+    .attachIcon{
+        width: 60px;
+        height: 60px;
+        max-width: initial;
+        max-height: initial;
+    }
+    .attachText{
+        font-size: 30px;
+    }
+    .formFootter{
+        padding-bottom: 40px;
+    }
+    /* End Form */
+}
+
+
+
+@media (max-width: 599px){
+
+    .form_body{
+        padding:40px 30px!important;
+    }
+    .form_body h4{
+        font-size: 25px;
+    }
+    .form_body h4>span{
+        font-size: 16px;
+    }
+
+    .form_body_flex{
+        margin-top:30px;
+    }
+    .form_body_flex>div{
+        row-gap: 20px;
+    }
+    .form_body_flex>div:nth-child(2){
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .form_body_grid2{
+     width: 100%;
+    }
+    .form_body_grid label span,
+    .form_body_grid2 label span,
+    .form_body_flex label span,
+    .form_body_flex2 label span,
+    .form_body_flex label,
+    .form_body_grid label,
+    .form_body_grid2 label{
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .form_body_flex input ,
+    .form_body_flex2 input ,
+    .form_body_grid input,
+    .form_body_grid2 input{
+        font-size: 20px;
+    }
+    .genderSpan{
+        font-size: 20px;
+    }
+
+    .form_body_grid2>.textButtonBox{
+        grid-row-gap: 20px;
+        width: 100%;
+        max-width: initial;
+    }
+
+    .textAreaBox>div>h6{
+        font-size: 16px;
+        margin-left:0px;
+    }
+
+    .textAreaBox>div>h6>span{
+        font-size: 13px;
+    }
+    .textAreaBox>div>h6>i{
+        display: none;
+        width: 30px;
+        height: 30px;
+    }
+    .textAreaBox>textarea{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .attachFile{
+        margin-top: 40px;
+    }
+    .attachIcon{
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        min-height: 60px;
+        max-width: initial;
+        max-height: initial;
+    }
+    .attachIcon img {
+        width: 48%;
+    }
+    .attachText{
+        font-size: 18px;
+    }
+    .formFootter{
+        padding-bottom: 50px;
+    }
+    .formFootter>button {
+        min-width: 200px;
+    }
+    .formFootter>p{
+        padding:0px 40px;
+    }
+    /* End Form */
+}

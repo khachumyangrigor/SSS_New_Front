@@ -1,16 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 // import scrollToComponent  from 'react-scroll-to-component';
-import FootterNew from '../footterNew/footterNew.jsx';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
-import  Partners from './partners.jsx';
-import  Infographic from './infographic.jsx';
-import  Startups from './startups.jsx';
-import  Diaries from './diaries.jsx';
-import  Mentors from './mentors.jsx';
+import Partners from './partners.jsx';
+import Infographic from './infographic.jsx';
+import Startups from './startups.jsx';
+import Diaries from './diaries.jsx';
+import Mentors from './mentors.jsx';
 
-import  './style.css';
+import './style.css';
 
 class HolidayRAK extends React.Component{
     constructor(){
@@ -114,7 +112,6 @@ class HolidayRAK extends React.Component{
                     </div>
                     <p>SSSholidays UAE RAK will be organized for the first time, and we are sure that it will be as unique and unprecedented as the main format of Seaside Startup Summit. We believe that it will become an annual phenomenon.</p>
                 </div>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         );

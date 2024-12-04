@@ -1,10 +1,6 @@
-import React from 'react';
-import FootterNew from '../footterNew/footterNew.jsx';
-import Img from 'react-image';
-import {Fragment}  from 'react';
+import React, {Fragment} from 'react';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
-import { Link } from 'react-router-dom';
 
 // css
 import './job.css';
@@ -206,7 +202,6 @@ class Job extends React.Component{
                         </div>
                     </div>
                 </div>
-                <FootterNew ref="footter" />
             </Fragment>
         )
     }

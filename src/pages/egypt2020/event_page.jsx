@@ -127,7 +127,6 @@ class EgyptEvent extends React.Component{
                         <div><a href="https://adfirst.vc/" target="blank" rel="noopener noreferrer"><img src={require('./partners/10.png')} alt="general partner"/></a></div> */}
                     </div>
                 </div>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         );

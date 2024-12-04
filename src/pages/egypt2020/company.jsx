@@ -1,11 +1,9 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import scrollToComponent from 'react-scroll-to-component';
-import FootterNew from '../footterNew/footterNew.jsx';
-import {Fragment}  from 'react';
 import {Helmet} from "react-helmet";
 import Header from '../headNew/head.jsx';
 
-// 
+//
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -14,8 +12,8 @@ import FormGroup from '@material-ui/core/FormGroup';
 import Checkbox from '@material-ui/core/Checkbox';
 import * as EmailValidator from 'email-validator';
 
-import  './forms.css';
-import  './style.css';
+import './forms.css';
+import './style.css';
 
 class EgyptCompany extends React.Component{
     constructor(){
@@ -224,7 +222,6 @@ class EgyptCompany extends React.Component{
                     <button onClick={this.handleSubmit} ref="submitBtn">Apply</button>
                     <p>{this.state.errorSbm}</p>
                 </div>
-                <FootterNew ref="footter"/>
             </div>
             </Fragment>
         );

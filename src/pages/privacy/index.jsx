@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../headNew/head.jsx';
-import FootterNew from '../footterNew/footterNew.jsx';
 
 import './style.css'
 class Privacy extends React.Component {
@@ -127,7 +126,6 @@ class Privacy extends React.Component {
                         Seaside Startup Summit does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
                     </p>
                 </div>
-                <FootterNew/>
             </div>
         ) 
     }
