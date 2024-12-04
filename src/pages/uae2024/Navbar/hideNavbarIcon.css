@@ -1,0 +1,5 @@
+@media screen  and (min-width: 1024px){
+    .wb-hide-icon{
+        display: none;
+    }
+}

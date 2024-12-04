@@ -9,7 +9,7 @@ import {Helmet} from "react-helmet";
 //css
 import './firstPageNew.css';
 //Media
-import footprint from './img/footprint.png';
+import footprint from './img/map.png';
 
 
 class Home_Page_Newedition extends React.Component {
