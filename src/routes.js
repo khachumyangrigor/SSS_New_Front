@@ -4,6 +4,7 @@ import Home_Page_Newedition from './pages/firstPageNew/firstPageNew.jsx';
 import UpcommingNew from './pages/upcommingNew/upcommingNew.jsx';
 import Sevan2023 from './pages/sevan2023/upcommingNew.jsx';
 import Sevan2024 from './pages/sevan2024/upcommingNew.jsx';
+import Sevan2025 from './pages/sevan2025/upcommingNew.jsx';
 import Uae2024 from './pages/uae2024/upcommingNew.jsx';
 import UpcommingNewOld from './pages/upcommingNew/upcommingNewOld.jsx';
 import News from './pages/news/news.jsx';
@@ -110,6 +111,11 @@ export default [
         exact: true,
         path: '/sevan2024/',
         component: Sevan2024
+    },
+    {
+        exact: true,
+        path: '/sevan2025/',
+        component: Sevan2025
     },
     {
         exact: true,

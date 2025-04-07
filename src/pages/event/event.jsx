@@ -299,7 +299,7 @@ class Events extends React.Component {
                                     />
                                 {/*</Link>*/}
                             </div>
-                            <h3>— Sevan startup summit 2024 —</h3>
+                            <h3>— Sevan startup summit 2025 —</h3>
                             <p>
                                 <a
                                     href="https://www.google.com/maps/place/Sevan+Startup+Summit/@40.344047,45.578228,2390m/data=!3m1!1e3!4m6!3m5!1s0x403f89d42619d199:0xab251b125c1578ac!8m2!3d40.3440465!4d45.5782279!16s%2Fg%2F11v0qtkrr8?hl=en&entry=ttu"
@@ -310,9 +310,9 @@ class Events extends React.Component {
                                     Lake Sevan, Armenia
                                 </a>
                             </p>
-                            <p>July 21 - 27, 2024</p>
+                            <p>July 20 - 26, 2025</p>
                             {/*<Link to="/upcoming-events/sevan-startup-summit-2024" className="passiveBtn eventPassiveBtn">See More</Link>*/}
-                            <Link to="/sevan2024/">See More</Link>
+                            <Link to="/sevan2025/">See More</Link>
                             {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
                         </div>
                         {/*<div ref="event">*/}
@@ -358,6 +358,14 @@ class Events extends React.Component {
                     </div>
                     <div className="eventBodyMiddle past">
                         <h3>Previous events</h3>
+                        <PastEventComponent
+                            eventPageLink={"/sevan2024/"}
+                            title={"Sevan startup summit 2024"}
+                            eventImg={require("./img/eventCover/sevan2023New.png")}
+                            locationLink={""}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"July 21-27, 2024"}
+                        />
                         <PastEventComponent
                             eventPageLink={"/uae-24/"}
                             title={"Seaside startup summit Uae 2024"}
