@@ -112,11 +112,11 @@ export default [
         path: '/sevan2024/',
         component: Sevan2024
     },
-    {
-        exact: true,
-        path: '/sevan2025/',
-        component: Sevan2025
-    },
+    // {
+    //     exact: true,
+    //     path: '/sevan2025/',
+    //     component: Sevan2025
+    // },
     {
         exact: true,
         path: '/sevan2023/',

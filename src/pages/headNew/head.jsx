@@ -133,7 +133,9 @@ class Header extends React.Component {
             default:
                 return (
                     <>
-                        <Link to={'/sevan2025/'} >
+                        <Link to={'/sevan2025/'} onClick={(e) => {
+                            if (!isEnabled) e.preventDefault();
+                        }} className="eventComingSoonBtn">
                             SSS25
                         </Link>
                         {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
