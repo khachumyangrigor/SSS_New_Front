@@ -418,10 +418,11 @@ button.wb-localRuleTermsButton{
   align-items: center;
   color: #ffffff;
   background: #2f80ed;
-  border-radius: 8px;
+  border-radius: 8px !important;
   opacity: 0;
   transition: all 0.3s ease;
 }
+
 .eventComingSoonBtn:hover::before {
   opacity: 1;
   background: #ffffff;
@@ -518,6 +519,9 @@ button.wb-localRuleTermsButton{
 }
 
 @media screen and (max-width: 1024px) {
+  .eventComingSoonBtnNavbar:before {
+    border-radius: 2px !important;
+  }
   /*main Page */
 
   .firstPageHeaderRight a {
