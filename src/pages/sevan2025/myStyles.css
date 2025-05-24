@@ -424,8 +424,8 @@ button.wb-localRuleTermsButton{
 }
 .eventComingSoonBtn:hover::before {
   opacity: 1;
-  background: #ffffff;
-  color: #2f80ed;
+  background: #2f80ed !important;
+  color: #fff !important;
 }
 
 .wb-mobileVersion-joinOurTeam-block {

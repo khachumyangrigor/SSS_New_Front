@@ -83,7 +83,7 @@ class UpcommingNew extends React.Component {
         </Helmet>
         <div className="upcommingNew">
           {/* Part 1 */}
-          <div className="upcommingNewTop sevan2023 sevan2024">
+          <div className="upcommingNewTop sevan2023 sevan2024 sevan2025">
             {(this.state.screenWidth > 1024 ||
               this.state.screenWidth === null) && (
               <div
@@ -101,7 +101,7 @@ class UpcommingNew extends React.Component {
               <h1>
                 A Campsite Festival <br /> for Startup Enthusiasts
               </h1>
-              <h5>Where Ideas Spark and Dreams Take Flight!</h5>
+              <h5>Where Ideas Begin and Projects Take Shape!</h5>
             </div>
             <div className="wb-footerTitle">
               <h4>
@@ -109,22 +109,22 @@ class UpcommingNew extends React.Component {
               </h4>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
                 <a
-                  href="https://360.skywlkr.me/share/collection/7KM2B?logo=-1&info=0&fs=1&vr=0&sd=1&gyro=0&initload=0&thumbs=1"
+                  href="https://www.f6s.com/sevan-startup-summit-2025"
                   // onClick={() => setPopupStatus(true)}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Area Map</button>
+                  <button>Apply as a Startup</button>
                 </a>
-                <a
-                    className="wb-agendaDesktopButton"
-                    href="https://my.matterport.com/show/?m=uuhg5Lm2u9y"
-                    // onClick={() => setPopupStatus(true)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                  <button>Expo Map 2025</button>
-                </a>
+                {/*<a*/}
+                {/*    className="wb-agendaDesktopButton"*/}
+                {/*    href="https://my.matterport.com/show/?m=uuhg5Lm2u9y"*/}
+                {/*    // onClick={() => setPopupStatus(true)}*/}
+                {/*    target="_blank"*/}
+                {/*    rel="noopener noreferrer"*/}
+                {/*>*/}
+                {/*  <button>Expo Map 2025</button>*/}
+                {/*</a>*/}
               </div>
             </div>
           </div>
@@ -138,13 +138,13 @@ class UpcommingNew extends React.Component {
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}
           <Programs />
-          <Agritech />
+          {/*<Agritech />*/}
           {/*<Valounteering />*/}
           {/*<Apply />*/}
           <Shuttle />
           <MustKnow />
           <Organizers />
-          <Partners />
+          {/*<Partners />*/}
           <FootterNew />
         </div>
       </Fragment>

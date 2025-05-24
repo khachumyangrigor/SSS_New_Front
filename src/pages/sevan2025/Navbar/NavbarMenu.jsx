@@ -7,8 +7,8 @@ const menuItems = [
   { link: "/events", title: "Events" },
   { link: "/about-us", title: "About us" },
   { link: "/partners", title: "Partners" },
-  { link: "/blog", title: "Blog" },
   { link: "/merch", title: "Merch" },
+  { link: "/blog", title: "Blog" },
   { link: "", title: "Contacts" },
 ];
 

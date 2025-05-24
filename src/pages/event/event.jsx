@@ -294,7 +294,7 @@ class Events extends React.Component {
                             <div>
                                 {/*<Link to="/upcoming-events/sevan-startup-summit-2024" >*/}
                                     <img
-                                        src={require('./img/eventCover/newSevan2024.png')}
+                                        src={require('./img/eventCover/sss2025event.png')}
                                         alt="eventImg"
                                     />
                                 {/*</Link>*/}
@@ -312,9 +312,7 @@ class Events extends React.Component {
                             </p>
                             <p>July 20 - 26, 2025</p>
                             {/*<Link to="/upcoming-events/sevan-startup-summit-2024" className="passiveBtn eventPassiveBtn">See More</Link>*/}
-                            <Link to="/sevan2025/" onClick={(e) => {
-                                if (!isEnabled) e.preventDefault();
-                            }}  className="eventComingSoonBtn">See More</Link>
+                            <Link to="/sevan2025/" >See More</Link>
                             {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
                         </div>
                         {/*<div ref="event">*/}
@@ -363,7 +361,7 @@ class Events extends React.Component {
                         <PastEventComponent
                             eventPageLink={"/sevan2024/"}
                             title={"Sevan startup summit 2024"}
-                            eventImg={require("./img/eventCover/sevan2023New.png")}
+                            eventImg={require("./img/eventCover/newSevan2024.png")}
                             locationLink={""}
                             locationTitle={"Lake Sevan, Armenia"}
                             eventDate={"July 21-27, 2024"}

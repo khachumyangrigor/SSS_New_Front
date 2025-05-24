@@ -3,10 +3,10 @@ import React from "react";
 
 const statsData = [
   { number: "50+", text: "COUNTRIES" },
-  { number: "250+", text: "STARTUPS" },
-  { number: "10,000+", text: "PARTICIPANTS" },
-  { number: "50+", text: "VCS & INVESTORS" },
-  { number: "US $200K+", text: "INVESTMENTS" },
+  { number: "200+", text: "STARTUPS" },
+  { number: "15,000+", text: "PARTICIPANTS" },
+  { number: "300+", text: "SPEAKERS & MENTORS" },
+  { number: "$100K+", text: "PRIZE FUND" },
 ];
 
 const Stats = () => {

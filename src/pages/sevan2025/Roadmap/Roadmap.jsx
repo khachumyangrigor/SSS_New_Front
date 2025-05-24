@@ -86,19 +86,19 @@ function Roadmap() {
               );
             })}
           </div>
-          {/*<div className="wb-applyButtonBlock">*/}
-          {/*  <a*/}
-          {/*      href="https://www.f6s.com/sevan-startup-summit-24/apply"*/}
-          {/*      target="_blank"*/}
-          {/*      // // onClick={() => setPopupStatus(true)}*/}
-          {/*      rel="noopener noreferrer"*/}
-          {/*      >*/}
-          {/*    <button>Apply as a Startup</button>*/}
-          {/*  </a>*/}
-          {/*</div>*/}
-          {/*<div className="roadmap-msg">*/}
-          {/*  <p>*If your startup passes the selection, 3 representatives get a free participation voucher. Free <br/> participation does NOT include air tickets and other travel costs.</p>*/}
-          {/*</div>*/}
+          <div className="wb-applyButtonBlock">
+            <a
+                href="https://www.f6s.com/sevan-startup-summit-2025"
+                target="_blank"
+                // // onClick={() => setPopupStatus(true)}
+                rel="noopener noreferrer"
+                >
+              <button>Apply as a Startup</button>
+            </a>
+          </div>
+          <div className="roadmap-msg">
+            <p>*If your startup passes the selection, 3 representatives get a free participation voucher. Free <br/> participation does NOT include air tickets and other travel costs.</p>
+          </div>
         </div>
          <Popup mobile={width < 1024 ? true : false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
       </>

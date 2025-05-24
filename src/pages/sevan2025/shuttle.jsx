@@ -74,27 +74,26 @@ class Shuttle extends React.Component {
               <div className="vihacleOpenIN">
                 <p>
                   <b>
-                    This year our transportation partner gg is organizing
-                    convenient ggShuttle group rides from Yerevan to SSS.{" "}
+                    Shuttle service will be available during the event.
                   </b>
                 </p>
                 <p>
-                  Reserve your seat in advance and share the journey with fellow
-                  participants.
+                  The schedule for it will be available beforehand.
+                  Seat reservation will be required.
                 </p>
-
-                <div className="wb-sevan2024ShuttleButtons">
-                  <a href="https://bit.ly/to-SSS">
-                    <button>To SSS</button>
-                  </a>
-                  <a href="https://bit.ly/from-SSS">
-                    <button>From SSS</button>
-                  </a>
-                </div>
-                <p>
-                  To reserve your seat, please open the link on your mobile
-                  device.
-                </p>
+                <h3>coming&nbsp;soon</h3>
+                {/*<div className="wb-sevan2024ShuttleButtons">*/}
+                {/*  <a href="https://bit.ly/to-SSS">*/}
+                {/*    <button>To SSS</button>*/}
+                {/*  </a>*/}
+                {/*  <a href="https://bit.ly/from-SSS">*/}
+                {/*    <button>From SSS</button>*/}
+                {/*  </a>*/}
+                {/*</div>*/}
+                {/*<p>*/}
+                {/*  To reserve your seat, please open the link on your mobile*/}
+                {/*  device.*/}
+                {/*</p>*/}
               </div>
             </div>
             <div className="border" />

@@ -95,10 +95,10 @@ class Programs extends React.Component {
                         <div className="textBox" >
                             {/*<h3>— Starter Program —</h3>*/}
                             <p>
-                                Our innovative curriculum, guided by renowned international experts, categorizes startups into industry-specific tracks, providing a specialized incubation and micro-acceleration experience that propels your venture towards success. Engage in our one-on-one mentoring program, a cornerstone of our educational initiative, where every startup gains direct access to industry experts. Receive personalized, cutting-edge advice on diverse aspects of your startup, forging a path to excellence.
+                                Our innovative curriculum, guided by renowned international experts, categorizes startups into industry-specific tracks, providing a specialized incubation and micro-acceleration experience that helps startups to succeed. Engage in our one-on-one mentoring program, a cornerstone of our educational initiative, where every startup gains direct access to industry experts. Receive personalized, cutting-edge advice on diverse aspects of startups, forging a path to excellence.
                             </p>
                             <p>
-                                Join SSS25's education program and equip yourself with the knowledge and guidance needed to thrive in the dynamic landscape of entrepreneurship.
+                                Join SSS25's education program and equip yourself with the knowledge and guidance needed to rise in the dynamic path of entrepreneurship.
                             </p>
                             {/* <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>
@@ -113,7 +113,9 @@ class Programs extends React.Component {
                                 <div className="mobi_meue_trp_right"/>
                            </div> */}
                             {/* <p className="lasrPText">Starter Programme teams compete for the top 2 positions in each Industry Track and a chance to go on to the Starter Big Battle. The top team from each Industry Track will receive US$1,500 in prizes. Up to 18 teams will be selected for the Semi-Finals out of which 6 teams will go on to participate in the Starter Big Battle Finals. The finalists will compete for US$10,000 in prizes for the top 3 teams and in-kind prizes worth up to US$20,000.</p> */}
-                            <a target="_blank" rel="noopener noreferrer" href="https://seasidestartupsummit.com/pdf/sevan_24_agenda.pdf">Get the educational program</a>
+                            <a className="eventComingSoonBtn" onClick={(e) => {
+                                if (!isEnabled) e.preventDefault();
+                            }} target="_blank" rel="noopener noreferrer">Get the educational program</a>
                         </div>
                     </div>
                     <div className="upcommingPrograms_right one">

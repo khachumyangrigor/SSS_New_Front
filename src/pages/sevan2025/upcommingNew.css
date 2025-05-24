@@ -34,7 +34,7 @@
   /* align-content: flex-end; */
   position: relative;
 }
-.upcommingNewTop.sevan2024 {
+.upcommingNewTop.sevan2025 {
   width: 100%;
   height: 89vh;
   max-height: 909px;
@@ -2008,7 +2008,7 @@
   }
 .sevan2024 .wb-applyButtonBlock-right button{
   font-weight: 800 !important;
-  width: 200px !important;
+  width: unset !important;
   height: 60px !important;
 }
 

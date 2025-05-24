@@ -2,13 +2,13 @@ import React from "react";
 
 const buttons = [
   {
-    link: "https://www.f6s.com/sevan-startup-summit-2023/apply",
-    title: "\u00A0\u00A0Apply as a Startup\u00A0\u00A0",
+    link: "https://www.f6s.com/sevan-startup-summit-2025",
+    title: "Apply as a Startup",
   },
-  {
-    link: "https://forms.gle/VSG5oNLhg2nr8zhr9",
-    title: "Become a Volunteer",
-  },
+  // {
+  //   link: "https://forms.gle/VSG5oNLhg2nr8zhr9",
+  //   title: "Become a Volunteer",
+  // },
 ];
 
 export const buyTickets = [
@@ -33,7 +33,7 @@ function NavButtons({ isSaleOpen }) {
 
   return (
     <div className="nav-buttons">
-      {isSaleOpen ? (
+      {!isSaleOpen ? (
           <>
             <button
                 onClick={() => handleRedirection("https://mootq.com/events/sss24")}
