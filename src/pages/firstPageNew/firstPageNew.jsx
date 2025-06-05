@@ -200,7 +200,7 @@ class Home_Page_Newedition extends React.Component {
                                 <div><a href="https://theacceleratornetwork.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/1.1.png')} alt="partner" /></a></div>
                                 <div><a href="https://www.startupbootcamp.org/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/2.1.png')} alt="partner" /></a></div>
                                 <div><a href="https://zeroth.ai/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/3.1.png')} alt="partner" /></a></div>
-                                <div><a href="https://en.generation-startup.ru/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/4.1.png')} alt="partner" /></a></div>
+                                <div><a href="https://epic.aua.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/17.1.png')} alt="partner" /></a></div>
                                 <div><a href="https://www.startupacademy.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/5.1.png')} alt="partner" /></a></div>
                                 <div><a href="https://balticsandbox.eu/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/6.1.png')} alt="partner" /></a></div>
                             </section>
@@ -211,7 +211,7 @@ class Home_Page_Newedition extends React.Component {
                                 <div><a href="https://www.bajaccelerator.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/10.1.png')} alt="partner" /></a></div>
                             </section>
                             <section>
-                                <div><a href="https://startupwiseguys.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/11.1.png')} alt="partner" /></a></div>
+                                <div><a href="https://startupwiseguys.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/6.png')} alt="partner" /></a></div>
                                 <div><a href="https://www.fast.foundation/#/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/12.1.png')} alt="partner" /></a></div>
                                 <div><a href="https://www.speedaccelerator.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/13.1.png')} alt="partner" /></a></div>
                                 <div><a target="blank" rel="noopener noreferrer"><img src={require('./img/partners/14.1.png')} alt="partner" /></a></div>
@@ -219,7 +219,7 @@ class Home_Page_Newedition extends React.Component {
                             <section>
                                 <div><a href="https://skydeck.berkeley.edu/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/15.1.png')} alt="partner" /></a></div>
                                 <div><a href="https://fi.co/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/16.1.png')} alt="partner" /></a></div>
-                                <div><a href="https://epic.aua.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/17.1.png')} alt="partner" /></a></div>
+                                <div><a href="https://en.generation-startup.ru/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/newGenerationImage.png')} alt="partner" /></a></div>
                                 <div  style={ {visibility: "hidden"}}><a href="https://fi.co/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/16.1.png')} alt="partner" /></a></div>
                             </section>
                         </div>

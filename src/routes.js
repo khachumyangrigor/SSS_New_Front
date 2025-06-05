@@ -28,6 +28,7 @@ import Privacy from './pages/privacy/index.jsx';
 import TermsEN from './pages/termsEn/index.jsx';
 import TermsARM from './pages/termsArm/index.jsx';
 import { Page_404 } from './404.jsx';
+import Teamlead from "./pages/sevan2023/taemlead/teamlead.jsx";
 
 export default [
     {
@@ -114,14 +115,29 @@ export default [
     },
     {
         exact: true,
+        path: '/sevan2024/:subpage',
+        component: Sevan2024
+    },
+    {
+        exact: true,
         path: '/sevan2025/',
         component: Sevan2025
     },
+    // {
+    //     path: '/teamlead',
+    //     exact: true,
+    //     component: Teamlead
+    // },
     {
         exact: true,
         path: '/sevan2023/',
         component: Sevan2023
     },
+    // {
+    //     exact: true,
+    //     path: '/sevan2023/:subpage',
+    //     component: Sevan2023
+    // },
     {
         exact: true,
         path: '/sss-holidays-india-vizag/',
@@ -301,5 +317,6 @@ export default [
     },
     {
         component: Page_404,
-    }
+    },
+
 ]

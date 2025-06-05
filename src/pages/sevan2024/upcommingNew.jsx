@@ -19,6 +19,8 @@ import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
 import Partners from "./Partners/Partners.jsx";
 import Agritech from "./Agritech/Agritech.jsx";
+import TeamleadPage from "../sevan2023/taemlead/teamlead.jsx";
+
 
 //Media
 
@@ -28,15 +30,20 @@ class UpcommingNew extends React.Component {
     this.state = {
       screenWidth: null,
       scrollY: null,
+      subPage:null
     };
     this.handleResize = this.handleResize.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
   }
 
   componentDidMount() {
+    const subPage = this.props.match?.params?.subpage;
     this.setState({
       screenWidth: window.innerWidth,
       scrollY: window.scrollY,
+    });
+    this.setState({ subPage }, () => {
+      console.log("Subpage set to:", this.state.subPage);
     });
     window.addEventListener("resize", this.handleResize);
     window.addEventListener("scroll", this.handleScroll);
@@ -56,99 +63,104 @@ class UpcommingNew extends React.Component {
   }
 
   render = () => {
-    return (
-      <Fragment>
-        <Helmet>
-          <title>Sevan Startup Summit 2024 | Seaside Startup Summit</title>
-          <meta
-            name="description"
-            content="Sevan Startup Summit 2024 will be held at Sevan from July 21 to July 27"
-          />
-          <meta
-            property="og:title"
-            content="Sevan Startup Summit 2024 | Seaside Startup Summit"
-          />
-          <meta
-            property="og:url"
-            content={`https://www.seasidestartupsummit.com/upcoming-events/sevan-2023`}
-          />
-          <meta
-            property="og:image"
-            content="http://seasidestartupsummit.com/ogImage/sevan23.png"
-          />
-          <meta
-            property="og:description"
-            content="Sevan Startup Summit 2024 will be held at Sevan from July 21 to July 27"
-          />
-        </Helmet>
-        <div className="upcommingNew">
-          {/* Part 1 */}
-          <div className="upcommingNewTop sevan2023 sevan2024">
-            {(this.state.screenWidth > 1024 ||
-              this.state.screenWidth === null) && (
-              <div
-                className={
-                  this.state.scrollY >= 650
-                    ? "sevan2024-mainNavbar"
-                    : "sevan2024-headerNavbar"
-                }
-              >
-                <Navbar />
-              </div>
-            )}
+    if (this.state.subPage==="team-leads") {
+      return <TeamleadPage />
+    } else {
+      return (
+          <Fragment>
+            <Helmet>
+              <title>Sevan Startup Summit 2024 | Seaside Startup Summit</title>
+              <meta
+                  name="description"
+                  content="Sevan Startup Summit 2024 will be held at Sevan from July 21 to July 27"
+              />
+              <meta
+                  property="og:title"
+                  content="Sevan Startup Summit 2024 | Seaside Startup Summit"
+              />
+              <meta
+                  property="og:url"
+                  content={`https://www.seasidestartupsummit.com/upcoming-events/sevan-2023`}
+              />
+              <meta
+                  property="og:image"
+                  content="http://seasidestartupsummit.com/ogImage/sevan23.png"
+              />
+              <meta
+                  property="og:description"
+                  content="Sevan Startup Summit 2024 will be held at Sevan from July 21 to July 27"
+              />
+            </Helmet>
+            <div className="upcommingNew">
+              {/* Part 1 */}
+              <div className="upcommingNewTop sevan2023 sevan2024">
+                {(this.state.screenWidth > 1024 ||
+                    this.state.screenWidth === null) && (
+                    <div
+                        className={
+                          this.state.scrollY >= 650
+                              ? "sevan2024-mainNavbar"
+                              : "sevan2024-headerNavbar"
+                        }
+                    >
+                      <Navbar />
+                    </div>
+                )}
 
-            <div className="wb-topTitle">
-              <h1>
-                A Campsite Festival <br /> for Startup Enthusiasts
-              </h1>
-              <h5>Where Ideas Spark and Dreams Take Flight!</h5>
-            </div>
-            <div className="wb-footerTitle">
-              <h4>
-                SEVAN STARTUP SUMMIT 2024 <br /> JULY 21 - 27
-              </h4>
-              <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
-                <a
-                  href="https://360.skywlkr.me/share/collection/7KM2B?logo=-1&info=0&fs=1&vr=0&sd=1&gyro=0&initload=0&thumbs=1"
-                  // onClick={() => setPopupStatus(true)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button>Area Map</button>
-                </a>
-                <a
-                    className="wb-agendaDesktopButton"
-                    href="https://my.matterport.com/show/?m=uuhg5Lm2u9y"
-                    // onClick={() => setPopupStatus(true)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                  <button>Expo Map</button>
-                </a>
+                <div className="wb-topTitle">
+                  <h1>
+                    A Campsite Festival <br /> for Startup Enthusiasts
+                  </h1>
+                  <h5>Where Ideas Spark and Dreams Take Flight!</h5>
+                </div>
+                <div className="wb-footerTitle">
+                  <h4>
+                    SEVAN STARTUP SUMMIT 2024 <br /> JULY 21 - 27
+                  </h4>
+                  <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
+                    <a
+                        href="https://360.skywlkr.me/share/collection/7KM2B?logo=-1&info=0&fs=1&vr=0&sd=1&gyro=0&initload=0&thumbs=1"
+                        // onClick={() => setPopupStatus(true)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                      <button>Area Map</button>
+                    </a>
+                    <a
+                        className="wb-agendaDesktopButton"
+                        href="https://my.matterport.com/show/?m=uuhg5Lm2u9y"
+                        // onClick={() => setPopupStatus(true)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                      <button>Expo Map</button>
+                    </a>
+                  </div>
+                </div>
               </div>
+              {/* Part 2 */}
+              {this.state.screenWidth <= 1024 &&
+                  this.state.screenWidth !== null && <Navbar />}
+              <GetAccess />
+              <Stats />
+              <Credo />
+              <Roadmap />
+              {/*<Participate ref="participate" />*/}
+              {/*<WeOffer />*/}
+              <Programs />
+              <Agritech />
+              <Valounteering />
+              <Apply />
+              <Shuttle />
+              <MustKnow />
+              <Organizers />
+              <Partners />
+              <FootterNew />
             </div>
-          </div>
-          {/* Part 2 */}
-          {this.state.screenWidth <= 1024 &&
-            this.state.screenWidth !== null && <Navbar />}
-          <GetAccess />
-          <Stats />
-          <Credo />
-          <Roadmap />
-          {/*<Participate ref="participate" />*/}
-          {/*<WeOffer />*/}
-          <Programs />
-          <Agritech />
-          {/*<Valounteering />*/}
-          {/*<Apply />*/}
-          <Shuttle />
-          <MustKnow />
-          <Organizers />
-          <Partners />
-          <FootterNew />
-        </div>
-      </Fragment>
-    );
+          </Fragment>
+      );
+    }
+
   };
 }
 export default UpcommingNew;
