@@ -19,7 +19,6 @@ import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
 import Partners from "./Partners/Partners.jsx";
 import Agritech from "./Agritech/Agritech.jsx";
-import TeamleadPage from "../sevan2023/taemlead/teamlead.jsx";
 
 
 //Media
@@ -30,20 +29,15 @@ class UpcommingNew extends React.Component {
     this.state = {
       screenWidth: null,
       scrollY: null,
-      subPage:null
     };
     this.handleResize = this.handleResize.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
   }
 
   componentDidMount() {
-    const subPage = this.props.match?.params?.subpage;
     this.setState({
       screenWidth: window.innerWidth,
       scrollY: window.scrollY,
-    });
-    this.setState({ subPage }, () => {
-      console.log("Subpage set to:", this.state.subPage);
     });
     window.addEventListener("resize", this.handleResize);
     window.addEventListener("scroll", this.handleScroll);
@@ -63,9 +57,6 @@ class UpcommingNew extends React.Component {
   }
 
   render = () => {
-    if (this.state.subPage==="team-leads") {
-      return <TeamleadPage />
-    } else {
       return (
           <Fragment>
             <Helmet>
@@ -144,13 +135,13 @@ class UpcommingNew extends React.Component {
               <GetAccess />
               <Stats />
               <Credo />
-              <Roadmap />
+              {/*<Roadmap />*/}
               {/*<Participate ref="participate" />*/}
               {/*<WeOffer />*/}
               <Programs />
               <Agritech />
-              <Valounteering />
-              <Apply />
+              {/*<Valounteering />*/}
+              {/*<Apply />*/}
               <Shuttle />
               <MustKnow />
               <Organizers />
@@ -159,7 +150,6 @@ class UpcommingNew extends React.Component {
             </div>
           </Fragment>
       );
-    }
 
   };
 }

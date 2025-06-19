@@ -120,7 +120,7 @@
 }
 
 .subMenu {
-  width: 180px;
+  width: 280px !important;
   max-width: 430px;
   max-height: 909px;
   position: absolute;
@@ -132,7 +132,7 @@
 }
 
 .subMenu-fix {
-  bottom: -200px !important;
+  bottom: -480px !important;
 }
 
 .subMenu ul {

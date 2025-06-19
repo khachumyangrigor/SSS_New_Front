@@ -1,0 +1,40 @@
+.wb-rallyContentBlock{
+    display: flex;
+}
+.wb-rallyContentInfo{
+    flex-basis: 48%;
+}
+.wb-rallyContentInfo p{
+    color: rgba(31, 44, 76, 1);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+.wb-rallyContentImageBlock{
+    flex-basis: 50%;
+    display: flex;
+    gap: 20px;
+}
+.wb-rallyContentImageBlock img{
+    width: 50%;
+    border-radius: 25px;
+}
+.wb-rallyPartners{
+    margin-top: 36px;
+    padding-top: 36px;
+    border-top: 1px solid rgba(31, 44, 76, 1);
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-bottom: 40px;
+}
+
+@media screen  and (max-width: 1368px){
+    .wb-rallyContentInfo p{
+        font-size: 18px;
+    }
+    .wb-rallyPartners{
+        gap: 40px;
+    }
+}

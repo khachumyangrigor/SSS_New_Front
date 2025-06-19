@@ -98,7 +98,7 @@ class Programs extends React.Component {
                                 Our innovative curriculum, guided by renowned international experts, categorizes startups into industry-specific tracks, providing a specialized incubation and micro-acceleration experience that helps startups to succeed. Engage in our one-on-one mentoring program, a cornerstone of our educational initiative, where every startup gains direct access to industry experts. Receive personalized, cutting-edge advice on diverse aspects of startups, forging a path to excellence.
                             </p>
                             <p>
-                                Join SSS25's education program and equip yourself with the knowledge and guidance needed to rise in the dynamic path of entrepreneurship.
+                                <b>Join SSS25's education program and equip yourself with the knowledge and guidance needed to rise in the dynamic path of entrepreneurship.</b>
                             </p>
                             {/* <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>

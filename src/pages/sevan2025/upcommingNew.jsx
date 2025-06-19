@@ -5,10 +5,16 @@ import FootterNew from "../footterNew/footterNew.jsx";
 import Apply from "./Apply/Apply.jsx";
 import Organizers from "./Organizers/Organizers.jsx";
 import Stats from "./Status/index.jsx";
-import Valounteering from "./Volunteering/Volunteering.jsx";
 import Credo from "./credo.jsx";
 import MustKnow from "./mustknow.jsx";
 import Programs from "./program.jsx";
+import TalentGeneration from "./TalentGeneration/TalentGeneration.jsx";
+import FirecodeMarathon from "./FirecodeMarathon/FirecodeMarathon.jsx";
+import Agritech from "./Agritech/Agritech.jsx";
+import WineTech from "./WineTech/WineTech.jsx";
+import Rally from "./Rally/Rally.jsx";
+import Valounteering from "./Volunteering/Volunteering.jsx";
+import TeamLeads from "./TeamLeads/TeamLeads.jsx";
 import Shuttle from "./shuttle.jsx";
 
 import Navbar from "./Navbar/index.jsx";
@@ -18,7 +24,8 @@ import { GetAccess } from "./component.min.jsx";
 import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
 import Partners from "./Partners/Partners.jsx";
-import Agritech from "./Agritech/Agritech.jsx";
+
+
 
 //Media
 
@@ -107,14 +114,14 @@ class UpcommingNew extends React.Component {
               <h4>
                 SEVAN STARTUP SUMMIT 2025 <br /> JULY 20 - 26
               </h4>
-              <div className="wb-applyButtonBlock wb-applyButtonBlock-right">
+              <div className="wb-applyButtonBlock wb-applyButtonBlock-right ">
                 <a
                   href="https://www.f6s.com/sevan-startup-summit-2025"
                   // onClick={() => setPopupStatus(true)}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Apply as a Startup</button>
+                  <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>
                 </a>
                 {/*<a*/}
                 {/*    className="wb-agendaDesktopButton"*/}
@@ -138,9 +145,15 @@ class UpcommingNew extends React.Component {
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}
           <Programs />
-          {/*<Agritech />*/}
-          {/*<Valounteering />*/}
+
           {/*<Apply />*/}
+          <TalentGeneration />
+          <FirecodeMarathon />
+          <Agritech />
+          <WineTech />
+          <Rally />
+          <Valounteering />
+          <TeamLeads />
           <Shuttle />
           <MustKnow />
           <Organizers />

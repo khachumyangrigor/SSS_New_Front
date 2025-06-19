@@ -1,5 +1,5 @@
 .agritech-block{
-    padding: 8.6vh 6.1vw
+    padding: 0 6.1vw !important;
 }
 .agritech-title{
     text-align: center;
@@ -32,7 +32,8 @@
 .agritechStats{
     margin-top: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 40px;
 }
 .agritechStats div{
     display: flex;
@@ -40,7 +41,7 @@
     align-items: center;
 }
 .agritechStats b{
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 900;
     color: rgba(31, 44, 76, 1);
 }
@@ -53,12 +54,23 @@
     flex-basis: 50%;
 }
 .agritech-info p{
+    margin-top: 25px;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     color: rgba(31, 44, 76, 1);
 }
-
+.agritech-mainContent ul li,.agritech-secondContent ul li{
+    list-style-type: disc;
+    color: rgba(31, 44, 76, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.agritech-mainContent ul li::marker,.agritech-secondContent ul li::marker{
+    color: rgba(31, 44, 76, 1);
+}
 .agritech-buttonsBlock h6{
     text-align: center;
     color: rgba(31, 44, 76, 1);
@@ -73,9 +85,9 @@
 }
 .agritech-buttons a button{
     width: 192px;
-    height: 32px;
+    height: 45px;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 15px;
 }
 .agritech-buttons a:first-child button{
     background-color: rgba(47, 128, 237, 1);
@@ -86,6 +98,35 @@
     border: 1px solid rgba(47, 128, 237, 1);
 }
 
+/*Second Content*/
+.agritech-secondContentBlock{
+    margin-top: 38px;
+    border-top: 1px solid rgba(31, 44, 76, 1);
+}
+.agritech-secondContent{
+    padding-top: 38px;
+    display: flex;
+    gap: 0 70px;
+}
+.agritech-secondContentInfo{
+    flex-basis: 48%;
+}
+.agritech-secondContentInfo p{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.agritech-secondContentInfo ul li{
+    font-size: 24px;
+}
+.agritechSecondContentImageBlock{
+    flex-basis: 45%;
+}
+.agritechSecondContentImageBlock img{
+    width: 100%;
+    border-radius: 18px;
+}
+
 /*Agritech Partners*/
 
 .agritech-partners{
@@ -93,10 +134,41 @@
     margin-top: 50px;
     padding-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 126px;
+}
+.agritech-partners img{
+    max-width: 200px;
 }
 
+@media screen  and (max-width: 1368px){
+    .agritech-info p{
+        font-size: 18px;
+    }
+    .agritechStats{
+        margin-top: 10px;
+    }
+    .agritechStats b{
+        font-size: 36px;
+        margin-left: 15px;
+    }
+    .agritech-secondContent{
+        padding-top: 0;
+    }
+    .agritech-secondContentInfo p{
+        font-size: 18px;
+    }
+    .agritech-secondContentInfo ul li{
+        font-size: 18px;
+    }
+    .agritech-partners{
+        gap: 40px;
+    }
+    .agritech-partners img{
+        max-width: 150px;
+    }
+}
 @media screen  and (max-width: 1160px){
     .agritech-info p{
         font-size: 16px;

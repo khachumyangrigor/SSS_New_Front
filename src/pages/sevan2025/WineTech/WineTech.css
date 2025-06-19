@@ -1,0 +1,62 @@
+.wb-wineTech{
+    background-color: rgba(247, 247, 247, 1);
+}
+.wb-wineTechContent{
+    display: flex;
+
+    justify-content: center;
+}
+.wb-wineTechContentImageBlock{
+    flex-basis: 45%;
+}
+.wb-wineTechContentImageBlock img{
+    width: 90%;
+    border-radius: 23px;
+}
+.wb-wineTechContentInfoBlock{
+    margin-top: 20px;
+    flex-basis: 50%;
+}
+.wb-wineTechContentInfoBlock p{
+    font-size: 24px;
+    color: rgba(31, 44, 76, 1);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.wb-wineTechContentInfoBlock ul li{
+    list-style-type: disc;
+    color: rgba(31, 44, 76, 1);
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.wb-wineTechContentInfoBlock ul li::marker{
+    color: rgba(31, 44, 76, 1);
+}
+.wb-WineButtonBlock{
+    text-align: center;
+    margin-top: 65px;
+}
+.wb-winePartners{
+    margin-top: 36px;
+    padding-top: 36px;
+    border-top: 1px solid rgba(31, 44, 76, 1);
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-bottom: 40px;
+}
+
+@media screen  and (max-width: 1368px){
+    .wb-wineTechContentInfoBlock p{
+        font-size: 18px;
+    }
+    .wb-wineTechContentInfoBlock ul li{
+        font-size: 18px;
+    }
+    .wb-winePartners{
+        gap: 40px;
+
+    }
+}

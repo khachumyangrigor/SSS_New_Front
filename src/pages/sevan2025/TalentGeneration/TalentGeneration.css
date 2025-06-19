@@ -1,0 +1,62 @@
+.wb-talentContentBlock{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+.wb-talentImage{
+flex-basis: 50%;
+}
+.wb-talentImage img{
+    width: 100%;
+    border-radius: 18px;
+}
+.wb-talentContent{
+    flex-basis: 50%;
+}
+.wb-talentContent p{
+    color: rgba(31, 44, 76, 1);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    max-width: 90%;
+}
+.wb-talentButtonBlock{
+    text-align: center;
+    margin-top: 65px;
+}
+.wb-talentButtonBlock p{
+    color: rgba(31, 44, 76, 1);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.wb-talentPartners{
+    border-top: 1px solid rgba(31, 44, 76, 1);
+    margin: 40px auto 0 auto;
+}
+.wb-talentPartners h5{
+    color: rgba(31, 44, 76, 1);
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+.wb-talentPartnersImageBlock{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 35px;
+}
+.wb-talentPartnersImageBlock img{
+    max-width:624px;
+}
+.wb-talentPartnersImageBlock .wb-startupArmeniaImg{
+    max-width:143px;
+}
+
+@media screen  and (max-width: 1368px){
+    .wb-talentContent p{
+        font-size: 18px;
+        max-width: 558px;
+    }
+}

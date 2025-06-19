@@ -1,0 +1,48 @@
+.wb-teamLeadsContentBlock{
+    display: flex;
+    gap: 60px;
+}
+.wb-teamLeadsContentImageBlock{
+    flex-basis: 48%;
+}
+.wb-teamLeadsContentImageBlock img{
+    width: 100%;
+    border-radius: 25px;
+}
+.wb-teamLeadsContentInfoBlock{
+    flex-basis: 45%;
+}
+.wb-teamLeadsContentInfoBlock p{
+    color: rgba(31, 44, 76, 1);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.wb-teamLeadsContentInfoIcons{
+    display: flex;
+    gap: 60px;
+}
+.wb-teamLeadsContentInfoIconsLine{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.wb-teamLeadsContentInfoIconsLine b{
+    font-size: 24px;
+    color: rgba(31, 44, 76, 1);
+}
+.wb-teamLeadsButtonBlock{
+    text-align: center;
+    margin: 65px 0 ;
+}
+
+@media screen and (max-width: 1368px){
+    .wb-teamLeadsContentInfoBlock p{
+        font-size: 18px;
+    }
+    .wb-teamLeadsContentInfoIconsLine b{
+        font-size: 18px;
+    }
+}

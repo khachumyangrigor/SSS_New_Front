@@ -16,10 +16,34 @@ const menuItems = [
     link: `upcommingPrograms`,
     title: "Our Program",
   },
-  // {
-  //   link: `wb-volunteeringBlock`,
-  //   title: "Become a Volunteer",
-  // },
+  {
+    link: `wb-talentGeneration`,
+    title: "Talent Generation",
+  },
+  {
+    link: `wb-firecodeMarathon`,
+    title: "Firecode Marathon",
+  },
+  {
+    link: `agritech-block`,
+    title: "Sevan Agritech Summit",
+  },
+  {
+    link: `wb-wineTech`,
+    title: "Winetech Innovation Summit",
+  },
+  {
+    link: `wb-rally`,
+    title: "Sevan EV Rally",
+  },
+  {
+    link: `wb-volunteeringBlock`,
+    title: "Apply as a Volunteer",
+  },
+  {
+    link: `wb-teamLeads`,
+    title: "Apply as a Team Lead",
+  },
   {
     link: `upcommingReach`,
     title: "How to reach us",

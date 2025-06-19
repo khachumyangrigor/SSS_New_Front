@@ -1,0 +1,22 @@
+.wb-titleBlock{
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+.wb-title{
+    color: rgba(31, 44, 76, 1);
+    font-size: 25px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Source Sans Pro";
+
+}
+.wb-titleDate{
+    margin-top: 0;
+    text-align: center;
+    color: rgba(31, 44, 76, 1);
+    opacity: 0.4;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
