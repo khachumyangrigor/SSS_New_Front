@@ -1,5 +1,5 @@
 .agritech-block{
-    padding: 0 6.1vw !important;
+    padding: 0 !important;
 }
 .agritech-title{
     text-align: center;
@@ -57,7 +57,7 @@
     margin-top: 25px;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     color: rgba(31, 44, 76, 1);
 }
 .agritech-mainContent ul li,.agritech-secondContent ul li{
@@ -113,11 +113,11 @@
 }
 .agritech-secondContentInfo p{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 25px;
 }
 .agritech-secondContentInfo ul li{
-    font-size: 24px;
+    font-size: 22px;
 }
 .agritechSecondContentImageBlock{
     flex-basis: 45%;
@@ -137,6 +137,7 @@
     justify-content: center;
     align-items: center;
     gap: 126px;
+    padding-bottom: 20px;
 }
 .agritech-partners img{
     max-width: 200px;
@@ -181,22 +182,87 @@
 
 @media screen  and (max-width: 1024px){
     .agritech-info p{
-        font-size: 14px;
+        font-size: 22px !important;
     }
     .agritechStats{
         margin-top: 10px;
     }
     .agritechStats b{
-        font-size: 28px;
+        font-size: 36px;
+    }
+    .agritech-mainContent{
+        flex-direction: column;
+    }
+    .agritech-imageBlock img{
+        width: 100%;
+    }
+    .agritech-imageBlock {
+        text-align: center;
+    }
+    .agritechStats{
+        background-color: rgba(125, 193, 66, 1);
+        justify-content: center;
+        padding: 20px 50px;
+        border-radius: 13px;
+    }
+    .agritechStats b{
+        font-size: 36px;
+        color: #fff;
+    }
+    .agritechStats span{
+        color: #fff;
+    }
+    .agritech-info{
+        margin-top: 20px;
+    }
+    .agritech-info p{
+        font-size: 15px;
+    }
+    .agritech-buttons{
+        flex-direction: row !important;
+        align-items: center;
+        gap: 8px 12px !important;
+    }
+    .agritech-buttons button{
+        font-size: 11px;
+        max-width: 146px;
+    }
+    .agritech-partners{
+        flex-wrap: wrap;
+        gap: 23px 0;
+    }
+    .agritech-partners div{
+        flex-basis: 33%;
+        text-align: center;
+    }
+    .agritech-partners img{
+        max-width: 100%;
+        max-height: 50px !important;
+        width: auto;
+        height: auto;
+    }
+
+
+/*    Second content*/
+
+    .agritech-secondContent{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .agritech-secondContentInfo p{
+        font-size: 22px;
+    }
+    .agritech-secondContentInfo ul li{
+        font-size: 20px;
     }
 }
 
 @media screen  and (max-width: 856px){
     .agritech-info p{
-        font-size: 12px;
+        font-size: 22px;
     }
     .agritechStats b{
-        font-size: 24px;
+        font-size: 36px;
     }
     .agritech-buttons button{
         width: 191px;
@@ -210,13 +276,13 @@
         flex-direction: column;
     }
     .agritech-imageBlock img{
-        width: 80%;
+        width: 100%;
     }
     .agritech-imageBlock {
         text-align: center;
     }
     .agritechStats b{
-        font-size: 25px;
+        font-size: 36px;
     }
     .agritech-info{
         margin-top: 20px;
@@ -234,25 +300,39 @@
     }
     .agritech-partners{
         flex-wrap: wrap;
-        gap: 23px 0;
+        gap: 23px 5px;
     }
     .agritech-partners div{
-        flex-basis: 49%;
+        flex-basis: 30%;
         text-align: center;
     }
     .agritech-partners img{
-        max-width: 100%;
-        max-height: 100%;
-        width: auto;
-        height: auto;
+        max-width: 110px;
+        max-height: 50px;
     }
 }
 
-@media screen and (max-width: 650px){
-    .agritech-imageBlock img{
-        max-width: 100%;
-        max-height: 100%;
-        width: auto;
-        height: auto;
+@media screen and (max-width: 600px){
+    .agritech-info p{
+        font-size: 15px !important;
     }
+    .agritech-mainContent ul li{
+        font-size: 15px;
+    }
+    .agritechStats b{
+        font-size: 24px;
+    }
+
+
+    .agritech-secondContentInfo p{
+        font-size: 15px;
+    }
+    .agritech-secondContentInfo ul li{
+        font-size: 15px;
+    }
+    .agritech-partners img{
+        max-width: 90px;
+        max-height: 50px;
+    }
+
 }

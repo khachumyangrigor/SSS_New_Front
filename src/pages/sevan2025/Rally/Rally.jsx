@@ -2,6 +2,7 @@ import React from 'react';
 import Title from "../Components/Title/Title.jsx";
 import rally1 from "./img/rally1.png"
 import rally2 from "./img/rally2.png"
+import rallyMobileImage from "./img/mobileImage.png"
 import partner1 from "./img/partner1.png"
 import partner2 from "./img/partner2.png"
 import partner3 from "./img/partner3.png"
@@ -13,6 +14,9 @@ export const Rally = (props) => {
             <div className="wb-contentSize">
                 <Title title="Sevan EV Rally 2025" date="— July 23 —"/>
                 <div className="wb-rallyContentBlock">
+                    <div className="wb-mobileShowImage">
+                        <img src={rallyMobileImage} alt="Sevan EV Rally 2025"/>
+                    </div>
                     <div className="wb-rallyContentInfo">
                         <p>The Sevan EV Rally is a premier international event that unites rally enthusiasts, innovative companies, pioneering brands, and influential organizations for an electrifying experience along breathtaking coastal routes.</p>
                         <p>
@@ -34,7 +38,7 @@ export const Rally = (props) => {
                     </div>
                     <div className="wb-rallyContentImageBlock">
                         <img src={rally1} alt="Sevan EV Rally 2025"/>
-                        <img src={rally2} alt="Sevan EV Rally 2025"/>
+                        <img className="wb-mobileHiddenImage" src={rally2} alt="Sevan EV Rally 2025"/>
                     </div>
                 </div>
                 <div className="wb-rallyPartners">

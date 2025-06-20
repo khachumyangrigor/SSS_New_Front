@@ -1,3 +1,6 @@
+.wb-hackathonMobileFirecodeImageBlock{
+    display: none;
+}
 .wb-firecodeMarathon{
     background-color: rgba(247, 247, 247, 1);
 }
@@ -58,6 +61,9 @@
 .wb-hackathonStatItem b{
     font-size: 56px;
 }
+.wb-hackathonStatItem span{
+    letter-spacing: 0.5px;
+}
 .wb-firecodeMarathonContentBlock{
     display: flex;
     justify-content: center;
@@ -75,7 +81,7 @@
 .wb-firecodeMarathonContent h3{
     color: rgba(197, 46, 73, 1);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 25px;
 }
 .wb-firecodeMarathonContent ul li{
@@ -129,5 +135,60 @@
     }
     .wb-firecodeMarathonImageBlock img{
         height: 397px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .wb-hackathonMobileFirecodeImageBlock{
+        display: block;
+        text-align: center;
+        padding-top: 20px ;
+    }
+    .wb-hackathonBlock{
+        flex-direction: column;
+    }
+    .wb-hackathonInfoBlock > p{
+        font-size: 22px;
+    }
+    .wb-hackathonInfoBlock ul li{
+        font-size: 20px;
+    }
+    .wb-contentSize{
+        width: 80%;
+    }
+    .wb-firecodeMarathonImageBlock{
+        display: none;
+    }
+    .wb-firecodeMarathonContent{
+        flex-basis: 100%;
+    }
+    .wb-firecodeMarathonContent p{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 600px){
+    .wb-hackathonInfoBlock > p{
+        font-size: 15px;
+    }
+    .wb-hackathonInfoBlock ul li{
+        font-size: 15px;
+    }
+    .wb-firecodeMarathonContent p{
+        font-size: 15px;
+    }
+    .wb-hackathonBlock{
+        gap: 20px;
+    }
+    .wb-firecodeMarathonContent h3{
+        font-size: 20px;
+    }
+    .wb-firecodeMarathonContent ul li{
+        font-size: 15px;
+    }
+    .wb-hackathonStatItem b{
+        font-size: 25px;
+    }
+    .wb-hackathonStatItem span{
+        font-size: 10px;
     }
 }

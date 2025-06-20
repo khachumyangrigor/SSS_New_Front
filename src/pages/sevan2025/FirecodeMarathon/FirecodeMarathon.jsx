@@ -2,6 +2,7 @@ import React from 'react';
 import Title from "../Components/Title/Title.jsx";
 import hackhathonImg from "./img/hackhathon.png"
 import firecodeImage from "./img/firecode.png"
+import mobileFirecode from "./img/mobileFirecode.png"
 import "./FirecodeMarathon.css"
 import Button from "../Components/Button/Button.jsx";
 
@@ -22,6 +23,9 @@ export const  FirecodeMarathon = (props) => {
                             <li>Pitch your prototype and win prizes</li>
                             <li>Collaborate with top devs from Armenia and abroad</li>
                         </ul>
+                        <div className="wb-hackathonMobileFirecodeImageBlock">
+                            <img src={mobileFirecode} alt="Firecode Marathon"/>
+                        </div>
                         <div className="wb-hackathonStats">
                             <div className="wb-hackathonStatItem">
                                 <b>100+</b>

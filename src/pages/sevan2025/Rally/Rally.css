@@ -1,3 +1,6 @@
+.wb-mobileShowImage{
+    display: none;
+}
 .wb-rallyContentBlock{
     display: flex;
 }
@@ -36,5 +39,47 @@
     }
     .wb-rallyPartners{
         gap: 40px;
+    }
+}
+
+@media screen  and (max-width: 1024px){
+    .wb-rallyContentBlock{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .wb-rallyContentInfo p{
+        font-size: 22px;
+        max-width: 100%;
+    }
+}
+@media screen  and (max-width: 657px){
+    .wb-rallyPartners{
+        gap: 25px;
+    }
+    .wb-rallyPartners img{
+        max-width: 100px;
+        max-height: 40px;
+    }
+}
+@media screen  and (max-width: 600px){
+    .wb-rallyContentBlock .wb-mobileHiddenImage {
+        display: none;
+    }
+    .wb-rallyContentInfo p{
+        font-size: 15px;
+    }
+    .wb-rallyContentImageBlock img{
+        width: 100%;
+        max-height: 245px;
+    }
+    .wb-mobileShowImage{
+        flex-basis: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    .wb-mobileShowImage img{
+        width: 100%;
+        border-radius: 25px;
+        max-height: 245px;
     }
 }

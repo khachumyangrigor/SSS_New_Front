@@ -46,3 +46,30 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .wb-teamLeadsContentBlock{
+        flex-direction: column;
+    }
+    .wb-teamLeadsContentInfoBlock p,.wb-teamLeadsContentInfoIconsLine b{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 600px){
+    .wb-teamLeadsContentBlock{
+        gap: 20px;
+    }
+    .wb-teamLeadsContentInfoBlock p{
+        font-size: 15px;
+    }
+    .wb-teamLeadsContentInfoIconsLine b{
+        font-size: 17px;
+    }
+    .wb-teamLeadsContentInfoIcons{
+        flex-direction: column;
+        gap: 0;
+    }
+    .wb-teamLeadsButtonBlock{
+        margin: 40px 0;
+    }
+}

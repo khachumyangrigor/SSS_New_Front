@@ -4,7 +4,7 @@
 }
 .wb-title{
     color: rgba(31, 44, 76, 1);
-    font-size: 25px;
+    font-size: 36px;
     margin-bottom: 0;
     text-align: center;
     font-weight: 900;
@@ -16,7 +16,28 @@
     text-align: center;
     color: rgba(31, 44, 76, 1);
     opacity: 0.4;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1368px){
+    .wb-title{
+        font-size: 26px;
+    }
+    .wb-titleDate{
+
+        font-size: 16px;
+    }
+}
+
+@media screen  and (max-width: 1024px){
+    .wb-title{
+        font-size: 26px;
+        text-align: left;
+    }
+    .wb-titleDate{
+        font-size: 16px;
+        text-align: left;
+    }
 }
