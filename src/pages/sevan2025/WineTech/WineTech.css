@@ -4,6 +4,7 @@
 .wb-wineTechContent{
     display: flex;
     justify-content: center;
+    gap: 0 40px;
 }
 .wb-wineTechContentImageBlock{
     flex-basis: 45%;
