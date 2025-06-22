@@ -8,7 +8,7 @@ import "./Organizers.css"
 const Organizers = () => {
 
     return (
-        <div className="wb-organizersBlock sevan24-organizers">
+        <div className="wb-organizersBlock sevan24-organizers wb-sevan2025">
             <div className="wb-organizersTitle">
                 <h2>Co-Organizers</h2>
             </div>
@@ -21,7 +21,7 @@ const Organizers = () => {
                         <img src={gtbImg} alt="Startup" />
 
                 </div>
-                <div className="wb-organizersImageBlock">
+                <div className="wb-organizersImageBlock wb-armeniaPartner">
 
                         <img src={armenia} alt="Startup" />
 

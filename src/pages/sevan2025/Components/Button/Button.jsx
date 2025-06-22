@@ -6,8 +6,11 @@ export const Button = (props) => {
         color:props.color,
         backgroundColor: props.backgroundColor,
     }
+    const onclick = () => {
+        window.open(props.link, '_blank')
+    }
     return (
-        <button style={styles} className="wb-button">{props.title}</button>
+        <button onClick={onclick} style={styles} className="wb-button">{props.title}</button>
     );
 }
 

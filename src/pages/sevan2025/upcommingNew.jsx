@@ -116,7 +116,8 @@ class UpcommingNew extends React.Component {
               </h4>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right ">
                 <a
-                  href="https://www.f6s.com/sevan-startup-summit-2025"
+                    onClick={(e) => {e.preventDefault()}}
+                  href="#"
                   // onClick={() => setPopupStatus(true)}
                   target="_blank"
                   rel="noopener noreferrer"

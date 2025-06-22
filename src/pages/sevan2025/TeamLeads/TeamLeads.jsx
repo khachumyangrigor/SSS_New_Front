@@ -28,7 +28,9 @@ export const TeamLeads = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="wb-teamLeadsButtonBlock"><Button title="Apply Here" backgroundColor="rgba(47, 128, 237, 1)" color="#fff"/></div>
+                <div className="wb-teamLeadsButtonBlock">
+                    <Button title="Apply Here" backgroundColor="rgba(47, 128, 237, 1)" color="#fff" link="https://docs.google.com/forms/d/e/1FAIpQLSd3t6mbxnbP41sdrkPRjEKVDEp0_a_dfj8Y_qDSRDvtblswYg/viewform"/>
+                </div>
             </div>
             
         </div>

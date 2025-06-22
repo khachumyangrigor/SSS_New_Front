@@ -10,7 +10,7 @@
 }
 .wb-hackathonBlock{
     display: flex;
-    gap: 70px;
+    gap: 45px;
 }
 .wb-hackathonImageBlock{
     flex-basis: 45%;
@@ -100,6 +100,7 @@
 }
 .wb-firecodeMarathonImageBlock img{
     width: 100%;
+    min-width: 518px;
     border-radius: 19px;
 }
 .wb-firecodeButtonBlock{

@@ -38,15 +38,19 @@
   flex: unset !important;
   margin-left: 40px !important;
 }
+.navbar-menu-buttons a, .navbar-menu-buttons li a, .navbar-menu-buttons li{
+  text-transform: unset !important;
+}
 .sevan2024-menu > li a,
 .sevan2024-menu > a {
   color: #001a34 !important;
 }
 .sevan2024-navbar a,
 .sevan2024-navbar li a {
-  text-transform: capitalize !important;
+  text-transform: unset !important;
   font-weight: 800 !important;
 }
+
 .sevan2024-navbar .navbar-right a {
   background-color: #2f80ed !important;
   padding: 14px 40px !important;

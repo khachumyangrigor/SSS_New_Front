@@ -8,7 +8,7 @@ const menuItems = [
   { link: "/about-us", title: "About us" },
   { link: "/partners", title: "Partners" },
   { link: "/merch", title: "Merch" },
-  { link: "/blog", title: "Blog" },
+  // { link: "/blog", title: "Blog" },
   { link: "", title: "Contacts" },
 ];
 

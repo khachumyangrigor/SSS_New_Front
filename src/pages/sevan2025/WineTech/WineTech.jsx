@@ -32,9 +32,9 @@ export const WineTech = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className="wb-WineButtonBlock">
-                    <Button title="Apply Now" backgroundColor="rgba(47, 128, 237, 1)" color="#fff"/>
-                </div>
+                {/*<div className="wb-WineButtonBlock">*/}
+                {/*    <Button title="Apply Now" backgroundColor="rgba(47, 128, 237, 1)" color="#fff"/>*/}
+                {/*</div>*/}
                 <div className="wb-winePartners">
                     <img src={partner1} alt=""/>
                     <img src={partner2} alt=""/>

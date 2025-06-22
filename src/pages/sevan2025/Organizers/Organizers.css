@@ -30,7 +30,27 @@
 
 }
 
+@media screen and (max-width: 1024px){
+    .wb-sevan2025 .wb-organizersImageBlock {
+        max-width: 35% !important;
+    }
+    .wb-sevan2025 .wb-organizersImageBlock img{
+        max-width: 100% !important;
+    }
+    .wb-sevan2025 .wb-armeniaPartner{
+        order: -1 !important;
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+    .wb-sevan2025 .wb-armeniaPartner img{
+        width: 50% !important;
+    }
+}
+
 @media screen and (max-width: 756px){
+
+
     .wb-organizersTitle h2{
         font-size: 32px;
         margin-bottom: 20px !important;
@@ -41,6 +61,7 @@
     /*.wb-organizersImageBlock{*/
     /*    flex-basis: 60%;*/
     /*}*/
+
 }
 @media screen  and (max-width: 560px){
     /*.sevan24-organizers .wb-organizersContent{*/

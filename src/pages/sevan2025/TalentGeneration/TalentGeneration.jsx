@@ -23,8 +23,8 @@ export const TalentGeneration = (props) => {
                     </div>
                 </div>
                 <div className="wb-talentButtonBlock">
-                    <p>Fill the applications form below before July 10th.</p>
-                    <Button title="Apply to Participate" backgroundColor="rgba(47, 128, 237, 1)" color="#fff"/>
+                    <p>Fill the applications form below before June 25.</p>
+                    <Button title="Apply to Participate" backgroundColor="rgba(47, 128, 237, 1)" color="#fff" link="https://docs.google.com/forms/d/e/1FAIpQLScSvomSEHCkPRrzZTWwiia3CWuovgMmooZl1PMQ77axfJ7lyw/viewform"/>
                 </div>
                 <div className="wb-talentPartners">
                     <h5>Powered by:</h5>
