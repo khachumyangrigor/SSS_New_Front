@@ -87,3 +87,30 @@
         margin-top: 30px;
     }
 }
+
+@media screen  and (max-width: 445px){
+    .wb-winePartners img:nth-child(1){
+        max-width: 143px;
+    }
+    .wb-winePartners img:nth-child(2){
+        max-width: 105px;
+    }
+    .wb-winePartners img:nth-child(3){
+        max-width: 42px;
+    }
+    .wb-winePartners img:nth-child(4){
+        max-width: 148px;
+    }
+}
+@media screen  and (max-width: 361px){
+    .wb-winePartners img:nth-child(1){
+        max-width: 135px;
+    }
+    .wb-winePartners img:nth-child(2){
+        max-width: 95px;
+    }
+    .wb-winePartners{
+        gap: 25px;
+
+    }
+}

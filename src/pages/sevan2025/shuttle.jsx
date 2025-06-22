@@ -56,15 +56,25 @@ class Shuttle extends React.Component {
           >
             <div className="vihacleBox">
               <div>
-                <img
-                  className="wb-ggImage"
-                  src={
-                    this.state.screenWidth < 547 || this.state.busOpen
-                      ? require("./img/disignIcon/ggImage.png")
-                      : require("./img/disignIcon/bus-side-view 1.png")
-                  }
-                  alt="shuttle"
-                />
+                {(this.state.screenWidth > 547 || !this.state.busOpen) && (
+                    <img
+                        className="wb-ggImage"
+                        src={
+                          require("./img/disignIcon/bus-side-view 1.png")
+                        }
+                        alt="shuttle"
+                    />
+                )}
+                {/*<img*/}
+                {/*    className="wb-ggImage"*/}
+                {/*    src={*/}
+                {/*      this.state.screenWidth < 547 || this.state.busOpen*/}
+                {/*          ? require("./img/disignIcon/ggImage.png")*/}
+                {/*          : require("./img/disignIcon/bus-side-view 1.png")*/}
+                {/*    }*/}
+                {/*    alt="shuttle"*/}
+                {/*/>*/}
+
               </div>
               {this.state.screenWidth > 546 && (
                 <button onClick={this.shuttleOpen}>Shuttle Service</button>

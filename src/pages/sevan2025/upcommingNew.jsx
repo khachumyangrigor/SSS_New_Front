@@ -114,6 +114,7 @@ class UpcommingNew extends React.Component {
               <h4>
                 SEVAN STARTUP SUMMIT 2025 <br /> JULY 20 - 26
               </h4>
+              <h6 className="wb-festivalCity">Sevan Festival City</h6>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right ">
                 <a
                     onClick={(e) => {e.preventDefault()}}

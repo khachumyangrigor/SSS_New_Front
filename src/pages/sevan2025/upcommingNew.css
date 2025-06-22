@@ -1,4 +1,9 @@
 /*  */
+.wb-festivalCity{
+  font-size: 14px;
+  letter-spacing: 1px;
+  color:#FFB600;
+}
 .sevan2025 .wb-applyButtonBlock-right  button.upcomingSevan2025Button{
   display: inline-flex;
   flex-direction: column;
