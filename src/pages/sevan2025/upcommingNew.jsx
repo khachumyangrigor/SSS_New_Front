@@ -125,15 +125,15 @@ class UpcommingNew extends React.Component {
                 >
                   <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>
                 </a>
-                {/*<a*/}
-                {/*    className="wb-agendaDesktopButton"*/}
-                {/*    href="https://my.matterport.com/show/?m=uuhg5Lm2u9y"*/}
-                {/*    // onClick={() => setPopupStatus(true)}*/}
-                {/*    target="_blank"*/}
-                {/*    rel="noopener noreferrer"*/}
-                {/*>*/}
-                {/*  <button>Expo Map 2025</button>*/}
-                {/*</a>*/}
+                <a
+                    className="wb-agendaDesktopButton"
+                    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"
+                    // onClick={() => setPopupStatus(true)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  <button>Agenda</button>
+                </a>
               </div>
             </div>
           </div>
