@@ -1,0 +1,98 @@
+.wb-finTechBlock{
+    background-color: rgba(247, 247, 247, 1);
+}
+.wb-finTechContent{
+    display: flex;
+    gap: 0 40px;
+
+}
+.wb-finTechContentImageBlock{
+    flex-basis: 35%;
+}
+.wb-finTechContentImageBlock img{
+    width: 100%;
+    border-radius: 23px;
+}
+.wb-finTechContentInfoBlock{
+    margin-top: 20px;
+    flex-basis: 50%;
+}
+.wb-finTechContentInfoBlock p{
+    font-size: 24px;
+    color: rgba(31, 44, 76, 1);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.wb-finTechContentInfoBlock ul li{
+    list-style-type: disc;
+    color: rgba(31, 44, 76, 1);
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.wb-finTechContentInfoBlock ul li::marker{
+    color: rgba(31, 44, 76, 1);
+}
+.wb-finPartners{
+    margin-top: 36px;
+    padding-top: 36px;
+    border-top: 1px solid rgba(31, 44, 76, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-bottom: 40px;
+}
+.wb-finPartners div img{
+    max-width: 100%;
+}
+
+
+
+@media screen  and (max-width: 1368px){
+    .wb-finTechContentInfoBlock p{
+        font-size: 18px;
+    }
+    .wb-finTechContentInfoBlock ul li{
+        font-size: 18px;
+    }
+    .wb-finPartners{
+        gap: 40px;
+
+    }
+}
+@media screen  and (max-width: 1024px){
+    .wb-finTechContent{
+        flex-direction: column;
+    }
+    .wb-finTechContentImageBlock{
+        text-align: center;
+    }
+    .wb-finTechContentImageBlock img{
+        width: 60%;
+    }
+    .wb-finTechContentInfoBlock p{
+        font-size: 22px;
+    }
+    .wb-finTechContentInfoBlock ul li{
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width: 756px){
+    .wb-finTechContentImageBlock img{
+        width: 80%;
+    }
+}
+@media screen  and (max-width: 600px){
+    .wb-finTechContentImageBlock img{
+        width: 100%;
+    }
+    .wb-finTechContentInfoBlock p{
+        font-size: 15px;
+    }
+    .wb-finTechContentInfoBlock ul li{
+        font-size: 15px;
+    }
+}
+

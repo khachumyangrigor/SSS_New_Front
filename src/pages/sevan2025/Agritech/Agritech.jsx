@@ -7,6 +7,10 @@ import a_3 from "./img/sigma.png";
 import a_4 from "./img/aida.png";
 import a_5 from "./img/a-5.png";
 import a_6 from "./img/a-6.png";
+import acbaImg from "./img/acba.png";
+import partnerImg7 from "./img/7.png";
+import partnerImg8 from "./img/8.png";
+import partnerImg9 from "./img/9.png";
 import Popup from "../Popup/Popup.jsx";
 import {buyTickets} from "../Navbar/NavButtons.jsx";
 import Title from "../Components/Title/Title.jsx";
@@ -126,7 +130,19 @@ export const Agritech = (props) => {
             <img src={a_5} alt="Partner" />
           </div>
           <div>
+            <img src={acbaImg} alt="Partner" />
+          </div>
+          <div>
             <img src={a_6} alt="Partner" />
+          </div>
+          <div>
+            <img src={partnerImg7} alt="Partner" />
+          </div>
+          <div>
+            <img src={partnerImg8} alt="Partner" />
+          </div>
+          <div>
+            <img src={partnerImg9} alt="Partner" />
           </div>
         </div>
         <Popup mobile={ false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />

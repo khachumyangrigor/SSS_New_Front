@@ -8,10 +8,10 @@ const menuItems = [
     link: `credo`,
     title: "Our Credo",
   },
-  {
-    link: `wb-applyBlock`,
-    title: "Apply as a Startup",
-  },
+  // {
+  //   link: `wb-applyBlock`,
+  //   title: "Apply as a Startup",
+  // },
   {
     link: `upcommingPrograms`,
     title: "Our Program",
@@ -29,6 +29,19 @@ const menuItems = [
     title: "Sevan Agritech Summit",
   },
   {
+    link: `wb-finTechBlock`,
+    title: "FinTech Innovation Summit",
+  },
+
+  {
+    link: `wb-energyBlock`,
+    title: "Energy Transition and Entrepreneurship Summit",
+  },
+  {
+    link: `wb-greenovateBlock`,
+    title: "Greenovate Youth Summit",
+  },
+  {
     link: `wb-wineTech`,
     title: "Winetech Innovation Summit",
   },
@@ -36,14 +49,14 @@ const menuItems = [
     link: `wb-rally`,
     title: "Sevan EV Rally",
   },
-  {
-    link: `wb-volunteeringBlock`,
-    title: "Apply as a Volunteer",
-  },
-  {
-    link: `wb-teamLeads`,
-    title: "Apply as a Team Lead",
-  },
+  // {
+  //   link: `wb-volunteeringBlock`,
+  //   title: "Apply as a Volunteer",
+  // },
+  // {
+  //   link: `wb-teamLeads`,
+  //   title: "Apply as a Team Lead",
+  // },
   {
     link: `upcommingReach`,
     title: "How to reach us",

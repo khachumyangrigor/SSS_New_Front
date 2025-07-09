@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import FootterNew from "../footterNew/footterNew.jsx";
-
-import Apply from "./Apply/Apply.jsx";
-import Organizers from "./Organizers/Organizers.jsx";
+import PartnerSection from "./PartnerSection/PartnerSection.jsx";
 import Stats from "./Status/index.jsx";
 import Credo from "./credo.jsx";
 import MustKnow from "./mustknow.jsx";
@@ -11,19 +9,23 @@ import Programs from "./program.jsx";
 import TalentGeneration from "./TalentGeneration/TalentGeneration.jsx";
 import FirecodeMarathon from "./FirecodeMarathon/FirecodeMarathon.jsx";
 import Agritech from "./Agritech/Agritech.jsx";
+import FinTech from "./FinTech/FinTech.jsx";
+import Energy from "./Energy/Energy.jsx";
+import Greenovate from "./Greenovate/Greenovate.jsx";
 import WineTech from "./WineTech/WineTech.jsx";
 import Rally from "./Rally/Rally.jsx";
-import Valounteering from "./Volunteering/Volunteering.jsx";
-import TeamLeads from "./TeamLeads/TeamLeads.jsx";
+
+
 import Shuttle from "./shuttle.jsx";
 
 import Navbar from "./Navbar/index.jsx";
 import { GetAccess } from "./component.min.jsx";
 
 //css
-import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
-import Partners from "./Partners/Partners.jsx";
+
+
+
 
 
 
@@ -125,15 +127,15 @@ class UpcommingNew extends React.Component {
                 >
                   <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>
                 </a>
-                <a
-                    className="wb-agendaDesktopButton"
-                    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"
-                    // onClick={() => setPopupStatus(true)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                  <button>Agenda</button>
-                </a>
+                {/*<a*/}
+                {/*    className="wb-agendaDesktopButton"*/}
+                {/*    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"*/}
+                {/*    // onClick={() => setPopupStatus(true)}*/}
+                {/*    target="_blank"*/}
+                {/*    rel="noopener noreferrer"*/}
+                {/*>*/}
+                {/*  <button>Agenda</button>*/}
+                {/*</a>*/}
               </div>
             </div>
           </div>
@@ -141,9 +143,10 @@ class UpcommingNew extends React.Component {
           {this.state.screenWidth <= 1024 &&
             this.state.screenWidth !== null && <Navbar />}
           <GetAccess />
+          <PartnerSection />
           <Stats />
           <Credo />
-          <Roadmap />
+          {/*<Roadmap />*/}
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}
           <Programs />
@@ -152,13 +155,17 @@ class UpcommingNew extends React.Component {
           <TalentGeneration />
           <FirecodeMarathon />
           <Agritech />
+          <FinTech />
+          <Energy />
+          <Greenovate />
           <WineTech />
           <Rally />
-          <Valounteering />
-          <TeamLeads />
+          {/*<Valounteering />*/}
+          {/*<TeamLeads />*/}
           <Shuttle />
           <MustKnow />
-          <Organizers />
+          <PartnerSection />
+          {/*<Organizers />*/}
           {/*<Partners />*/}
           <FootterNew />
         </div>

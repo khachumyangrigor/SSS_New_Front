@@ -2,13 +2,14 @@ import React from "react";
 
 const buttons = [
   {
-    link: "https://www.f6s.com/sevan-startup-summit-2025",
-    title: "Apply as a Startup",
+    link: "https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf",
+    title: "Agenda",
   },
-  // {
-  //   link: "https://forms.gle/VSG5oNLhg2nr8zhr9",
-  //   title: "Become a Volunteer",
-  // },
+  {
+    link: "#",
+    title: "Buy Ticket",
+    className: "transparent",
+  },
 ];
 
 export const buyTickets = [
@@ -51,10 +52,16 @@ function NavButtons({ isSaleOpen }) {
       ) : (
         buttons.map((button, index) => (
           <a
-            key={`nav-button-${index}`}
-            href={button.link}
-            target="_blank"
-            rel="noopener noreferrer"
+              className={button.className === "transparent" ? "wb-buttonTransparent" : null}
+              key={`nav-button-${index}`}
+              href={button.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => {
+                if(button.className === "transparent") {
+                  e.preventDefault();
+                }
+              }}
           >
             {button.title}
           </a>

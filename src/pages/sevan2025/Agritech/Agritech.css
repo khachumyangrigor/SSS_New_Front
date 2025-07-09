@@ -136,8 +136,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 126px;
+    gap: 45px 126px;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 .agritech-partners img{
     max-width: 200px;
@@ -164,7 +165,7 @@
         font-size: 18px;
     }
     .agritech-partners{
-        gap: 40px;
+        gap: 45px 55px;
     }
     .agritech-partners img{
         max-width: 150px;
@@ -331,7 +332,7 @@
         font-size: 15px;
     }
     .agritech-partners img{
-        max-width: 90px;
+        max-width: 80px;
         max-height: 50px;
     }
 

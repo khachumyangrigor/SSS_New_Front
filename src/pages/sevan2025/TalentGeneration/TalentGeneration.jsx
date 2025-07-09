@@ -2,6 +2,7 @@ import React from 'react';
 import Title from "../Components/Title/Title.jsx";
 import talentImg from "./img/talentGeneration.png"
 import eu4Image from "./img/eu4.png"
+import inovationImg from "./img/inovation.png"
 import startupImg from "./img/startup.png"
 import "./TalentGeneration.css"
 import Button from "../Components/Button/Button.jsx";
@@ -29,7 +30,11 @@ export const TalentGeneration = (props) => {
                 <div className="wb-talentPartners">
                     <h5>Powered by:</h5>
                     <div className="wb-talentPartnersImageBlock">
-                        <img src={eu4Image} alt="EU4 innovation EAST"/>
+                        <div>
+                            <img src={eu4Image} alt="EU4 innovation EAST"/>
+                            <img className="wb-innovationImage" src={inovationImg} alt="EU4 Inovation EAST"/>
+                        </div>
+
                         <img className="wb-startupArmeniaImg" src={startupImg} alt="Statup Armenia"/>
                     </div>
                 </div>

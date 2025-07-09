@@ -46,12 +46,20 @@ flex-basis: 50%;
     justify-content: center;
     gap: 20px;
     padding-bottom: 35px;
+    align-items: center;
+}
+.wb-talentPartnersImageBlock div{
+    display: flex;
+    align-items: center;
 }
 .wb-talentPartnersImageBlock img{
     max-width:624px;
 }
 .wb-talentPartnersImageBlock .wb-startupArmeniaImg{
     max-width:153px;
+}
+.wb-talentPartnersImageBlock .wb-innovationImage{
+    height: 34px;
 }
 
 @media screen  and (max-width: 1368px){
@@ -82,9 +90,12 @@ flex-basis: 50%;
         align-items: center;
     }
 }
-@media screen  and (max-width: 700px){
+@media screen  and (max-width: 740px){
     .wb-talentPartnersImageBlock img{
         max-width:400px;
+    }
+    .wb-talentPartnersImageBlock .wb-innovationImage{
+        height: 22px;
     }
     .wb-talentPartnersImageBlock .wb-startupArmeniaImg{
         max-width:100px;

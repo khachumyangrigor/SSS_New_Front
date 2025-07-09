@@ -98,7 +98,7 @@ function Credo() {
     }
   };
   return (
-    <div className="credo uae-credo sevan24-credo">
+    <div className="credo uae-credo sevan24-credo sevan2025Credo">
       <h2>Why Participate as a Startup</h2>
       <p>
         {width > 1024

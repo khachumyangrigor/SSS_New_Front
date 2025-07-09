@@ -1,9 +1,13 @@
 .wb-mobileShowImage{
     display: none;
 }
+.wb-rally{
+    background-color: rgba(247, 247, 247, 1);
+}
 .wb-rallyContentBlock{
     display: flex;
 }
+
 .wb-rallyContentInfo{
     flex-basis: 48%;
 }

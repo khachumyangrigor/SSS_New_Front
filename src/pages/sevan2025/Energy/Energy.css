@@ -1,0 +1,92 @@
+.wb-energyContent{
+    display: flex;
+    gap: 0 40px;
+}
+.wb-energyContentImageBlock{
+    flex-basis: 35%;
+}
+.wb-energyContentImageBlock img{
+    width: 100%;
+    border-radius: 23px;
+}
+.wb-energyContentInfoBlock{
+    margin-top: 20px;
+    flex-basis: 50%;
+}
+.wb-energyContentInfoBlock p{
+    font-size: 24px;
+    color: rgba(31, 44, 76, 1);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.wb-energyPartners{
+    margin-top: 36px;
+    padding-top: 36px;
+    border-top: 1px solid rgba(31, 44, 76, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-bottom: 40px;
+}
+.wb-energyPartners div img{
+    max-width: 100%;
+}
+
+
+
+@media screen  and (max-width: 1368px){
+    .wb-energyContentInfoBlock p{
+        font-size: 18px;
+    }
+    .wb-energyContentInfoBlock ul li{
+        font-size: 18px;
+    }
+    .wb-energyPartners{
+        gap: 40px;
+
+    }
+}
+@media screen  and (max-width: 1024px){
+    .wb-energyContentImageBlock{
+        text-align: center;
+    }
+    .wb-energyContentImageBlock img{
+        width: 60%;
+    }
+    .wb-energyContent{
+        flex-direction: column;
+    }
+    .wb-energyContentInfoBlock p{
+        font-size: 22px;
+    }
+    .wb-energyContentInfoBlock ul li{
+        font-size: 20px;
+    }
+    .wb-energyPartners{
+        flex-wrap: wrap;
+    }
+    .wb-energyPartners div{
+        flex-basis: 40%;
+        text-align: center;
+
+    }
+}
+@media screen  and (max-width: 756px){
+    .wb-energyContentImageBlock img{
+        width: 80%;
+    }
+}
+@media screen  and (max-width: 600px){
+    .wb-energyContentImageBlock img{
+        width: 100%;
+    }
+    .wb-energyContentInfoBlock p{
+        font-size: 15px;
+    }
+    .wb-energyContentInfoBlock ul li{
+        font-size: 15px;
+    }
+}
+

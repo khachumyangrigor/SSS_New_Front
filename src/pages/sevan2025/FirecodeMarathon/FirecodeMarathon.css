@@ -108,6 +108,22 @@
     margin-top: 65px;
     padding-bottom: 45px;
 }
+.wb-FirecodePartner{
+    padding-top: 15px;
+    text-align: center;
+    border-top: 1px solid rgba(31, 44, 76, 1);
+}
+.wb-FirecodePartner div{
+    padding: 21px 0;
+}
+.wb-FirecodePartner div img{
+    max-width: 100%;
+}
+.wb-FirecodePartner h5{
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(31, 44, 76, 1);
+}
 
 @media screen and (max-width: 1368px){
     .wb-hackathonImageBlock{

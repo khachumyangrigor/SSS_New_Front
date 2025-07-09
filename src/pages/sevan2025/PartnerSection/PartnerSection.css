@@ -1,0 +1,32 @@
+/*Get Access*/
+.wb-getAccessPartners{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.wb-getAccessPartners div{
+    flex-basis: 20%;
+    text-align: center;
+}
+.wb-getAccessPartners div img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .wb-getAccessPartners div{
+        flex-basis: 45%;
+
+    }
+}
+
+@media screen and (max-width: 670px){
+    .wb-getAccessPartners{
+        padding: 40px 0;
+        gap: 40px 0;
+    }
+    .wb-getAccessPartners div img{
+        max-width: 70%;
+    }
+}

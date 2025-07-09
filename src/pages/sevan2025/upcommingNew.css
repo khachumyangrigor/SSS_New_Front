@@ -5,13 +5,15 @@
   color:#FFB600;
 }
 .sevan2025 .wb-applyButtonBlock-right{
-  align-items: center !important;
-  justify-content: center !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
 }
 .sevan2025 .wb-applyButtonBlock-right  button.upcomingSevan2025Button{
+  display: flex;
   flex-direction: column;
   align-items: center !important;
   justify-content: center !important;
+  margin: unset !important;
 }
 .closeMsg {
   font-family: Montserrat;
