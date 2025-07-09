@@ -124,6 +124,9 @@ export const Agritech = (props) => {
             <img src={a_3} alt="Partner" />
           </div>
           <div>
+            <img src={a_6} alt="Partner" />
+          </div>
+          <div>
             <img src={a_4} alt="Partner" />
           </div>
           <div>
@@ -132,9 +135,7 @@ export const Agritech = (props) => {
           <div>
             <img src={acbaImg} alt="Partner" />
           </div>
-          <div>
-            <img src={a_6} alt="Partner" />
-          </div>
+
           <div>
             <img src={partnerImg7} alt="Partner" />
           </div>

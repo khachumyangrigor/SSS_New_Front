@@ -66,6 +66,15 @@
   border: 1px solid rgba(0, 26, 52, 1) !important;
 }
 
+@media screen and (max-width: 1024px){
+  .sevan2024-navbar .navbar-right a.wb-buttonTransparent{
+    background-color: transparent !important;
+    color: rgba(187, 188, 195, 1) !important;
+    border: 1px solid rgba(187, 188, 195, 1) !important;
+  }
+}
+
+
 
 /* Program */
 .sevan2024-program.upcommingPrograms_left{
