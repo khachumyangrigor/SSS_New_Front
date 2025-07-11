@@ -303,18 +303,18 @@ export default [
         component: Partners
     },
 
-    {
-        path: '/blog',
-        exact: true,
-        component: News
-    },
-
-    {
-        path: '/blog/:id',
-        exact: true,
-        component: News_One,
-        loadData: (params) => loadData(`https://www.apis.seasidestartupsummit.com/news/?method=getNewsOne&id=${params.id}`)
-    },
+    // {
+    //     path: '/blog',
+    //     exact: true,
+    //     component: News
+    // },
+    //
+    // {
+    //     path: '/blog/:id',
+    //     exact: true,
+    //     component: News_One,
+    //     loadData: (params) => loadData(`https://www.apis.seasidestartupsummit.com/news/?method=getNewsOne&id=${params.id}`)
+    // },
     {
         component: Page_404,
     },

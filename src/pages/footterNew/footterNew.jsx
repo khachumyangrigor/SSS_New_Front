@@ -23,7 +23,7 @@ class FootterNew extends React.Component {
                             <li><Link to="/about-us">ABOUT US</Link></li>
                             {/* <li><Link to="/startups">Startups</Link></li> */}
                             <li><Link to="/partners">Partners</Link></li>
-                            <li><Link to="/blog">BLOG</Link></li>
+                            {/*<li><Link to="/blog">BLOG</Link></li>*/}
                             <li><Link to="/merch">MERCH</Link></li>
                         </ul>
                     </div>

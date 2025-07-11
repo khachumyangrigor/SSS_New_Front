@@ -1,10 +1,11 @@
 /*Get Access*/
 .wb-getAccessPartners{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding: 120px 0;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 40px 30px;
 }
 .wb-getAccessPartners div{
     flex-basis: 20%;

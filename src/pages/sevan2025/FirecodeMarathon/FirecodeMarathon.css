@@ -3,6 +3,7 @@
 }
 .wb-firecodeMarathon{
     background-color: rgba(247, 247, 247, 1);
+    padding-bottom: 50px;
 }
 .wb-contentSize{
     width: 90%;
@@ -184,6 +185,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .wb-firecodeMarathon{
+        padding-bottom: 30px;
+    }
     .wb-hackathonInfoBlock > p{
         font-size: 15px;
     }

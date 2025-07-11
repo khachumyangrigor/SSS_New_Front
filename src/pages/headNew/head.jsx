@@ -39,9 +39,9 @@ class Header extends React.Component {
             case '/partners':
                 ReactDOM.findDOMNode(this.refs.partnersLi).style.opacity=1;
                 break;
-            case '/blog/':
-            case '/blog':
-                ReactDOM.findDOMNode(this.refs.blogLi).style.opacity=1;
+            // case '/blog/':
+            // case '/blog':
+            //     ReactDOM.findDOMNode(this.refs.blogLi).style.opacity=1;
                 break;
             case '/merch/':
             case '/merch':
@@ -51,7 +51,7 @@ class Header extends React.Component {
                 ReactDOM.findDOMNode(this.refs.eventLi).style.opacity=0.4;
                 ReactDOM.findDOMNode(this.refs.aboutLi).style.opacity=0.4;
                 ReactDOM.findDOMNode(this.refs.partnersLi).style.opacity=0.4;
-                ReactDOM.findDOMNode(this.refs.blogLi).style.opacity=0.4;
+                // ReactDOM.findDOMNode(this.refs.blogLi).style.opacity=0.4;
                 ReactDOM.findDOMNode(this.refs.merchLi).style.opacity=0.4;
                 break;
         }
@@ -154,10 +154,10 @@ class Header extends React.Component {
                     <ul>
                         <li><Link  to="/events" ref="eventLi">Events</Link></li>
                         <li><Link  to="/about-us" ref="aboutLi">About us</Link></li>
-                        {/* <li><Link to="/startups">Startups</Link></li> */}
+                         {/*<li><Link to="/startups">Startups</Link></li>*/}
                         <li><Link  to="/partners" ref="partnersLi">Partners</Link></li>
                         <li><Link  to="/merch" ref="merchLi" >Merch</Link></li>
-                        <li><Link  to="/blog" ref="blogLi" >Blog</Link></li>
+                        {/*<li><Link  to="/blog" ref="blogLi" >Blog</Link></li>*/}
                         <li onClick={this.handelScrollIntoView}>Contact</li>
                     </ul>
                 </div>
@@ -209,7 +209,7 @@ class Header extends React.Component {
                             {/* <li><Link to="/startups">Startups</Link></li> */}
                             <li><Link to="/partners">Partners</Link></li>
                             <li><Link  to="/merch">Merch</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
+                            {/*<li><Link to="/blog">Blog</Link></li>*/}
                             <li onClick={this.handelScrollIntoView}>Contacts</li>
                             {/* <li><a href="https://www.pay.seasidestartupsummit.com/vissitor/" target="_blank" rel="noopener noreferrer" >Buy Ticket</a></li> */}
                             {/* <li><Link to="/events">Roadmap as Startup</Link></li> */}
