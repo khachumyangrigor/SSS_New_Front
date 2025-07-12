@@ -909,6 +909,11 @@ button.wb-localRuleTermsButton{
 }
 
 @media screen and (max-width: 440px) {
+  .sevan2024-navbar .navbar-right .nav-buttons a{
+    padding: 7px 11px !important;
+    font-size: 10px !important;
+    border-radius: 4px !important;
+  }
   /*Event page*/
   .sevan2024Stat .statsWrapper .statItem span:first-child {
     font-size: 28px !important;

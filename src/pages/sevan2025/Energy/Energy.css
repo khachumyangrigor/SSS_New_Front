@@ -33,6 +33,9 @@
 .wb-energyPartners div img{
     max-width: 100%;
 }
+.wb-energyPartnerMinistry img{
+    max-width: 166px !important;
+}
 
 
 
@@ -87,6 +90,12 @@
     }
     .wb-energyContentInfoBlock ul li{
         font-size: 15px;
+    }
+}
+@media screen  and (max-width: 456px){
+    .wb-energyPartners{
+        gap: 20px 40px;
+
     }
 }
 

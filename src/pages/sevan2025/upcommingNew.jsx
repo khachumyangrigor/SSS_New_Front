@@ -144,15 +144,15 @@ popupClose = () => {
               </h4>
               <h6 className="wb-festivalCity">Sevan Festival City</h6>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right ">
-                <a
-                    onClick={(e) => {e.preventDefault()}}
-                  href="#"
-                  // onClick={() => setPopupStatus(true)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>
-                </a>
+                {/*<a*/}
+                {/*    onClick={(e) => {e.preventDefault()}}*/}
+                {/*  href="#"*/}
+                {/*  // onClick={() => setPopupStatus(true)}*/}
+                {/*  target="_blank"*/}
+                {/*  rel="noopener noreferrer"*/}
+                {/*>*/}
+                {/*  <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>*/}
+                {/*</a>*/}
                 {/*<a*/}
                 {/*    className="wb-agendaDesktopButton"*/}
                 {/*    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"*/}
