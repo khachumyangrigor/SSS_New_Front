@@ -11,7 +11,7 @@ import { navbarMenuAtom, navbarZeroPointAtom } from "./state";
 import "./styles.css";
 import "../myStyles.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const isMenuOpen = useAtomValue(navbarMenuAtom);
   const navbarRef = useRef(null);
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
@@ -65,7 +65,7 @@ const Navbar = () => {
         <NavbarMenu />
       </div>
       <div className={"navbar-right"}>
-        <NavButtons isSaleOpen={true} />
+        <NavButtons isSaleOpen={true} openPopup={props.openPopup} />
 
       </div>
       <MenuButton />

@@ -23,7 +23,7 @@ export const buyTickets = [
   },
 ]; //
 
-function NavButtons({ isSaleOpen }) {
+function NavButtons({ isSaleOpen,openPopup }) {
   function handleRedirection(link) {
     window.open(
       link,
@@ -52,7 +52,7 @@ function NavButtons({ isSaleOpen }) {
       ) : (
         buttons.map((button, index) => (
           <a
-              className={button.className === "transparent" ? "wb-buttonTransparent" : null}
+              // className={button.className === "transparent" ? "wb-buttonTransparent" : null}
               key={`nav-button-${index}`}
               href={button.link}
               target="_blank"
@@ -60,6 +60,7 @@ function NavButtons({ isSaleOpen }) {
               onClick={(e) => {
                 if(button.className === "transparent") {
                   e.preventDefault();
+                  openPopup();
                 }
               }}
           >

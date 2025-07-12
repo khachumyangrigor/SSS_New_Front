@@ -48,7 +48,6 @@ class UpcommingNew extends React.Component {
     this.setState({
       screenWidth: window.innerWidth,
       scrollY: window.scrollY,
-      popupStatus: true
     });
     window.addEventListener("resize", this.handleResize);
     window.addEventListener("scroll", this.handleScroll);
@@ -75,6 +74,13 @@ popupClose = () => {
     })
   document.body.style.overflow = "";
 }
+  popupOpen = () => {
+    this.setState({
+      popupStatus: true
+    })
+    document.body.style.overflow = "hidden";
+  }
+
   handleResize() {
     this.setState({ screenWidth: window.innerWidth });
   }
@@ -122,7 +128,7 @@ popupClose = () => {
                     : "sevan2024-headerNavbar"
                 }
               >
-                <Navbar />
+                <Navbar openPopup={this.popupOpen}/>
               </div>
             )}
 
@@ -161,7 +167,7 @@ popupClose = () => {
           </div>
           {/* Part 2 */}
           {this.state.screenWidth <= 1024 &&
-            this.state.screenWidth !== null && <Navbar />}
+            this.state.screenWidth !== null && <Navbar openPopup={this.popupOpen}/>}
           <GetAccess />
           <PartnerSection />
           <Stats />
