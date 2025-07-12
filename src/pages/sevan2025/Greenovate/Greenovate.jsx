@@ -8,7 +8,7 @@ import partner4 from "./img/p-4.png"
 import partner5 from "./img/p-5.png"
 import partner6 from "./img/p-6.png"
 import partner7 from "./img/p-7.png"
-import partner8 from "./img/p-9.png"
+import partner8 from "./img/panda.png"
 import partner9 from "./img/p11.png"
 import partner10 from "./img/p33.png"
 import partner11 from "./img/p44.png"
@@ -49,14 +49,21 @@ export const Greenovate = (props) => {
                     <div className="wb-middleLinePartners">
                         <img src={partner4} alt=""/>
                     </div>
-                    <div>
-                        <img src={partner3} alt=""/>
-                    </div>
+
                     <div>
                         <img src={partner10} alt=""/>
                     </div>
                     <div>
                         <img src={partner11} alt=""/>
+                    </div>
+                    <div>
+                        <img src={partner7} alt=""/>
+                    </div>
+                    <div>
+                        <img src={partner8} alt=""/>
+                    </div>
+                    <div>
+                        <img src={partner3} alt=""/>
                     </div>
 
                 </div>

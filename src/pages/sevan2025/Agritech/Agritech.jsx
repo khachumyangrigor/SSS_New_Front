@@ -127,13 +127,14 @@ export const Agritech = (props) => {
             <img src={a_3} alt="Partner" />
           </div>
           <div>
-            <img src={a_6} alt="Partner" />
-          </div>
-          <div>
             <img src={a_4} alt="Partner" />
           </div>
           <div>
             <img src={a_5} alt="Partner" />
+          </div>
+
+          <div>
+            <img src={a_6} alt="Partner" />
           </div>
 
 

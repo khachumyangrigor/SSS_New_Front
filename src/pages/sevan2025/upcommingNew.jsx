@@ -23,6 +23,7 @@ import { GetAccess } from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
+import Popup from "./Popup/Popup.jsx";
 
 
 
@@ -37,6 +38,7 @@ class UpcommingNew extends React.Component {
     this.state = {
       screenWidth: null,
       scrollY: null,
+      popupStatus:false
     };
     this.handleResize = this.handleResize.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
@@ -46,16 +48,33 @@ class UpcommingNew extends React.Component {
     this.setState({
       screenWidth: window.innerWidth,
       scrollY: window.scrollY,
+      popupStatus: true
     });
     window.addEventListener("resize", this.handleResize);
     window.addEventListener("scroll", this.handleScroll);
+    document.body.style.overflow = "hidden";
   }
 
   componentWillUnmount() {
     window.removeEventListener("resize", this.handleResize);
     window.removeEventListener("scroll", this.handleScroll);
+    document.body.style.overflow = "";
   }
-
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.popupStatus !== this.state.popupStatus) {
+      if (this.state.popupStatus) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "";
+      }
+    }
+  }
+popupClose = () => {
+    this.setState({
+      popupStatus: false
+    })
+  document.body.style.overflow = "";
+}
   handleResize() {
     this.setState({ screenWidth: window.innerWidth });
   }
@@ -91,6 +110,7 @@ class UpcommingNew extends React.Component {
           />
         </Helmet>
         <div className="upcommingNew">
+          <Popup status={this.state.popupStatus} infoMode={false} closePopup={this.popupClose} />
           {/* Part 1 */}
           <div className="upcommingNewTop sevan2023 sevan2024 sevan2025">
             {(this.state.screenWidth > 1024 ||

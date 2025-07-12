@@ -115,7 +115,7 @@ class Programs extends React.Component {
                             {/* <p className="lasrPText">Starter Programme teams compete for the top 2 positions in each Industry Track and a chance to go on to the Starter Big Battle. The top team from each Industry Track will receive US$1,500 in prizes. Up to 18 teams will be selected for the Semi-Finals out of which 6 teams will go on to participate in the Starter Big Battle Finals. The finalists will compete for US$10,000 in prizes for the top 3 teams and in-kind prizes worth up to US$20,000.</p> */}
                             <a className="eventComingSoonBtn" onClick={(e) => {
                                 if (!isEnabled) e.preventDefault();
-                            }} target="_blank" rel="noopener noreferrer">Get the educational program</a>
+                            }} target="_blank" rel="noopener noreferrer">Download Preliminary Schedule</a>
                         </div>
                     </div>
                     <div className="upcommingPrograms_right one">

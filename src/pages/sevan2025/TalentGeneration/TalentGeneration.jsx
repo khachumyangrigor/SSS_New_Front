@@ -26,10 +26,10 @@ export const TalentGeneration = (props) => {
                         <p>This is the only educational program within the framework of Sevan Startup Summit 2025 that targets individuals and doens't require pre-formed teams. </p>
                     </div>
                 </div>
-                <div className="wb-talentButtonBlock">
-                    <p>Fill the applications form below before June 25.</p>
-                    <Button title="Apply to Participate" backgroundColor="rgba(47, 128, 237, 1)" color="#fff" link="https://docs.google.com/forms/d/e/1FAIpQLScSvomSEHCkPRrzZTWwiia3CWuovgMmooZl1PMQ77axfJ7lyw/viewform"/>
-                </div>
+                {/*<div className="wb-talentButtonBlock">*/}
+                {/*    <p>Fill the applications form below before June 25.</p>*/}
+                {/*    <Button title="Apply to Participate" backgroundColor="rgba(47, 128, 237, 1)" color="#fff" link="https://docs.google.com/forms/d/e/1FAIpQLScSvomSEHCkPRrzZTWwiia3CWuovgMmooZl1PMQ77axfJ7lyw/viewform"/>*/}
+                {/*</div>*/}
                 <div className="wb-talentPartners">
                     <h5>Powered by:</h5>
                     <div className="wb-talentPartnersImageBlock">

@@ -5,8 +5,9 @@ import energyImg from "./img/energy.png"
 import "./Energy.css"
 import partner1 from "./img/p-1.png"
 import partner2 from "./img/p-2.png"
-import partner3 from "./img/p-3.png"
+import partner3 from "./img/p-3new.png"
 import partner4 from "./img/p-4.png"
+
 export const Energy = (props) => {
     return (
         <div className="wb-energyBlock">
@@ -35,6 +36,7 @@ export const Energy = (props) => {
                     <div>
                         <img src={partner4} alt=""/>
                     </div>
+
 
                 </div>
             </div>
