@@ -16,37 +16,44 @@ const Navbar = (props) => {
   const navbarRef = useRef(null);
   const [navBarZeroPoint, setNavbarZeroPoint] = useAtom(navbarZeroPointAtom);
   const [initialPosition, setInitialPosition] = useState(null);
+  const [width, setWidth] = useState(null);
 
-  useEffect(
-    () => {
-      const handleScroll = () => {
-        const navbarPosition = navbarRef.current.getBoundingClientRect().top;
-        const scrollPosition = window.scrollY;
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
 
-        if (!initialPosition) {
-          setInitialPosition(navbarPosition);
-        }
+    const handleResize = () => setWidth(window.innerWidth);
+    const handleScroll = () => {
+      if (!navbarRef.current) return;
 
-        if (initialPosition && initialPosition <= scrollPosition) {
-          setNavbarZeroPoint(true);
-        } else {
-          setNavbarZeroPoint(false);
-        }
+      const navbarPosition = navbarRef.current.getBoundingClientRect().top;
+      const scrollPosition = window.scrollY;
 
-        if (scrollPosition <= 0) {
-          setInitialPosition(null);
-        }
-      };
+      if (!initialPosition) {
+        setInitialPosition(navbarPosition);
+      }
 
-      window.addEventListener("scroll", handleScroll);
+      if (initialPosition && initialPosition <= scrollPosition) {
+        setNavbarZeroPoint(true);
+      } else {
+        setNavbarZeroPoint(false);
+      }
 
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [initialPosition]
-  );
+      if (scrollPosition <= 0) {
+        setInitialPosition(null);
+      }
+    };
+
+    setWidth(window.innerWidth); // начальная ширина
+
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [initialPosition, setNavbarZeroPoint]);
+
 
   return (
     <div
@@ -61,14 +68,18 @@ const Navbar = (props) => {
           <img src={require("../img/tent.png")} alt="HOME" />
         </Link>
       </div>
-      <div className="navbar-center">
-        <NavbarMenu />
-      </div>
+      {/*// TODO onlySevan25 start*/}
+      {/*<div className="navbar-center">*/}
+      {/*  <NavbarMenu />*/}
+      {/*</div>*/}
+      {/* TODO onlySevan25 end*/}
       <div className={"navbar-right"}>
         <NavButtons isSaleOpen={true} openPopup={props.openPopup} />
 
       </div>
-      <MenuButton />
+       {/*TODO onlySevan25 start*/}
+      {width !== null && width > 1024 && <MenuButton />}
+      {/* TODO onlySevan25 end*/}
       <div className={isMenuOpen ? "navbar-menu-box" : "navbar-menu-closed"}>
         <NavbarMenu />
       </div>
