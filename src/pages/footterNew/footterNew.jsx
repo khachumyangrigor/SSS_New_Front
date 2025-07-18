@@ -18,6 +18,7 @@ class FootterNew extends React.Component {
                 <div className="footterTop">
                     <div className="menue">
                         <div className="footterTopLogo"><Link to="/"><img src={logo} alt="logo" /></Link></div>
+                        {/*// TODO onlySevan25 start*/}
                         {/*<ul>*/}
                         {/*    <li><Link to="/events">EVENTS</Link></li>*/}
                         {/*    <li><Link to="/about-us">ABOUT US</Link></li>*/}
@@ -26,6 +27,7 @@ class FootterNew extends React.Component {
                         {/*    /!*<li><Link to="/blog">BLOG</Link></li>*!/*/}
                         {/*    <li><Link to="/merch">MERCH</Link></li>*/}
                         {/*</ul>*/}
+                        {/*// TODO onlySevan25 end*/}
                     </div>
                     <div className="footterContact">
                         <a href="https://www.google.com/maps/place/3a+Marshal+Baghramyan+Ave,+Yerevan+0019,+Армения/@40.1892735,44.5106617,17z/data=!3m1!4b1!4m5!3m4!1s0x406abd1ef2900001:0x3668c699e9aed902!8m2!3d40.1892735!4d44.5128504" target="_blank" rel="noopener noreferrer">

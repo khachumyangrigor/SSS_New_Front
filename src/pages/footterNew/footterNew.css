@@ -11,7 +11,7 @@
 }
 .footterTop>.menue{
     display: flex;
-    justify-content: space-between;
+    justify-content: center !important;
     align-items: center;
 }
 .footterTop>.menue>div{

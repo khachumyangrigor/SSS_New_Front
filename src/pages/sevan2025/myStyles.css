@@ -31,12 +31,23 @@
 
 }
 /*Main navbar*/
+.navbar{
+  justify-content: flex-start !important;
+}
 .sevan2024-navbar .navbar-center {
   flex: unset !important;
 }
 .sevan2024-navbar .navbar-right {
   flex: unset !important;
   margin-left: 40px !important;
+}
+@media screen and (max-width: 1024px) {
+  .sevan2024-navbar .navbar-right {
+    flex: unset !important;
+    margin-right: 40px !important;
+    width: 100% !important;
+    justify-content: center !important;
+  }
 }
 .navbar-menu-buttons a, .navbar-menu-buttons li a, .navbar-menu-buttons li{
   text-transform: unset !important;
