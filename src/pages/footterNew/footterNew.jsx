@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //css
 import './footterNew.css';
-import logo from './img/logo.png';
+import logo from './img/newLogo.png';
 
 import inst from './img/social/inst.svg';
 import twit from './img/social/twit.svg';

@@ -1,19 +1,16 @@
 import React from "react";
 
+import imgTop1 from "./images/top1.png";
+import imgTop2 from "./images/top2.png";
+import imgTop3 from "./images/top3.png";
+import imgTop4 from "./images/top4.png";
+import imgTop5 from "./images/top5.png";
+
 import img1 from "./images/1.png";
 import img2 from "./images/2.png";
 import img3 from "./images/3.png";
 import img4 from "./images/4.png";
 import img5 from "./images/5.png";
-import ardshinImg from "./images/ardshin.png"
-import eifImg from "./images/eif.png"
-import lamborginiImg from "./images/laborgini.png"
-import xDriveImg from "./images/xdrive.png"
-import archesterImg from "./images/archester.png"
-import robinImg from "./images/robin.png"
-import storaketImg from "./images/storaket.png"
-
-
 import img6 from "./images/6.png";
 import img7 from "./images/7.png";
 import img8 from "./images/8.png";
@@ -81,311 +78,684 @@ import img69 from "./images/69.png";
 import img70 from "./images/70.png";
 import img71 from "./images/71.png";
 import img72 from "./images/72.png";
+import img73 from "./images/73.png";
+import img74 from "./images/74.png";
+import img75 from "./images/75.png";
+import img76 from "./images/76.png";
+import img77 from "./images/77.png";
+import img78 from "./images/78.png";
+import img79 from "./images/79.png";
+import img80 from "./images/80.png";
+import img81 from "./images/81.png";
+import img82 from "./images/82.png";
+import img83 from "./images/83.png";
+import img84 from "./images/84.png";
+import img85 from "./images/85.png";
+import img86 from "./images/86.png";
+import img87 from "./images/87.png";
+import img88 from "./images/88.png";
+import img89 from "./images/89.png";
+import img90 from "./images/90.png";
+import img91 from "./images/91.png";
+import img92 from "./images/92.png";
+import img93 from "./images/93.png";
+import img94 from "./images/94.png";
+import img95 from "./images/95.png";
+import img96 from "./images/96.png";
+import img97 from "./images/97.png";
+import img98 from "./images/98.png";
+import img99 from "./images/99.png";
+import img100 from "./images/100.png";
+import img101 from "./images/101.png";
+import img102 from "./images/102.png";
+import img103 from "./images/103.png";
+import img104 from "./images/104.png";
+import img105 from "./images/105.png";
+import img106 from "./images/106.png";
+import img107 from "./images/107.png";
+import img108 from "./images/108.png";
+import img109 from "./images/109.png";
+import img110 from "./images/110.png";
+import img111 from "./images/111.png";
+import img112 from "./images/112.png";
+import img113 from "./images/113.png";
+import img114 from "./images/114.png";
+import img115 from "./images/115.png";
+import img116 from "./images/116.png";
+import img117 from "./images/117.png";
+import img118 from "./images/118.png";
+import img119 from "./images/119.png";
+import img120 from "./images/120.png";
+import img121 from "./images/121.png";
+import img122 from "./images/122.png";
+import img123 from "./images/123.png";
+import img124 from "./images/124.png";
+import img125 from "./images/125.png";
+import img126 from "./images/126.png";
+import img127 from "./images/127.png";
+import img128 from "./images/128.png";
+import img129 from "./images/129.png";
+import img130 from "./images/130.png";
+import img131 from "./images/131.png";
+import img132 from "./images/132.png";
+import img133 from "./images/133.png";
+import img134 from "./images/134.png";
+import img135 from "./images/135.png";
+import img136 from "./images/136.png";
+import img137 from "./images/137.png";
+import img138 from "./images/138.png";
+import img139 from "./images/139.png";
+import img140 from "./images/140.png";
+import img141 from "./images/141.png";
+import img142 from "./images/142.png";
+import img143 from "./images/143.png";
+import img144 from "./images/144.png";
+import img145 from "./images/145.png";
+import img146 from "./images/146.png";
+
 
 import "./Partners.css";
 
 const imgArray = [
   {
-    link: "https://www.inecobank.am/hy/Individual",
-    src: img6,
+    link: "",
+    src: img1,
+    classname:"wb-line6"
   },
   {
-    link: " https://myler.am/en/",
-    src: img7,
+    link: "",
+    src: img2,
+    classname:"wb-line6"
   },
   {
-    link: "https://www.team.gg/home",
+    link: "",
+    src: img3,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img4,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
     src: img5,
+    classname:"wb-line6"
   },
   {
-    link: "https://amundi-acba.am/",
-    src: img9,
+    link: "",
+    src: img6,
+    classname:"wb-line6"
   },
   {
-    link: "https://smp.am/",
-    src: img10,
+    link: "",
+    src: img7,
+    classname:"wb-line6"
   },
   {
-    link: "https://www.instagram.com/eqwefy/",
-    src: img25,
-  },
-  {
-    link: "https://epic.aua.am/",
-    src: img14,
-  },
-  {
-    link: "https://www.granatusventures.com/",
-    src: img11,
-  },
-  {
-    link: "https://www.bigstory.vc/",
-    src: img15,
-  },
-  {
-    link: "https://www.fast.foundation/",
-    src: img12,
-  },
-  {
-    link: "https://www.smartgate.vc/",
-    src: img13,
-  },
-  {
-    link: "https://www.uate.org/",
-    src: img16,
-  },
-  {
-    link: "https://gituzh.am/en/",
-    src: img17,
-  },
-  {
-    link: "https://www.eif.am/",
-    src: eifImg,
-  },
-  {
-    link: "https://polytech.am/en/home/",
-    src: img24,
-  },
-  {
-    link: "https://am.globbing.com/hy",
+    link: "",
     src: img8,
+    classname:"wb-line6"
   },
   {
-    link: "https://mootq.com/home",
-    src: img23,
+    link: "",
+    src: img9,
+    classname:"wb-line6"
   },
   {
-    link: "https://www.impala-agency.com/",
+    link: "",
+    src: img10,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img11,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img12,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img13,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img14,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img15,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img16,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
+    src: img17,
+    classname:"wb-line6"
+  },
+  {
+    link: "",
     src: img18,
+    classname:"wb-line6"
   },
   {
-    link: "https://prokat.am/",
+    link: "",
     src: img19,
   },
   {
-    link: "https://www.instagram.com/orion_sports_club/?hl=en",
-    src: img48,
-  },
-  {
-    link: "https://armeniatv.am/",
-    src: img26,
-  },
-  {
-    link: "https://abcmedia.am/",
-    src: img27,
-  },
-  {
-    link: "https://fastmedia.am/",
-    src: img28,
-  },
-  {
-    link: "https://www.tert.am/am/",
-    src: img29,
-  },
-  {
-    link: "https://tech.news.am/arm/",
-    src: img30,
-  },
-  {
-    link: "https://vega.am/am",
+    link: "",
     src: img20,
   },
   {
-    link: "https://www.gov.uk/world/organisations/british-embassy-yerevan",
+    link: "",
+    src: img21,
+  },
+  {
+    link: "",
+    src: img22,
+  },
+  {
+    link: "",
+    src: img23,
+  },
+  {
+    link: "",
+    src: img24,
+  },
+  {
+    link: "",
+    src: img25,
+  },
+  {
+    link: "",
+    src: img26,
+  },
+  {
+    link: "",
+    src: img27,
+  },
+  {
+    link: "",
+    src: img28,
+  },
+  {
+    link: "",
+    src: img29,
+  },
+  {
+    link: "",
+    src: img30,
+  },
+  {
+    link: "",
+    src: img31,
+  },
+  {
+    link: "",
     src: img32,
   },
   {
-    link: "https://www.wwf.am/en/",
+    link: "",
     src: img33,
   },
   {
-    link: "https://www.coffeehouse.am/",
+    link: "",
+    src: img34,
+  },
+  {
+    link: "",
     src: img35,
   },
   {
-    link: "https://tshaurma.com/am",
+    link: "",
     src: img36,
   },
+
   {
-    link: "https://www.instagram.com/shoonch.life/?api=1",
-    src: img44,
-  },
-  {
-    link: "https://www.33pizzas.com/en",
+    link: "",
     src: img37,
   },
   {
-    link: "https://bacon.am/",
+    link: "",
     src: img38,
   },{
-    link: "https://www.instagram.com/icelava.armenia/",
+    link: "",
     src: img39,
   },
   {
-    link: "https://www.instagram.com/max_corn_am/",
+    link: "",
     src: img40,
   },{
-    link: "https://www.instagram.com/yumwagon/",
+    link: "",
     src: img41,
   },
   {
-    link: "https://www.instagram.com/gustavyerevan/?hl=en",
+    link: "",
     src: img42,
   },{
-    link: "https://www.instagram.com/pabloyerevan/?hl=en",
+    link: "",
     src: img43,
   },
   {
     link: "",
-    src: lamborginiImg,
+    src: img44,
   },
   {
-    link: "https://am.coca-colahellenic.com/",
+    link: "",
     src: img45,
   },{
-    link: "https://teamenergy.am/hy/",
+    link: "",
     src: img46,
   },
+
   {
-    link: "https://www.yellextremepark.com/",
-    src: img22,
-  },
-  {
-    link: "https://www.andron.am/",
+    link: "",
     src: img47,
   },
   {
-    link: " https://www.list.am/u/expressparts?fbclid=IwY2xjawEpae9leHRuA2FlbQIxMAABHUsmAHSlZ_NEq9wJNsXrRUJeNvoOWvkzpVQRJgb-VEzW8yEXznQNLdUdeA_aem_zyFoL3KJhPQ7lT28RCKPBQ",
-    src: img55,
+    link: "",
+    src: img48,
   },
   {
-    link: "https://chargers.am/",
-    src: img21,
-  },
-  {
-    link: "https://xdrive.am/",
-    src: xDriveImg,
-  },
-  {
-    link: "https://www.superannotate.com/",
+    link: "",
     src: img49,
   },
   {
-    link: "https://www.earlyone.com/",
-    src: img51,
-  },
-  {
-    link: "https://qayl.tech/hy",
-    src: img52,
-  },
-  {
-    link: "https://denovosciences.ai/",
-    src: img53,
-  },{
-    link: "https://wirestock.io/",
-    src: img54,
-  },{
-    link: "https://sleepdoctor.com/",
-    src: img56,
-  },{
-    link: "https://docus.ai/",
-    src: img57,
-  },
-  {
-    link: "https://chessify.me/",
+    link: "",
     src: img50,
   },
   {
-    link: "https://www.archestr.com/en/",
-    src: archesterImg,
+    link: "",
+    src: img51,
   },
   {
-    link: "https://www.expper.tech/",
-    src: robinImg,
+    link: "",
+    src: img52,
   },
   {
-    link: "https://proservice-l.com/en/",
-    src: img34,
+    link: "",
+    src: img53,
+  },{
+    link: "",
+    src: img54,
   },
   {
-    link: "https://www.wimedia.am/",
-    src: img59,
+    link: "",
+    src: img55,
   },
   {
-    link: "https://easydmarc.com/",
-    src: img61,
+    link: "",
+    src: img56,
+  },{
+    link: "",
+    src: img57,
   },
   {
-    link: "https://devsoft.am/",
-    src: img60,
-  },
-  {
-    link: "https://powerfull.am/en/",
-    src: img62,
-  },
-  {
-    link: "https://www.uba.am/",
+    link: "",
     src: img58,
   },
   {
-    link: "https://www.storaket.com/",
-    src: storaketImg,
+    link: "",
+    src: img59,
   },
   {
-    link: "https://www.asoghik.am/",
+    link: "",
+    src: img60,
+  },
+  {
+    link: "",
+    src: img61,
+  },
+
+  {
+    link: "",
+    src: img62,
+  },
+  {
+    link: "",
     src: img63,
+  },
+  {
+    link: "",
+    src: img64,
   },
   {
     link: "",
     src: img65,
   },
+
   {
-    link: "https://www.instagram.com/f_tex_armenia/",
-    src: img64,
-  },
-  {
-    link: "https://anitex.am/hy",
-    src: img72,
-  },
-  {
-    link: "https://www.facebook.com/national.medical.palace.armenia?locale=es_ES",
-    src: img31,
-  },
-  {
-    link: "https://www.bestlife.am/",
+    link: "",
     src: img66,
   },
   {
-    link: "https://skyball.am/en",
+    link: "",
     src: img67,
   },
   {
-    link: "https://skyclub.am/",
+    link: "",
     src: img68,
   },{
-    link: "https://workout.am/",
+    link: "",
     src: img69,
   },
   {
-    link: "https://www.instagram.com/g.quadro.park/",
+    link: "",
+    src: img70,
+  },
+  {
+    link: "",
     src: img71,
   },
   {
-    link: "https://redalertpaintball.co.uk/",
-    src: img70,
+    link: "",
+    src: img72,
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+    link: "",
+    src: img73,
+  },
+  {
+    link: "",
+    src: img74,
+  },
+  {
+    link: "",
+    src: img75,
+  },
+  {
+    link: "",
+    src: img76,
+  },
+  {
+    link: "",
+    src: img77,
+  },
+  {
+    link: "",
+    src: img78,
+  },
+  {
+    link: "",
+    src: img79,
+  },
+  {
+    link: "",
+    src: img80,
+  },
+  {
+    link: "",
+    src: img81,
+  },
+  {
+    link: "",
+    src: img82,
+  },
+  {
+    link: "",
+    src: img83,
+  },
+  {
+    link: "",
+    src: img84,
+  },
+  {
+    link: "",
+    src: img85,
+  },
+  {
+    link: "",
+    src: img86,
+  },
+  {
+    link: "",
+    src: img87,
+  },
+  {
+    link: "",
+    src: img88,
+  },
+  {
+    link: "",
+    src: img89,
+  },
+  {
+    link: "",
+    src: img90,
+  },
+  {
+    link: "",
+    src: img91,
+  },
+  {
+    link: "",
+    src: img92,
+  },
+  {
+    link: "",
+    src: img93,
+  },
+  {
+    link: "",
+    src: img94,
+  },
+  {
+    link: "",
+    src: img95,
+  },
+  {
+    link: "",
+    src: img96,
+  },
+  {
+    link: "",
+    src: img97,
+  },
+  {
+    link: "",
+    src: img98,
+  },
+  {
+    link: "",
+    src: img99,
+  },
+  {
+    link: "",
+    src: img100,
+  },
+  {
+    link: "",
+    src: img101,
+  },
+  {
+    link: "",
+    src: img102,
+  },
+  {
+    link: "",
+    src: img103,
+  },
+  {
+    link: "",
+    src: img104,
+  },
+  {
+    link: "",
+    src: img105,
+  },
+  {
+    link: "",
+    src: img106,
+  },
+  {
+    link: "",
+    src: img107,
+  },
+  {
+    link: "",
+    src: img108,
+  },
+  {
+    link: "",
+    src: img109,
+  },
+  {
+    link: "",
+    src: img110,
+  },
+  {
+    link: "",
+    src: img111,
+  },
+  {
+    link: "",
+    src: img112,
+  },
+  {
+    link: "",
+    src: img113,
+  },
+  {
+    link: "",
+    src: img114,
+  },
+  {
+    link: "",
+    src: img115,
+  },
+  {
+    link: "",
+    src: img116,
+  },
+  {
+    link: "",
+    src: img117,
+  },
+  {
+    link: "",
+    src: img118,
+  },
+  {
+    link: "",
+    src: img119,
+  },
+  {
+    link: "",
+    src: img120,
+  },
+  {
+    link: "",
+    src: img121,
+  },
+  {
+    link: "",
+    src: img122,
+  },
+  {
+    link: "",
+    src: img123,
+  },
+  {
+    link: "",
+    src: img124,
+  },
+  {
+    link: "",
+    src: img125,
+  },
+  {
+    link: "",
+    src: img126,
+  },
+  {
+    link: "",
+    src: img127,
+  },
+  {
+    link: "",
+    src: img128,
+  },
+  {
+    link: "",
+    src: img129,
+  },
+  {
+    link: "",
+    src: img130,
+  },
+  {
+    link: "",
+    src: img131,
+  },
+  {
+    link: "",
+    src: img132,
+  },
+  {
+    link: "",
+    src: img133,
+  },
+  {
+    link: "",
+    src: img134,
+  },
+  {
+    link: "",
+    src: img135,
+  },
+  {
+    link: "",
+    src: img136,
+  },
+  {
+    link: "",
+    src: img137,
+  },
+  {
+    link: "",
+    src: img138,
+  },
+  {
+    link: "",
+    src: img139,
+  },
+  {
+    link: "",
+    src: img140,
+  },
+  {
+    link: "",
+    src: img141,
+  },
+  {
+    link: "",
+    src: img142,
+  },
+  {
+    link: "",
+    src: img143,
+  },
+  {
+    link: "",
+    src: img144,
+  },
+  {
+    link: "",
+    src: img145,
+  },
+  {
+    link: "",
+    src: img146,
+  },
 ];
 
 function Partners(props) {
@@ -400,52 +770,38 @@ function Partners(props) {
       {/*</div>*/}
 
       <div className="wb-partnersBlock">
-        <div className="wb-partnersTitle">
-          <h2>Sponsors and Partners</h2>
-        </div>
+
 
         <div className="wb-partnersContent wb-topPartner">
-          {/*<div className="wb-partner">*/}
-          {/*    <div>*/}
-          {/*        <a href="https://www.fastbank.am/" target="_blank" rel="nofollow"><img src={img1_1} alt="Partner"/></a>*/}
-          {/*        <p>Strategic Partner</p>*/}
-          {/*    </div>*/}
-          {/*</div>*/}
-
           <div className="wb-partner">
             <div>
-              <a href="https://www.fastex.com/" target="_blank" rel="nofollow">
-                <img src={img1} alt="Partner" />
+              <a href="#"  rel="nofollow" onClick={(e) => e.preventDefault()}>
+                <img src={imgTop1} alt="Partner" />
               </a>
-              <p>General Partner</p>
             </div>
             <div>
-              <a href="https://ardshinbank.am/" target="_blank" rel="nofollow">
-                <img className="Ardshin Bank" src={ardshinImg} alt="Partner" />
+              <a href="#"  rel="nofollow" onClick={(e) => e.preventDefault()}>
+                <img src={imgTop2} alt="Partner" />
               </a>
-              <p className="wb-partnerWithoutPadding">Transportation partner</p>
             </div>
             <div>
-              <a href="https://shtigen.com/en/" target="_blank" rel="nofollow">
-                <img src={img2} alt="Partner" />
+              <a href="#"  rel="nofollow" onClick={(e) => e.preventDefault()}>
+                <img src={imgTop3} alt="Partner" />
               </a>
-              <p>Strategic partner</p>
             </div>
             <div>
               <a
-                href="https://www.telecomarmenia.am/hy/"
-                target="_blank"
+                  onClick={(e) => e.preventDefault()}
+                href="#"
                 rel="nofollow"
               >
-                <img src={img3} alt="Partner" />
+                <img src={imgTop4} alt="Partner" />
               </a>
-              <p>Technological Partner</p>
             </div>
             <div>
-              <a href="https://www.liga.am/en" target="_blank" rel="nofollow">
-                <img src={img4} alt="Partner" />
+              <a href=""  rel="nofollow" onClick={(e) => e.preventDefault()}>
+                <img src={imgTop5} alt="Partner" />
               </a>
-              <p>Insurance Partner</p>
             </div>
           </div>
         </div>
@@ -488,7 +844,7 @@ function Partners(props) {
             {imgArray.map((img) => {
 
                 return (
-                    <div className={img.widthClass ? `wb-partner ${img.widthClass}` : "wb-partner" }>
+                    <div className={img.classname ? `wb-partner ${img.classname}` : "wb-partner" }>
                       {img.link !== "" ?
                           (
                               <a href={img.link} rel="nofollow" target="_blank">

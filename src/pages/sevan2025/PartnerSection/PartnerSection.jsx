@@ -1,8 +1,8 @@
 import React from 'react';
-import startupImg from "../Partners/images/startup.png";
-import ministryImg from "../Partners/images/ministry.png";
-import gtbImg from "../Partners/images/gtb.png";
-import yoHealthImg from "../Partners/images/yohealth.png";
+import startupImg from "./img/1.png";
+import ministryImg from "./img/2.png";
+import gtbImg from "./img/3.png";
+import yoHealthImg from "./img/4.png";
 import "./PartnerSection.css"
 
 export const PartnerSection = (props) => {

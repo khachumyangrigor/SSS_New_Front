@@ -24,6 +24,7 @@ import { GetAccess } from "./component.min.jsx";
 //css
 import "./upcommingNew.css";
 import Popup from "./Popup/Popup.jsx";
+import Partners from "./Partners/Partners.jsx";
 
 
 
@@ -192,7 +193,7 @@ popupClose = () => {
           <MustKnow />
           <PartnerSection />
           {/*<Organizers />*/}
-          {/*<Partners />*/}
+          <Partners />
           <FootterNew />
         </div>
       </Fragment>
