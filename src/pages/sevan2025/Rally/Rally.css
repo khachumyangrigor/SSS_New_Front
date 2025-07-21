@@ -55,6 +55,9 @@
         font-size: 22px;
         max-width: 100%;
     }
+    .wb-rallyPartners{
+       flex-wrap: wrap;
+    }
 }
 @media screen  and (max-width: 657px){
     .wb-rallyPartners{

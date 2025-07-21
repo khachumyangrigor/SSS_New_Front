@@ -68,12 +68,12 @@ export const  FirecodeMarathon = (props) => {
                 {/*<div className="wb-firecodeButtonBlock">*/}
                 {/*    <Button title="Apply to Participate" backgroundColor="rgba(47, 128, 237, 1)" color="#fff" link="https://docs.google.com/forms/d/e/1FAIpQLSd71bzhhSA3DK7NoACIg2boHa9IU9kGOB9DkSmFmIkCFztH5A/viewform"/>*/}
                 {/*</div>*/}
-                {/*<div className="wb-FirecodePartner">*/}
-                {/*    <h5>General Partner:</h5>*/}
-                {/*    <div>*/}
-                {/*        <img src={digitainImg} alt="Digitain Partner"/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="wb-FirecodePartner">
+                    <h5>General Partner:</h5>
+                    <div>
+                        <img src={digitainImg} alt="Digitain Partner"/>
+                    </div>
+                </div>
 
             </div>
 

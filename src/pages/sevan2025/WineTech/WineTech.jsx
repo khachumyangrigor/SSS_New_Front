@@ -6,6 +6,7 @@ import partner2 from "./img/partner2.png"
 import partner3 from "./img/partner3.png"
 import partner4 from "./img/partner4.png"
 import partner5 from "./img/partner5.png"
+import partner6 from "./img/partner6.png"
 
 
 import Button from "../Components/Button/Button.jsx";
@@ -42,6 +43,7 @@ export const WineTech = (props) => {
                     <div><img src={partner3} alt=""/></div>
                     <div><img src={partner5} alt=""/></div>
                     <div><img src={partner4} alt=""/></div>
+                    <div><img src={partner6} alt=""/></div>
                 </div>
             </div>
 

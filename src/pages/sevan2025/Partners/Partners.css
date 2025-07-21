@@ -14,7 +14,7 @@
 
 
 .wb-partnersBlock {
-    padding: 75px 80px;
+    padding: 0 80px 75px 80px !important;
 }
 
 .wb-partnersTitle h2 {
@@ -101,7 +101,7 @@
 }
 @media screen  and (max-width: 1024px){
     .wb-partnersBlock{
-        padding: 37px 30px !important;
+        padding: 0 30px 37px 30px !important;
     }
 
     .wb-topPartner .wb-partner div a > img{
@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 756px){
     .wb-partnersBlock {
-        padding: 40px 25px;
+        padding: 0 25px 40px 25px;
     }
     .wb-topPartners div img{
         width: 70%;

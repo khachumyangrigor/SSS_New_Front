@@ -5,6 +5,7 @@ import "./FinTech.css"
 import partner1 from "./img/p-1.png";
 import partner2 from "./img/p-2.png";
 import partner3 from "./img/p-3new.png";
+import partner4 from "./img/p-4.png";
 
 
 export const FinTech = (props) => {
@@ -36,6 +37,9 @@ export const FinTech = (props) => {
                     </div>
                     <div>
                         <img src={partner3} alt=""/>
+                    </div>
+                    <div>
+                        <img src={partner4} alt=""/>
                     </div>
 
                 </div>

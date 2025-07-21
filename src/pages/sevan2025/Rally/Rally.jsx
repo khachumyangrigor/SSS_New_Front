@@ -3,9 +3,12 @@ import Title from "../Components/Title/Title.jsx";
 import rally1 from "./img/rally1.png"
 import rally2 from "./img/rally2.png"
 import rallyMobileImage from "./img/mobileImage.png"
-import partner1 from "./img/partner1.png"
+import partner1 from "./img/1.png"
 import partner2 from "./img/partner2.png"
 import partner3 from "./img/partner3.png"
+import partner4 from "./img/2.png"
+import partner5 from "./img/3.png"
+
 import "./Rally.css"
 
 export const Rally = (props) => {
@@ -45,6 +48,8 @@ export const Rally = (props) => {
                     <img src={partner1} alt=""/>
                     <img src={partner2} alt=""/>
                     <img src={partner3} alt=""/>
+                    <img src={partner4} alt=""/>
+                    <img src={partner5} alt=""/>
                 </div>
             </div>
 
