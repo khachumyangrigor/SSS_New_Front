@@ -172,7 +172,7 @@ popupClose = () => {
           <GetAccess />
           <PartnerSection />
           <Stats />
-          <Credo />
+          {/*<Credo />*/}
           {/*<Roadmap />*/}
           {/*<Participate ref="participate" />*/}
           {/*<WeOffer />*/}

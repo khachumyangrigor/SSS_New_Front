@@ -31,306 +31,262 @@ import { Page_404 } from './404.jsx';
 import Teamlead from "./pages/sevan2023/taemlead/teamlead.jsx";
 
 export default [
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/',
-    //     component: Home_Page_Newedition
-    // },
-    // TODO onlySevan25 end
     {
         exact: true,
         path: '/',
+        component: Home_Page_Newedition
+    },
+    {
+        exact: true,
+        path: '/sss25',
         component: Sevan2025
     },
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/privacy-policy',
-    //     component: Privacy
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/terms-conditions/en',
-    //     component: TermsEN
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/terms-conditions/arm',
-    //     component: TermsARM
-    // },
-    // TODO onlySevan25 end
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/uae-24/',
-    //     component: Uae2024
-    // },
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/uae-24/:subpage',
-    //     component: Uae2024
-    // },
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/sevan-startup-summit-2024/',
-    //     component: Sevan2024
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/sevan-startup-summit-2024/:subpage',
-    //     component: Sevan2024
-    // },
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/:event/',
-    //     component: Sevan2023
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/event/:subpage',
-    //     component: Sevan2023
-    // },
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/:event/',
-    //     component: UpcommingNew
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/:event/:subpage',
-    //     component: UpcommingNew
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/upcoming-events/',
-    //     component: Events
-    // },
-    // {
-    //     exact: true,
-    //     path: '/uae-24/',
-    //     component: Uae2024
-    // },
-    // {
-    //     exact: true,
-    //     path: '/sevan2024/',
-    //     component: Sevan2024
-    // },
-    // TODO onlySevan25 end
-    // {
-    //     exact: true,
-    //     path: '/sevan2024/:subpage',
-    //     component: Sevan2024
-    // },
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/sevan2025/',
-    //     component: Sevan2025
-    // },
-    // TODO onlySevan25 end
-    // {
-    //     path: '/teamlead',
-    //     exact: true,
-    //     component: Teamlead
-    // },
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/sevan2023/',
-    //     component: Sevan2023
-    // },
-    // TODO onlySevan25 end
-    // {
-    //     exact: true,
-    //     path: '/sevan2023/:subpage',
-    //     component: Sevan2023
-    // },
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/sss-holidays-india-vizag/',
-    //     component: HolidayGOA
-    // },
-    // {
-    //     exact: true,
-    //     path: '/sss-holidays-india-vizag/apply',
-    //     component: HolidayGOA
-    // },
-    // {
-    //     exact: true,
-    //     path: '/sss-holidays-uae-rak/',
-    //     component: HolidayRAK
-    // },
-    // {
-    //     exact: true,
-    //     path: '/merch',
-    //     component: Merch
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan19/',
-    //     component: Past_Page
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan18/',
-    //     component: Past_Page
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan17/',
-    //     component: Past_Page
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan16/',
-    //     component: Past_Page
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/uae18/',
-    //     component: Past_Page
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/india18/',
-    //     component: Past_Page
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan19/speakers',
-    //     component: PastSpeakers
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan19/startups',
-    //     component: PastStartups
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan18/speakers',
-    //     component: PastSpeakers
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan18/startups',
-    //     component: PastStartups
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan17/speakers',
-    //     component: PastSpeakers
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan17/startups',
-    //     component: PastStartups
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan16/speakers',
-    //     component: PastSpeakers
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/sevan16/startups',
-    //     component: PastStartups
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/uae18/speakers',
-    //     component: PastSpeakers
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/uae18/startups',
-    //     component: PastStartups
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/india18/speakers',
-    //     component: PastSpeakers
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/india18/startups',
-    //     component: PastStartups
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/events/',
-    //     component: Events
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/about-us/',
-    //     component: About
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/about-us/job',
-    //     component: About
-    // },
-    //
-    // {
-    //     exact: true,
-    //     path: '/about-us/job/:jobname',
-    //     component:About //Job
-    // },
-    // TODO onlySevan25 end
-
-    // {
-    //     exact: true,
-    //     path: '/startups/',
-    //     component: Startups
-    // },
-    // TODO onlySevan25 start
-    // {
-    //     exact: true,
-    //     path: '/partners/',
-    //     component: Partners
-    // },
-    // TODO onlySevan25 end
-    // {
-    //     path: '/blog',
-    //     exact: true,
-    //     component: News
-    // },
-    //
-    // {
-    //     path: '/blog/:id',
-    //     exact: true,
-    //     component: News_One,
-    //     loadData: (params) => loadData(`https://www.apis.seasidestartupsummit.com/news/?method=getNewsOne&id=${params.id}`)
-    // },
+    {
+        exact: true,
+        path: '/privacy-policy',
+        component: Privacy
+    },
+    {
+        exact: true,
+        path: '/terms-conditions/en',
+        component: TermsEN
+    },
+    {
+        exact: true,
+        path: '/terms-conditions/arm',
+        component: TermsARM
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/uae-24/',
+        component: Uae2024
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/uae-24/:subpage',
+        component: Uae2024
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/sevan-startup-summit-2024/',
+        component: Sevan2024
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/sevan-startup-summit-2024/:subpage',
+        component: Sevan2024
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/:event/',
+        component: Sevan2023
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/event/:subpage',
+        component: Sevan2023
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/:event/',
+        component: UpcommingNew
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/:event/:subpage',
+        component: UpcommingNew
+    },
+    {
+        exact: true,
+        path: '/upcoming-events/',
+        component: Events
+    },
+    {
+        exact: true,
+        path: '/uae-24/',
+        component: Uae2024
+    },
+    {
+        exact: true,
+        path: '/sevan2024/',
+        component: Sevan2024
+    },
+    {
+        exact: true,
+        path: '/sevan2024/:subpage',
+        component: Sevan2024
+    },
+    {
+        exact: true,
+        path: '/sevan2025/',
+        component: Sevan2025
+    },
+    {
+        path: '/teamlead',
+        exact: true,
+        component: Teamlead
+    },
+    {
+        exact: true,
+        path: '/sevan2023/',
+        component: Sevan2023
+    },
+    {
+        exact: true,
+        path: '/sevan2023/:subpage',
+        component: Sevan2023
+    },
+    {
+        exact: true,
+        path: '/sss-holidays-india-vizag/',
+        component: HolidayGOA
+    },
+    {
+        exact: true,
+        path: '/sss-holidays-india-vizag/apply',
+        component: HolidayGOA
+    },
+    {
+        exact: true,
+        path: '/sss-holidays-uae-rak/',
+        component: HolidayRAK
+    },
+    {
+        exact: true,
+        path: '/merch',
+        component: Merch
+    },
+    {
+        exact: true,
+        path: '/sevan19/',
+        component: Past_Page
+    },
+    {
+        exact: true,
+        path: '/sevan18/',
+        component: Past_Page
+    },
+    {
+        exact: true,
+        path: '/sevan17/',
+        component: Past_Page
+    },
+    {
+        exact: true,
+        path: '/sevan16/',
+        component: Past_Page
+    },
+    {
+        exact: true,
+        path: '/uae18/',
+        component: Past_Page
+    },
+    {
+        exact: true,
+        path: '/india18/',
+        component: Past_Page
+    },
+    {
+        exact: true,
+        path: '/sevan19/speakers',
+        component: PastSpeakers
+    },
+    {
+        exact: true,
+        path: '/sevan19/startups',
+        component: PastStartups
+    },
+    {
+        exact: true,
+        path: '/sevan18/speakers',
+        component: PastSpeakers
+    },
+    {
+        exact: true,
+        path: '/sevan18/startups',
+        component: PastStartups
+    },
+    {
+        exact: true,
+        path: '/sevan17/speakers',
+        component: PastSpeakers
+    },
+    {
+        exact: true,
+        path: '/sevan17/startups',
+        component: PastStartups
+    },
+    {
+        exact: true,
+        path: '/sevan16/speakers',
+        component: PastSpeakers
+    },
+    {
+        exact: true,
+        path: '/sevan16/startups',
+        component: PastStartups
+    },
+    {
+        exact: true,
+        path: '/uae18/speakers',
+        component: PastSpeakers
+    },
+    {
+        exact: true,
+        path: '/uae18/startups',
+        component: PastStartups
+    },
+    {
+        exact: true,
+        path: '/india18/speakers',
+        component: PastSpeakers
+    },
+    {
+        exact: true,
+        path: '/india18/startups',
+        component: PastStartups
+    },
+    {
+        exact: true,
+        path: '/events/',
+        component: Events
+    },
+    {
+        exact: true,
+        path: '/about-us/',
+        component: About
+    },
+    {
+        exact: true,
+        path: '/about-us/job',
+        component: About
+    },
+    {
+        exact: true,
+        path: '/about-us/job/:jobname',
+        component: Job
+    },
+    {
+        exact: true,
+        path: '/startups/',
+        component: Startups
+    },
+    {
+        exact: true,
+        path: '/partners/',
+        component: Partners
+    },
+    {
+        path: '/blog',
+        exact: true,
+        component: News
+    },
+    {
+        path: '/blog/:id',
+        exact: true,
+        component: News_One,
+        loadData: (params) => loadData(`https://www.apis.seasidestartupsummit.com/news/?method=getNewsOne&id=${params.id}`)
+    },
     {
         component: Page_404,
     },

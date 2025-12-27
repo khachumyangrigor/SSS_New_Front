@@ -49,12 +49,12 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "scripts": {
-    "webpack-client": "webpack --config config/webpack.client.js",
-    "webpack-server": "webpack --config config/webpack.server.js",
+    "webpack-client": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --config config/webpack.client.js",
+    "webpack-server": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --config config/webpack.server.js",
     "webpack": "concurrently \"npm run webpack-server\" \"npm run webpack-client\"",
     "dist": "cross-env NODE_ENV=production npm run build",
     "build": "npm run webpack",
-    "start": "node config/devServer.js"
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider node config/devServer.js"
   },
   "eslintConfig": {
     "extends": "react-app"

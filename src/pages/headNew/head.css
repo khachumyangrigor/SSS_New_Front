@@ -136,6 +136,66 @@
   color: #fff;
 }
 
+/* Coming Soon Button for Header */
+.firstPageHeaderRight .eventComingSoonBtn {
+  position: relative;
+  cursor: pointer;
+}
+.firstPageHeaderRight .eventComingSoonBtn:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "Coming Soon";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #596273;
+  border-radius: 8px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.firstPageHeaderRight .eventComingSoonBtn:hover::before {
+  opacity: 1;
+  background: #596273 !important;
+  color: #fff !important;
+}
+.firstPageHeaderRight .eventComingSoonBtn:hover {
+  color: #ffffff;
+  background: #596273;
+}
+
+/* Coming Soon Button for Mobile Header */
+.firstPageHeaderRight.Mobi .eventComingSoonBtn {
+  position: relative;
+  cursor: pointer;
+}
+.firstPageHeaderRight.Mobi .eventComingSoonBtn:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "Coming Soon";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #596273;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.firstPageHeaderRight.Mobi .eventComingSoonBtn:hover::before {
+  opacity: 1;
+  background: #596273 !important;
+  color: #fff !important;
+}
+
 .agendaIcon {
   opacity: 0.4;
 }

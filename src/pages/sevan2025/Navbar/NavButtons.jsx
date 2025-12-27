@@ -5,11 +5,11 @@ const buttons = [
     link: "https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf",
     title: "Agenda",
   },
-  {
-    link: "#",
-    title: "Buy Ticket",
-    className: "transparent",
-  },
+  // {
+  //   link: "#",
+  //   title: "Buy Ticket",
+  //   className: "transparent",
+  // },
 ];
 
 export const buyTickets = [

@@ -299,7 +299,7 @@ class Events extends React.Component {
                                     />
                                 {/*</Link>*/}
                             </div>
-                            <h3>— Sevan startup summit 2025 —</h3>
+                            <h3>— Sevan startup summit 2026 —</h3>
                             <p>
                                 <a
                                     href="https://www.google.com/maps/place/Sevan+Startup+Summit/@40.344047,45.578228,2390m/data=!3m1!1e3!4m6!3m5!1s0x403f89d42619d199:0xab251b125c1578ac!8m2!3d40.3440465!4d45.5782279!16s%2Fg%2F11v0qtkrr8?hl=en&entry=ttu"
@@ -310,10 +310,12 @@ class Events extends React.Component {
                                     Lake Sevan, Armenia
                                 </a>
                             </p>
-                            <p>July 20 - 26, 2025</p>
+                            <p>Jul 26 - Aug 26, 2026</p>
                             {/*<Link to="/upcoming-events/sevan-startup-summit-2024" className="passiveBtn eventPassiveBtn">See More</Link>*/}
-                            <Link to="/sevan2025/" >See More</Link>
+                            {/*<Link to="/sevan2025/" >See More</Link>*/}
                             {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
+
+                            <a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>See More</a>
                         </div>
                         {/*<div ref="event">*/}
                         {/*    <div>*/}
@@ -338,26 +340,35 @@ class Events extends React.Component {
                         {/*    <p>July 23 - 29, 2023</p>*/}
                         {/*    <Link to="/upcoming-events/sevan-startup-summit-2023">See More</Link>*/}
                         {/*</div>*/}
-                        <div>
-                            <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg" /></div>
-                            <h3> Seaside startup summit </h3>
-                            <section ref="formSec" className="form" >
-                                <select ref="country">
-                                    <option ref="country1" disabled={true} selected={true} value="">Country*</option>
-                                    {this.state.countrys.map((country) => <option key={country} value={country}>{country}</option>)}
-                                </select>
-                                <input type="text" placeholder="City*" ref="city"/>
-                                <input type="text" placeholder="Year" ref="year"/>
-                                <input type="text" placeholder="Suggest Partner" ref="partner"/>
-                            </section>
-                            <p ref="formtext1" className="formP">Suggest<br/>your dream location</p>
-                            <p ref="formtext2" className="formP2"></p>
-                            <button onClick={this.sendSuggest}>Suggest</button>
-                            <span></span>
-                        </div>
+
+                        {/*<div>*/}
+                        {/*    <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg" /></div>*/}
+                        {/*    <h3> Seaside startup summit </h3>*/}
+                        {/*    <section ref="formSec" className="form" >*/}
+                        {/*        <select ref="country">*/}
+                        {/*            <option ref="country1" disabled={true} selected={true} value="">Country*</option>*/}
+                        {/*            {this.state.countrys.map((country) => <option key={country} value={country}>{country}</option>)}*/}
+                        {/*        </select>*/}
+                        {/*        <input type="text" placeholder="City*" ref="city"/>*/}
+                        {/*        <input type="text" placeholder="Year" ref="year"/>*/}
+                        {/*        <input type="text" placeholder="Suggest Partner" ref="partner"/>*/}
+                        {/*    </section>*/}
+                        {/*    <p ref="formtext1" className="formP">Suggest<br/>your dream location</p>*/}
+                        {/*    <p ref="formtext2" className="formP2"></p>*/}
+                        {/*    <button onClick={this.sendSuggest}>Suggest</button>*/}
+                        {/*    <span></span>*/}
+                        {/*</div>*/}
                     </div>
                     <div className="eventBodyMiddle past">
                         <h3>Previous events</h3>
+                        <PastEventComponent
+                            eventPageLink={"/sevan2025/"}
+                            title={"Sevan startup summit 2025"}
+                            eventImg={require("./img/eventCover/sss2025event.png")}
+                            locationLink={""}
+                            locationTitle={"Lake Sevan, Armenia"}
+                            eventDate={"July 20 - 26, 2025"}
+                        />
                         <PastEventComponent
                             eventPageLink={"/sevan2024/"}
                             title={"Sevan startup summit 2024"}
