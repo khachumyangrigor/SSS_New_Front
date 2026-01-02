@@ -310,7 +310,7 @@ class Events extends React.Component {
                                     Lake Sevan, Armenia
                                 </a>
                             </p>
-                            <p>Jul 26 - Aug 26, 2026</p>
+                            <p>Jul 26 - Aug 1, 2026</p>
                             {/*<Link to="/upcoming-events/sevan-startup-summit-2024" className="passiveBtn eventPassiveBtn">See More</Link>*/}
                             {/*<Link to="/sevan2025/" >See More</Link>*/}
                             {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
