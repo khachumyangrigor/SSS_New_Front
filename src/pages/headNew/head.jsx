@@ -133,9 +133,9 @@ class Header extends React.Component {
             default:
                 return (
                     <>
-                        <a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>
-                            SEVAN26
-                        </a>
+                        {/*<a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>*/}
+                        {/*    SEVAN26*/}
+                        {/*</a>*/}
                         {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
                         {/*    SSS 2024*/}
                         {/*</Link>*/}

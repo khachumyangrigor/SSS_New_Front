@@ -293,10 +293,37 @@ class Events extends React.Component {
                         <div ref="event">
                             <div>
                                 {/*<Link to="/upcoming-events/sevan-startup-summit-2024" >*/}
-                                    <img
-                                        src={require('./img/eventCover/sss2025event.png')}
-                                        alt="eventImg"
-                                    />
+                                <img
+                                    src={require('./img/eventCover/rajastanIndia.png')}
+                                    alt="eventImg"
+                                />
+                                {/*</Link>*/}
+                            </div>
+                            <h3>— Rajasthan Startup Summit 2026 —</h3>
+                            <p>
+                                <a
+                                    href="https://www.google.com/maps/place/Taj+Amer+Jaipur/@27.0166694,75.8808479,17z/data=!3m1!4b1!4m9!3m8!1s0x396db1c76c2499d5:0xda8e77fbc858a76c!5m2!4m1!1i2!8m2!3d27.0166694!4d75.8808479!16s%2Fg%2F11sl3tx5tj?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
+                                    // href="https://www.google.com/search?newwindow=1&safe=active&sxsrf=ALeKk02wx6-2zNRiUwZ8xHYCnhyBPDcqlQ:1583939336793&q=sevan+startup+summit+map&npsic=0&rflfq=1&rlha=0&rllag=40345921,44773830,29452&tbm=lcl&ved=2ahUKEwjxs4_s2ZLoAhVM_SoKHVc7CEIQtgN6BAgLEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[40.56979154858928,45.22049290283203],[40.43613241385136,44.895709577636715],null,[40.50299527241559,45.05810124023437],12]"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Taj Amer Jaipur
+                                </a>
+                            </p>
+                            <p>Feb 27 - Mar 1, 2026</p>
+                            {/*<Link to="/upcoming-events/sevan-startup-summit-2024" className="passiveBtn eventPassiveBtn">See More</Link>*/}
+                            {/*<Link to="/sevan2025/" >See More</Link>*/}
+                            {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
+
+                            <a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>See More</a>
+                        </div>
+                        <div ref="event">
+                            <div>
+                                {/*<Link to="/upcoming-events/sevan-startup-summit-2024" >*/}
+                                <img
+                                    src={require('./img/eventCover/sss2025event.png')}
+                                    alt="eventImg"
+                                />
                                 {/*</Link>*/}
                             </div>
                             <h3>— Sevan startup summit 2026 —</h3>
