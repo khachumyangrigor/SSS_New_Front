@@ -42,7 +42,7 @@ class Shuttle extends React.Component {
   };
   render = () => {
     return (
-      <div className="upcommingReach wb-sevan2024">
+      <div className="upcommingReach wb-sevan2024 wb-background-gray">
         <h2>How to reach Rajasthan Startup Summit 2026 Grounds</h2>
         <p>— The best ways to reach us —</p>
         <div className="upcommingReach_middle">

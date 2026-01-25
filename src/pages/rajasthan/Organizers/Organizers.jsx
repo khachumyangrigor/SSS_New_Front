@@ -9,7 +9,7 @@ import "./Organizers.css"
 const Organizers = () => {
 
     return (
-        <div className="wb-organizersBlock sevan24-organizers wb-sevan2025">
+        <div className="wb-organizersBlock sevan24-organizers wb-sevan2025 wb-background-white">
             <div className="wb-organizersTitle">
                 <h2>Co-Organizers</h2>
             </div>

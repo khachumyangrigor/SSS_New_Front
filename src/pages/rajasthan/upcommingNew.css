@@ -3847,3 +3847,19 @@
     transform: scale(1);
   }
 }
+
+.wb-background-white {
+  background: white !important;
+}
+
+.wb-background-gray {
+  background: #f7f7f7 !important;
+}
+
+div.wb-background-white {
+  background: white !important;
+}
+
+div.wb-background-gray {
+  background: #f7f7f7 !important;
+}
