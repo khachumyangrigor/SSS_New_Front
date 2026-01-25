@@ -54,7 +54,7 @@
   height: 89vh;
   max-height: 909px;
   /* background: url(./img/bg33.jpg) no-repeat 50% 100%; */
-  background: url(./img/sevan24-headerImg.png) no-repeat fixed;
+  background: url(img/rajasthanHero.png) no-repeat fixed;
   background-size: cover;
   background-position: bottom;
   /* padding: 4.3vw 10vw 0vw 0vw; */
@@ -296,6 +296,10 @@
   justify-content: flex-end;
   align-items: center;
   width: 50%;
+  background: url(img/rajasthanInfo.png) no-repeat 100% 0%;
+  background-size: contain;
+  /* min-height: unset; */
+  height: auto;
 }
 .upcommingGetAcces_right iframe {
   width: 47vw;
@@ -2017,6 +2021,9 @@
     font-size: 18px !important;
     letter-spacing: 1.7px !important;
     font-weight: 800 !important;
+}
+.sevan2024 .wb-footerTitle .wb-white-text{
+  color: white !important;
 }
   .sevan2024 .wb-applyButtonBlock-right{
     text-align: left !important;

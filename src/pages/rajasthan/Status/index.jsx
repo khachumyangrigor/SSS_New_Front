@@ -2,11 +2,11 @@ import "./styles.css";
 import React from "react";
 
 const statsData = [
-  { number: "50+", text: "COUNTRIES" },
-  { number: "250+", text: "STARTUPS" },
-  { number: "15,000+", text: "PARTICIPANTS" },
-  { number: "400+", text: "SPEAKERS & MENTORS" },
-  { number: "US $100K+", text: "PRIZE FUND" },
+  { number: "20+", text: "COUNTRIES" },
+  { number: "100+", text: "STARTUPS" },
+  { number: "1,000+", text: "PARTICIPANTS" },
+  { number: "100+", text: "SPEAKERS & MENTORS" },
+  { number: "50+", text: "VC & Investors" },
 ];
 
 const Stats = () => {
@@ -14,7 +14,7 @@ const Stats = () => {
       <div className="container wb-statBlock sevan2024Stat">
         <div className={"statsWrapper"}>
           <div className={"statsTitle"}>
-            Sevan Startup Summit 2025 in numbers
+              Rajasthan Startup Summit 2026 in numbers
           </div>
           <div className={"statsBox"}>
             {statsData.map((data, index) => (

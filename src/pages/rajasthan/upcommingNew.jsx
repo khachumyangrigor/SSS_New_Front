@@ -76,14 +76,14 @@ popupClose = () => {
     return (
       <Fragment>
         <Helmet>
-          <title>Sevan Startup Summit 2025 | Seaside Startup Summit</title>
+          <title>Rajasthan Startup Summit 2026 | Seaside Startup Summit</title>
           <meta
             name="description"
-            content="Sevan Startup Summit 2025 will be held at Sevan from July 20 to July 26"
+            content="Rajasthan Startup Summit 2026 will be held at Taj Amer, Jaipur from February 27 to March 1"
           />
           <meta
             property="og:title"
-            content="Sevan Startup Summit 2025 | Seaside Startup Summit"
+            content="Rajasthan Startup Summit 2026 | Seaside Startup Summit"
           />
           <meta
             property="og:url"
@@ -95,7 +95,7 @@ popupClose = () => {
           />
           <meta
             property="og:description"
-            content="Sevan Startup Summit 2025 will be held at Sevan from July 20 to July 26"
+            content="Rajasthan Startup Summit 2026 will be held at Taj Amer, Jaipur from February 27 to March 1"
           />
         </Helmet>
         <div className="upcommingNew">
@@ -117,35 +117,16 @@ popupClose = () => {
 
             <div className="wb-topTitle">
               <h1>
-                A Campsite Festival <br /> for Startup Enthusiasts
+                A Weekend That <br /> Changes Your Direction
               </h1>
-              <h5>Where Ideas Begin and Projects Take Shape!</h5>
+              <h5>Startup energy, deep connections, real impact</h5>
             </div>
             <div className="wb-footerTitle">
               <h4>
-                SEVAN STARTUP SUMMIT 2025 <br /> JULY 20 - 26
+                Rajasthan Startup Summit 2026
               </h4>
-              <h6 className="wb-festivalCity">Sevan Festival City</h6>
-              <div className="wb-applyButtonBlock wb-applyButtonBlock-right ">
-                {/*<a*/}
-                {/*    onClick={(e) => {e.preventDefault()}}*/}
-                {/*  href="#"*/}
-                {/*  // onClick={() => setPopupStatus(true)}*/}
-                {/*  target="_blank"*/}
-                {/*  rel="noopener noreferrer"*/}
-                {/*>*/}
-                {/*  <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>*/}
-                {/*</a>*/}
-                {/*<a*/}
-                {/*    className="wb-agendaDesktopButton"*/}
-                {/*    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"*/}
-                {/*    // onClick={() => setPopupStatus(true)}*/}
-                {/*    target="_blank"*/}
-                {/*    rel="noopener noreferrer"*/}
-                {/*>*/}
-                {/*  <button>Agenda</button>*/}
-                {/*</a>*/}
-              </div>
+              <h4 className="wb-white-text">Taj Amer, Jaipur</h4>
+              <h4 className="wb-white-text">February 27 - March 1, 2026</h4>
             </div>
           </div>
 

@@ -2,8 +2,8 @@ import React from "react";
 
 const buttons = [
   {
-    link: "https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf",
-    title: "Agenda",
+    link: "https://www.f6s.com/rajasthan-startup-summit-2026/apply",
+    title: "Apply as a Startup",
   },
   // {
   //   link: "#",
