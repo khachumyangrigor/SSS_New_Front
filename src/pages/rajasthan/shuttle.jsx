@@ -43,7 +43,7 @@ class Shuttle extends React.Component {
   render = () => {
     return (
       <div className="upcommingReach wb-sevan2024">
-        <h2>How to reach Sevan Startup Summit 2025 Grounds</h2>
+        <h2>How to reach Rajasthan Startup Summit 2026 Grounds</h2>
         <p>— The best ways to reach us —</p>
         <div className="upcommingReach_middle">
           <div
@@ -65,15 +65,6 @@ class Shuttle extends React.Component {
                         alt="shuttle"
                     />
                 )}
-                {/*<img*/}
-                {/*    className="wb-ggImage"*/}
-                {/*    src={*/}
-                {/*      this.state.screenWidth < 547 || this.state.busOpen*/}
-                {/*          ? require("./img/disignIcon/ggImage.png")*/}
-                {/*          : require("./img/disignIcon/bus-side-view 1.png")*/}
-                {/*    }*/}
-                {/*    alt="shuttle"*/}
-                {/*/>*/}
 
               </div>
               {this.state.screenWidth > 546 && (
@@ -84,26 +75,15 @@ class Shuttle extends React.Component {
               <div className="vihacleOpenIN">
                 <p>
                   <b>
-                    Shuttle service will be available during the event.
+                    Shuttle service will be available during the event
+                    from Jaipur International Aeroport to Taj Amer Hotel.
                   </b>
                 </p>
                 <p>
                   The schedule for it will be available beforehand.
                   Seat reservation will be required.
                 </p>
-                <h3>coming&nbsp;soon</h3>
-                {/*<div className="wb-sevan2024ShuttleButtons">*/}
-                {/*  <a href="https://bit.ly/to-SSS">*/}
-                {/*    <button>To SSS</button>*/}
-                {/*  </a>*/}
-                {/*  <a href="https://bit.ly/from-SSS">*/}
-                {/*    <button>From SSS</button>*/}
-                {/*  </a>*/}
-                {/*</div>*/}
-                {/*<p>*/}
-                {/*  To reserve your seat, please open the link on your mobile*/}
-                {/*  device.*/}
-                {/*</p>*/}
+                {/*<h3>coming&nbsp;soon</h3>*/}
               </div>
             </div>
             <div className="border" />
@@ -133,9 +113,8 @@ class Shuttle extends React.Component {
               </div>
               <iframe
                 title="shuttleMap"
-                // src="https://www.google.com/maps/place/40%C2%B020'40.1%22N+45%C2%B034'43.2%22E/@40.3278435,45.5387228,13.25z/data=!4m4!3m3!8m2!3d40.3444672!4d45.5786688?hl=en-GB&entry=ttu"
-                // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d388960.17335968075!2d45.01580199734058!3d40.39220308366322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404073c3653254db%3A0x2e16e2bbfbe7383f!2sLake%20Sevan!5e0!3m2!1sen!2s!4v1651553883973!5m2!1sen!2s"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2601.4832455460923!2d45.5803449!3d40.342274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403f89d42619d199%3A0xab251b125c1578ac!2sSevan%20Startup%20Summit!5e1!3m2!1sen!2sam!4v1686590984126!5m2!1sen!2sam"
+                src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FSeaside%2BStartup%2BSummit%2BHead%2BOffice%2F%4040.1884478%2C44.5116969%2C17.75z%2Fdata%3D!4m14!1m7!3m6!1s0x404073c3653254db%3A0x2e16e2bbfbe7383f!2sLake%2BSevan!8m2!3d40.3449984!4d45.3351942!16zL20vMDNjaDZ3!3m5!1s0x406abd66c708f561%3A0xc58aeafd4e41931e!8m2!3d40.1888534!4d44.5127519!16s%252Fg%252F11h60fc3lm%3Fhl%3Den%26entry%3Dttu%26g_ep%3DEgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%253D&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2601.4832455460923!2d45.5803449!3d40.342274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403f89d42619d199%3A0xab251b125c1578ac!2sSevan%20Startup%20Summit!5e1!3m2!1sen!2sam!4v1686590984126!5m2!1sen!2sam"
                 allowFullScreen
               ></iframe>
             </div>

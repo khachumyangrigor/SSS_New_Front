@@ -226,6 +226,10 @@ button.wb-localRuleTermsButton{
   height: unset !important;
 }
 .sevan24-organizers .wb-organizersImageBlock {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
   max-width: 30% !important;
 }
 

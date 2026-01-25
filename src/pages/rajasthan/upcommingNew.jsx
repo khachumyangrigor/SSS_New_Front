@@ -132,6 +132,7 @@ popupClose = () => {
 
           <GetAccess />
           <Stats />
+
           <Organizers />
           <Credo />
           <Roadmap />

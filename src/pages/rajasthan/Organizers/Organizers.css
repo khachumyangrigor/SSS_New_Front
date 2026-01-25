@@ -20,7 +20,7 @@
 }
 .sevan24-organizers .wb-organizersContent{
     justify-content: center !important;
-    gap: 25px 10% !important;
+    gap: 25px 5% !important;
 }
 .wb-organizersImageBlock {
     flex-basis: calc(30% - 3%);

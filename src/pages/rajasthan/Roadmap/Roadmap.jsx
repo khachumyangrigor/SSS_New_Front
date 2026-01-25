@@ -13,7 +13,7 @@ const data = [
     img: img1,
     title: "— Application —",
     description:
-      "In order to apply, you will need to fill in our application form.  Make sure to provide accurate information: it helps us to provide you with the best experience.",
+      "In order to apply, you will need to fill in our application form. Make sure to provide accurate information: it helps us to provide you with the best experience.",
   },
   {
     img: img2,
@@ -88,7 +88,7 @@ function Roadmap() {
           </div>
           <div className="wb-applyButtonBlock">
             <a
-                href="https://www.f6s.com/sevan-startup-summit-2025"
+                href="https://www.f6s.com/rajasthan-startup-summit-2026/apply"
                 target="_blank"
                 // // onClick={() => setPopupStatus(true)}
                 rel="noopener noreferrer"
@@ -97,7 +97,7 @@ function Roadmap() {
             </a>
           </div>
           <div className="roadmap-msg">
-            <p>*If your startup passes the selection, 3 representatives get a free participation voucher. Free <br/> participation does NOT include air tickets and other travel costs.</p>
+            <p>*If your startup passes the selection, 2 representatives get a free participation voucher.  <br/> Free participation does NOT include air tickets and other travel costs.</p>
           </div>
         </div>
          <Popup mobile={width < 1024 ? true : false} infoMode={null} status={popupStatus} buttons={buyTickets} setPopupStatus={setPopupStatus} />
