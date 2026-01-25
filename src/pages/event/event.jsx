@@ -311,11 +311,7 @@ class Events extends React.Component {
                                 </a>
                             </p>
                             <p>Feb 27 - Mar 1, 2026</p>
-                            {/*<Link to="/upcoming-events/sevan-startup-summit-2024" className="passiveBtn eventPassiveBtn">See More</Link>*/}
-                            {/*<Link to="/sevan2025/" >See More</Link>*/}
-                            {/*<a target="_npmblank" rel="noopener noreferrer" className="eventComingSoonBtn">See More</a>*/}
-
-                            <a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>See More</a>
+                            <Link to="/rajastan-2026/">See More</Link>
                         </div>
                         <div ref="event">
                             <div>

@@ -5,6 +5,7 @@ import UpcommingNew from './pages/upcommingNew/upcommingNew.jsx';
 import Sevan2023 from './pages/sevan2023/upcommingNew.jsx';
 import Sevan2024 from './pages/sevan2024/upcommingNew.jsx';
 import Sevan2025 from './pages/sevan2025/upcommingNew.jsx';
+import Rajasthan2026 from './pages/rajasthan/upcommingNew.jsx';
 import Uae2024 from './pages/uae2024/upcommingNew.jsx';
 import UpcommingNewOld from './pages/upcommingNew/upcommingNewOld.jsx';
 import News from './pages/news/news.jsx';
@@ -120,6 +121,11 @@ export default [
         exact: true,
         path: '/sevan2025/',
         component: Sevan2025
+    },
+    {
+        exact: true,
+        path: '/rajastan-2026/',
+        component: Rajasthan2026
     },
     {
         path: '/teamlead',

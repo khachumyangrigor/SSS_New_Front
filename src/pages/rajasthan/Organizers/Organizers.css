@@ -1,0 +1,81 @@
+.wb-organizersBlock{
+    padding: 25px 64px 100px 64px;
+    background-color: #f7f7f7;
+}
+.wb-organizersTitle h2{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    color: #1F2C4C;
+    margin-bottom: 75px;
+}
+.wb-organizersContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px 10% !important;
+}
+.sevan24-organizers .wb-organizersContent{
+    justify-content: center !important;
+    gap: 25px 10% !important;
+}
+.wb-organizersImageBlock {
+    flex-basis: calc(30% - 3%);
+}
+.wb-organizersImageBlock img{
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 1024px){
+    .wb-sevan2025 .wb-organizersImageBlock {
+        max-width: 35% !important;
+    }
+    .wb-sevan2025 .wb-organizersImageBlock img{
+        max-width: 100% !important;
+    }
+    .wb-sevan2025 .wb-armeniaPartner{
+        order: -1 !important;
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+    .wb-sevan2025 .wb-armeniaPartner img{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 756px){
+
+
+    .wb-organizersTitle h2{
+        font-size: 32px;
+        margin-bottom: 20px !important;
+    }
+    /*.sevan24-organizers .wb-organizersContent{*/
+    /*    gap: 25px !important;*/
+    /*}*/
+    /*.wb-organizersImageBlock{*/
+    /*    flex-basis: 60%;*/
+    /*}*/
+
+}
+@media screen  and (max-width: 560px){
+    /*.sevan24-organizers .wb-organizersContent{*/
+    /*    gap: 15px 10px !important;*/
+    /*}*/
+    /*.sevan24-organizers .s3-imageBlock .wb-organizersImageBlock{*/
+    /*    width: 70%;*/
+    /*}*/
+    /*.sevan24-organizers .s3-imageBlock img{*/
+    /*    width: 50% ;*/
+    /*}*/
+}
+@media screen  and (max-width: 480px){
+    .wb-organizersTitle h2{
+        font-size: 28px;
+    }
+}
