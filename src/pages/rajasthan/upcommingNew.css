@@ -293,10 +293,10 @@
 
 .upcommingGetAcces_right {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   width: 50%;
-  background: url(img/rajasthanInfo.png) no-repeat 100% 0%;
+  background: url(img/rajasthanInfo.png) no-repeat center center;
   background-size: contain;
   /* min-height: unset; */
   height: auto;

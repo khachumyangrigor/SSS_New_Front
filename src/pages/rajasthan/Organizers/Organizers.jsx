@@ -23,7 +23,7 @@ const Organizers = () => {
                 <div className="wb-organizersImageBlock">
                     <img src={startupImg} alt="StartupArmenia"/>
                 </div>
-                <div className="wb-organizersImageBlock">
+                <div className="wb-organizersImageBlock wb-oilfPartner">
                     <img src={oilfImg} alt="oilf"/>
                 </div>
             </div>

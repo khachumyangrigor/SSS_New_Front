@@ -12,39 +12,64 @@
     color: #1F2C4C;
     margin-bottom: 75px;
 }
+/* 1024+ — все иконки в один ряд, сужать при нехватке места */
 .wb-organizersContent{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px 10% !important;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px 40px;
+    padding: 0 20px;
 }
 .sevan24-organizers .wb-organizersContent{
     justify-content: center !important;
-    gap: 25px 5% !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 20px 40px !important;
 }
 .wb-organizersImageBlock {
-    flex-basis: calc(30% - 3%);
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .wb-organizersImageBlock img{
     max-width: 100%;
-
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
+/* 1024- — две сверху, две снизу */
 @media screen and (max-width: 1024px){
-    .wb-sevan2025 .wb-organizersImageBlock {
-        max-width: 35% !important;
+    .wb-organizersContent,
+    .sevan24-organizers .wb-organizersContent{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px !important;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: unset !important;
     }
-    .wb-sevan2025 .wb-organizersImageBlock img{
+    .wb-sevan2025 .wb-organizersImageBlock {
         max-width: 100% !important;
+        width: 100% !important;
+        flex: unset !important;
     }
     .wb-sevan2025 .wb-armeniaPartner{
-        order: -1 !important;
-        flex-basis: 100% !important;
+        order: 0 !important;
+        flex-basis: unset !important;
         max-width: 100% !important;
         text-align: center !important;
     }
     .wb-sevan2025 .wb-armeniaPartner img{
-        width: 50% !important;
+        width: auto !important;
+        max-width: 100% !important;
+    }
+    .wb-sevan2025 .wb-oilfPartner img{
+        max-height: 90px !important;
     }
 }
 
@@ -54,6 +79,9 @@
     .wb-organizersTitle h2{
         font-size: 32px;
         margin-bottom: 20px !important;
+    }
+    .wb-sevan2025 .wb-oilfPartner img{
+        max-height: 80px !important;
     }
     /*.sevan24-organizers .wb-organizersContent{*/
     /*    gap: 25px !important;*/
@@ -77,5 +105,8 @@
 @media screen  and (max-width: 480px){
     .wb-organizersTitle h2{
         font-size: 28px;
+    }
+    .wb-sevan2025 .wb-oilfPartner img{
+        max-height: 70px !important;
     }
 }
