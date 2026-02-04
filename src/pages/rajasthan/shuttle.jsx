@@ -42,7 +42,7 @@ class Shuttle extends React.Component {
   };
   render = () => {
     return (
-      <div className="upcommingReach wb-sevan2024 wb-background-gray">
+      <div className="upcommingReach wb-sevan2024 wb-background-white">
         <h2>How to reach Rajasthan Startup Summit 2026 Grounds</h2>
         <p>— The best ways to reach us —</p>
         <div className="upcommingReach_middle">
@@ -76,7 +76,7 @@ class Shuttle extends React.Component {
                 <p>
                   <b>
                     Shuttle service will be available during the event
-                    from Jaipur International Aeroport to Taj Amer Hotel.
+                    from Jaipur International Airport to Taj Amer Hotel.
                   </b>
                 </p>
                 <p>
@@ -111,9 +111,11 @@ class Shuttle extends React.Component {
                   Parking is available at the venue
                 </p>
               </div>
+
               <iframe
                 title="shuttleMap"
-                src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FSeaside%2BStartup%2BSummit%2BHead%2BOffice%2F%4040.1884478%2C44.5116969%2C17.75z%2Fdata%3D!4m14!1m7!3m6!1s0x404073c3653254db%3A0x2e16e2bbfbe7383f!2sLake%2BSevan!8m2!3d40.3449984!4d45.3351942!16zL20vMDNjaDZ3!3m5!1s0x406abd66c708f561%3A0xc58aeafd4e41931e!8m2!3d40.1888534!4d44.5127519!16s%252Fg%252F11h60fc3lm%3Fhl%3Den%26entry%3Dttu%26g_ep%3DEgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%253D&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FTaj%2BAmer%2BJaipur%2F%4027.0166694%2C75.8808479%2C878m%2Fdata%3D!3m2!1e3!4b1!4m9!3m8!1s0x396db1c76c2499d5%3A0xda8e77fbc858a76c!5m2!4m1!1i2!8m2!3d27.0166694!4d75.8808479!16s%252Fg%252F11sl3tx5tj%3Fentry%3Dttu%26g_ep%3DEgoyMDI2MDIwMS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%253D&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                // src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FSeaside%2BStartup%2BSummit%2BHead%2BOffice%2F%4040.1884478%2C44.5116969%2C17.75z%2Fdata%3D!4m14!1m7!3m6!1s0x404073c3653254db%3A0x2e16e2bbfbe7383f!2sLake%2BSevan!8m2!3d40.3449984!4d45.3351942!16zL20vMDNjaDZ3!3m5!1s0x406abd66c708f561%3A0xc58aeafd4e41931e!8m2!3d40.1888534!4d44.5127519!16s%252Fg%252F11h60fc3lm%3Fhl%3Den%26entry%3Dttu%26g_ep%3DEgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%253D&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                   // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2601.4832455460923!2d45.5803449!3d40.342274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403f89d42619d199%3A0xab251b125c1578ac!2sSevan%20Startup%20Summit!5e1!3m2!1sen!2sam!4v1686590984126!5m2!1sen!2sam"
                 allowFullScreen
               ></iframe>

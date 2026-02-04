@@ -14,6 +14,7 @@ import { GetAccess } from "./component.min.jsx";
 
 //css
 import "./upcommingNew.css";
+import { JoinAsVisitor } from "./JoinAsVisitor/JoinAsVisitor.jsx";
 
 class UpcommingNew extends React.Component {
   constructor(props) {
@@ -136,6 +137,7 @@ popupClose = () => {
           <Organizers />
           <Credo />
           <Roadmap />
+          <JoinAsVisitor />
           <Shuttle />
           <Organizers />
           <FootterNew />

@@ -251,6 +251,29 @@ button.wb-localRuleTermsButton{
   color: #1f2c4c !important;
   padding: 20px 0 !important;
 }
+.join-as-wisitor-right h2 {
+  color: #1f2c4c !important;
+  letter-spacing: 1px;
+}
+.join-as-wisitor-right p {
+  font-size: 18px !important;
+  color: #1f2c4c !important;
+  padding: 20px 0 !important;
+}
+.join-as-wisitor-button .join-as-wisitor-register-btn {
+  font-size: 14px !important;
+  font-family: "Source Sans Pro" !important;
+  color: #FFFFFF !important;
+  background: #2F80ED !important;
+  padding: 11px 20px !important;
+  border: 1.5px solid #2F80ED;
+  border-radius: 8px;
+}
+.join-as-wisitor-button .join-as-wisitor-register-link {
+  padding: 0 !important;
+  border: none;
+  border-radius: 0;
+}
 .sevan24-getAccess .aboutInfo_right {
   width: 100% !important;
 }
@@ -904,6 +927,11 @@ button.wb-localRuleTermsButton{
 @media screen and (max-width: 599px) {
   /* Get Access */
   .upcommingGetAcces_left p {
+    height: unset !important;
+    overflow: visible !important;
+    display: unset !important;
+  }
+  .join-as-wisitor-right p {
     height: unset !important;
     overflow: visible !important;
     display: unset !important;

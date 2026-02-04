@@ -232,6 +232,13 @@
   padding: 8vh 5.5vw;
   justify-content: space-between;
 }
+.join-as-wisitor-conteiner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8vh 5.5vw;
+  justify-content: space-between;
+ }
 
 .upcommingGetAcces_left {
   display: flex;
@@ -291,12 +298,116 @@
   background: #ffffff;
 }
 
+.join-as-wisitor-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-left: 2vw;
+}
+.join-as-wisitor-right h2 {
+  width: 100%;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.3vw;
+  line-height: normal;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.join-as-wisitor-right > div {
+  width: 100%;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2vw;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #9c9c9c;
+}
+.join-as-wisitor-right p {
+  width: 100%;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.23vw;
+  line-height: 1.5;
+  color: #000000;
+  padding: 1.3vw 0px;
+}
+.join-as-wisitor-right a {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 92.58%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #2f80ed;
+  border: 1.5px solid #2f80ed;
+  border-radius: 8px;
+  padding: 1.5vh 4vw;
+  transition: all 0.4s ease;
+}
+.join-as-wisitor-right a:hover {
+  color: #2f80ed;
+  background: #ffffff;
+}
+
+/* Register now button — как Shuttle Service / Drive on your own */
+.join-as-wisitor-button {
+  width: 100%;
+  margin-top: 1vh;
+}
+.join-as-wisitor-button .join-as-wisitor-register-btn {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF !important;
+  background: #2F80ED !important;
+  border: 1.5px solid #2F80ED;
+  border-radius: 8px;
+  padding: 11px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.join-as-wisitor-button .join-as-wisitor-register-link {
+  display: inline-block;
+  color: #FFFFFF !important;
+  background: #2F80ED !important;
+  border: none;
+  border-radius: 8px;
+  padding: 0 !important;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.join-as-wisitor-button .join-as-wisitor-register-btn:hover {
+  color: #2f80ed !important;
+  background: #ffffff !important;
+  border-color: #2f80ed;
+}
+
 .upcommingGetAcces_right {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   background: url(img/rajasthanInfo.png) no-repeat center center;
+  background-size: contain;
+  /* min-height: unset; */
+  height: auto;
+}
+.join-as-wisitor-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: url(img/rajasthan-visitor-registration-section.png) no-repeat center center;
   background-size: contain;
   /* min-height: unset; */
   height: auto;
@@ -2100,6 +2211,9 @@
   .upcommingGetAcces {
     padding: 90px 108px;
   }
+  .join-as-wisitor-conteiner {
+    padding: 90px 108px;
+  }
 
   .upcommingGetAcces_left {
     padding-right: 150px;
@@ -2114,6 +2228,22 @@
     font-size: 25px;
   }
   .upcommingGetAcces_left a {
+    font-size: 15px;
+    padding: 11px 30px;
+  }
+  .join-as-wisitor-right {
+    padding-right: 150px;
+  }
+  .join-as-wisitor-right h2 {
+    font-size: 48px;
+  }
+  .join-as-wisitor-right > div {
+    font-size: 23px;
+  }
+  .join-as-wisitor-right p {
+    font-size: 25px;
+  }
+  .join-as-wisitor-right a {
     font-size: 15px;
     padding: 11px 30px;
   }
@@ -2524,6 +2654,9 @@
   .upcommingGetAcces {
     padding: 45px 30px;
   }
+  .join-as-wisitor-conteiner {
+    padding: 45px 30px;
+  }
 
   .upcommingGetAcces_left {
     width: 100%;
@@ -2544,7 +2677,30 @@
     font-size: 30px;
     padding: 11px 30px;
   }
+  .join-as-wisitor-right {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0;
+  }
+  .join-as-wisitor-right h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .join-as-wisitor-right > div {
+    text-align: center;
+    font-size: 3vw;
+  }
+  .join-as-wisitor-right p {
+    font-size: 3vw;
+  }
+  .join-as-wisitor-right a {
+    font-size: 30px;
+    padding: 11px 30px;
+  }
   .upcommingGetAcces_right {
+    width: 100%;
+  }
+  .join-as-wisitor-left {
     width: 100%;
   }
   .upcommingGetAcces_right iframe {
@@ -3206,6 +3362,9 @@
   .upcommingGetAcces {
     padding: 45px 30px;
   }
+  .join-as-wisitor-conteiner {
+    padding: 45px 30px;
+  }
 
   .upcommingGetAcces_left {
     width: 100%;
@@ -3254,7 +3413,61 @@
     font-size: 15px;
     padding: 11px 30px;
   }
+  .join-as-wisitor-right {
+     width: 100%;
+     padding-right: 0px;
+  }
+  .join-as-wisitor-right h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .join-as-wisitor-right > div {
+    text-align: center;
+    font-size: 19px;
+  }
+  .join-as-wisitor-right p {
+    font-size: 20px;
+    height: 125px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  .join-as-wisitor-right p.Less {
+    height: fit-content;
+    display: block;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: unset;
+    overflow: unset;
+  }
+  .join-as-wisitor-right .textOpening {
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: flex-end;
+    color: #2f80ed;
+    padding: 3px 14px;
+    margin: 5px 0px;
+    border: 2px solid #0d63d7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: fit-content;
+    text-transform: capitalize;
+  }
+
+  .join-as-wisitor-right a {
+    font-size: 15px;
+    padding: 11px 30px;
+  }
+  .join-as-wisitor-button .join-as-wisitor-register-btn {
+    padding: 11px 20px;
+    font-size: 14px;
+  }
   .upcommingGetAcces_right {
+    width: 100%;
+  }
+  .join-as-wisitor-left {
     width: 100%;
   }
   .upcommingGetAcces_right iframe {
