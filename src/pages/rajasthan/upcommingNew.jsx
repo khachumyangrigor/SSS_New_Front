@@ -129,6 +129,18 @@ popupClose = () => {
               <h4 className="wb-white-text">Taj Amer, Jaipur</h4>
               <h4 className="wb-white-text">February 27 - March 1, 2026</h4>
             </div>
+            {this.state.screenWidth <= 1024 && this.state.screenWidth !== null && (
+                <div className="wb-heroApplyMobile">
+                  <a
+                      href="https://www.f6s.com/rajasthan-startup-summit-2026/apply"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="wb-heroApplyBtn"
+                  >
+                    Apply as a Startup
+                  </a>
+                </div>
+            )}
           </div>
 
           <GetAccess />
