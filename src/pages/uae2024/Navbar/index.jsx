@@ -82,7 +82,7 @@ const Navbar = () => {
       {/*  <NavbarMenu />*/}
       {/*</div>*/}
       <div className={classNames("navbar-right")}>
-        {/*<NavButtons isSaleOpen={true}/>*/}
+        <NavButtons isSaleOpen={true}/>
       </div>
         <div>
             <MenuButton />

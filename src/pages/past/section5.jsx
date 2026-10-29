@@ -2,47 +2,33 @@ import React from 'react';
 import { Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 
+// Startup names/descriptions lived only in the dead apis.seasidestartupsummit.com API,
+// so the alumni carousel shows the local photos without captions.
+const startupImages = require.context('./img', true, /^\.\/[^/]+\/img\/startups\/[^/]+\.(png|jpe?g)$/i);
+
+// the same photo can be stored under several file names; emitted names carry a content hash
+const uniqueImages = srcs => {
+    const seen = new Set();
+    return srcs.filter(src => {
+        const hash = src.match(/\.([0-9a-f]{8})\.[a-z]+$/i);
+        const key = hash ? hash[1] : src;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+    });
+}
+
 class Startups extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            loading: false,
-            error: '',
-            startups: [],
-            id: 0,
-        }
-    }
-
-
-    handelStartupsFatch = info => {
-        const { API_STARTUP_URL } = info
-        this.setState({ loading: true });
-        fetch(`${API_STARTUP_URL}=${this.state.id}`)
-            .then(resp => resp.json().then(jsonResp => {
-                return resp.ok ? jsonResp : Promise.reject(jsonResp);
-            })
-            )
-            .then(
-                data => {
-                    if (typeof (data.Error) != 'undefined') this.setState({ error: data.Error, loading: false });
-                    else {
-                        const { startups } = data;
-                        this.setState({
-                            error: '',
-                            startups: startups,
-                            loading: false,
-                        });
-                    }
-                }
-            )
-    }
-    componentWillReceiveProps = nextProps => {
-        if (this.props.info.baner_title_part1 !== nextProps.info.baner_title_part1) {
-            this.handelStartupsFatch(nextProps.info);
-        }
-    }
-    componentDidMount = () => {
-        this.handelStartupsFatch(this.props.info);
+    getStartupImages = () => {
+        const { API_IMG_URL } = this.props.info;
+        if (!API_IMG_URL) return [];
+        const prefix = `./${API_IMG_URL}/startups/`;
+        return uniqueImages(startupImages.keys()
+            .filter(key => key.startsWith(prefix))
+            .map(key => {
+                const img = startupImages(key);
+                return img.default || img;
+            }));
     }
 
     caruselPrev = (elem, inter) => {
@@ -67,11 +53,8 @@ class Startups extends React.Component {
     }
 
     render = () => {
-        const { API_IMG_URL } = this.props.info;
-        const { loading, error, startups } = this.state;
-        if (startups === undefined) return <div className="part6Title"><div></div></div>
-        if (loading) return <div className="part6Title"><div>Loaging...</div></div>;
-        if (error) return <div className="part6Title"><div></div></div>;
+        const images = this.getStartupImages();
+        if (images.length === 0) return null;
         return (
             <Fragment>
                 <div className="upcommingInvestorNew upcommingInvestorNew_Startup">
@@ -81,13 +64,11 @@ class Startups extends React.Component {
                         <div className="upcommingInvestorNewPrev" onClick={() => this.caruselPrev(this.refs.upcommingInvestorImg, 500)}><b /></div>
                         <div className="upcommingInvestorNewImg" ref="upcommingInvestorImg">
                             {
-                                startups.map(startups => (
-                                    <div className="investor" key={startups.id}>
+                                images.map(src => (
+                                    <div className="investor" key={src}>
                                         <div className="imgBox">
-                                            <img src={require(`./img/${API_IMG_URL}/startups/${startups.img}`)} alt="startup" rel="index nofollow noopener nnoreferer" />
+                                            <img src={src} alt="startup" />
                                         </div>
-                                        <p className="name">{startups.name}</p>
-                                        <p className="info">{startups.info}</p>
                                     </div>
                                 ))
                             }

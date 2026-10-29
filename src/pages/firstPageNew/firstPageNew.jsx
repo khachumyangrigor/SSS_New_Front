@@ -135,10 +135,10 @@ class Home_Page_Newedition extends React.Component {
                 <meta property="og:description" content="Seaside Startup Summit is a platform that attracks leading angels,venture capitalists,entrepreneurs and transform their environment via entrepreneurship."/>
             </Helmet>   
             <div className="firstPageNew">
-                {/* <div className="job_alart">
+                <div className="job_alart">
                     <Link to="/about-us/job">join our team</Link>
                     <small>— PLEASE CHECK OUR VACANCIES —</small>
-                </div> */}
+                </div>
                 <div className="firstPageTop" ref="firstPageTop">
                     <div>
                         <h1>Transforming the way to build sustainable businesses and lasting connections
@@ -188,12 +188,12 @@ class Home_Page_Newedition extends React.Component {
                         </div>
                 </div> */}
                 <div className="firstPagePartners">
-                    {/* <div className="partnersTitle">Our Partners</div> */}
+                    <div className="partnersTitle">Our Partners</div>
                     <div className="partnersMiddlle">
                         <div className="partnersMiddlleLeft">
                             <div className="partnersTitle">We have <br/> cooperated with</div>
                             <div className="partnersMiddlleLeftText">Our Booster micro-acceleration program is run in cooperation with leading accelerators.</div>
-                            {/* <div className="partnersMiddlleLeftBtn"><Link to="/upcoming-events/sevan-2021/program">Check our programs</Link></div> */}
+                            <div className="partnersMiddlleLeftBtn"><Link to="/upcoming-events/sevan-2021/program">Check our programs</Link></div>
                         </div>
                         <div className="partnersMiddlleright" ref="partnersMiddlleright">
                             <section>

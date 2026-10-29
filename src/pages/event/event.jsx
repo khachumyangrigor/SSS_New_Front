@@ -236,7 +236,7 @@ class Events extends React.Component {
             <div className="eventNew">
                 <div className="eventTop" ref="eventTop">
                     <h1 ref="headerText">Transforming the way to build sustainable businesses and lasting connections</h1>
-                    {/* <p>Seaside Startup Summit</p> */}
+                    <p>Seaside Startup Summit</p>
                     <div ref="headerText2" className="eventBodyHead" >
                         <h3>Discover our events</h3>
                         <p>Seaside Startup Summit is the first outdoor
@@ -260,6 +260,7 @@ class Events extends React.Component {
                     </div>
                     <div className="eventBodyMiddle">
                         <h3>Upcoming events</h3>
+                        {/*<h3>Upcoming events</h3>*/}
                         {/*<div ref="event">*/}
                         {/*    <div><Link to="/sss-holidays-india-vizag" ><img src={require('./img/eventCover/Vizag.png')} alt="eventImg" /></Link></div>*/}
                         {/*    <h3> SSSholidays India Vizag </h3>*/}
@@ -364,23 +365,24 @@ class Events extends React.Component {
                         {/*    <Link to="/upcoming-events/sevan-startup-summit-2023">See More</Link>*/}
                         {/*</div>*/}
 
-                        {/*<div>*/}
-                        {/*    <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg" /></div>*/}
-                        {/*    <h3> Seaside startup summit </h3>*/}
-                        {/*    <section ref="formSec" className="form" >*/}
-                        {/*        <select ref="country">*/}
-                        {/*            <option ref="country1" disabled={true} selected={true} value="">Country*</option>*/}
-                        {/*            {this.state.countrys.map((country) => <option key={country} value={country}>{country}</option>)}*/}
-                        {/*        </select>*/}
-                        {/*        <input type="text" placeholder="City*" ref="city"/>*/}
-                        {/*        <input type="text" placeholder="Year" ref="year"/>*/}
-                        {/*        <input type="text" placeholder="Suggest Partner" ref="partner"/>*/}
-                        {/*    </section>*/}
-                        {/*    <p ref="formtext1" className="formP">Suggest<br/>your dream location</p>*/}
-                        {/*    <p ref="formtext2" className="formP2"></p>*/}
-                        {/*    <button onClick={this.sendSuggest}>Suggest</button>*/}
-                        {/*    <span></span>*/}
-                        {/*</div>*/}
+                        <div>
+                            <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg"/></div>
+                            <h3> Seaside startup summit </h3>
+                            <section ref="formSec" className="form">
+                                <select ref="country">
+                                    <option ref="country1" disabled={true} selected={true} value="">Country*</option>
+                                    {this.state.countrys.map((country) => <option key={country}
+                                                                                  value={country}>{country}</option>)}
+                                </select>
+                                <input type="text" placeholder="City*" ref="city"/>
+                                <input type="text" placeholder="Year" ref="year"/>
+                                <input type="text" placeholder="Suggest Partner" ref="partner"/>
+                            </section>
+                            <p ref="formtext1" className="formP">Suggest<br/>your dream location</p>
+                            <p ref="formtext2" className="formP2"></p>
+                            <button onClick={this.sendSuggest}>Suggest</button>
+                            <span></span>
+                        </div>
                     </div>
                     <div className="eventBodyMiddle past">
                         <h3>Previous events</h3>

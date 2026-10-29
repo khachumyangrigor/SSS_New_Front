@@ -110,6 +110,8 @@ class Startups extends React.Component{
 
     render=()=>{
         const { startups,startupsSelected } = this.state;
+        // the startups API and image host are gone; hide the block instead of rendering it empty
+        if (!startups || startups.length === 0) return null;
         const API_IMG_URL = 'https://www.staff.seasidestartupsummit.com/user/startups/startups_name/img';
         const slider_settings = {
             dots: false,

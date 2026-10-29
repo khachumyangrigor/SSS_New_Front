@@ -14,6 +14,13 @@ import Energy from "./Energy/Energy.jsx";
 import Greenovate from "./Greenovate/Greenovate.jsx";
 import WineTech from "./WineTech/WineTech.jsx";
 import Rally from "./Rally/Rally.jsx";
+import Roadmap from "./Roadmap/Roadmap.jsx";
+import Participate from "./Participate/Participate.jsx";
+import WeOffer from "./WeOffer/index.jsx";
+import Apply from "./Apply/Apply.jsx";
+import Valounteering from "./Volunteering/Volunteering.jsx";
+import TeamLeads from "./TeamLeads/TeamLeads.jsx";
+import Organizers from "./Organizers/Organizers.jsx";
 
 
 import Shuttle from "./shuttle.jsx";
@@ -145,24 +152,24 @@ popupClose = () => {
               </h4>
               <h6 className="wb-festivalCity">Sevan Festival City</h6>
               <div className="wb-applyButtonBlock wb-applyButtonBlock-right ">
-                {/*<a*/}
-                {/*    onClick={(e) => {e.preventDefault()}}*/}
-                {/*  href="#"*/}
-                {/*  // onClick={() => setPopupStatus(true)}*/}
-                {/*  target="_blank"*/}
-                {/*  rel="noopener noreferrer"*/}
-                {/*>*/}
-                {/*  <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>*/}
-                {/*</a>*/}
-                {/*<a*/}
-                {/*    className="wb-agendaDesktopButton"*/}
-                {/*    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"*/}
-                {/*    // onClick={() => setPopupStatus(true)}*/}
-                {/*    target="_blank"*/}
-                {/*    rel="noopener noreferrer"*/}
-                {/*>*/}
-                {/*  <button>Agenda</button>*/}
-                {/*</a>*/}
+                <a
+                    onClick={(e) => {e.preventDefault()}}
+                  href="#"
+                  // onClick={() => setPopupStatus(true)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="upcomingSevan2025Button">Buy Tickets <span>(Coming soon)</span></button>
+                </a>
+                <a
+                    className="wb-agendaDesktopButton"
+                    href="https://seasidestartupsummit.com/pdf/sevan_25_agenda.pdf"
+                    // onClick={() => setPopupStatus(true)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  <button>Agenda</button>
+                </a>
               </div>
             </div>
           </div>
@@ -172,13 +179,13 @@ popupClose = () => {
           <GetAccess />
           <PartnerSection />
           <Stats />
-          {/*<Credo />*/}
-          {/*<Roadmap />*/}
-          {/*<Participate ref="participate" />*/}
-          {/*<WeOffer />*/}
+          <Credo />
+          <Roadmap />
+          <Participate ref="participate" />
+          <WeOffer />
           <Programs />
 
-          {/*<Apply />*/}
+          <Apply />
           <TalentGeneration />
           <FirecodeMarathon />
           <Agritech />
@@ -187,12 +194,12 @@ popupClose = () => {
           <Greenovate />
           <WineTech />
           <Rally />
-          {/*<Valounteering />*/}
-          {/*<TeamLeads />*/}
+          <Valounteering />
+          <TeamLeads />
           <Shuttle />
           <MustKnow />
           <PartnerSection />
-          {/*<Organizers />*/}
+          <Organizers />
           <Partners />
           <FootterNew />
         </div>

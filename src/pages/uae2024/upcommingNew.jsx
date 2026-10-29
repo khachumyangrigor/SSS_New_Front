@@ -78,15 +78,15 @@ class UpcommingNew extends React.Component {
           <Navbar />
           <GetAccess />
           <Stats />
-          {/*<Credo ref="credo" />*/}
-          {/*<Participate ref="participate" />*/}
-          {/*<Roadmap />*/}
-          {/*<WeOffer />*/}
-          {/*<Programs ref="program" />*/}
-          {/*<Valounteering ref="valounteering" />*/}
-          {/*<Apply />*/}
-          {/*<Shuttle ref="shuttle" />*/}
-          {/*<MustKnow ref="mustKnow" />*/}
+          <Credo ref="credo" />
+          <Participate ref="participate" />
+          <Roadmap />
+          <WeOffer />
+          <Programs ref="program" />
+          <Valounteering ref="valounteering" />
+          <Apply />
+          <Shuttle ref="shuttle" />
+          <MustKnow ref="mustKnow" />
           <Organizers />
           <Partners />
           <FootterNew ref="footter" />

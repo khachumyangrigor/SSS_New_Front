@@ -3,19 +3,23 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Info_Past1, Info_Past2, Info_Past3, Info_Past4, Info_Past5, Info_Past6 } from './eventArray/array.jsx';
 
+// Speaker names/positions lived only in the dead apis.seasidestartupsummit.com API,
+// so the carousel shows the local photos without captions.
+const speakerImages = require.context('./img', true, /^\.\/[^/]+\/img\/speakers\/[^/]+\.(png|jpe?g)$/i);
+
+// the same photo is stored under several file names; emitted names carry a content hash
+const uniqueImages = srcs => {
+    const seen = new Set();
+    return srcs.filter(src => {
+        const hash = src.match(/\.([0-9a-f]{8})\.[a-z]+$/i);
+        const key = hash ? hash[1] : src;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+    });
+}
 
 class Speakers extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            speakers: [],
-            error: '',
-            id: 0
-        }
-    }
-    componentDidMount = () => {
-        this.handelSpeakersFatch();
-    }
     getInfo = () => {
         let location = this.props.history.location.pathname;
         if (location === '/sevan19' || location === '/sevan19/') return Info_Past6;
@@ -24,54 +28,19 @@ class Speakers extends React.Component {
         else if (location === '/sevan16' || location === '/sevan16/') return Info_Past3;
         else if (location === '/uae18' || location === '/uae18/') return Info_Past4;
         else if (location === '/india18' || location === '/india18/') return Info_Past5;
+        return {};
     }
 
-    handelSpeakersFatch() {
-        const API_STARTUP_URL = this.getInfo().API_SPEAKER_URL;
-        fetch(`${API_STARTUP_URL}=${this.state.id}`)
-            .then(resp => resp.json().then(jsonResp => {
-                return resp.ok ? jsonResp : Promise.reject(jsonResp);
-            })
-            )
-            .then(
-                data => {
-                    if (typeof (data.Error) != 'undefined') this.setState({ error: data.Error, loading: false });
-                    else {
-                        const speakers = data.speakers;
-                        this.setState({
-                            error: '',
-                            speakers: this.state.speakers.concat(speakers),
-                            loading: false,
-                        });
-                    }
-
-                }
-            )
+    getSpeakerImages = API_IMG_URL => {
+        if (!API_IMG_URL) return [];
+        const prefix = `./${API_IMG_URL}/speakers/`;
+        return uniqueImages(speakerImages.keys()
+            .filter(key => key.startsWith(prefix))
+            .map(key => {
+                const img = speakerImages(key);
+                return img.default || img;
+            }));
     }
-
-    handelMoreSpeaker = () => {
-        let startupArr = this.state.speakers;
-        let lastIndex = startupArr.length;
-        let lastId = this.state.speakers[lastIndex - 1].id;
-        if (lastIndex % 6 !== 0) {
-            this.setState({
-                hasMore: false
-            });
-        }
-        else {
-            if (lastId !== this.state.id) {
-                this.setState({
-                    id: lastId
-                }, () => this.handelSpeakersFatch());
-            }
-            else {
-                setTimeout(() => {
-                    this.handelMoreSpeaker();
-                }, 1000);
-            }
-        }
-}
-
 
 caruselPrev = (elem, inter) => {
     inter = elem.childNodes[0].offsetWidth;
@@ -97,9 +66,9 @@ caruselNext = (elem, inter) => {
 
 
 render = () => {
-    const { speakers } = this.state;
-    const API_IMG_URL = this.getInfo().API_IMG_URL;
-    const aftermovie_link = this.getInfo().aftermovie_link;
+    const { API_IMG_URL, aftermovie_link } = this.getInfo();
+    const images = this.getSpeakerImages(API_IMG_URL);
+    if (images.length === 0) return null;
     return (
         <div className="upcommingSpeakerNew">
             <h2>Learn from top industry leaders</h2>
@@ -109,14 +78,11 @@ render = () => {
                     <div className="upcommingSpeakerNewPrev" onClick={() => this.caruselPrev(this.refs.upcommingSpeakerImg, 500)}><b /></div>
                     <div className="upcommingSpeakerNewImg" ref="upcommingSpeakerImg">
                         {
-                            speakers.map(speakers => (
-                                <div className="speaker" key={speakers.id}>
+                            images.map(src => (
+                                <div className="speaker" key={src}>
                                     <div className="imgBox">
-                                        <img src={require(`./img/${API_IMG_URL}/speakers/${speakers.img}`)} rel="speaker" />
+                                        <img src={src} alt="speaker" />
                                     </div>
-                                    <p className="name">{speakers.name}</p>
-                                    <p className="position">{speakers.position}</p>
-                                    <a href={speakers.link} target="_blank" rel="noopener noreferrer" ><i /></a>
                                 </div>
                             ))
                         }

@@ -119,7 +119,7 @@ class Programs extends React.Component {
                         <h3>— We worked with — </h3>
                         <p>Our Booster micro-acceleration program are run in cooperation with leading accelerators.</p>
                         <div>
-                            {/* <div className="programPartnerPrv" onClick={() => this.caruselPrev(this.refs.partnerImg, 150)}><b /></div> */}
+                            <div className="programPartnerPrv" onClick={() => this.caruselPrev(this.refs.partnerImg, 150)}><b /></div>
                             <div className="programPartnerImg" ref="partnerImg">
                                 <div><a href="https://theacceleratornetwork.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/1.png')} alt="partner" /></a></div>
                                 <div><a href="https://www.startupbootcamp.org/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/2.png')} alt="partner" /></a></div>
@@ -131,7 +131,7 @@ class Programs extends React.Component {
                                 <div><a href="https://www.speedaccelerator.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/8.png')} alt="partner" /></a></div>
                                 <div><a href="https://skydeck.berkeley.edu/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/9.png')} alt="partner" /></a></div>
                             </div>
-                            {/* <div className="programPartnerNext" onClick={() => this.caruselNext(this.refs.partnerImg, 150)}><b /></div> */}
+                            <div className="programPartnerNext" onClick={() => this.caruselNext(this.refs.partnerImg, 150)}><b /></div>
                         </div>
                     </div>
                 </div>

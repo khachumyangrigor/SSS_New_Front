@@ -60,6 +60,8 @@ class Startups extends React.Component{
 
     render=()=>{
         const { mentors } = this.state;
+        // the speakers API and image host are gone; hide the block instead of rendering it empty
+        if (!mentors || mentors.length === 0) return null;
         const API_IMG_URL = 'https://www.staff.seasidestartupsummit.com/user/speakers/speakers_name/img';
         const slider_settings = {
             dots: false,

@@ -40,7 +40,7 @@ function Popup(props) {
                                 <div>
                                     <img src={logo} alt=""/>
                                 </div>
-                                {/*<a href={"https://www.pay.seasidestartupsummit.com"} target="_blank" className="wb-buyTicketButton">Buy Tickets</a>*/}
+                                <a href={"https://www.pay.seasidestartupsummit.com"} target="_blank" className="wb-buyTicketButton">Buy Tickets</a>
                             </>
 
 
@@ -75,7 +75,7 @@ function Popup(props) {
                         (
                             <>
                                 <h2>This application was closed on July 15th.</h2>
-                                {/*<p>Visitor Passes are now available in the Events section of Telcell Wallet.</p>*/}
+                                <p>Visitor Passes are now available in the Events section of Telcell Wallet.</p>
                             </>
 
                         )
