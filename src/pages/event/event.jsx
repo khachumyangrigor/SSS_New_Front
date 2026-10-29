@@ -260,6 +260,7 @@ class Events extends React.Component {
                     </div>
                     <div className="eventBodyMiddle">
                         <h3>Upcoming events</h3>
+                        {/*<h3>Upcoming events</h3>*/}
                         {/*<div ref="event">*/}
                         {/*    <div><Link to="/sss-holidays-india-vizag" ><img src={require('./img/eventCover/Vizag.png')} alt="eventImg" /></Link></div>*/}
                         {/*    <h3> SSSholidays India Vizag </h3>*/}
@@ -365,12 +366,13 @@ class Events extends React.Component {
                         {/*</div>*/}
 
                         <div>
-                            <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg" /></div>
+                            <div><img src={require('./img/eventCover/sugest.png')} alt="eventImg"/></div>
                             <h3> Seaside startup summit </h3>
-                            <section ref="formSec" className="form" >
+                            <section ref="formSec" className="form">
                                 <select ref="country">
                                     <option ref="country1" disabled={true} selected={true} value="">Country*</option>
-                                    {this.state.countrys.map((country) => <option key={country} value={country}>{country}</option>)}
+                                    {this.state.countrys.map((country) => <option key={country}
+                                                                                  value={country}>{country}</option>)}
                                 </select>
                                 <input type="text" placeholder="City*" ref="city"/>
                                 <input type="text" placeholder="Year" ref="year"/>
