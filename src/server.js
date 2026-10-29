@@ -94,7 +94,8 @@ function createMiddleware({ assets }) {
   return appRouter;
 }
 
-if (!IS_DEVELOPMENT) {
+// On Vercel the middleware is mounted by api/index.js as a serverless function
+if (!IS_DEVELOPMENT && !process.env.VERCEL) {
   const assets = {
     main: {
       css: "css/main.css",

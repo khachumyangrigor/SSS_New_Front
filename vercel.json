@@ -1,0 +1,14 @@
+{
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npm run dist && rm -rf vercel-static && mkdir -p vercel-static && cp -r dist/client vercel-static/assets",
+  "outputDirectory": "vercel-static",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/server/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}
