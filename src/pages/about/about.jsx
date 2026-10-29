@@ -275,10 +275,10 @@ class About extends React.Component {
                         <div className="GalleryOpenNext" ref="GalleryOpenNext" onClick={(e) => this.galleryOpenNext(e)}><i /></div>
                     </div>
                 </div>
-                {/* <div className="job_alart">
+                <div className="job_alart">
                     <button onClick={this.scrollToJob}>join our team</button>
                     <small>— PLEASE CHECK OUR VACANCIES —</small>
-                </div> */}
+                </div>
                 <div className="aboutTop" ref="aboutTop">
                     <div ref="headerText">
                         <h1>PLATFORM CREATED</h1>
@@ -323,7 +323,7 @@ class About extends React.Component {
                 <div className="teamBox">
                     <div className="subTeam">
                         <h3>FOUNDERS</h3>
-                        {/* <h4>— MANAGEMENT TEAM —</h4> */}
+                        <h4>— MANAGEMENT TEAM —</h4>
                         <div className="teamImgBox">
                             <div>
                                 <div><img src={require('./img/team/Artur.jpg')} alt="co-founder" /></div>
@@ -345,7 +345,7 @@ class About extends React.Component {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="subTeam">
+                    <div className="subTeam">
                         <h4>— BUSINESS DEVELOPMENT, FINANCIAL, MARKETING AND PORTFOLIO SUPPORT —</h4>
                         <div className="teamImgBox">
                             <div>
@@ -402,13 +402,13 @@ class About extends React.Component {
                                 <a href="https://www.linkedin.com/in/hendo-pangradyan-70b132141/" target="_blank" rel="noopener noreferrer"><i /></a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
                 <div className="upcommingReach vihacle_about" ref="job">
                     <h2>Join the team</h2>
                     <p>— Please check our vacancies —</p>
                     <div className="upcommingReach_middle">
-                        {/*<div className="vacanciasListBox">
+                        <div className="vacanciasListBox">
                             <Link to="/about-us/job/content-development-specialist">
                                 <div className="infoIconBoxKnow">
                                     <div>
@@ -433,7 +433,7 @@ class About extends React.Component {
                                     <span>Project Manager</span>
                                 </div>
                             </Link>
-                        </div>*/}
+                        </div>
                         <div className="vihacle" ref="shuttle">
                             <div className="vihacleBox">
                                 <div >

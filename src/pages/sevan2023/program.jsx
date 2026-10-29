@@ -81,7 +81,7 @@ class Programs extends React.Component {
                             The Starter program is created for aspiring entrepreneurs and idea-stage startups. The latter are divided into tracks, based on the industries/technologies they belong to and their field of activity.<br/><br/>
                             Each track undergoes a tailored incubation/acceleration programme, guided by leading mentors and experts of the field. It culminated with the startups participating in respective industry track battles.
                         </p>
-                           {/* <div className="carusel_menue">
+                           <div className="carusel_menue">
                                 <div className="mobi_meue_trp_left"/>
                                 <ul ref="menue">
                                     <li ref="li1" onClick={() => this.programOpen("li1",this.refs.TrackBattles, this.refs.TrackBattles2)} style={{color: "#757575"}}>Track Battles </li>
@@ -92,8 +92,8 @@ class Programs extends React.Component {
                                     <li ref="li6" onClick={() => this.programOpen("li6",this.refs.Camfire, this.refs.Camfire2)}>Campfire Talks </li>
                                 </ul>
                                 <div className="mobi_meue_trp_right"/>
-                           </div> */}
-                        {/* <p className="lasrPText">Starter Programme teams compete for the top 2 positions in each Industry Track and a chance to go on to the Starter Big Battle. The top team from each Industry Track will receive US$1,500 in prizes. Up to 18 teams will be selected for the Semi-Finals out of which 6 teams will go on to participate in the Starter Big Battle Finals. The finalists will compete for US$10,000 in prizes for the top 3 teams and in-kind prizes worth up to US$20,000.</p> */}
+                           </div>
+                        <p className="lasrPText">Starter Programme teams compete for the top 2 positions in each Industry Track and a chance to go on to the Starter Big Battle. The top team from each Industry Track will receive US$1,500 in prizes. Up to 18 teams will be selected for the Semi-Finals out of which 6 teams will go on to participate in the Starter Big Battle Finals. The finalists will compete for US$10,000 in prizes for the top 3 teams and in-kind prizes worth up to US$20,000.</p>
                         <a target="_npmblank" rel="noopener noreferrer" className="passiveBtn">Get the Starter program</a>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ class Programs extends React.Component {
                             The educational tracks of the Booster Program are divided based on the technologies the startups operate in. In addition to the main prizes, the Booster Startups can get a chance to attract about $100k investment commitments by Triple S Ventures.<br/><br/>
 
                         </p>
-                        {/* <p><b>TOP TEAMS WILL BE ELIGIBLE FOR PRIZE FUND OF US $15K AND OPTIONAL INVESTMENTS UP TO US $50K PER-TEAM FROM SPECIALLY DESIGNED BOOSTER FUNDS.</b></p> */}
+                        <p><b>TOP TEAMS WILL BE ELIGIBLE FOR PRIZE FUND OF US $15K AND OPTIONAL INVESTMENTS UP TO US $50K PER-TEAM FROM SPECIALLY DESIGNED BOOSTER FUNDS.</b></p>
                         <a target="_blank" rel="noopener noreferrer" className="passiveBtn">Get the Booster program</a>
                     </div>
                 </div>
@@ -140,7 +140,7 @@ class Programs extends React.Component {
                         <h3>— We worked with — </h3>
                         <p>Our Booster micro-acceleration program are run in cooperation with leading accelerators.</p>
                         <div>
-                            {/* <div className="programPartnerPrv" onClick={() => this.caruselPrev(this.refs.partnerImg, 150)}><b /></div> */}
+                            <div className="programPartnerPrv" onClick={() => this.caruselPrev(this.refs.partnerImg, 150)}><b /></div>
                             <div className="programPartnerImg" ref="partnerImg">
                                 <section>
                                     <div><a href="https://theacceleratornetwork.com/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/1.png')} alt="partner" /></a></div>
@@ -187,14 +187,14 @@ class Programs extends React.Component {
                                 <div><a href="https://fi.co/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/16.png')} alt="partner" /></a></div>
                                 <div><a href="https://epic.aua.am/" target="blank" rel="noopener noreferrer"><img src={require('./img/partners/17.png')} alt="partner" /></a></div>
                             </div>
-                            {/* <div className="programPartnerNext" onClick={() => this.caruselNext(this.refs.partnerImg, 150)}><b /></div> */}
+                            <div className="programPartnerNext" onClick={() => this.caruselNext(this.refs.partnerImg, 150)}><b /></div>
                         </div>
                     </div>
                 </div>
-                {/*<div className="upcommingProgramsFootter">*/}
-                {/*    <a href="https://www.f6s.com/sevan-startup-summit-2022/apply" target="_blank" rel="noopener noreferrer">Roadmap as Startup</a>*/}
-                {/*    <p>*The distribution into  Starter and Booster is done by the SSS steering committee</p>*/}
-                {/*</div>*/}
+                <div className="upcommingProgramsFootter">
+                    <a href="https://www.f6s.com/sevan-startup-summit-2022/apply" target="_blank" rel="noopener noreferrer">Roadmap as Startup</a>
+                    <p>*The distribution into  Starter and Booster is done by the SSS steering committee</p>
+                </div>
             </div>
         )
     }

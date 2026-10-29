@@ -21,7 +21,7 @@ function Popup(props) {
                             <>
                                 <h2>Please read the introductions
                                     before buying the tickets</h2>
-                                {/*<p className="wb-fowInternational">For international visitors</p>*/}
+                                <p className="wb-fowInternational">For international visitors</p>
                                 <a href={"https://www.pay.seasidestartupsummit.com/doc/SSSUAE24_Tickets.pdf"} target="_blank" className="wb-buyTicketButton">Read Introduction</a>
                                 <a href={"https://www.pay.seasidestartupsummit.com/tickets/uae-24/"} target="_blank" className="wb-buyTicketButton">Buy Tickets</a>
                             </>
@@ -58,7 +58,7 @@ function Popup(props) {
                         (
                             <>
                                 <h2>Application deadline expired.</h2>
-                                {/*<p>Visitor Passes are now available in the Events section of Telcell Wallet.</p>*/}
+                                <p>Visitor Passes are now available in the Events section of Telcell Wallet.</p>
                             </>
 
                         )

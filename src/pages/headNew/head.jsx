@@ -106,16 +106,16 @@ class Header extends React.Component {
                         Download Report
                     </a>
                 );
-            // case '/sss-holidays-india-vizag/':
-            //     return (
-            //         <a
-            //             href="https://www.seasidestartupsummit.com/pdf/SSSholiday_Vizaag_Agenda.pdf"
-            //             target="_blank"
-            //             className='report'
-            //         >
-            //             Download Agenda
-            //         </a>
-            //     );
+            case '/sss-holidays-india-vizag/':
+                return (
+                    <a
+                        href="https://www.seasidestartupsummit.com/pdf/SSSholiday_Vizaag_Agenda.pdf"
+                        target="_blank"
+                        className='report'
+                    >
+                        Download Agenda
+                    </a>
+                );
             case '/sss-holidays-india-vizag/apply':
                 if(!mobile) {
                     return (
@@ -133,12 +133,12 @@ class Header extends React.Component {
             default:
                 return (
                     <>
-                        {/*<a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>*/}
-                        {/*    SEVAN26*/}
-                        {/*</a>*/}
-                        {/*<Link to={'/upcoming-events/sevan-startup-summit-2024'}>*/}
-                        {/*    SSS 2024*/}
-                        {/*</Link>*/}
+                        <a className="eventComingSoonBtn" onClick={(e) => e.preventDefault()}>
+                            SEVAN26
+                        </a>
+                        <Link to={'/upcoming-events/sevan-startup-summit-2024'}>
+                            SSS 2024
+                        </Link>
                     </>
                 );
         }
@@ -154,10 +154,10 @@ class Header extends React.Component {
                     <ul>
                         <li><Link  to="/events" ref="eventLi">Events</Link></li>
                         <li><Link  to="/about-us" ref="aboutLi">About us</Link></li>
-                         {/*<li><Link to="/startups">Startups</Link></li>*/}
+                         <li><Link to="/startups">Startups</Link></li>
                         <li><Link  to="/partners" ref="partnersLi">Partners</Link></li>
                         <li><Link  to="/merch" ref="merchLi" >Merch</Link></li>
-                        {/*<li><Link  to="/blog" ref="blogLi" >Blog</Link></li>*/}
+                        <li><Link  to="/blog" ref="blogLi" >Blog</Link></li>
                         <li onClick={this.handelScrollIntoView}>Contact</li>
                     </ul>
                 </div>
@@ -179,7 +179,7 @@ class Header extends React.Component {
                     {/*}*/}
                     {/* Todo commented by Grish */}
                     {/* Todo commented by Edgar */}
-                    {/* <a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy Tickets</a> */}
+                    <a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy Tickets</a>
                     {/* Todo commented by Edgar */}</div>
                 <div className="firstPageHeaderRight Mobi">
                     {this.renderUpcomingEventLink(this.props.match.path, true)}
@@ -198,7 +198,7 @@ class Header extends React.Component {
                     {/*}*/}
                     {/* Todo commented by Grish */}
                     {/* Todo commented by Edgar */}
-                    {/* <a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy<i/></a> */}
+                    <a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy<i/></a>
                     {/* Todo commented by Edgar */}</div>
                 <div className="minmenuIcon" ref="menuIcon" onClick={(e)=>this.menuOpen(e)}> <span /> <span /> <span /></div>
                 <div className="minmenuBox" ref="menuBox" onClick={this.menueClose}>
@@ -206,13 +206,13 @@ class Header extends React.Component {
                         <ul>
                             <li><Link to="/events">Events</Link></li>
                             <li><Link to="/about-us">About us</Link></li>
-                            {/* <li><Link to="/startups">Startups</Link></li> */}
+                            <li><Link to="/startups">Startups</Link></li>
                             <li><Link to="/partners">Partners</Link></li>
                             <li><Link  to="/merch">Merch</Link></li>
-                            {/*<li><Link to="/blog">Blog</Link></li>*/}
+                            <li><Link to="/blog">Blog</Link></li>
                             <li onClick={this.handelScrollIntoView}>Contacts</li>
-                            {/* <li><a href="https://www.pay.seasidestartupsummit.com/vissitor/" target="_blank" rel="noopener noreferrer" >Buy Ticket</a></li> */}
-                            {/* <li><Link to="/events">Roadmap as Startup</Link></li> */}
+                            <li><a href="https://www.pay.seasidestartupsummit.com/visitor/" target="_blank" rel="noopener noreferrer" >Buy Ticket</a></li>
+                            <li><Link to="/events">Roadmap as Startup</Link></li>
                             {/* <li><Link to="/upcoming-events/sevan2020">Buy Ticket</Link></li> */}
                         </ul>
                     </div>

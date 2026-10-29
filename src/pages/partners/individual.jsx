@@ -142,7 +142,7 @@ class InndividualPartner extends React.Component{
         const {partnerImg, partnerName, parnerInfo, partnerStatus, partnerVideo, bigImg1, bigImg2, bigImg3,partnerlink,next,prev}=this.state;
         return(
             <div className="individual_partners" ref={this.fadeBox}>
-                {/* <div className="partnerList">
+                <div className="partnerList">
                     {
                         this.bigPartner.map(bigPartners => (
                             <span onClick={()=>this.handelPartnerNameChange(bigPartners.id)} key={bigPartners.id}>
@@ -150,7 +150,7 @@ class InndividualPartner extends React.Component{
                             </span>
                         ))
                     }
-                </div> */}
+                </div>
                 <h3 className="subtitle">Meet Some Of Our Previous Partners</h3>
                 <div>
                     <div className="partner_individual_info">

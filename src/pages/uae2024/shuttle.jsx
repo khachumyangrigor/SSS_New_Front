@@ -94,7 +94,7 @@ class Shuttle extends React.Component {
                 <p>
                   <b>You can easily reach the venue on your own.</b>
                 </p>
-                {/*<p>The exact location will be provided soon.</p>*/}
+                <p>The exact location will be provided soon.</p>
                 <p style={{ fontWeight: 700 }}>
                   <img
                     src={require("./img/disignIcon/myParking.png")}

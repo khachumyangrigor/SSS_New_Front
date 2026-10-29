@@ -19,6 +19,8 @@ import Roadmap from "./Roadmap/Roadmap.jsx";
 import "./upcommingNew.css";
 import Partners from "./Partners/Partners.jsx";
 import Agritech from "./Agritech/Agritech.jsx";
+import Participate from "./Participate/Participate.jsx";
+import WeOffer from "./WeOffer/index.jsx";
 
 
 //Media
@@ -135,13 +137,13 @@ class UpcommingNew extends React.Component {
               <GetAccess />
               <Stats />
               <Credo />
-              {/*<Roadmap />*/}
-              {/*<Participate ref="participate" />*/}
-              {/*<WeOffer />*/}
+              <Roadmap />
+              <Participate ref="participate" />
+              <WeOffer />
               <Programs />
-              {/*<Agritech />*/}
-              {/*<Valounteering />*/}
-              {/*<Apply />*/}
+              <Agritech />
+              <Valounteering />
+              <Apply />
               <Shuttle />
               <MustKnow />
               <Organizers />

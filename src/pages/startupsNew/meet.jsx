@@ -62,10 +62,10 @@ class Startups extends React.Component {
         return (
             <div className="upcommingInvestorNew upcommingInvestorNew_Startup">
                 <h2>Meet Our Previous Participants</h2>
-                {/* <p>— our Alumni about sss —</p> */}
-                {/* <div className="meetVideo">
+                <p>— our Alumni about sss —</p>
+                <div className="meetVideo">
                     <iframe title="Meet" width="727" height="409" src="https://www.youtube.com/embed/OgsPm_KyllI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                </div> */}
+                </div>
                 <p>— our successful Alumni —</p>
                 <div className="left">
                     <div className="upcommingInvestorNewPrev" onClick={() => this.caruselPrev(this.refs.upcommingInvestorImg, 500)}><b /></div>

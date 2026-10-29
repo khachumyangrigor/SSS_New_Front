@@ -32,9 +32,9 @@ class How extends React.Component{
                         <p>Now you are at the Summit.Be active and keep in mind, that our platform is all about networking. </p>
                     </div>
                 </div>
-                {/* <div className="guidItemsFooter">
+                <div className="guidItemsFooter">
                     <button onClick={()=>{this.setState({formOpen:!this.state.formOpen})}}>Become a Partner</button>
-                </div> */}
+                </div>
                 <PartnerForm formopen={this.state.formOpen}/>
             </div>
         );

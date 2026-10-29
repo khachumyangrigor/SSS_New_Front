@@ -44,10 +44,10 @@ export const Agritech = (props) => {
                   <b>25+</b>
                   <span>AGRISOLUTIONS</span>
                 </div>
-                {/*<div>*/}
-                {/*  <b>$10,000+</b>*/}
-                {/*  <span>PRIZE FUND</span>*/}
-                {/*</div>*/}
+                <div>
+                  <b>$10,000+</b>
+                  <span>PRIZE FUND</span>
+                </div>
               </div>
             </div>
 
@@ -74,28 +74,28 @@ export const Agritech = (props) => {
             </div>
           </div>
 
-          {/*<div className="agritech-buttonsBlock">*/}
-          {/*  /!*<h6>Fill the applications form below before July 15th.</h6>*!/*/}
-          {/*  <div className="agritech-buttons">*/}
-          {/*    <a*/}
-          {/*        // href="https://www.f6s.com/sevan-agritech-summit-2024"*/}
-          {/*        onClick={() => setPopupStatus(true)}*/}
+          <div className="agritech-buttonsBlock">
+            {/*<h6>Fill the applications form below before July 15th.</h6>*/}
+            <div className="agritech-buttons">
+              <a
+                  // href="https://www.f6s.com/sevan-agritech-summit-2024"
+                  onClick={() => setPopupStatus(true)}
 
-          {/*    >*/}
-          {/*      /!*<button>Apply Now</button>*!/*/}
-          {/*      <Button title="Apply Now" color="#fff" backgroundColor="rgba(47, 128, 237, 1)"/>*/}
-          {/*    </a>*/}
-          {/*    <a*/}
-          {/*        href="#"*/}
-          {/*        onClick={(e) => {*/}
-          {/*          e.preventDefault();*/}
-          {/*        }}*/}
-          {/*    >*/}
-          {/*      /!*<button className="passiveBtn">Agenda</button>*!/*/}
-          {/*      <Button title="Agenda" color="rgba(47, 128, 237, 1)" backgroundColor="#fff"/>*/}
-          {/*    </a>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
+              >
+                {/*<button>Apply Now</button>*/}
+                <Button title="Apply Now" color="#fff" backgroundColor="rgba(47, 128, 237, 1)"/>
+              </a>
+              <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                  }}
+              >
+                {/*<button className="passiveBtn">Agenda</button>*/}
+                <Button title="Agenda" color="rgba(47, 128, 237, 1)" backgroundColor="#fff"/>
+              </a>
+            </div>
+          </div>
         </div>
         <div className="agritech-secondContentBlock">
           <Title title="Agrithon Competition"/>

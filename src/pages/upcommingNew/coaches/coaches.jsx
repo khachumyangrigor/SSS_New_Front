@@ -93,7 +93,7 @@ class CoachesPage extends React.Component{
                         <ul>
                             <li><Link to="/events">Events</Link></li>
                             <li><Link to="/about-us">About us</Link></li>
-                            {/* <li><Link to="/startups">Startups</Link></li> */}
+                            <li><Link to="/startups">Startups</Link></li>
                             <li><Link to="/partners">Partners</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                             <li><Link  to="/merch">Merch</Link></li>
@@ -115,7 +115,7 @@ class CoachesPage extends React.Component{
                             <ul>
                                 <li><Link to="/events">Events</Link></li>
                                 <li><Link to="/about-us">About us</Link></li>
-                                {/* <li><Link to="/startups">Startups</Link></li> */}
+                                <li><Link to="/startups">Startups</Link></li>
                                 <li><Link to="/partners">Partners</Link></li>
                                 <li><Link to="/blog">Blog</Link></li>
                                 <li><Link  to="/merch">SSS Merch</Link></li>

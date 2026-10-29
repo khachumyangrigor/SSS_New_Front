@@ -69,9 +69,9 @@ const Navbar = (props) => {
         </Link>
       </div>
       {/*// TODO onlySevan25 start*/}
-      {/*<div className="navbar-center">*/}
-      {/*  <NavbarMenu />*/}
-      {/*</div>*/}
+      <div className="navbar-center">
+        <NavbarMenu />
+      </div>
       {/* TODO onlySevan25 end*/}
       <div className={"navbar-right"}>
         <NavButtons isSaleOpen={true} openPopup={props.openPopup} />

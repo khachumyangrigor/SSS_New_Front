@@ -81,7 +81,7 @@ class News extends React.Component {
                     {/* <div className="underMenu"><div className="underMenuItem" /></div> */}
                     <div className="newsOneHeader">
                         <h1>{news.title}</h1>
-                        {/* <span ref="newsHead" dangerouslySetInnerHTML={{__html:news.head}}></span> */}
+                        <span ref="newsHead" dangerouslySetInnerHTML={{__html:news.head}}></span>
                         <div className="social">
                             <FacebookShareButton url={url}>
                                 <FacebookIcon size={25} round={true} />

@@ -19,14 +19,14 @@ class FootterNew extends React.Component {
                     <div className="menue">
                         <div className="footterTopLogo"><Link to="/"><img src={logo} alt="logo" /></Link></div>
                         {/*// TODO onlySevan25 start*/}
-                        {/*<ul>*/}
-                        {/*    <li><Link to="/events">EVENTS</Link></li>*/}
-                        {/*    <li><Link to="/about-us">ABOUT US</Link></li>*/}
-                        {/*    /!* <li><Link to="/startups">Startups</Link></li> *!/*/}
-                        {/*    <li><Link to="/partners">Partners</Link></li>*/}
-                        {/*    /!*<li><Link to="/blog">BLOG</Link></li>*!/*/}
-                        {/*    <li><Link to="/merch">MERCH</Link></li>*/}
-                        {/*</ul>*/}
+                        <ul>
+                            <li><Link to="/events">EVENTS</Link></li>
+                            <li><Link to="/about-us">ABOUT US</Link></li>
+                            <li><Link to="/startups">Startups</Link></li>
+                            <li><Link to="/partners">Partners</Link></li>
+                            <li><Link to="/blog">BLOG</Link></li>
+                            <li><Link to="/merch">MERCH</Link></li>
+                        </ul>
                         {/*// TODO onlySevan25 end*/}
                     </div>
                     <div className="footterContact">

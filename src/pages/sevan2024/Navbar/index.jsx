@@ -65,7 +65,7 @@ const Navbar = () => {
         <NavbarMenu />
       </div>
       <div className={"navbar-right"}>
-        {/*<NavButtons isSaleOpen={true} />*/}
+        <NavButtons isSaleOpen={true} />
 
       </div>
       <MenuButton />
